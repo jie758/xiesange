@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.magicalspoon</groupId>
+		<artifactId>magicalspoon</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>magicalspoon-mis</artifactId>
+	<name>magicalspoon-mis</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.magicalspoon</groupId>
+			<artifactId>magicalspoon-core</artifactId>
+			<version>${magicalspoon.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.magicalspoon</groupId>
+			<artifactId>magicalspoon-orm</artifactId>
+			<version>${magicalspoon.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.magicalspoon</groupId>
+					<artifactId>magicalspoon-core</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.magicalspoon</groupId>
+			<artifactId>magicalspoon-entity</artifactId>
+			<version>${magicalspoon.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.magicalspoon</groupId>
+			<artifactId>magicalspoon-baseweb</artifactId>
+			<version>${magicalspoon.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>6.0.37</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.3.1</version>
+		</dependency>
+	</dependencies>
+	<packaging>war</packaging>
+</project>

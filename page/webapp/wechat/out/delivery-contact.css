@@ -1,0 +1,57 @@
+.delivery-table{
+	margin-top:10px;
+	margin-left:10px;
+	border-left: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+}
+.delivery-table th{
+	background-color:#e8e8e8;
+}
+.delivery-table .item-td{
+	height:30px;
+	border-right: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    text-align:center;
+    position:relative;
+    padding-right: 4px;
+}
+.item-td .delivery-no{
+	text-indent:2px;
+}
+.item-td .weight{
+	text-align:right;
+	padding-right:2px;
+}
+.item-td .fee{
+	text-align:right;
+	padding-right:2px;
+}
+.operbar{	
+}
+
+.delivery-commit{
+	float:left;
+	line-height:40px;
+	width:100px;
+	text-align:center;
+	border:1px solid #e8e8e8;
+	margin-left: 10px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+.errorbar{
+	margin:5px;
+	color:#FF0000;
+}
+
+.balance{
+	float:left;
+	margin-top: 10px;
+    margin-left: 10px;
+}
+.balance .item-input{
+	width:100px;
+	height:30px;
+	text-align:right;
+	padding-right:2px;
+}

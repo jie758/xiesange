@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>文章编辑</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+    <link href="../../resource/js/3rd/summernote/summernote.min.css" rel="stylesheet">
+    <link href="../../resource/style/eteditor.css" rel="stylesheet">
+    
+    
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="article-edit.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/3rd/summernote/summernote.min.js"></script>
+	<script src="../../resource/js/3rd/summernote/lang/summernote-zh-CN.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+    <script src="../../resource/js/3rd/plupload.full.min.js"></script>
+	<script src="../../resource/js/3rd/qiniu.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../../resource/js/xsg/eteditor.js"></script>
+	
+    <script src="../xiesange.js"></script>
+    
+</head>
+<body class="gray-bg" style="overflow-x:hidden">
+<div class='index-page'>
+	<div class="footbarbelow-body">
+		<div class="titlebar">文章编辑</div>
+		
+		<div class="article-info overflow-hidden">
+			<input class="item-input name left-part" style="width:48%" placeholder="文章名称"/>
+			<input class="item-input code right-part" style="width:48%" placeholder="文章编码 "/>
+		</div>
+		<div class="article-share-message overflow-hidden">
+			<input class="item-input messagetitle left-part" style="width:48%" placeholder="分享消息标题"/>
+			<input class="item-input messagedesc right-part" style="width:48%" placeholder="分享消息描述"/>
+		</div>
+		<div class="article-share-timeline overflow-hidden">
+			<textarea class="item-input timelinedesc" placeholder="分享朋友圈描述" rows="3" style="width:48%"></textarea>
+			<div style="width:48%" class="right-part">
+				<div class="share-pic left-part gray-border white-bg"><img/></div>
+				<div id="uploadSharePic" class="share-pic-load left-part xsg-font">点击上传</div>
+			</div>
+		</div>
+		<div class="article-share-pic overflow-hidden">
+		</div>
+		
+		<div class="article-content" style="margin-bottom:55px;"></div>
+	</div>
+	<div class="footbar fixed">
+		<div class="footbar-bttn-cancel common-font">取消</div>
+		<div class="footbar-bttn-ok common-font">确定</div>
+	</div>
+</div>
+
+</body>
+<script src="article-edit.js"></script>
+</html>

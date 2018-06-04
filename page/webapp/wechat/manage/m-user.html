@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>[管理]客户管理</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="m-user.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg">
+<div class="titlebar indexpage fixed">客户管理</div>
+<div class="user-list"></div>
+<div class="next-page gray-border gray-font">点击加载更多...</div>
+
+
+<!-- 用户条目模板 -->
+<div id="_user_item_temp" style="display:none" class="user-item gray-border">
+	<div style="overflow:hidden">
+		<div class="user-item-name xsg-font"></div>
+		<div class="user-item-mobile"></div>
+		<div class="user-item-device gray-font"></div>
+		<div class="user-item-createtime gray-font"></div>
+	</div>
+	<div class="user-item-addr gray-font"></div>
+	<div class="user-item-activetime"></div>
+	<div style="overflow:hidden">
+		<div class="user-item-lasttime"></div>
+		<div class="user-item-ordercount"></div>
+		<div class="user-item-ordersum money-font"></div>
+	</div>
+	
+	
+	<!-- <div style="overflow:hidden">
+		
+		<div class="user-item-ordersum money-font"></div>
+		<div class="user-item-lasttime"></div>
+	</div> -->
+	
+	<div class="user-item-bottomline">
+		<div class="user-item-bttn modify">修改</div>
+		<div class="user-item-bttn oper">更多...</div>
+	</div>
+</div>
+
+<div class="user-modify-page">
+	<div class="titlebar modifypage">用户修改</div>
+	<div class="user-modify-content" style="margin-top:20px;">
+		<table border='0' cellspacing='1' cellpadding='1' class="items-table" style="width:100%">
+			<tr>
+				<td class="item-input-key">ID:</td>
+				<td entityKey="id" class="item-input-value gray-font"></td>
+			</tr>
+			<tr>
+				<td class="item-input-key">姓名:</td>
+				<td class="item-input-value gray-font">
+					<input entityKey="name" class="item-input common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">手机号:</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="mobile" class="item-input common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key" style="height:150px">地址:</td>
+				<td class="item-input-value gray-font" style="height:150px">
+					<textarea entityKey="address" class="item-input common-font" placeholder=""></textarea>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="footbar">
+		<div class="footbar-bttn-cancel common-font">取 消</div>
+		<div class="footbar-bttn-ok common-font">提 交</div>
+	</div>
+</div>
+
+</body>
+<script src="m-user.js"></script>
+</html>

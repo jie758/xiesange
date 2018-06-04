@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>订单修改</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="../order/order-list.css" rel="stylesheet">
+    <link href="m-order-modify.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg">
+<div class="index-page">
+	<div class="titlebar index fixed">订单修改</div>
+	<div class="titleunder-body footbarbelow-body" style="margin-bottom:100px">
+		<table border='0' cellspacing='1' cellpadding='1' class="white-bg items-table" style="width:100%">
+			<tr>
+				<td class="item-input-key">ID:</td>
+				<td entityKey="id" class="item-input-value gray-font"></td>
+			</tr>
+			<tr>
+				<td class="item-input-key">收件人:</td>
+				<td class="item-input-value gray-font">
+					<input entityKey="name" class="item-input name common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">手机号:</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="mobile" class="item-input mobile common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key" style="height:80px">地址:</td>
+				<td class="item-input-value gray-font" style="height:80px">
+					<textarea entityKey="address" class="item-input summary address common-font" placeholder=""></textarea>
+				</td>
+			</tr>
+		</table>
+		<BR/>
+		<table border='0' cellspacing='1' cellpadding='1' class="white-bg items-table" style="width:100%">
+			<tr>
+				<td class="item-input-key">产品售价(元):</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="sum" class="item-input sum common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">产品成本(元):</td>
+				<td class="item-input-value gray-font">
+					<span entityKey="cost" class="cost common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">运费(元):</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="expressSum:express_sum" class="item-input expressFee common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">运费成本(元):</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="expressCost:express_cost" class="item-input expressCost common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">利润(元):</td>
+				<td class="item-input-value gray-font">
+					<span entityKey="profit" class="xsg-font profit common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">快递单号:</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="deliveryNo:delivery_no" class="item-input common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">订单状态:</td>
+				<td class="item-input-value status">
+					<span class="status" entityKey="statusText:status" style="padding-right:15px;width:100%">待支付</span>
+					<span style="width:15px;line-height:15px;font-size:0.9rem;" class="right-part gray-font xsg-fontset">&#xe715;</span>
+				</td>
+			</tr>
+		</table>
+		<BR/>
+		<div>产品明细</div>
+		<div class="prod-item-list white-bg">
+		</div>
+		
+	</div>
+	<div class="footbar fixed">
+		<div class="footbar-bttn-cancel common-font">取 消</div>
+		<div class="footbar-bttn-ok common-font">提 交</div>
+	</div>
+</div>
+
+
+
+<!-- 订单内容条目模板 -->
+<div id="_proditem_temp" class="prod-item hidden">
+	<table border="0" cellspacing="1" cellpadding="1" class="prod-table" style="width:100%">
+		<tr>
+			<td class="pic-td"><div class="prod-pic"></div></td>
+			<td class="rightpart">
+				<div class="prod-firstline">
+					<span class="prod-name"></span>
+					<span class="prod-spec"></span>
+				</div>
+				<div class="prod-sumline overflow-hidden">
+					<span class="prod-origprice"></span><span class="prod-price"></span><span class="prod-unit"></span>
+					<span class="prod-symbol">x</span>
+					<span class="prod-amount"></span>
+					<span class="prod-sum money-font right-part"></span>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+<script src="m-order-modify.js"></script>
+</html>

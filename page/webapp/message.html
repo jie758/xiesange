@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<title>消息提示</title>
+<script src="/resource/js/3rd/jquery-1.11.3.min.js"></script>
+<script src="/resource/js/elsetravel/common.js"></script>
+<script src="/resource/js/elsetravel/message.js"></script>
+<link href="/resource/style/common.css" rel="stylesheet" type="text/css"/>
+</head>
+<style>
+body,html{
+	height:100%;
+}
+.container{
+	margin:0 auto;
+	border:1px solid #c8c8c8;
+	height:300px;
+	width:500px;
+	top:50%;
+	margin-top:-150px;
+	position:relative;
+}
+.logo_bar{
+	height:50px;
+	line-height:50px;
+	padding-left:10px;
+}
+
+.content{
+	margin:10px auto;
+	padding:20px;
+}
+</style>
+<body class="common_font">
+	
+	<div class="container common_font">
+		<div class="logo_bar common_bg">提示</div>
+		<div class="content">
+		</div>
+	</div>
+</body>
+<script>
+$(function(){
+	var message = getUrlParamStr();
+	if(message){
+		message = decodeURI(message);
+	}
+	$(".content").text(message || "");
+});
+</script>
+</html>

@@ -1,0 +1,21 @@
+
+.record-list{
+	font-size:0.9rem;
+	text-indent:5px;
+}
+.record-item{
+	padding:10px 0px;
+}
+
+.loadmore{
+	line-height:40px;
+	text-align:center;
+	padding:5px 10px;
+}
+
+.loadmore-bttn{
+	line-height:35px;
+	text-align:center;
+	border:1px solid #d8d8d8;
+}
+

@@ -1,0 +1,38 @@
+.page-table{
+	margin-top:15px;
+	width:100%;
+}
+.page-table td{
+	text-align:center;
+}
+.paycode{
+	line-height:25px;
+}
+.linkman{
+	line-height:25px;
+}
+.paysum{
+	line-height:25px;
+	margin-bottom:15px;
+}
+.qrcode{
+	margin-top:15px;
+	width:200px;
+	margin:auto auto;
+}
+.paytip{
+	margin-top:15px;
+	line-height:30px;
+	background-color:#FFF;
+}
+.paymemo{
+	line-height:30px;
+	padding: 3px 3px;
+}
+.copy{
+	display: inline-block;
+	margin-top:8px;
+	font-size:0.9rem;
+	color:#898989;
+	padding:5px;
+}

@@ -1,0 +1,93 @@
+package ${package_name};
+
+import ${orm_package_name}.DBEntity;
+import ${orm_package_name}.statement.field.BaseJField;
+import ${orm_package_name}.annotation.DBTableAnno;
+
+@DBTableAnno(name = "${table_name}",primaryKey="${primaryKey}",indexes="${indexes}")
+public class $class_name extends DBEntity implements net.sf.cglib.proxy.Factory{
+###定义成员变量
+#foreach( $field in $field_list )##
+    private $field.java_type $field.java_name;$field.comment
+#end##
+
+###定义get/set方法
+#foreach( $field in $field_list )##
+    public void set${field.method_name}($field.java_type $field.java_name){
+	    this.$field.java_name = $field.java_name;
+		super._setFieldValue(${class_name}.JField.$field.java_name, $field.java_name);
+    }
+    public $field.java_type get${field.method_name}(){
+	    return this.$field.java_name;
+    }
+	
+#end##
+
+
+###定义Fields枚举值
+public enum JField implements BaseJField{
+#foreach( $field in $field_list )##        
+        ${field.java_name}("${field.col_name}","${field.col_type}",${field.col_length},${field.java_type}.class,${field.nullable})#if($velocityCount==$field_list.size());#else,#end
+
+#end##
+        
+        private String colName;
+        private String colTypeName;
+        private Integer length;
+		private Class<?> javaType;
+		private boolean nullable;
+		
+        private JField(String colName,String colTypeName,Integer length,Class<?> javaType,boolean nullable){
+            this.colName = colName;
+            this.colTypeName = colTypeName;
+            this.length = length;
+			this.javaType = javaType;
+			this.nullable = nullable;
+    	}
+            
+    	@Override
+    	public String getName()
+    	{
+            return this.name();
+    	}
+    
+        @Override
+        public String getColName()
+        {
+            return this.colName;
+        }
+        @Override
+        public String getColTypeName()
+        {
+            return this.colTypeName;
+        }
+        @Override
+        public Integer getLength()
+        {
+            return length;
+        }
+        @Override
+        public boolean getNullable()
+        {
+            return this.nullable;
+        }
+		@Override
+        public String getTableName()
+        {
+            return "${table_name}";
+        }
+		@Override
+        public Class<?> getJavaType()
+        {
+            return this.javaType;
+        }
+
+        @Override
+        public Class<? extends DBEntity> getEntityClass()
+        {
+            return ${package_name}.${class_name}.class;
+        }
+    }
+	
+
+}

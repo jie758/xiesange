@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>[管理]产品管理</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="m-prod.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+    
+</head>
+<body class="gray-bg">
+<div class="titlebar indexpage fixed">产品管理</div>
+<div class="prod-list"></div>
+
+
+<div id="_prod_item_temp" style="display:none" class="prod-item gray-border">
+	<table border='0' cellspacing='1' cellpadding='1' style="width:100%">
+		<tr>
+			<td width="90px"><div class="prod-item-pic"></div></td>
+			<td style="padding-left: 5px;">
+				<div class="prod-item-rightline">
+					<span class="prod-item-name"></span>
+					<span class="prod-item-spec"></span>
+				</div>
+				<div class="prod-item-rightline">
+					<span class="prod-item-price money-font"></span>
+					<span class="prod-item-costprice"></span>
+				</div>
+				<div class="prod-item-rightline">
+					<span class="prod-item-summary"></span>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div class="prod-item-bottomline">
+		<div class="prod-item-bttn switch"></div>
+		<div class="prod-item-bttn modify">修改</div>
+	</div>
+</div>
+
+<div class="prod-modify-page">
+	<div class="titlebar modifypage">产品修改</div>
+	<div class="prod-modify-content" style="margin-top:20px;">
+		<table border='0' cellspacing='1' cellpadding='1' class="items-table" style="width:100%">
+			<tr>
+				<td class="item-input-key">ID:</td>
+				<td entityKey="id" class="item-input-value gray-font"></td>
+			</tr>
+			<tr>
+				<td class="item-input-key">产品名称:</td>
+				<td class="item-input-value gray-font">
+					<input entityKey="name" class="item-input common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">规格</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="spec" class="item-input common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">进价(元):</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="costPrice:cost_price" class="item-input common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">售价(元):</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="price" class="item-input common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key" style="height:150px">摘要:</td>
+				<td class="item-input-value gray-font" style="height:150px">
+					<textarea entityKey="summary" class="item-input summary common-font" placeholder=""></textarea>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="footbar">
+		<div class="footbar-bttn-cancel common-font">取 消</div>
+		<div class="footbar-bttn-ok common-font">提 交</div>
+	</div>
+</div>
+
+
+
+</body>
+<script src="m-prod.js"></script>
+</html>

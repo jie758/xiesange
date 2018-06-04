@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>出战记录表</title>
+<script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+<script src="Chart.bundle.js"></script>
+<script src="shanghui.js"></script>
+</head>
+<body>
+<canvas id="myChart" width="600" height="400"></canvas>
+</body>
+<script type="text/javascript">
+var periods = getUrlParams("periods");
+var ctx = document.getElementById("myChart");
+var flightInfo = getFlighting();
+
+for(var i=0;i<flightInfo.length;i++){
+	var f = flightInfo[i];
+	var flightMembs = f.members;
+	
+	var date = f.date;
+	if(!isMatchPeriod(date,periods)){
+		continue;
+	}
+	
+	for(var key in flightMembs){
+		if(key == "shui"){
+			continue;
+		}
+		var memInfo = membernames[key];
+		if(memInfo == null){
+			continue;
+		}
+		if(!memInfo.count){
+			memInfo.count = 0;
+		}
+		memInfo.count++;
+	}
+}
+var labels = [];
+var datasets = [{
+	//label : membObj.name,
+	data : [],
+	fill : false,
+    borderColor : [],
+    backgroundColor : [],
+    lineTension : 0,
+    borderWidth: 1
+}];
+for(var key in membernames){
+	var membObj = membernames[key];
+	labels.push(membObj.name);
+	datasets[0].data.push(membObj.count);
+	datasets[0].backgroundColor.push(membObj.color);
+}
+var myBarChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels: labels,
+        datasets: datasets
+    },
+    options: {
+    	title: {
+            display: true,
+            text: '出战次数表'
+        },
+    	scales: {
+            yAxes: [{
+            	display : true,
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+
+
+</script>
+</html>

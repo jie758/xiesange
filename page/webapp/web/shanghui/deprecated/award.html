@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<META content="telephone=no" name="format-detection" />
+<title>企业家获奖事迹</title>
+<script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+<script src="../../resource/js/xsg/common.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="shanghui.js"></script>
+<script src="award.js"></script>
+
+<link href="../../resource/style/common.css" rel="stylesheet">
+<link href="../../wechat/xiesange.css" rel="stylesheet">
+<link href="award.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body style="overflow-x:hidden">
+
+<table border='0' cellspacing='1' cellpadding='1' class="period-table">
+
+	<tr>
+		<td class=""><div start_month="01" class="period-item month_1">1-2月份</div></td>
+		<td class=""><div start_month="03" class="period-item month_3">3-4月份</div></td>
+		<td class=""><div start_month="05" class="period-item month_5">5-6月份</div></td>
+	</tr>
+	<tr>
+		<td class=""><div start_month="07" class="period-item month_7">7-8月份</div></td>
+		<td class=""><div start_month="09" class="period-item month_9">9-10月份</div></td>
+		<td class=""><div start_month="11" class="period-item month_11">11-12月份</div></td>
+	</tr>
+</table>
+
+<div class="stat-list">
+	<div class="order-by">
+		<span order-by="sum" class="common-bg">金额排序</span>
+		<span order-by="count">次数排序</span>
+		<span order-by="victory">胜次排序</span>
+	</div>
+	<div class="stat-total-chart"></div>
+</div>
+
+<div class="award-list"></div>
+
+<div class="goto-index"><a href="index.html">返回首页</a></div>
+
+<div class="reward" id="award_template" style="display:none">
+	<div class="name-line">
+		<span class="name"></span>
+		<span class="quota"></span>
+		<span class="reward"></span>
+	</div>
+	<div class="desc-line"></div>
+	<div class="condition-line"></div>
+	<div class="member-list"></div>
+	<div class="stat-chart"></div>
+</div>
+
+<div class="member xsg-font" id="member_template" style="display:none">
+	<span class="name"></span>
+	<span class="reward"></span>
+</div>
+</body>
+</html>

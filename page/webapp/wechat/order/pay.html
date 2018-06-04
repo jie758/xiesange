@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>订单支付</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="pay.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/3rd/pingpp.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg">
+<div class="index-page hidden">
+	<div class="titlebar index fixed">订单支付</div>
+	<div class="titleunder-body footbarbelow-body" style="margin-bottom:100px">
+		<table border='0' cellspacing='1' cellpadding='1' class="deliverybar">
+			<tr>
+				<td colspan="2">
+					<div class="order-titleline gray-font overflow-hidden">
+						<div class="left-part order-code"></div>
+						<div class="right-part create-time"></div>
+					</div>
+					<div class="separator_h"></div>
+				</td>
+			<tr>
+			<tr>
+				<td class="deliverybar-person">
+					<span class="name"></span> 
+					<span class="mobile"></span>
+					<span class="fillup">请补充收件信息</span>
+				</td>
+				<td class="deliverybar-arrow xsg-fontset gray-font" rowspan="2">&#xe605;</td>
+			</tr>
+			<tr>
+				<td><div class="deliverybar-address"></div></td>
+				<td></td>
+			</tr>
+		</table>
+		<div class="pay-content overflow-hidden">
+			<div class="pay-prodlist"></div>
+			<div class="separator_h" style="background-color:#FFF;margin:0px 4px;"></div>
+			<div class="pay-totalsum">
+				<span class="order-status">待支付</span>
+				<div class="right-part">
+					<span class="tip money-font">订单总额：</span>
+					<span class="origsum gray-font"></span>
+					<span class="sum money-font"></span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="promotion-block reduce"></div>
+		<div class="promotion-block bargain"></div>
+		<div class="promotion-block expresssum"></div>
+		<div class="promotion-block preorder"></div>
+		<div class="promotion-block paychannel"></div>
+		
+		<div class="footbar fixed">
+			<div class="footbar-bttn-ok pay common-font fill"><span class='sum-text'>确定支付</span><span class='sum-value'></span></div>
+		</div>
+		
+	</div>
+</div>
+<!-- 订单内容条目模板 -->
+<div id="_payitem_temp" class="prod-item hidden">
+	<table border="0" cellspacing="1" cellpadding="1" class="prod-table">
+		<tr>
+			<td class="pic-td"><div class="prod-pic"></div></td>
+			<td class="rightpart">
+				<div class="prod-firstline">
+					<span class="prod-name"></span>
+					<span class="prod-spec"></span>
+				</div>
+				<div class="prod-sumline overflow-hidden">
+					<span class="prod-origprice"></span><span class="prod-price"></span><span class="prod-unit"></span>
+					<span class="payitem-symbol">x</span>
+					<span class="payitem-amount"></span>
+					<span class="payitem-sum money-font"></span>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+<div class="delivery-page gray-bg" style="display:none">
+	<div class="titlebar linkinfo">填写收件信息</div>
+	<div class='delivery-self-container'>
+		<div class="deliverypage-label">请先验证您本人的手机号</div>
+		<div class='vcodeset-container' style="margin-top:10px;"></div>
+	</div>
+	<div class='delivery-container'>
+		<div class="deliverypage-label">收件人信息</div>
+		<input class="item-input deliverypage-mobile common-font" type="tel" placeholder="收件人手机号"></input>
+		<input class="item-input deliverypage-linkman common-font" placeholder="收件人姓名"></input>
+		<textarea class="item-input deliverypage-address common-font" placeholder="收件人地址(非杭州地区发顺丰，运费到付)"></textarea>
+	</div>
+	<div class="footbar">
+		<div class="footbar-bttn-cancel common-font">取 消</div>
+		<div class="footbar-bttn-ok common-font">确定</div>
+	</div>
+</div>
+
+</body>
+<script src="pay.js"></script>
+</html>

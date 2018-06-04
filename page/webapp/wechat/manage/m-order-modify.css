@@ -1,0 +1,12 @@
+.prod-item-list{
+    padding: 5px 10px 5px 10px;
+}
+.prod-item{
+	width:100%;
+	overflow: hidden;
+	line-height: 25px;
+}
+
+.prod-symbol{
+	margin: 0px 5px;
+}

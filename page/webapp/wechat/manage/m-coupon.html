@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>领取优惠券</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="m-coupon.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+    
+</head>
+<body class="gray-bg" style="overflow-x:hidden">
+<div class="index-page">
+	<div class="titlebar">领取优惠券</div>
+	<div class="coupon-list"></div>
+	<div id="coupon_item_temp" style="display:none" class="coupon-item">
+		<div style="overflow:hidden">
+			<div class="coupon-name"></div>
+			<div class="coupon-event"></div>
+		</div>
+		<div class="coupon-createtime"></div>
+		<div class="coupon-expiretime"></div>
+		<div class="coupon-consumetime"></div>
+	</div>
+</div>
+<div class="allocate-page">
+	<div class="titlebar">新赠优惠券</div>
+	<div class="coupon-type">
+		<div class="coupon-type-item percent" val="1">折扣券</div>
+		<div class="coupon-type-item cash" val="2">现金券</div>
+	</div>
+	<input class="item-input amount" type="phone" placeholder="优惠值"/>
+	<input class="item-input expiredate" type="date" placeholder="有效期"/>
+	<div class="footbar">
+		<div class="footbar-bttn-cancel sum common-font">取消</div>
+		<div class="footbar-bttn-ok oper common-font">确定</div>
+	</div>
+</div>
+</body>
+<script src="m-coupon.js"></script>
+</html>

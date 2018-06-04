@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>订单评价</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="comment.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg">
+<div class="index-page">
+	<div class="titlebar index fixed">订单评价</div>
+	<div class="titleunder-body footbarbelow-body" style="margin-bottom:65px">
+		<div class="pay-content overflow-hidden">
+			<div class="pay-prodlist"></div>
+			<div class="separator_h" style="background-color:#FFF;margin:0px 4px;"></div>
+			<!-- <div class="pay-origsum">
+				<div class="sumpart">
+				<span class="tip money-font">订单总额：</span>
+				<span class="sum money-font"></span>
+			</div> -->
+		</div>
+		<div class="footbar fixed">
+			<div class="footbar-bttn-cancel modify common-font"></div>
+			<div class="footbar-bttn-ok pay common-font">提交评价</div>
+		</div>
+		
+		<!-- 订单内容条目模板 -->
+		<div id="_payitem_temp" class="prod-item hidden">
+			<table border="0" cellspacing="1" cellpadding="1" class="prod-table">
+				<tr>
+					<td class="pic-td"><div class="prod-pic"></div></td>
+					<td class="rightpart">
+						<div class="prod-firstline">
+							<span class="prod-name"></span>
+							<span class="prod-spec"></span>
+						</div>
+						<div class="prod-sumline overflow-hidden">
+							<span class="prod-price"></span><span class="prod-unit"></span>
+							<span class="payitem-symbol">x</span>
+							<span class="payitem-amount"></span>
+							<span class="payitem-sum money-font"></span>
+						</div>
+						<div class="prod-starline xsg-font">
+							<span class="star xsg-fontset">&#xe61d;</span>
+							<span class="star xsg-fontset">&#xe61d;</span>
+							<span class="star xsg-fontset">&#xe61d;</span>
+							<span class="star xsg-fontset">&#xe61d;</span>
+							<span class="star xsg-fontset">&#xe61d;</span>
+						</div>
+					</td>
+				</tr>
+				<tr><td colspan="2">
+					<div class="comment-tag-list">
+					</div>
+				</td></tr>
+				<tr><td colspan="2">
+					<textarea class="comment-content" placeholder="您的评价对我们很重要"></textarea>
+				</td></tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+</body>
+<script src="comment.js"></script>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<META content="telephone=no" name="format-detection" />
+<title>企业家数据分析</title>
+<script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+<script src="../../resource/js/3rd/jquery.qrcode.min.js"></script>
+<script src="../../resource/js/xsg/common.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="shanghui.js"></script>
+<script src="stat.min.js"></script>
+
+<link href="../../resource/style/common.css" rel="stylesheet">
+<link href="../../wechat/xiesange.css" rel="stylesheet">
+<link href="stat.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body style="overflow-x:hidden;">
+
+<table border='0' cellspacing='1' cellpadding='1' class="period-table">
+
+	<tr>
+		<td class=""><div start_month="01" class="period-item month_1">1-2月份</div></td>
+		<td class=""><div start_month="03" class="period-item month_3">3-4月份</div></td>
+		<td class=""><div start_month="05" class="period-item month_5">5-6月份</div></td>
+	</tr>
+	<tr>
+		<td class=""><div start_month="07" class="period-item month_7">7-8月份</div></td>
+		<td class=""><div start_month="09" class="period-item month_9">9-10月份</div></td>
+		<td class=""><div start_month="11" class="period-item month_11">11-12月份</div></td>
+	</tr>
+</table>
+
+<table border='0' cellspacing='1' cellpadding='1' class="date-table">
+	<tr style="line-height: 40px;">
+		<td width="55px" class=""><div class="period-item prev-date">前一天</div></td>
+		<td width="120px"><input type="date" class="item-input start-date"></td>
+		<td width="55px" class=""><div class="period-item next-date">后一天</div></td>
+		<td width="" class=""><div class="period-item date-select">选择</div></td>
+	</tr>
+	<tr>
+		<td width="55px"><div class="period-item prev-date">前一天</div></td>
+		<td width="120px"><input type="date" class="item-input end-date"></td>
+		<td width="55px"><div class="period-item next-date">后一天</div></td>
+		<td width=""><div class="period-item query xsg-font">查询</div></td>
+	</tr>
+</table>
+
+<div class="stat-list">
+	<div class="order-by">
+		<span order-by="sum" class="item sum">金额排序</span>
+		<span order-by="count" class="item count">次数排序</span>
+		<!-- <span order-by="line" class="item line">走势图</span> -->
+		<span order-by="daily" class="item daily">每日战绩</span>
+		<span order-by="realtime" class="item realtime">实时战绩</span>
+	</div>
+</div>
+<div class="stat-total-chart">
+	<div class="member-choose"></div>
+	<div class="chat-container"></div>
+</div>
+<div class="realtime-list">
+	<div class="member-choose"></div>
+	<table border='0' cellspacing='0' cellpadding='0' class="realtime-table fixed">
+	</table>
+	<table border='0' cellspacing='0' cellpadding='0' class="realtime-table content">
+	</table>
+</div>
+
+
+<div class="award-list"></div>
+
+<div class="goto-index">
+	<a href="index.html">返回首页</a>
+	<div class="qrcode xsg-font">二维码</div>
+	
+</div>
+<div class="qrcode-img"></div>
+
+<div class="reward" id="award_template" style="display:none">
+	<div class="name-line">
+		<span class="name"></span>
+		<span class="quota"></span>
+		<span class="reward"></span>
+	</div>
+	<div class="desc-line"></div>
+	<div class="condition-line"></div>
+	<div class="member-list"></div>
+	<div class="stat-chart"></div>
+</div>
+
+<div class="member xsg-font" id="member_template" style="display:none">
+	<span class="name"></span>
+	<span class="reward"></span>
+</div>
+</body>
+</html>

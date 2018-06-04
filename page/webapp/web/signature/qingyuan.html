@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>万家花城二期业主请愿</title>
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../../wechat/xiesange.js"></script>
+    
+    <link href="../../resource/style/common.css" rel="stylesheet">
+	<link href="../../wechat/xiesange.css" rel="stylesheet">
+</head>
+<body>
+	<div style="padding:10px;">
+		<div style="text-align:center;font-size:1.2rem;color:#FF0000">关于要求滨江物业提高服务质量事宜</div>
+		<br/>
+		<div style='font-weight:bold'>
+			<p>1、门禁更新事宜</p>
+			<p>2、电梯安全性维护</p>
+			<p>3、提高卫生清洁度</p>
+		</div>
+	</div>
+	<br/>
+	<div id="ok" style="text-align:center"><span class="bttn" >我是业主，我参加本次请愿活动</span></div>
+	<BR/><BR/>
+	<p>本次请愿已签名业主<span class='qy-count'></span>：</p>
+	<table>
+	</table>
+	<div class="qy-stat overflow-hidden">
+	</div>
+	<br/>
+	<div class="qy-list"></div>
+	<div class="next-page gray-border gray-font" style="margin-bottom:55px;">点击加载更多...</div>
+</body>
+<script>
+var pageCount = 20;
+$(function(){
+	var _base_url = common.getHost()+"/xiesange";
+	$("#ok").click(function(){
+		common.gotoPage("signature.html");
+	});
+	
+	var buildings = [16,17,18,19,20,21,22,23,24,25,26,27,28];
+	var $statlist = $(".qy-stat");
+	for(var i=0;i<buildings.length;i++){
+		var bd = buildings[i];
+		var $item = $("<div id='stat_"+bd+"' class='qy-stat-item'>").appendTo($statlist);
+		$item.html(bd+"幢<span class='stat-count xsg-font'></span>");
+		$item.attr('b_no',bd);
+		/* widget.bindTouchClick($item,function(e){
+			var $this = $(e.currentTarget);
+			var building = $this.attr("b_no");
+			
+		}); */
+	}
+	
+	//分页点击
+	initPagination($(".next-page"),pageCount,function(index){
+		loadDate(index);
+	});
+	
+	loadDate(0);
+});
+
+function loadDate(index){
+	ajax.request({
+		url : _base_url+"/web/shanghui/queryQingyuanList.do",
+		need_progressbar : false,
+		params : {
+			page_index:index,
+			page_count:pageCount,
+			code : "wuye_zhiliang"
+		},
+		success : function(header,body){
+			var list =body.list;
+			if(list == null || list.length == 0)
+				return;
+			var $list = $(".qy-list");
+			//var buildingStat = {};
+			for(var i=0;i<list.length;i++){
+				var qy = list[i];
+				var $item = $("<div>").appendTo($list).addClass("qy-item");
+				var $address = $("<span class='qy-item-addr'>").appendTo($item);
+				$address.text(qy.building+"幢"+qy.unit+"单元"+qy.room+"室");
+				
+				var $signup = $("<span style='margin-left:10px;'>").appendTo($item);
+				//var $img = $('<img style="width:100px">').attr('src', qy.signup);
+				//$img.appendTo($signup);
+			}
+			
+			var totalCount = 0;
+			for(var i=0;i<body.statList.length;i++){
+				var stat = body.statList[i];
+				$("#stat_"+stat.building).children(".stat-count").text("("+stat.totalcount+"户)");
+				totalCount+=stat.totalcount;
+			}
+			$(".qy-count").text("(共"+totalCount+"位)");
+			updatePagination($('.next-page'),list && list.length);
+		},
+		complete : function(){
+		}
+	});
+}
+</script>
+<style>
+.bttn {
+    padding: 15px 20px;
+    border: 1px solid #d8d8d8;
+    margin: 10px auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#FD9603;
+}
+.qy-list{
+	padding-left:10px;
+}
+.qy-item{
+	font-size:0.9rem;
+	color:#888888;
+	line-height: 28px;
+}
+.qy-item-addr{
+    float: left;
+ }
+.qy-stat-item{
+	float: left;
+    padding: 5px 10px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 5px;
+    line-height: 28px;
+}
+</style>
+</html>

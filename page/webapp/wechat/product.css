@@ -1,0 +1,61 @@
+.prod-item{
+	margin-bottom: 10px;
+    background-color: #FFF;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 5px;
+}
+
+.prod-summary{
+    //height: 48px;
+    margin-top:3px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    line-height: 16px;
+    font-weight:bold;
+}
+
+.prod-item .rightpart {
+    padding-left: 5px;
+    vertical-align: top;
+}
+.prod-amount-bttn{
+	float: left;
+    width: 30px;
+    height: 22px;
+    //line-height: 24px;
+    font-size: 17px;
+    color: #eb4f38;
+    text-align: center;
+}
+.prod-amount-set{
+	float:right;
+	line-height: 22px;
+}
+.prod-amount-input{
+	float: left;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #c8c8c8;
+    padding-right: 3px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+.prod-amount-unit{
+	float:left;
+	padding:0px 2px;
+	font-size: 0.9rem;
+}
+.prod-sumbar{
+	overflow:hidden;
+	margin:5px 0px;
+}
+.prod-stat{
+	bottom:0px;
+	left:0px;
+	font-size: 0.9rem;
+	margin-top: 4px;
+}
+.prod-sum{
+    float: left;
+    font-size:1.1rem;
+}

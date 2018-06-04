@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<project default="mvn_build" basedir=".">
+	<property environment="env" />
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties" classpath="${user.home}/.m2/repository/ant-contrib/ant-contrib/1.0b2/ant-contrib-1.0b2.jar" />
+	<target name="mvn_build">
+		<echo>begin to ${action}</echo>
+		<echo>please choose projects,such as : 1 2 3</echo>
+		<echo> [0] xiesange</echo>
+		<echo> [1] xiesange-core</echo>
+		<echo> [2] xiesange-orm</echo>
+		<echo> [3] xiesange-entity</echo>
+		<echo> [4] xiesange-baseweb</echo>
+		<echo>-----------------------</echo>
+		<echo> [11] xiesange-web</echo>
+		<echo> [12] xiesange-mis</echo>
+		<echo>-----------------------</echo>
+		<echo> [21] compress-js</echo>
+		<echo> [22] compress-css</echo>
+		<echo> [23] replace-html</echo>
+		<!--
+		<echo></echo>
+		<echo> [21] copy file : xiesange-web</echo>
+		<echo> [22] copy file : xiesange-mis</echo>
+		-->
+		<input message="choose:" addproperty="projects" />
+
+		<foreach target="build_projects" list="${projects}" delimiter=" " param="project">
+		</foreach>
+	</target>
+
+	<target name="build_projects">
+		<if>
+			<equals arg1="${project}" arg2="0" />
+			<then>
+				<antcall target="mvn">
+					<param name="dir" value="." />
+					<param name="action" value="${action}" />
+				</antcall>
+			</then>
+			<elseif>
+				<equals arg1="${project}" arg2="1" />
+				<then>
+					<antcall target="mvn">
+						<param name="dir" value="core" />
+						<param name="action" value="install" />
+					</antcall>
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${project}" arg2="2" />
+				<then>
+					<antcall target="mvn">
+						<param name="dir" value="orm" />
+						<param name="action" value="install" />
+					</antcall>
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${project}" arg2="3" />
+				<then>
+					<antcall target="mvn">
+						<param name="dir" value="entity" />
+						<param name="action" value="install" />
+					</antcall>
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${project}" arg2="4" />
+				<then>
+					<antcall target="mvn">
+						<param name="dir" value="baseweb" />
+						<param name="action" value="install" />
+					</antcall>
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${project}" arg2="11" />
+				<then>
+					<!--先清空target目录下的war包，因为后面要涉及到*.war的拷贝，保证拷贝的是最新打出来的包-->
+					<delete verbose="true" includeemptydirs="true" deleteonexit="true" failonerror="false">
+						<fileset dir="web/target">
+							<include name="*.war" />
+						</fileset>
+					</delete>
+					<!--打war包-->
+					<antcall target="mvn">
+						<param name="dir" value="web" />
+						<param name="action" value="package" />
+					</antcall>
+					<!--把新war包复制到tomcat目录下-->
+					<copy overwrite="true" tofile="${env.CATALINA_HOME}/webapps/xiesange.war">
+						<fileset dir="web/target">
+							<include name="*.war" />
+						</fileset>
+					</copy>
+					<antcall target="restart_tomcat">
+					</antcall>
+
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${project}" arg2="12" />
+				<then>
+					<!--先清空target目录下的war包，因为后面要涉及到*.war的拷贝，保证拷贝的是最新打出来的包-->
+					<delete verbose="true" includeemptydirs="true" deleteonexit="true" failonerror="false">
+						<fileset dir="mis/target">
+							<include name="*.war" />
+						</fileset>
+					</delete>
+					<!--打war包-->
+					<antcall target="mvn">
+						<param name="dir" value="mis" />
+						<param name="action" value="package" />
+					</antcall>
+					<!--把新war包复制到tomcat目录下-->
+					<copy overwrite="true" tofile="${env.CATALINA_HOME}/webapps/mis.war">
+						<fileset dir="mis/target">
+							<include name="*.war" />
+						</fileset>
+					</copy>
+					<antcall target="restart_tomcat">
+					</antcall>
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${project}" arg2="21" />
+				<then>
+					<input message="input file path:" addproperty="paths" />
+					<if>
+						<equals arg1="${paths}" arg2="" />
+						<then>
+							<antcall target="compress_js">
+								<param name="path" value=""/>
+							</antcall>
+						</then>
+						<else>
+							<foreach target="compress_js" list="${paths}" delimiter=" " param="path">
+							</foreach>
+						</else>
+					</if>
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${project}" arg2="22" />
+				<then>
+					<input message="input file path:" addproperty="paths" />
+					<if>
+						<equals arg1="${paths}" arg2="" />
+						<then>
+							<antcall target="compress_css">
+								<param name="path" value=""/>
+							</antcall>
+						</then>
+						<else>
+							<foreach target="compress_css" list="${paths}" delimiter=" " param="path">
+							</foreach>
+						</else>
+					</if>
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${project}" arg2="23" />
+				<then>
+					<antcall target="replace_html">
+						<param name="path" value=""/>
+					</antcall>
+				</then>
+			</elseif>
+			<else>
+				<echo>####### error choose : ${project}</echo>
+			</else>
+		</if>
+	</target>
+
+	<target name="copy2file">
+		<copy overwrite="true" tofile="${tofile}" file="${fromfile}${copyfile}" />
+	</target>
+
+	<target name="copy2dir">
+		<copy overwrite="true" todir="${todir}" file="${fromfile}${copyfile}" />
+	</target>
+
+	<target name="mvn">
+		<echo>****** begin to [${action}] project[${dir}]</echo>
+
+		<propertyregex property="osname" input="${os.name}" regexp="(Windows.*)" replace="Windows" casesensitive="false" />
+
+		<if>
+			<equals arg1="${osname}" arg2="Windows" />
+			<then>
+
+				<echo>****** log_path : ${basedir}/build_${dir}.log</echo>
+
+				<exec executable="cmd.exe" dir="${dir}" resultproperty="mvn_result">
+					<arg line="/c 'mvn clean ${action}'" />
+				</exec>
+			</then>
+			<else>
+				<echo>****** log_path : ${basedir}/build_${dir}.log</echo>
+
+				<exec executable="/bin/sh" osfamily="unix" dir="${dir}" resultproperty="mvn_result">
+					<arg line="-c 'mvn clean ${action} -Dmaven.test.skip=true'" />
+				</exec>
+			</else>
+		</if>
+
+		<echo>****** mvn result : ${mvn_result}</echo>
+		<if>
+			<equals arg1="${mvn_result}" arg2="0" />
+			<then>
+				<echo>****** finish to [${action}] project[${dir}]</echo>
+			</then>
+			<else>
+				<fail message="****** FAIL to [${action}] project[${dir}]" />
+			</else>
+		</if>
+
+	</target>
+
+	<target name="package">
+		<antcall target="mvn_build">
+			<param name="action" value="package" />
+		</antcall>
+	</target>
+	<target name="deploy">
+		<antcall target="mvn_build">
+			<param name="action" value="deploy" />
+		</antcall>
+	</target>
+	<target name="install">
+		<antcall target="mvn_build">
+			<param name="action" value="install" />
+		</antcall>
+	</target>
+	<target name="compile">
+		<antcall target="mvn_build">
+			<param name="action" value="compile" />
+		</antcall>
+	</target>
+	<target name="restart_tomcat">
+		<!--重启tomcat-->
+		<exec executable="/bin/sh" osfamily="unix" dir="." resultproperty="mvn_result">
+			<arg line="-c 'shutdown.sh'" />
+		</exec>
+		<exec executable="/bin/sh" osfamily="unix" dir="." resultproperty="mvn_result">
+			<arg line="-c 'startup.sh'" />
+		</exec>
+	</target>
+
+	<target name="compress_js">
+		<property name="baseFolder" value="page/webapp"/>
+		<property name="jarPath" value="/home/xiesange/jars/compiler.jar"></property>
+		<property name="jarPath2" value="${user.home}/compiler.jar"></property>
+		
+		<if>
+			<equals arg1="${path}" arg2="" />
+			<then>
+				<echo message="start MergeJs" />
+				<concat destfile="${baseFolder}/core.js" encoding="utf-8" outputencoding="utf-8">
+					<path path="${baseFolder}/resource/js/xsg/common.js" />
+					<path path="${baseFolder}/wechat/xiesange.js" />
+				</concat>
+
+				<delete>
+					<fileset dir="${baseFolder}" includes="**/resource/js/xsg/*.min.js" />
+					<fileset dir="${baseFolder}" includes="**/wechat/**/*.min.js" />
+				</delete>
+				<apply executable="java" verbose="true" failonerror="true" parallel="false">
+					<fileset dir="${baseFolder}/">
+						<include name="**/resource/js/xsg/*.js" />
+						<include name="**/wechat/**" />
+						<include name="core.js" />
+						<exclude name="**/resource/js/xsg/common.js" />
+						<exclude name="**/wechat/xiesange.js" />
+					</fileset>
+					<arg line="-jar" />
+					<arg path="${jarPath}" />
+					<arg line="--charset utf-8" />
+					<arg value="--warning_level" />
+					<arg value="QUIET" />
+					<arg value="--js" />
+					<srcfile />
+					<arg value="--js_output_file" />
+					<targetfile />
+					<mapper type="regexp" from="^(.*)\.js" to="${baseFolder}/\1.min.js" />
+				</apply>
+				<echo message="end CompressJs" />
+			</then>
+			<else>
+				<echo>********* compress js : ${path}</echo>
+				<propertyregex property="min_path" input="${path}" regexp=".js" replace=".min.js" casesensitive="false" />
+				<echo>********* min js : ${min_path}</echo>
+				<delete file="${baseFolder}/${min_path}"/>
+				<apply executable="java" verbose="true" failonerror="true" parallel="false">
+					<fileset dir="${baseFolder}/">
+						<include name="${path}" />
+					</fileset>
+					<arg line="-jar" />
+					<arg path="${jarPath}" />
+					<arg line="--charset utf-8" />
+					<arg value="--warning_level" />
+					<arg value="QUIET" />
+					<arg value="--js" />
+					<srcfile />
+					<arg value="--js_output_file" />
+					<targetfile />
+					<mapper type="regexp" from="^(.*)\.js" to="${baseFolder}/\1.min.js" />
+					
+				</apply>
+				<echo message="end CompressJs : ${path}" />
+			</else>
+		</if>
+	</target>
+
+	<target name="compress_css">
+		<property name="baseFolder" value="page/webapp"/>
+		<property name="jarPath" value="/home/xiesange/jars/yuicompressor-2.4.6.jar"></property>
+		<property name="jarPath2" value="${user.home}/yuicompressor-2.4.6.jar"></property>
+		
+		
+		<if>
+			<equals arg1="${path}" arg2="" />
+			<then>
+				<echo message="start MergeCSS" />
+				<concat destfile="${baseFolder}/core.css" encoding="utf-8" outputencoding="utf-8">
+					<path path="${baseFolder}/resource/style/common.css" />
+					<path path="${baseFolder}/wechat/xiesange.css" />
+				</concat>
+				<delete>
+					<fileset dir="${baseFolder}" includes="**/resource/style/*.min.css" />
+					<fileset dir="${baseFolder}" includes="**/wechat/**/*.min.css" />
+				</delete>
+				<echo message="start CompressCSS" />
+				<apply executable="java" verbose="true" failonerror="true" parallel="false">
+					<fileset dir="${baseFolder}/">
+						<include name="**/resource/style/*.css" />
+						<include name="**/wechat/**/*.css" />
+						<include name="core.css" />
+						<exclude name="**/resource/style/common.css" />
+						<exclude name="**/wechat/xiesange.css" />
+					</fileset>
+					<arg line="-jar" />
+					<arg path="${jarPath}" />
+					<arg line="--charset utf-8"/>  
+		            <arg value="--type"/>  
+		            <arg value="css"/>  
+		            <arg value="-o"/>  
+		            <targetfile/>   
+		            <mapper type="glob" from="*.css" to="${baseFolder}/*.min.css" />       
+				</apply>
+				<echo message="end CompressCSS" />
+			</then>
+			<else>
+				<echo>********* compress css : ${path}</echo>
+				<propertyregex property="min_path" input="${path}" regexp=".css" replace=".min.css" casesensitive="false" />
+				<echo>********* min css : ${min_path}</echo>
+				<delete file="${baseFolder}/${min_path}"/>
+				<apply executable="java" verbose="true" failonerror="true" parallel="false">
+					<fileset dir="${baseFolder}/">
+						<include name="${path}" />
+					</fileset>
+					<arg line="-jar" />
+					<arg path="${jarPath}" />
+					<arg line="--charset utf-8"/>  
+		            <arg value="--type"/>  
+		            <arg value="css"/>  
+		            <arg value="-o"/>  
+		            <targetfile/>   
+		            <mapper type="glob" from="*.css" to="${baseFolder}/*.min.css" />       
+				</apply>
+				<echo message="end CompressCss : ${path}" />
+			</else>
+		</if>
+		
+	</target>
+	
+	
+	<target name="replace_html">
+		<property name="baseFolder" value="page/webapp/wechat"/>
+		<!--替换common.css,xiesange.css为core.css-->
+		<replaceregexp byline="true" encoding="utf-8">
+			<regexp pattern="(\x3C)link\s+href=&quot;(.*)resource/style/common\.css&quot;(.*)(\x3E)" />
+			<substitution expression="\1link href=&quot;\2core.css&quot;\3\4"/>
+			<fileset dir="${baseFolder}/">
+				<include name="**/*.html" />
+			</fileset>
+		</replaceregexp>
+		<!--移除xiesange.css-->
+		<replaceregexp byline="true" encoding="utf-8">
+			<regexp pattern="(\x3C)link\s+href=&quot;.*xiesange\.css&quot;.*(\x3E)" />
+			<substitution expression=""/>
+			<fileset dir="${baseFolder}/">
+				<include name="**/*.html" />
+			</fileset>
+		</replaceregexp>
+		
+		<!--替换common.js,xiesange.js为core.js-->
+		<replaceregexp byline="true" encoding="utf-8">
+			<regexp pattern="(\x3C)script\s+src=&quot;(.*)resource/js/xsg/common\.js&quot;(.*)(\x3E)" />
+			<substitution expression="\1script src=&quot;\2core.js&quot;\3\4"/>
+			<fileset dir="${baseFolder}/">
+				<include name="**/*.html" />
+			</fileset>
+		</replaceregexp>
+		<!--移除xiesange.js-->
+		<replaceregexp byline="true" encoding="utf-8">
+			<regexp pattern="(\x3C)script\s+src=&quot;.*xiesange\.js&quot;.*(\x3E)" />
+			<substitution expression=""/>
+			<fileset dir="${baseFolder}/">
+				<include name="**/*.html" />
+			</fileset>
+		</replaceregexp>
+		
+		<replace dir="${baseFolder}/" encoding="utf-8">
+			<include name="**/*.html" />
+			<replacefilter token=".js" value=".min.js" />
+			<replacefilter token=".css" value=".min.css" />
+		</replace>
+		<replace dir="${baseFolder}/" encoding="utf-8">
+			<include name="**/*.html" />
+			<replacefilter token=".min.min.js" value=".min.js" />
+			<replacefilter token=".min.min.css" value=".min.css" />
+		</replace>
+	</target>
+</project>
+
+

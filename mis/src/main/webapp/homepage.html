@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<title>其乐旅行</title>
+<script src="resource/js/jquery-1.9.1.js"></script>
+<script src="resource/js/jquery.mousewheel.js"></script>
+<link href="resource/style/common.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="home_content">
+	<div class="home_page_1">
+		<div class="home_dog image_hack"></div>
+		<div class="home_title_font image_hack"></div>
+		<div class="home_core_font image_hack"></div>
+	</div>
+	<div class="home_page_2">
+		<div class="home_footbar_qrcode">
+			<div class="home_qrcode_item home_qrcode_wechat"></div>
+			<div class="home_qrcode_item home_qrcode_ios"></div>
+		</div>
+		<div class="home_footbar_mask"></div>
+		<a class="home_icp common_font" href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备15029378号</a>
+	</div>
+</div>
+<div class="home_arrow up"></div>
+</body>
+<script>
+var userAgent = navigator.userAgent;
+if ((userAgent.indexOf('MSIE') >= 0)  && (userAgent.indexOf('Opera') < 0)){
+	document.write('<link href="resource/style/common-ie.css" rel="stylesheet" type="text/css">');
+}
+
+$(function(){
+	
+	var width = document.body.clientWidth;
+	var height = document.body.clientHeight;
+	
+	var orighHeight = 617;
+	
+	var grass_h_rate = 50/orighHeight;//草地高度的占比例
+	var dog_h_rate = 400/orighHeight;//狗高度的占比例
+	var font_h_rate = 282/orighHeight;//底栏高度占比例
+	
+	var grassHeight = height*grass_h_rate;//草地的高度
+	var dogHeight = height*dog_h_rate;//草地的高度
+	var fontHeight = height*font_h_rate;//文字的高度
+	
+	var dogWidth = 367*dogHeight/602;
+	var fontWidth = 812*fontHeight/397;
+	
+	$(".home_dog").css({
+		bottom:grassHeight-10,
+		height:dogHeight,
+		width:dogWidth
+	});
+	$(".home_core_font").css({
+		height:fontHeight,
+		width: fontWidth,
+		left:(width - dogWidth - fontWidth)/2
+	});
+	
+	var $arrow = $(".home_arrow");
+	var $homeContent = $(".home_content");
+	$arrow.click(function(e){
+		toggleFootbar($(this),$homeContent);
+	});
+	
+	$('body').mousewheel(function(event, delta){
+		//delta<0,鼠标往下滚，隐藏footbar;delta>0,鼠标往上滚,显示footbar
+		toggleFootbar($arrow,$homeContent,delta<0);
+	});
+});
+
+
+function toggleFootbar($arrow,$homeContent,isShow){
+	isShow = isShow || $arrow.hasClass("down");//$homeContent.data("is_show") || false;
+	var top = isShow ? 0 : -200;
+	$homeContent.animate({
+		top:top
+	},500,null,function(){
+		//箭头图片切换
+		$arrow.removeClass("up down").addClass(top==0?"up":"down");
+	});
+	
+}
+</script>
+</html>

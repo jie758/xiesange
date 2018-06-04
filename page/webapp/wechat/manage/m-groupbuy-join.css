@@ -1,0 +1,55 @@
+.groupbuy-join-item{
+	margin-top:10px;
+}
+.groupbuy-join-item .titleline{
+	padding:5px 5px 0px 5px;
+	line-height:22px;
+}
+.groupbuy-join-item .mobile{
+	margin-left:5px;
+}
+.groupbuy-join-item .address{
+	padding:0px 5px;
+	padding-bottom:5px;
+}
+.order-content-item{
+    line-height: 25px;
+    padding:0px 5px;
+}
+.order-item-prodname{
+	float:left;
+	color:#757575;
+}
+.order-item-amount{
+	float:left;
+}
+.order-item-prodprice{
+	float:left;
+}
+.order-item-sum{
+	float:right;
+	width: 70px;
+	text-align:right;
+}
+.order-item-symbol{
+	float:left;
+	margin: 0px 5px;
+}
+.bottomline{
+	padding:0px 5px;
+	line-height:30px;
+}
+.totalsum{
+}
+.stat-area{
+	margin:10px 0px;
+}
+
+.stat-area .prod-stat{
+	line-height:28px;
+	padding:0px 5px;
+}
+.state-filter .status-bttn{
+	width:80px;
+	margin-left:5px;	
+}

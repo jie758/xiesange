@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>G20海鲜大礼包福利来啦~</title>
+    <link href="../../resource/style/common.min.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="g20.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+    <script src="g20.js"></script>
+</head>
+<body style="overflow-x: hidden;">
+	<div class="item" style="margin-top:20px;">这么说吧</div>
+	<div class="item">您的朋友<span class="xsg-color" id="name"></span>想吃海鲜了</div>
+	<div class="item">想赢取一份<span style="color:#FF0000;font-size:1.3rem;">价值460元</span>的G20海鲜大礼包</div>
+	<div class="item">喏，就是长下面这样:</div>
+	<div>
+		<table border='0' cellspacing='1' cellpadding='1' style="width:100%">
+			<tr>
+				<td width="50%">
+					<img style="width:100%" src="http://resource.xiesange.com/image/op/crab.JPEG"/>
+					<div class="prod-text">野生梭子蟹(5两/只)</div>
+					<div class="prod-intro">(2斤，价值150元)</div>
+				</td>
+				<td width="50%">
+					<img style="width:100%" src="http://resource.xiesange.com/image/op/xhy_xiao.jpg?"/>
+					<div class="prod-text">野生小黄鱼(1.5两/条)</div>
+					<div class="prod-intro">(2斤，价值130元)</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="50%">
+					<img style="width:100%" src="http://resource.xiesange.com/image/op/shrimp_zjx.jpg?t=12"/>
+					<div class="prod-text">竹节虾</div>
+					<div class="prod-intro">(2斤，价值140元)</div>
+				</td>
+				<td width="50%">
+					<img style="width:100%" src="http://resource.xiesange.com/image/op/dancai.jpg?t"/>
+					<div class="prod-text">渔山岛野生淡菜</div>
+					<div class="prod-intro">(2斤，价值40元)</div>
+				</td>
+			</tr>
+		</table>
+		<BR/>
+	</div>
+	<div class="item">如果有20位好友替他加油</div>
+	<div class="item">就可以享受8折优惠~</div>
+	<BR/>
+	<div class="item">如果他的手机号刚好以20结尾</div>
+	<div class="item">可以再享受8折优惠~</div>
+	<BR/>
+	<div class="item">于是，他怀着这个美好憧憬</div>
+	<div class="item">邀请您助他一臂之力</div>
+	<div class="item">同时您也有机会6.4折赢取海鲜大礼包</div>
+	<div class="item">所以，快来填写信息报名吧~~</div>
+	<div class="item"><span class="button viewdetail">点击查看活动详情</span></div>
+	<BR/>
+	<div id="linkinfo" style="display:none">
+		<div id='vcode-container' style="margin-top:40px;"></div>
+		<input class="item-input linkman common-font" placeholder="收件人姓名"></input>
+		<textarea class="item-input address common-font" placeholder="收件人地址(目前只支持杭州市)"></textarea>
+		<div class="xsg-bttn vcode-next disable-bttn common-bg">报名</div>
+		<BR/>
+	</div>
+	<div id="signupinfo" style="display:none">
+		<div class="item">亲爱的<span id="voteName" class="xsg-color"></span></div>
+		<div class="item">您已报名此次活动，所以无法参与投票</div>
+		<div class="item">赶紧分享并邀请更多好友来助威吧~</div>
+		<BR/>
+	</div>
+</body>
+<script>
+$(function(){
+	initVotePage();
+});
+
+</script>
+
+</html>

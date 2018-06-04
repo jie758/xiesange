@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>万家花城二期业主请愿</title>
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="jq-signature.min.js"></script>
+    
+    <link href="../../resource/style/common.css" rel="stylesheet">
+	<link href="../../wechat/xiesange.css" rel="stylesheet">
+</head>
+<style>
+.result{
+	padding-top:5px;
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	background-color:#ffff9f;
+}
+.bttn {
+    padding: 10px 20px;
+    border: 1px solid #d8d8d8;
+    width: 120px;
+    margin: 10px auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+     color:#FD9603;
+}
+.item-input {
+    width: 100%;
+    height: 40px;
+    font-size: 1.0rem;
+    text-indent: 5px;
+    border: 1px solid #e8e8e8;
+}
+</style>
+<body>
+<div style="padding:0px 10px;">
+	<P>请输入您的房号</P>
+	<div>
+		<input id="building" type="tel" class="item-input" style="width:50px;height:25px;"/>幢
+		<input id="unit" type="tel" class="item-input" style="width:50px;height:25px;" />单元
+		<input id="room" type="tel" class="item-input" style="width:50px;height:25px;"/>室
+	</div>
+	<P>请在下方手写签名，注意字迹工整</P>
+</div>
+<div class="js-signature"
+     data-width="100%"
+     data-height="100"
+     data-border="1px solid #1ABC9C"
+     data-background="#26bebf"
+     data-line-color="#FF0000"
+     data-auto-fit="true">
+</div>
+<BR/><BR/><BR/>
+<div style="text-align:center">
+	<span class="bttn" id="clear">清除</span>
+	<span class="bttn" id="ok">提交</span>
+</div>
+
+<div class="result">
+	<div style="padding:10px;">
+		<div style="text-align:center;">关于要求滨江物业提高服务质量事宜</div>
+		<br/>
+		<div style='font-weight:bold'>
+			<p>1、门禁更新事宜</p>
+			<p>2、电梯安全性维护</p>
+			<p>3、提高卫生清洁度</p>
+		</div>
+	</div>
+	<BR/>
+	<div id="sign_line" style="overflow:hidden;line-heigh:40px">
+		<span id="signimg" style="float:right"></span>
+		<span id="address" style="float:right;color: #969292;line-height: 34px;"></span>
+	</div>
+	<div style="text-align:center;margin-top:50px;">
+		<img style="width:100px" src="http://resource.xiesange.com/image/activity/wanjia/qingyuan.png"/>
+	</div>
+</div>
+</body>
+<script>
+$(function(){
+	var _base_url = common.getHost()+"/xiesange";
+	$('.js-signature').jqSignature();
+	
+	$("#clear").click(function(){
+		$('.js-signature').jqSignature('clearCanvas');
+	});
+	
+	$("#ok").click(function(){
+		var building = $("#building").val();
+		var unit = $("#unit").val();
+		var room = $("#room").val();
+		
+		if(!building){
+			message.errorHide("请填写幢数");
+			return;
+		}
+		if(!unit){
+			message.errorHide("请填写单元");
+			return;
+		}
+		if(!room){
+			message.errorHide("请填写房号");
+			return;
+		}
+		
+		var dataUrl = $('.js-signature').jqSignature('getDataURL');
+		
+		ajax.request({
+			url : _base_url+"/web/shanghui/commitQingyuan.do",
+			need_progressbar : false,
+			params : {
+				code : "wuye_zhiliang",
+				building : building,
+				unit : unit,
+				room : room,
+				signature : dataUrl
+			},
+			success : function(header,body){
+				var $img = $('<img style="width:100px">').attr('src', dataUrl);
+				//$('#result').append($('<p>').text("Here's your signature:"));
+				$('#signimg').append($img);
+				
+				var room = $("#building").val()+"幢"+$("#unit").val()+"单元"+$("#room").val()+"室";
+				$("#address").text(room+" 业主：");
+				$(".result").show();
+			},
+			complete : function(){
+			}
+		});
+	});
+});
+</script>
+<style>
+</style>
+</html>

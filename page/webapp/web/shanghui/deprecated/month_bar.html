@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>每月记录表</title>
+<script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+<script src="Chart.bundle.js"></script>
+<script src="shanghui.js"></script>
+</head>
+<body>
+<canvas id="myChart" width="600" height="400"></canvas>
+</body>
+<script type="text/javascript">
+var ctx = document.getElementById("myChart");
+var flightInfo = getFlighting();
+var monthArr = [];
+for(var i=0;i<flightInfo.length;i++){
+	var f = flightInfo[i];
+	var month = f.date.split("-")[1];
+	
+	var monthInfo = null;
+	for(var k=0;k<monthArr.length;k++){
+		if(monthArr[k].month == month){
+			monthInfo = monthArr[k];
+			break;
+		}
+	}
+	if(monthInfo == null){
+		monthInfo = {
+			month : month,
+			count : 0
+		}
+		monthArr.push(monthInfo);
+	}
+	monthInfo.count++;
+}
+var labels = [];
+var datasets = [{
+	//label : membObj.name,
+	data : [],
+	fill : false,
+    borderColor : [],
+    backgroundColor : [],
+    lineTension : 0,
+    borderWidth: 1
+}];
+for(var k=0;k<monthArr.length;k++){
+	labels.push(monthArr[k].month);
+	datasets[0].data.push(monthArr[k].count);
+	datasets[0].backgroundColor.push("#05fa62");
+}
+var myBarChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels: labels,
+        datasets: datasets
+    },
+    options: {
+    	title: {
+            display: true,
+            text: '每月作战次数表'
+        },
+    	scales: {
+            yAxes: [{
+            	display : true,
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+
+
+</script>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>产品列表</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="product.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg">
+<div class="index-page hidden">
+	<div class="titlebar index fixed">产品列表</div>
+	<div class="prod-catalog">
+	</div>
+	<div class="prod-list"></div>
+	<div class="prod-footbar">
+		<div class="shopping-cart xsg-fontset">&#xe608;</div>
+		<div class="prod-totalsum">￥0.00</div>
+		<div class="prod-order-bttn">选好了</div>
+	</div>
+	<!-- 产品条目模板 -->
+	<div id="_prod_item_temp" style="display:none" class="prod-item">
+		<div class="prod-pic">
+			<div class="prod-groupbuy">
+				<div class="recommend xsg-fontset xsg-font">&#xe607;</div>
+				<div class="text">发起拼单立减10元</div>
+				<div class="arrow xsg-fontset">&#xe605;</div>
+			</div>
+		</div>
+		<div class="overflow-hidden">
+			<div class="overflow-hidden">
+				<div class="prod-name"></div>
+				<div class="prod-spec gray-font"></div>
+				<div class="prod-price money-font"></div>
+			</div>
+			<div class="prod-summary"></div>
+		</div>
+		<div class="separator_h"></div>
+		<div class="prod-stats">
+			<span class="sale-amount"></span>
+			<span class='comment xsg-font'>
+				<span class="icon xsg-fontset">&#xe612;</span>
+				<span class="comment-amount common-font"></span>
+				<span class="arrow xsg-fontset">&#xe605;</span>
+			</span>
+			<div class="separator_h"></div>
+		</div>
+		<div class='prod-sumbar'>
+			<div class="prod-sum money-font">￥0.00</div>
+			<div style="float:right" class="prod-amount-set">
+				<div class="prod-amount-bttn minus xsg-fontset">&#xe602;</div>
+				<input type="tel" class="prod-amount-input common-font"/>
+				<div class="prod-amount-unit"></div>
+				<div class="prod-amount-bttn add xsg-fontset">&#xe603;</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 订单确认界面 -->
+<div class="ordercfm">
+	<div class="titlebar confirm">订单确认</div>
+	<div class="page-body" style="top:40px;bottom:45px;">
+		<table border='0' cellspacing='1' cellpadding='1' class="deliverybar">
+			<tr>
+				<td class="deliverybar-person">
+					<span class="name"></span> 
+					<span class="mobile"></span>
+					<span class="fillup">请补充收件信息</span>
+				</td>
+				<td class="deliverybar-arrow xsg-fontset" rowspan="2">&#xe605;</td>
+			</tr>
+			<tr>
+				<td><div class="deliverybar-address"></div></td>
+				<td></td>
+			</tr>
+		</table>
+		<div class="ordercfm-express gray-font">
+			<span class="express-fee-tip"></span>
+			<span class="express-fee money-font"></span>
+		</div>
+		<div class="ordercfm-item-list"></div>
+	</div>
+	<div class="footbar">
+		<div class="footbar-bttn-cancel common-font ">取 消</div>
+		<div class="footbar-bttn-ok common-font">
+			<span class='totalsum'></span>
+			<span class='action'></span>
+		</div>
+	</div>
+</div>
+<!-- 订单条目模板 -->
+<div id="_order_item_temp" style="display:none" class="ordercfm-item">
+	<table border='0' cellspacing='1' cellpadding='1' style="width:100%"><tr>
+		<td width="90px"><div class="ordercfm-item-pic"></div></td>
+		<td style="padding-left: 5px;">
+			<div style="margin-top: 5px;">
+				<span class="ordercfm-item-name"></span>
+				<span class="ordercfm-item-spec"></span>
+				<span class="ordercfm-item-price"></span>
+			</div>
+			<div style="margin-top:15px;">
+				<div class="ordercfm-item-sum"></div>
+				<div style="float:right" class="prod-amount-set">
+					<div class="prod-amount-bttn minus xsg-fontset">&#xe602;</div>
+					<input type="tel" class="prod-amount-input common-font"/>
+					<div class="prod-amount-unit"></div>
+					<div class="prod-amount-bttn add xsg-fontset">&#xe603;</div>
+				</div>
+			</div>
+		</td>
+	</tr></table>
+</div>
+
+<div class="order-delivery">
+	<div class="titlebar linkinfo">填写收件信息</div>
+	<div class='delivery-self-container'>
+		<div class="deliverypage-label">请先验证您本人的手机号</div>
+		<div class='vcodeset-container' style="margin-top:10px;"></div>
+	</div>
+	<div class='delivery-container'>
+		<div class="deliverypage-label">收件人信息</div>
+		<input class="item-input deliverypage-mobile common-font" type="tel" placeholder="收件人手机号"></input>
+		<input class="item-input deliverypage-linkman common-font" placeholder="收件人姓名"></input>
+		<textarea class="item-input deliverypage-address common-font" placeholder="收件人地址(目前只支持杭州市)"></textarea>
+	</div>
+	<div class="footbar hidden">
+		<div class="footbar-bttn-cancel common-font">取 消</div>
+		<div class="footbar-bttn-ok common-font">确定</div>
+	</div>
+</div>
+
+
+<div class="order-info-page">
+	<div class="titlebar">订购须知</div>
+	<div class="page-body">
+	</div>
+	<div class="footbar">
+		<div class="footbar-bttn-cancel common-font"></div>
+		<div class="footbar-bttn-ok disable-bttn common-font">继续下单</div>
+	</div>
+</div>
+
+
+<div class="comment-page nest-page hidden">
+	<div class="titlebar fixed ">用户评价</div>
+	<div class="page-body">
+		<div class='prod-comment-list'></div>
+	</div>
+	
+	<div id="_comment_item_temp" class="prod-comment-item hidden overflow-hidden">
+		<div class="header-pic xsg-fontset"></div>
+		<div class="right">
+			<div class="first-line gray-font overflow-hidden">
+				<span class='name'></span>
+				<span class='mobile'></span>
+				<span class='grade-container'></span>
+			</div>
+			<div class="second-line gray-font">
+				<span class='order-time'></span>
+				<span class='order-amount'></span>
+			</div>
+			<div class='content'></div>
+			<div class='tags'></div>
+		</div>
+	</div>
+	<!-- <div class="footbar">
+		<div class="footbar-bttn-cancel common-font"></div>
+		<div class="footbar-bttn-ok disable-bttn common-font">继续下单</div>
+	</div> -->
+</div>
+</body>
+<script src="product.js" charset="UTF-8"></script>
+</html>

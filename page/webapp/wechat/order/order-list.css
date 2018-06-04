@@ -1,0 +1,274 @@
+.order-list-page{
+	
+}
+
+.order-list{
+	margin-top:55px;
+}
+.order-item{
+	padding:0px;
+	margin-bottom: 20px;
+	background-color:#FFF;
+	display:none;
+}
+.order-titleline{
+	padding:10px 10px 5px 5px;
+	font-size:0.9rem;
+	overflow: hidden;
+}
+
+.groupbuy-info{
+	overflow:hidden;
+	padding:2px 5px;
+	margin-bottom:2px;
+	display:none;
+}
+.groupbuy-text{
+	float:left;
+	padding:2px 3px;
+	margin-right:3px;
+	margin-top: -2px;
+    font-size: 0.9rem;
+}
+.promotion-item{
+	border:1px solid #ffdcab;
+	//margin-bottom:4px;
+	line-height:30px;
+	text-indent:5px;
+	background-color:#FFF;
+	color:#FD9603;
+}
+.promotion-item .is-creator{
+}
+.promotion-item .viewdetail{
+	float:right;
+	margin-right:5px;
+}
+.order-groupbuy-prodtitle{
+	padding-top: 5px;
+}
+.order-code{
+	float:left;
+	margin-right:5px;
+}
+.order-createtime{
+}
+.order-titleline .arrow{
+}
+.order-content{
+	overflow: hidden;
+	//line-height:28px;
+	padding:0px 10px;
+	margin-bottom: 5px;
+}
+
+.order-bttn-bar{
+	overflow:hidden;
+	border-top: 1px solid #e8e8e8;
+}
+.order-statusline{
+	overflow:hidden;
+	border-top: 1px solid #e8e8e8;
+}
+/* .order-bttn{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size :1rem;
+}
+.order-bttn.oper{
+	float:right;
+	width:50%;
+	border-left:1px solid #e8e8e8;
+} */
+
+.order-buyer{
+	font-size:0.9rem;
+	padding:0px 10px;
+}
+.order-buyer-info{
+	padding:3px 0px;
+	overflow:hidden;
+	line-height: 22px;
+}
+.order-buyer-addr{
+	padding:3px 0px;
+}
+
+.order-linkman-name{
+	float:left;
+	line-height: 22px;
+}
+.order-linkman-mobile{
+	float:left;
+	margin-left:4px;
+	line-height: 22px;
+}
+.order-deliveryday{
+	float:right;
+}
+.order-status{
+	color:#01C8D8;
+    text-indent:8px;
+    text-align:left;
+    font-size:0.9rem;
+}
+.order-content-item{
+	float:left;
+	width:100%;
+	display:none;
+	line-height: 25px;
+}
+
+.order-item-prodname{
+	float:left;
+	color:#757575;
+}
+.order-item-amount{
+	float:left;
+}
+.order-item-prodprice{
+	float:left;
+}
+.order-item-sum{
+	float:right;
+	width: 70px;
+	text-align:right;
+}
+.order-item-symbol{
+	float:left;
+	margin: 0px 5px;
+}
+.order-vcode-next{
+	font-size:1.2rem;
+}
+.order-sumbar{
+	margin-top:0px;
+	overflow:hidden;
+	padding:0px 10px;
+	line-height:25px;
+}
+.order-expressfee{
+	float:left;
+	font-size:0.9rem;
+}
+.order-coupon{
+	float:left;
+	text-align:right;
+	font-size:0.9rem;
+}
+.order-origsum{
+	font-size:1rem;
+	margin-right:2px;
+	text-decoration:line-through;
+}
+.order-sum{
+	font-size:1.1rem;
+}
+.order-paysum{
+	float:left;
+	font-size:1.1rem;
+	text-indent: 5px;
+}
+.order-paysum.price-not-sure{
+	font-size:1.0rem;
+}
+.order-paysum-text{
+	float:left;
+}
+.order-deliverybar{
+	display:none;
+	font-size:0.9rem;
+	padding:5px 10px;
+	border-top:1px solid #e8e8e8;
+}
+
+
+.order-deliverybar .summary{
+	overflow:hidden;
+	line-height:25px;
+}
+.order-deliverybar .deliveryno{
+	float:left;
+}
+
+.order-deliverybar .loading{
+	float:left;
+	height: 25px;
+    width: 20px;
+    background-size:15px 15px;
+}
+.order-deliverybar .showall{
+	float:left;
+	font-size:0.8rem;
+}
+
+.order-deliverybar .routelist{
+	line-height:18px;
+}
+.order-deliverybar .route{
+	font-size:0.9rem;
+	margin-bottom:5px;
+	//display:none;
+}
+.order-deliverybar .flag{
+	float:left;
+	width:18px;
+	height:18px;
+	background:url(http://resource.xiesange.com/image/xsg/round.png) no-repeat center center;
+	background-size:8px 8px;
+}
+.order-deliverybar .flag.latest{
+	background-image:url(http://resource.xiesange.com/image/xsg/round-highlight.png) !important;
+}
+.order-deliverybar .time{
+	float:left;
+}
+.order-deliverybar .node{
+	float:left;
+	margin-left:10px;
+}
+.order-deliverybar .state{
+	float:left;
+	margin-left: 18px;
+}
+.order-deliverybar .dial{
+	float:right;
+	height:18px;
+	width:40px;
+	text-decoration:none;
+}
+.order-deliverybar .sep{
+	float:left;
+	margin:0px 5px;
+}
+.order-deliverybar .name{
+	float:left;
+}
+.orderitem-custinfo{
+	overflow:hidden;
+	padding-bottom:5px;
+}
+.orderitem-custinfo .name{
+	float:left;
+}
+.orderitem-custinfo .mobile{
+	float:left;
+	margin-left:5px;
+}
+.orderitem-custinfo .self{
+	float:left;
+	margin-right:3px;
+	height:16px;
+	width:16px;
+	background:url(http://resource.xiesange.com/image/sys/person.png) no-repeat center center;
+	background-size:14px 14px;
+	
+}
+.orderitem-orderinfo{
+	padding-left:10px;
+}
+.orderitem-orderinfo .paystatus{
+	margin-right:5px;
+	font-size:0.9rem;
+}

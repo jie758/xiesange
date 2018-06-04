@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>Summernote</title>
+<style>
+.d1 {
+	top: 800px;
+	left: 0px;
+	width: 400px;
+	z-index:9999;
+}
+
+.d2 {
+	top: 800px;
+	left: 800px;
+	width: 400px;
+}
+
+.d3 {
+	top: 0px;
+	left: 800px;
+	width: 400px;
+}
+
+#d4 {
+	transform: rotate(-90deg) translateY(-9em);
+}
+#d5{
+	transform: rotate(90deg) translateY(4.5em) translateX(4rem);
+	margin-left: -90px;
+}
+#d6{
+	transform: rotate(90deg) 
+}
+.node{
+	z-index:9999;
+	white-space:nowrap;
+}
+.et_article blockquote{
+    border-left: 5px solid #f86466;
+    background: white;
+}
+</style>
+<script src="../resource/js/3rd/jquery-1.11.3.min.js" charset="utf-8"></script>
+<script src="../resource/js/3rd/plupload.full.min.js"></script>
+<script src="../resource/js/3rd/qiniu.js"></script>
+<script src="../resource/js/3rd/summernote/summernote.js"></script>
+<script src="../resource/js/3rd/summernote/lang/summernote-zh-CN.js"></script>
+<script src="../resource/js/xsg/common.js" type="text/javascript"></script>
+<script src="../resource/js/xsg/eteditor.js" type="text/javascript"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+
+</head>
+<body class="et_article">
+	<div id="summernote" style='height:400px'>
+	</div>
+</body>
+<script type="text/javascript">
+$(function () {
+	var eteidtor = new xsg_summernote({
+		canvas : $('#summernote'),
+		qiniuOpt : {
+			qiniuInstance : Qiniu,
+			domain : "7xrkic.com1.z0.glb.clouddn.com",
+			path : 'image/ticket/100009/*'
+		}
+	});
+});
+</script>
+</html>

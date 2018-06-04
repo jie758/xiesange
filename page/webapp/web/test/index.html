@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>融云测试22</title>
+
+    <link rel="stylesheet" type="text/css" href="../../resource/style/RongIMWidget.css"/>
+	<script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+      <script src="../../resource/js/3rd/angular.js"></script>
+      <script src="../../resource/js/3rd/rongyun/RongIMWidget.js"></script>
+      <script src="../../resource/js/xsg/common.js"></script>
+      <script src="index.js"></script>
+    <script>
+    if(navigator.userAgent.indexOf("MSIE 9")!=-1){
+      window.WEB_XHR_POLLING = true;
+    }
+    </script>
+
+  </head>
+  <body>
+<button id="bttn">显示222</button>
+<div ng-app="demo">
+	<div ng-controller="main">
+     	<rong-widget></rong-widget>
+	</div>
+</div>
+  </body>
+<script>
+/* var demo = angular.module("demo", ["RongWebIMWidget"]);
+demo.controller("main", ["$scope", "RongCustomerService", function($scope,RongCustomerService) {
+	RongCustomerService.init({
+      appkey:"qf3d5gbj35lrh",
+      token:"NSZM0ozu4simhjYDuL0tYETLVqa+Tl3taXK7MTKkqBlkBhdPsMbENJGlfmWG7TBauuJWXkRJ7C0=",
+      customerServiceId:"KEFU147790687916412",
+      position:RongCustomerService.Position.left,
+      onSuccess:function(){
+   	    //初始化完成
+   	    console.log("success");
+   	  },
+   	  onError:function(){
+   	    //初始化错误
+   		console.log("error");
+   	  }
+    });
+}]); */
+
+</script>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>采购列表</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="../order/order-list.css" rel="stylesheet">
+    <link href="m-order-list.css" rel="stylesheet">
+    <link href="m-purchase-list.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg">
+<div class="index-page">
+	<div class="titlebar fixed">采购列表</div>
+	<div class="purchase-list"></div>
+	<div class="next-page gray-border" style="margin-bottom:55px;">点击加载更多...</div>
+</div>
+
+<div class="deliveryinput-page">
+	<div class="titlebar">填写物流信息</div>
+	<div class="delivery-input-wrap">
+		<div class="delivery-input" contentEditable="true"></div>
+		<div class="delivery-parse"></div>
+	</div>
+	<div class="footbar">
+		<div class="footbar-bttn-cancel common-font">
+		</div>
+		<div class="footbar-bttn-ok common-font">提交</div>
+	</div>
+</div>
+
+<div class="deliverynotify-page">
+	<div class="titlebar notify">物流通知</div>
+	<div class="footbar notify">
+		<div class="footbar-bttn-cancel common-font">
+		</div>
+		<div class="footbar-bttn-ok common-font">发送通知</div>
+	</div>
+</div>
+
+
+<!-- 订单条目模板 -->
+<div id="_purchase_item_temp" class="purchase-item gray-border">
+	<div class="purchase-titleline gray-font">
+		<div class="purchase-code"></div>
+		<div class="right-part">
+			<span class="purchase-createtime"></span>
+			<span class="xsg-fontset arrow">&#xe605;</span>
+		</div>
+	</div>
+	<div class="separator_h"></div>
+	<div class="purchase-sumbar">
+		<div class="purchase-ordercount"></div>
+		<div style="float:right">
+			<span class="purchase-expressfee gray-font"></span>
+			<span class="purchase-ordersum money-font"></span>
+		</div>
+	</div>
+	<!-- <div class="separator_h"></div> -->
+	<!-- <div class="purchase-content"></div> -->
+	<div class="purchase-bottomline">
+		<div class="list-item-bttn status"></div>
+		<div class="list-item-bttn oper">操作...</div>
+	</div>
+</div>
+<!-- 订单内容条目模板 -->
+<div id="_purchase_content_item_temp" class="purchase-content-item">
+	<div class='purchase-content-titleline' style="overflow:hidden">
+		<div class="purchase-item-name"></div>
+		<div class="purchase-item-mobile"></div>
+		<div class="purchase-item-ordersum"></div>
+	</div>
+	<div class="purchase-item-address gray-font"></div>
+	<div class="promotion-block border hidden">
+	</div>
+	<div class="purchase-item-deliveryinfo">
+		<div class="deliveryno gray-font"></div>
+		<div class="right-part">
+			<div class="loading"></div>
+			<div class="showall gray-font">查询中</div>
+		</div>
+	</div>
+	<div class="purchase-delivery-list">
+	</div>
+</div>
+<!-- 路由条目模板 -->
+<div id="_delivery_route_temp" class="purchase-delivery">
+	<div style="overflow:hidden">
+		<div class='flag'></div>
+		<div class='time'></div>
+		<div class='node'></div>
+		<!-- <div class='showall gray-font'>查看全部</div> -->
+	</div>
+	<div style="overflow:hidden">
+		<div class='state'></div>
+		<span class='sep'>-</span>
+		<div class='name'></div>
+		<a class='dial xsg-fontset xsg-font'>&#xe60d;</a>
+	</div>
+</div>
+
+</body>
+<script src="m-purchase-list.js"></script>
+</html>

@@ -1,0 +1,390 @@
+
+.deliverybar.groupbuy{
+	margin-top:0px;
+}
+.groupbuy-prod-container{
+	margin-top:10px;
+}
+.prod-item{
+	padding:10px 30px;
+	background-color: #FFF;
+	margin-top:10px;
+}
+.prod-pic{
+	background-color:#ececec;
+}
+.prod-baseinfo{
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+}
+.prod-firstline{
+    line-height:20px;
+}
+.prod-summary{
+    //height: 48px;
+    //margin-top:8px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    line-height: 16px;
+    font-weight:bold;
+}
+.sale-amount{
+	float: left;
+}
+.prod-sum{
+    float: left;
+    font-size:1.3rem;
+}
+
+.prod-item .prod-promotion-list{
+	margin-top:5px;
+}
+
+.prod-item .prod-promotion-info{
+	line-height:22px;
+}
+
+.prod-item .icon-label{
+	float:left;
+	margin-top:3px;
+}
+.prod-item .icon-label div{
+    border-radius: 50%;
+    font-size: 0.8rem;
+    color: #FFF;
+    color: #FFF;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+/* .prod-item .promotion-label{
+	font-size:0.9rem;
+	float:left;
+	margin-left:5px;
+} */
+.prod-amount-bttn{
+	float: left;
+    width: 30px;
+    height: 22px;
+    line-height: 24px;
+    font-size: 17px;
+    color: #eb4f38;
+    text-align: center;
+}
+
+.prod-amount-set{
+	//margin-top:5px;
+	float:right;
+}
+.prod-amount-input{
+	float: left;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #c8c8c8;
+    /* margin-top: 2px; */
+    padding-right: 3px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+.prod-amount-unit{
+	float:left;
+	line-height:22px;
+	padding:0px 2px;
+	font-size: 0.9rem;
+}
+/* .groupbuy-prod{
+	position:relative;
+	margin-bottom:10px;
+	border: 1px solid #E6E6E6;
+	background-color: #FFF;
+} */
+
+/* .prod-price .value{
+	font-size:1.2rem;
+} */
+
+/* .prod-firstline{
+    line-height:20px;
+} */
+/* .prod-name{
+}
+.prod-spec{
+}
+.prod-price{
+    float:right;
+} 
+.prod-price span{
+    float:left;
+}*/
+.prod-bottomline .price{
+    font-size:1.0rem;
+}
+.prod-bottomline .orig-price{
+    font-size:0.9rem;
+    text-decoration:line-through;
+    margin-right:2px;
+}
+.prod-summary{
+    height: 48px;
+    //margin-top:5px;
+    //margin-bottom: 5px;
+    overflow: hidden;
+    line-height: 16px;
+    font-weight:bold;
+    font-size:0.9rem;
+}
+.prod-stat{
+	font-size: 0.9rem;
+	line-height: 20px;
+}
+.sale-amount{
+	float: right;
+}
+.prod-sum{
+    float: left;
+    font-size:1.3rem;
+}
+
+.prod-item .prod-promotion-list{
+	margin-top:5px;
+}
+
+.prod-item .prod-promotion-info{
+	line-height:22px;
+}
+
+.prod-item .icon-label{
+	float:left;
+	margin-top:3px;
+}
+.prod-item .icon-label div{
+    border-radius: 50%;
+    font-size: 0.8rem;
+    color: #FFF;
+    color: #FFF;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+
+.groupbuy-orderitem {
+    width: 100%;
+    display: none;
+    overflow: hidden;
+    padding: 5px 0px;
+}
+
+.groupbuy-member-text{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-size:0.9rem;
+	text-indent:5px;
+}
+.groupbuy-content{
+	
+	padding: 5px 10px;
+	background-color: #FFF;
+}
+.groupbuy-prodlist{
+	margin-bottom: 10px;
+}
+
+
+.payitem-orderinfo .payitem-amount{
+	float:left;
+}
+.payitem-orderinfo .payitem-prodprice{
+	float:left;
+}
+
+.payitem-orderinfo .payitem-origsum{
+	text-decoration:line-through;
+}
+.payitem-orderinfo .payitem-sum{
+	float:right;
+	text-align:right;
+}
+.payitem-orderinfo .payitem-symbol{
+	float:left;
+	margin: 0px 5px;
+}
+
+.payitem-custinfo{
+	overflow:hidden;
+	padding-bottom:5px;
+	line-height:22px;
+}
+.payitem-custinfo .index{
+	float:left;
+	margin-right:10px;
+}
+.payitem-custinfo .name{
+	float:left;
+}
+.payitem-custinfo .mobile{
+	float:left;
+	margin-left:5px;
+}
+.payitem-custinfo .creator{
+	float:left;
+	margin-right:3px;
+	height:22px;
+	width:16px;
+	display:none;
+}
+.payitem-orderinfo .paystatus{
+	margin-right:5px;
+}
+.payitem-orderinfo{
+	padding-left:10px;
+}
+
+.button-line{
+	text-align:center;
+	width:200px;
+	height: 36px;
+	margin-top:15px;
+	margin-bottom:85px;
+}
+.button-line .invite{
+	position:absolute;
+	padding:10px 20px;
+	border-radius:5px;
+	display:none;
+}
+
+.button-line .join{
+	position:absolute;
+	padding:10px 20px;
+	border-radius:5px;
+}
+.join-amount-area{
+	//display:none;
+	margin-top:25px;
+	overflow:hidden;
+	background-color:#FFF;
+}
+
+/* .prod-amount-bttn{
+	float:left;
+	width:30px;
+	height:30px;
+	background-size:23px 23px !important;
+} */
+/* .prod-amount-bttn.add{
+	margin-left:3px;
+	background:url(http://resource.xiesange.com/image/xsg/add.png) no-repeat center center;
+}
+.prod-amount-bttn.minus{
+	margin-right:5px;
+	background:url(http://resource.xiesange.com/image/xsg/minus.png) no-repeat center center;
+} */
+
+/* .prod-amount-input{
+	IME-MODE: disabled;
+	float:left;
+	width:40px;
+	height:25px;
+	border:1px solid #c8c8c8;
+	margin-top:2px;
+	padding-right:3px;
+	font-size:1.2rem;
+	text-align:right;
+}
+.prod-amount-unit{
+	float:left;
+	line-height:32px;
+	padding:0px 2px;
+} */
+
+.prod-amount-bttn{
+	float: left;
+    width: 30px;
+    height: 22px;
+    line-height: 24px;
+    font-size: 17px;
+    color: #eb4f38;
+    text-align: center;
+}
+
+.prod-amount-set{
+	//margin-top:5px;
+	float:right;
+}
+.prod-amount-input{
+	float: left;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #c8c8c8;
+    /* margin-top: 2px; */
+    padding-right: 3px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+.prod-amount-unit{
+	float:left;
+	line-height:22px;
+	padding:0px 2px;
+	font-size: 0.9rem;
+}
+
+
+.promotion-block{
+	//padding-top: 3px;
+    //padding-bottom: 3px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.promotion-block .item{
+	//line-height:36px;
+}
+.promotion-block .is-matched{
+	float: right;
+    font-size: 0.8rem;
+    margin-right: 5px;
+   	margin-top: 2px;
+    padding: 0px 2px;
+    color: #FFF;
+    //line-height: 20px;
+    border-radius: 5px;
+    line-height: 22px;
+}
+.promotion-block .is-matched.true{
+    background-color: #fbab39;
+}
+.promotion-block .is-matched.false{
+    background-color: #cecece;
+}
+
+.pay-totalamount{
+	float:left;
+	padding: 10px 0px;
+}
+.pay-origsum{
+    padding: 10px 5px;
+    font-size:1.1rem;
+    background-color:#FFF;
+    text-align:right;
+	float:right;
+}
+
+.footbar-bttn-ok{
+	left:120px;
+}
+.footbar-bttn-cancel{
+	width:120px;
+	font-size:1rem;
+}
+
+.payitem-custinfo .dial {
+    float: right;
+    height: 18px;
+    width: 40px;
+    text-decoration:none;
+}

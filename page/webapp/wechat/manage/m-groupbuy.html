@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>发起团购</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="m-groupbuy.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg" onload="init()">
+<div class="titlebar fixed">发起团购</div>
+<div class="titleunder-body footbarbelow-body">
+
+<div class="groupbuy-intro-label">团购规则说明:</div>
+<div class="groupbuy-intro">
+	<textarea contenteditable="true" class="groupbuy-intro-input">
+	</textarea>
+</div>
+
+<div class="groupbuy-prodchoose-label" style="margin-top:20px;">请选择需要团购的产品:</div>
+<div class="groupbuy-product-list" style="margin-top:5px;"></div>
+</div>
+
+<div class="footbar fixed">
+	<div class="footbar-bttn-ok common-font fill">确 定</div>
+</div>
+
+<div id="_prod_item_temp" style="display:none" class="prod-item overflow-hidden">
+	<table border="0" cellspacing="1" cellpadding="1" style="width:100%">
+		<tr>
+			<td class="pic-td"><div class="prod-pic"></div></td>
+			<td class="rightpart detail-td">
+				<div class="prod-firstline">
+					<span class="prod-name"></span>
+					<span class="prod-spec"></span>
+				</div>
+				<div class="prod-summary"></div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<div class="separator_h" style="margin:10px 4px;"></div>
+				<span style="line-height: 22px;">
+					<span class="prod-price money-font"></span><span class="prod-unit money-font"></span>
+				</span>
+				<div class="right-part">
+					团购价:<input class="groupbuy-price item-input" type="tel"/>
+					<div class="prod-choose right-part"></div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+<script src="m-groupbuy.js" charset="UTF-8"></script>
+</html>

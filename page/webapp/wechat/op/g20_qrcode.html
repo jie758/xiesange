@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>【蟹三哥】专属二维码</title>
+    <link href="../../resource/style/common.min.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="g20.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jquery.qrcode.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+    <script src="g20.js"></script>
+</head>
+<body>
+	<BR/>
+	<div class="item">亲爱的<span id="name" class="xsg-color"></span></div>
+	<div class="mobile_20" style="display:none">
+		<div class="item">人品好就是幸福</div>
+		<div class="item">您的手机号<span class="mobile"></span></div>
+		<div class="item"><B>妥妥的可以享受八折优惠福利噢~</B></div>
+		</BR>
+		<div class="item">另外，您的专属二维码已经生成</div>
+		<div class="item">马上分享给您的朋友</div>
+		<div class="item">让他们通过您的专属二维码进入参与报名</div>
+		<div class="item"><span class="common-bg">人数达到20位，您便可再享受八折优惠</span></div>
+	</div>
+	<div class="mobile_no20" style="display:none">
+		<div class="item">人生总是需要点遗憾</div>
+		<div class="item">您的手机号<span class="mobile"></span>,不是20结尾</div>
+		<div class="item">所以无法享受尾号20的八折优惠福利噢~</div>
+		</BR>
+		<div class="item">不过,没关系</div>
+		<div class="item">马上分享给您的专属二维码</div>
+		<div class="item">让您的朋友扫描您的二维码参与报名</div>
+		<div class="item"><span class="common-bg">如果人数达到20位，您一样可再享受八折优惠</span></div>
+	</div>
+	<BR/>
+	<div class="qrcode"></div>
+	<div class="item"><span class="button share">立即分享</span></div>
+	<BR/>
+	<div class="votelistarea" style="display:none">
+		<div class="item votelist-tip">下方是已为您助威呐喊的小伙伴们</div>
+		<div class="separator_h" style="margin-top:5px"></div>
+		<BR/>
+		<div id="voteList">
+			<div class="item gray-font">目前还没有小伙伴来助您一臂之力噢~</div>
+			<div class="item gray-font">赶紧分享起来吧~</div>
+		</div>
+		<BR/>
+		<BR/>
+	</div
+</body>
+<script>
+$(function(){
+	initQRcodePage();
+});
+
+</script>
+</html>

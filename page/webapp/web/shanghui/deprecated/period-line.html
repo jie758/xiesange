@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商会战绩</title>
+<script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+<script src="Chart.bundle.js"></script>
+<script src="shanghui.js"></script>
+
+</head>
+<style>
+</style>
+<body>
+
+<canvas id="myChart" width="600" height="200"></canvas>
+
+
+</body>
+<script type="text/javascript">
+$(document).ready(function(e) {
+	var ctx = document.getElementById("myChart");
+	var flightInfo = getFlighting();
+	var labels = [];
+	var monthSum = {};
+	var memSum = {};
+	//var memFlightMap = {};
+	for(var i=0;i<flightInfo.length;i++){
+		var f = flightInfo[i];
+		
+		var date = f.date;
+		var dateitems = date.split("-");
+		var month = dateitems[0]+"-"+dateitems[1];
+		
+		
+		if(monthSum[month] === undefined){
+			monthSum[month] = 0;
+			labels.push(month);
+		}
+		
+		
+		var flightMembs = f.members;
+		
+		for(var key in membernames){
+			if(key == 'shui'){
+				continue;
+			}
+			var memInfo = membernames[key];
+			var sum = flightMembs[key] || 0;
+			if(memSum[key+"_"+month] === undefined){
+				memSum[key+"_"+month] = 0;
+				memInfo.data.push(0);
+			}
+			memInfo.data[memInfo.data.length-1] += sum;
+		}
+	}
+
+	var datasets = [];
+	for(var key in membernames){
+		if(key == 'shui'){
+			continue;
+		}
+		datasets.push({
+			label : membernames[key].name,
+			data:membernames[key].data,
+			fill : false,
+	        borderColor : membernames[key].color,
+	        backgroundColor : membernames[key].color,
+	        lineTension : 0,
+	        borderWidth: 1
+		});
+	}
+
+	Chart.defaults.global.title = "1";
+	var myChart = new Chart(ctx, {
+	    type: 'line',
+	    data: {
+	        labels: labels,
+	        datasets: datasets
+	    },
+	    options: {
+	    	title: {
+	            display: true,
+	            text: '商会月度战绩表'
+	        },
+	        scales: {
+	            yAxes: [{
+	                ticks: {
+	                    beginAtZero:true
+	                }
+	            }]
+	        }
+	    }
+	});
+});
+</script>
+<style>
+
+</style>
+</html>

@@ -1,0 +1,17 @@
+.article-list{
+	background-color:#FFF;
+	margin-top: 5px;
+	padding: 10px;
+}
+
+.article-item{
+	overflow:hidden;
+	line-height:40px;
+}
+
+.article-item .name{
+	float:left;
+}
+.article-item .date{
+	float:right;
+}

@@ -1,0 +1,286 @@
+
+.footbar-bttn-ok.pay{
+	left:100px;
+}
+.footbar-bttn-cancel.modify{
+	font-size:1rem;
+	display:none;
+}
+.pay-linkman{
+	margin-top:10px;
+}
+.pay-address{
+	margin-top:10px;
+	height:80px !important;
+}
+
+.pay-linkinfo{
+}
+
+.pay-tip{
+	font-size:0.9rem;
+	padding:5px;
+	
+}
+
+.pay-bargain{
+	margin-top:15px;
+	background-color:#FFF;
+	line-height:35px;
+	text-align:right;
+	padding-right:10px;
+	overflow:hidden;
+}
+.pay-bargain .checkbox-container{
+	height:35px;
+	width:35px;
+	float:left;
+	margin-left:5px;
+}
+.pay-coupon .checkbox-container{
+	height:22px;
+	width:30px;
+	float:left;
+}
+.pay-bargain .sum{
+	font-size:1.2rem;
+}
+.pay-coupon{
+	margin-top:15px;
+	background-color:#FFF;
+}
+.pay-coupon-tip{
+	width:100px;
+    padding: 5px;
+}
+.pay-coupon-tip .label{
+	float:left;
+	//line-height:22px;
+}
+.pay-coupon-value{
+	padding: 10px 5px;
+	text-align:right;
+}
+/* .pay-coupon-arrow{
+	width:30px;
+	background:url(http://resource.xiesange.com/image/sys/arrow.png?t=1) center center no-repeat;
+	background-size:16px 16px
+} */
+.pay-coupon-expiretime{
+	color:#c8c8c8;
+	font-size:.0.9rem;
+}
+.pay-totalsum{
+	overflow:hidden;
+	line-height:30px;
+}
+.pay-totalsum .order-status{
+    padding: 0px 0px;
+    font-size:1rem;
+}
+.pay-totalsum .origsum{
+    padding: 0px 0px;
+    font-size:1.1rem;
+    text-decoration:line-through;
+}
+.pay-totalsum .sum{
+    padding: 0px 0px;
+    font-size:1.1rem;
+    background-color:#FFF;
+}
+.pay-expresssum{
+    background-color:#FFF;
+    float:left;
+    font-size:0.9rem;
+}
+.pay-expressfee-tip{
+	margin-left:3px;
+	float:left;
+	font-size:0.9rem;
+}
+
+.pay-totalsum .sumpart{
+	float:right;
+}
+.pay-totalsum .sumpart .tip{
+	float:left;
+}
+.pay-totalsum .sumpart .sum{
+    padding: 0px 0px;
+    font-size:1.1rem;
+    background-color:#FFF;
+    float:left;
+}
+.pay-coupon-reduce{
+    padding: 0px 10px;
+    text-align:right;
+    font-size:1.1rem;
+}
+.pay-coupon-arrow{
+    width:15px;
+}
+.pay-coupon-expressfeetip{
+	font-size:0.9rem;
+	text-indent:5px;
+}
+.pay-temp-line{
+	padding:5px;
+	text-align:center;
+}
+.pay-temp-bg{
+	background-color:#FD9603;
+	color:#FFF;
+	padding:0px 10px;
+	margin-bottom: 5px;
+}
+.pay-temp-paysum{
+	font-size:1.3rem;
+}
+.pay-content{
+	margin-top: 15px;
+	padding: 0px 10px;
+	background-color: #FFF;
+}
+.pay-prodlist{
+	margin-bottom: 8px;
+	padding-top: 5px;
+}
+.payitem{
+	width:100%;
+	display:none;
+	overflow: hidden;
+	//padding:5px 0px;
+	line-height: 25px;
+}
+
+.payitem-prodname{
+	float:left;
+	color:#757575;
+}
+.payitem-amount{
+	//float:left;
+}
+.payitem-prodprice{
+	float:left;
+}
+.payitem-sum{
+	float:right;
+	text-align:right;
+	font-size:1.1rem;
+}
+.payitem-symbol{
+	margin: 0px 5px;
+}
+
+.pay-more-discount{
+	margin-top: 15px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.pay-goto-coupon{
+	text-align:right;
+}
+.pay-more-discount .goto-text{
+	text-decoration:underline;
+}
+
+.pay-goto-bargain{
+	margin-top:10px;
+	text-align:right;
+}
+
+.prod-table{
+	width:100%;
+}
+.prod-table .rightpart{
+	vertical-align:top;
+	padding-left:5px;
+}
+.prod-price .value{
+	font-size:1.2rem;
+}
+
+.prod-firstline{
+    line-height:25px;
+}
+.prod-sumline{
+    line-height:25px;
+}
+
+.prod-premise{
+	float:right;
+}
+.prod-summary{
+    height: 48px;
+    margin-top:8px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    line-height: 16px;
+    font-weight:bold;
+}
+.sale-amount{
+	float: left;
+}
+.prod-sum{
+    float: left;
+    font-size:1.3rem;
+}
+
+.promotion-block{
+	background-color:#FFF;
+	margin-top:15px;
+	padding-left:5px;
+}
+.coupon-detail{
+	padding-right:20px;
+	font-size:1.0rem !important;
+}
+
+.order-titleline{
+	padding:10px 5px 5px 5px;
+	font-size:0.9rem;
+	overflow: hidden;
+}
+
+/* .promotion-block .reduce-sum{
+	color:#36d210;
+}
+.promotion-block .item {
+	//padding:5px;
+}
+.promotion-block .coupon-area{
+	float:right;
+	font-size:1.1rem;
+}
+.promotion-block .coupon-area .coupon-reduce{
+	padding-right:5px;
+	font-size:1.1rem;
+}
+.promotion-block .coupon-area .coupon-text{
+	padding-right:20px;
+	font-size:1.1rem;
+}
+.promotion-block .coupon-area .coupon-text.use-tip{
+	font-size:0.9rem;
+	padding-right:0px;
+}
+.promotion-block .express-fee{
+	font-size:0.9rem;
+}
+.promotion-block .express-fee .tip{
+	margin-left:5px;
+}
+.promotion-block .express-fee .sum{
+	float:right;
+	padding-right:20px;
+	font-size:1.1rem;
+}
+
+.promotion-block .bargain{
+	margin-top:5px;
+}
+.promotion-block .expressfee{
+	margin-top:5px;
+	
+} */

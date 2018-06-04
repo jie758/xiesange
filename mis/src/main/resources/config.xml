@@ -1,0 +1,9 @@
+<root>
+	<!-- <config code="url" bean="com.mrcai.web.config.bean.ServiceCfgBean"/>
+	-->
+	<config code="global" bean="com.elsetravel.mis.configbean.GlobalConfigBean">
+		<attr code="system.id" value="2"/>
+	</config>
+	<config code="country" bean="com.elsetravel.baseweb.config.bean.CountryConfigBean"/>
+	<config code="notify" bean="com.elsetravel.baseweb.config.bean.NotifyConfigBean"/>
+</root>

@@ -1,0 +1,767 @@
+﻿<root>
+	<country name="中国" is_china="true" time_zone="0" code="CN" gcode="CN" zone="86">
+		<state name="北京" code="Beijing" />
+		<state name="天津" code="Tianjin" />
+		<state name="河北">
+			<city name="石家庄" code="Shijiazhuang" />
+			<city name="唐山" code="Tangshan" />
+			<city name="秦皇岛" code="Qinhuangdao" />
+			<city name="邯郸" code="Handan" />
+			<city name="邢台" code="Xingtai" />
+			<city name="保定" code="Baoding" />
+			<city name="张家口" code="Zhangjiakou" />
+			<city name="承德" code="Chengde" />
+			<city name="沧州" code="Cangzhou" />
+			<city name="廊坊" code="Langfang" />
+			<city name="衡水" code="Hengshui" />
+		</state>
+		<state name="山西">
+			<city name="太原" code="Taiyuan" />
+			<city name="大同" code="Datong" />
+			<city name="阳泉" code="Yangquan" />
+			<city name="长治" code="Zhangzhi" />
+			<city name="晋城" code="Jincheng" />
+			<city name="朔州" code="Shuozhou" />
+			<city name="晋中" code="Jinzhong" />
+			<city name="运城" code="Yuncheng" />
+			<city name="忻州" code="Xinzhou" />
+			<city name="临汾" code="Linfen" />
+			<city name="吕梁" code="Lu:liang" />
+		</state>
+		<state name="内蒙古">
+			<city name="呼和浩特" code="Huhehaote" />
+			<city name="包头" code="Baotou" />
+			<city name="乌海" code="Wuhai" />
+			<city name="赤峰" code="Chifeng" />
+			<city name="通辽" code="Tongliao" />
+			<city name="鄂尔多斯" code="Eerduosi" />
+			<city name="呼伦贝尔" code="Hulunbeier" />
+			<city name="巴彦淖尔" code="Bayannaoer" />
+			<city name="乌兰察布" code="Wulanchabu" />
+			<city name="兴安" code="Xingan" />
+			<city name="锡林郭勒" code="Xilinguole" />
+			<city name="阿拉善" code="Alashan" />
+		</state>
+		<state name="辽宁">
+			<city name="沈阳" code="Shenyang" />
+			<city name="大连" code="Dalian" />
+			<city name="鞍山" code="Anshan" />
+			<city name="抚顺" code="Fushun" />
+			<city name="本溪" code="Benxi" />
+			<city name="丹东" code="Dandong" />
+			<city name="锦州" code="Jinzhou" />
+			<city name="营口" code="Yingkou" />
+			<city name="阜新" code="Fuxin" />
+			<city name="辽阳" code="Liaoyang" />
+			<city name="盘锦" code="Panjin" />
+			<city name="铁岭" code="Tieling" />
+			<city name="朝阳" code="Chaoyang" />
+			<city name="葫芦岛" code="Huludao" />
+		</state>
+		<state name="吉林">
+			<city name="长春" code="Zhangchun" />
+			<city name="吉林" code="Jilin" />
+			<city name="四平" code="Siping" />
+			<city name="辽源" code="Liaoyuan" />
+			<city name="通化" code="Tonghua" />
+			<city name="白山" code="Baishan" />
+			<city name="松原" code="Songyuan" />
+			<city name="白城" code="Baicheng" />
+			<city name="延边" code="Yanbian" />
+		</state>
+		<state name="黑龙江">
+			<city name="哈尔滨" code="Haerbin" />
+			<city name="齐齐哈尔" code="Qiqihaer" />
+			<city name="鸡西" code="Jixi" />
+			<city name="鹤岗" code="Hegang" />
+			<city name="双鸭山" code="Shuangyashan" />
+			<city name="大庆" code="Daqing" />
+			<city name="伊春" code="Yichun" />
+			<city name="佳木斯" code="Jiamusi" />
+			<city name="七台河" code="Qitaihe" />
+			<city name="牡丹江" code="Mudanjiang" />
+			<city name="黑河" code="Heihe" />
+			<city name="绥化" code="Suihua" />
+			<city name="大兴安岭" code="Daxinganling" />
+		</state>
+		<state name="上海" code="Shanghai" />
+		<state name="江苏">
+			<city name="南京" code="Nanjing" />
+			<city name="无锡" code="Wuxi" />
+			<city name="徐州" code="Xuzhou" />
+			<city name="常州" code="Changzhou" />
+			<city name="苏州" code="Suzhou" />
+			<city name="南通" code="Nantong" />
+			<city name="连云港" code="Lianyungang" />
+			<city name="淮安" code="Huaian" />
+			<city name="盐城" code="Yancheng" />
+			<city name="扬州" code="Yangzhou" />
+			<city name="镇江" code="Zhenjiang" />
+			<city name="泰州" code="Taizhou" />
+			<city name="宿迁" code="Suqian" />
+		</state>
+		<state name="浙江">
+			<city name="杭州" code="Hangzhou" />
+			<city name="宁波" code="Ningbo" />
+			<city name="温州" code="Wenzhou" />
+			<city name="嘉兴" code="Jiaxing" />
+			<city name="湖州" code="Huzhou" />
+			<city name="绍兴" code="Shaoxing" />
+			<city name="金华" code="Jinhua" />
+			<city name="衢州" code="Quzhou" />
+			<city name="舟山" code="Zhoushan" />
+			<city name="台州" code="Taizhou" />
+			<city name="丽水" code="Lishui" />
+		</state>
+		<state name="安徽">
+			<city name="合肥" code="Hefei" />
+			<city name="蚌埠" code="Bangbu" />
+			<city name="芜湖" code="Wuhu" />
+			<city name="淮南" code="Huainan" />
+			<city name="马鞍山" code="Maanshan" />
+			<city name="安庆" code="Anqing" />
+			<city name="淮北" code="Huaibei" />
+			<city name="铜陵" code="Tongling" />
+			<city name="黄山" code="Huangshan" />
+			<city name="滁州" code="Chuzhou" />
+			<city name="阜阳" code="Fuyang" />
+			<city name="宿州" code="Suzhou" />
+			<city name="六安" code="Liuan" />
+			<city name="亳州" code="Bozhou" />
+			<city name="池州" code="Chizhou" />
+			<city name="宣城" code="Xuancheng" />
+			<city name="巢湖" code="Chaohu" />
+		</state>
+		<state name="福建">
+			<city name="福州" code="Fuzhou" />
+			<city name="厦门" code="Xiamen" />
+			<city name="莆田" code="Putian" />
+			<city name="三明" code="Sanming" />
+			<city name="泉州" code="Quanzhou" />
+			<city name="漳州" code="Zhangzhou" />
+			<city name="南平" code="Nanping" />
+			<city name="龙岩" code="Longyan" />
+			<city name="宁德" code="Ningde" />
+		</state>
+		<state name="江西">
+			<city name="南昌" code="Nanchang" />
+			<city name="景德镇" code="Jingdezhen" />
+			<city name="萍乡" code="Pingxiang" />
+			<city name="九江" code="Jiujiang" />
+			<city name="新余" code="Xinyu" />
+			<city name="鹰潭" code="Yingtan" />
+			<city name="赣州" code="Ganzhou" />
+			<city name="吉安" code="Jian" />
+			<city name="宜春" code="Yichun" />
+			<city name="抚州" code="Fuzhou" />
+			<city name="上饶" code="Shangrao" />
+		</state>
+		<state name="山东">
+			<city name="济南" code="Jinan" />
+			<city name="青岛" code="Qingdao" />
+			<city name="淄博" code="Zibo" />
+			<city name="枣庄" code="Zaozhuang" />
+			<city name="东营" code="Dongying" />
+			<city name="烟台" code="Yantai" />
+			<city name="潍坊" code="Weifang" />
+			<city name="济宁" code="Jining" />
+			<city name="泰安" code="Taian" />
+			<city name="威海" code="Weihai" />
+			<city name="日照" code="Rizhao" />
+			<city name="莱芜" code="Laiwu" />
+			<city name="临沂" code="Linyi" />
+			<city name="德州" code="Dezhou" />
+			<city name="聊城" code="Liaocheng" />
+			<city name="滨州" code="Binzhou" />
+			<city name="菏泽" code="Heze" />
+		</state>
+		<state name="河南">
+			<city name="郑州" code="Zhengzhou" />
+			<city name="开封" code="Kaifeng" />
+			<city name="洛阳" code="Luoyang" />
+			<city name="平顶山" code="Pingdingshan" />
+			<city name="安阳" code="Anyang" />
+			<city name="鹤壁" code="Hebi" />
+			<city name="新乡" code="Xinxiang" />
+			<city name="焦作" code="Jiaozuo" />
+			<city name="濮阳" code="Puyang" />
+			<city name="许昌" code="Xuchang" />
+			<city name="漯河" code="Luohe" />
+			<city name="三门峡" code="Sanmenxia" />
+			<city name="南阳" code="Nanyang" />
+			<city name="商丘" code="Shangqiu" />
+			<city name="信阳" code="Xinyang" />
+			<city name="周口" code="Zhoukou" />
+			<city name="驻马店" code="Zhumadian" />
+			<city name="济源" code="Jiyuan" />
+		</state>
+		<state name="湖北">
+			<city name="武汉" code="Wuhan" />
+			<city name="黄石" code="Huangshi" />
+			<city name="十堰" code="Shiyan" />
+			<city name="宜昌" code="Yichang" />
+			<city name="襄阳" code="Xiangyang" />
+			<city name="鄂州" code="Ezhou" />
+			<city name="荆门" code="Jingmen" />
+			<city name="孝感" code="Xiaogan" />
+			<city name="荆州" code="Jingzhou" />
+			<city name="黄冈" code="Huanggang" />
+			<city name="咸宁" code="Xianning" />
+			<city name="随州" code="Suizhou" />
+			<city name="恩施" code="Enshi" />
+			<city name="仙桃" code="Xiantao" />
+			<city name="潜江" code="Qianjiang" />
+			<city name="天门" code="Tianmen" />
+			<city name="神农架" code="Shennongjia" />
+		</state>
+		<state name="湖南">
+			<city name="长沙" code="Changsha" />
+			<city name="株洲" code="Zhuzhou" />
+			<city name="湘潭" code="Xiangtan" />
+			<city name="衡阳" code="Hengyang" />
+			<city name="邵阳" code="Shaoyang" />
+			<city name="岳阳" code="Yueyang" />
+			<city name="常德" code="Changde" />
+			<city name="张家界" code="Zhangjiajie" />
+			<city name="益阳" code="Yiyang" />
+			<city name="郴州" code="Chenzhou" />
+			<city name="永州" code="Yongzhou" />
+			<city name="怀化" code="Huaihua" />
+			<city name="娄底" code="Loudi" />
+			<city name="湘西" code="Xiangxi" />
+		</state>
+		<state name="广东">
+			<city name="广州" code="Guangzhou" />
+			<city name="韶关" code="Shaoguan" />
+			<city name="深圳" code="Shenzhen" />
+			<city name="珠海" code="Zhuhai" />
+			<city name="汕头" code="Shantou" />
+			<city name="佛山" code="Foshan" />
+			<city name="江门" code="Jiangmen" />
+			<city name="湛江" code="Zhanjiang" />
+			<city name="茂名" code="Maoming" />
+			<city name="肇庆" code="Zhaoqing" />
+			<city name="惠州" code="Huizhou" />
+			<city name="梅州" code="Meizhou" />
+			<city name="汕尾" code="Shanwei" />
+			<city name="河源" code="Heyuan" />
+			<city name="阳江" code="Yangjiang" />
+			<city name="清远" code="Qingyuan" />
+			<city name="东莞" code="Dongguan" />
+			<city name="中山" code="Zhongshan" />
+			<city name="潮州" code="Chaozhou" />
+			<city name="揭阳" code="Jieyang" />
+			<city name="云浮" code="Yunfu" />
+		</state>
+		<state name="广西">
+			<city name="南宁" code="Nanning" />
+			<city name="柳州" code="Liuzhou" />
+			<city name="桂林" code="Guilin" />
+			<city name="梧州" code="Wuzhou" />
+			<city name="北海" code="Beihai" />
+			<city name="防城港" code="Fangchenggang" />
+			<city name="钦州" code="Qinzhou" />
+			<city name="贵港" code="Guigang" />
+			<city name="玉林" code="Yulin" />
+			<city name="百色" code="Baise" />
+			<city name="贺州" code="Hezhou" />
+			<city name="河池" code="Hechi" />
+			<city name="来宾" code="Laibin" />
+			<city name="崇左" code="Chongzuo" />
+		</state>
+		<state name="海南">
+			<city name="海口" code="Haikou" />
+			<city name="三亚" code="Sanya" />
+			<city name="三沙" code="Sansha" />
+			<city name="五指山" code="Wuzhishan" />
+			<city name="琼海" code="Qionghai" />
+			<city name="儋州" code="Danzhou" />
+			<city name="文昌" code="Wenchang" />
+			<city name="万宁" code="Wanning" />
+			<city name="东方" code="Dongfang" />
+			<city name="定安" code="Dingan" />
+			<city name="屯昌" code="Tunchang" />
+			<city name="澄迈" code="Chengmai" />
+			<city name="临高" code="Lingao" />
+			<city name="白沙" code="Baisha" />
+			<city name="昌江" code="Changjiang" />
+			<city name="乐东" code="Ledong" />
+			<city name="陵水" code="Lingshui" />
+			<city name="保亭" code="Baoting" />
+			<city name="琼中" code="Qiongzhong" />
+		</state>
+		<state name="重庆" code="Zhongqing" />
+		<state name="四川">
+			<city name="成都" code="Chengdou" />
+			<city name="自贡" code="Zigong" />
+			<city name="攀枝花" code="Panzhihua" />
+			<city name="泸州" code="Luzhou" />
+			<city name="德阳" code="Deyang" />
+			<city name="绵阳" code="Mianyang" />
+			<city name="广元" code="Guangyuan" />
+			<city name="遂宁" code="Suining" />
+			<city name="内江" code="Neijiang" />
+			<city name="乐山" code="Leshan" />
+			<city name="南充" code="Nanchong" />
+			<city name="眉山" code="Meishan" />
+			<city name="宜宾" code="Yibin" />
+			<city name="广安" code="Guangan" />
+			<city name="达州" code="Dazhou" />
+			<city name="雅安" code="Yaan" />
+			<city name="巴中" code="Bazhong" />
+			<city name="资阳" code="Ziyang" />
+			<city name="阿坝" code="Aba" />
+			<city name="甘孜" code="Ganzi" />
+			<city name="凉山" code="Liangshan" />
+		</state>
+		<state name="贵州">
+			<city name="贵阳" code="Guiyang" />
+			<city name="六盘水" code="Liupanshui" />
+			<city name="遵义" code="Zunyi" />
+			<city name="安顺" code="Anshun" />
+			<city name="铜仁" code="Tongren" />
+			<city name="黔西南" code="Qianxinan" />
+			<city name="毕节" code="Bijie" />
+			<city name="黔东南" code="Qiandongnan" />
+			<city name="黔南" code="Qiannan" />
+		</state>
+		<state name="云南">
+			<city name="昆明" code="Kunming" />
+			<city name="曲靖" code="Qujing" />
+			<city name="玉溪" code="Yuxi" />
+			<city name="保山" code="Baoshan" />
+			<city name="昭通" code="Zhaotong" />
+			<city name="丽江" code="Lijiang" />
+			<city name="普洱" code="Puer" />
+			<city name="临沧" code="Lincang" />
+			<city name="楚雄" code="Chuxiong" />
+			<city name="红河" code="Honghe" />
+			<city name="文山" code="Wenshan" />
+			<city name="西双版纳" code="Xishuangbanna" />
+			<city name="大理" code="Dali" />
+			<city name="德宏" code="Dehong" />
+			<city name="怒江" code="Nujiang" />
+			<city name="迪庆" code="Diqing" />
+		</state>
+		<state name="西藏">
+			<city name="拉萨" code="Lasa" />
+			<city name="昌都" code="Changdou" />
+			<city name="山南" code="Shannan" />
+			<city name="日喀则" code="Rikaze" />
+			<city name="那曲" code="Neiqu" />
+			<city name="阿里" code="Ali" />
+			<city name="林芝" code="Linzhi" />
+		</state>
+		<state name="陕西">
+			<city name="西安" code="Xian" />
+			<city name="铜川" code="Tongchuan" />
+			<city name="宝鸡" code="Baoji" />
+			<city name="咸阳" code="Xianyang" />
+			<city name="渭南" code="Weinan" />
+			<city name="延安" code="Yanan" />
+			<city name="汉中" code="Hanzhong" />
+			<city name="榆林" code="Yulin" />
+			<city name="安康" code="Ankang" />
+			<city name="商洛" code="Shangluo" />
+		</state>
+		<state name="甘肃">
+			<city name="兰州" code="Lanzhou" />
+			<city name="嘉峪关" code="Jiayuguan" />
+			<city name="金昌" code="Jinchang" />
+			<city name="白银" code="Baiyin" />
+			<city name="天水" code="Tianshui" />
+			<city name="武威" code="Wuwei" />
+			<city name="张掖" code="Zhangye" />
+			<city name="平凉" code="Pingliang" />
+			<city name="酒泉" code="Jiuquan" />
+			<city name="庆阳" code="Qingyang" />
+			<city name="定西" code="Dingxi" />
+			<city name="陇南" code="Longnan" />
+			<city name="临夏" code="Linxia" />
+			<city name="甘南" code="Gannan" />
+		</state>
+		<state name="青海">
+			<city name="西宁" code="Xining" />
+			<city name="海东" code="Haidong" />
+			<city name="海北" code="Haibei" />
+			<city name="黄南" code="Huangnan" />
+			<city name="海南" code="Hainan" />
+			<city name="果洛" code="Guoluo" />
+			<city name="玉树" code="Yushu" />
+			<city name="海西" code="Haixi" />
+		</state>
+		<state name="宁夏">
+			<city name="银川" code="Yinchuan" />
+			<city name="石嘴山" code="Shizuishan" />
+			<city name="吴忠" code="Wuzhong" />
+			<city name="固原" code="Guyuan" />
+			<city name="中卫" code="Zhongwei" />
+		</state>
+		<state name="新疆">
+			<city name="乌鲁木齐" code="Wulumuqi" />
+			<city name="克拉玛依" code="Kelamayi" />
+			<city name="吐鲁番" code="Tulufan" />
+			<city name="哈密" code="Hami" />
+			<city name="昌吉" code="Changji" />
+			<city name="博尔塔拉" code="Boertala" />
+			<city name="巴音郭楞" code="Bayinguoleng" />
+			<city name="阿克苏" code="Akesu" />
+			<city name="克孜勒苏" code="Kezilesu" />
+			<city name="喀什" code="Kashen" />
+			<city name="和田" code="Hetian" />
+			<city name="伊犁" code="Yili" />
+			<city name="塔城" code="Tacheng" />
+			<city name="阿勒泰" code="Aletai" />
+			<city name="石河子" code="Shihezi" />
+			<city name="阿拉尔" code="Alaer" />
+			<city name="图木舒克" code="Tumushuke" />
+			<city name="五家渠" code="Wujiaqu" />
+			<city name="北屯" code="Beitun" />
+		</state>
+		<state name="台湾">
+			<city name="台北市" code="Taipei City" />
+			<city name="高雄市" code="Kaohsiung City" />
+			<city name="基隆市" code="Keelung City" />
+			<city name="台中市" code="Taichung City" />
+			<city name="台南市" code="Tainan City" />
+			<city name="新竹市" code="Hsinchu City" />
+			<city name="嘉义市" code="Chiayi City" />
+			<city name="台北县" code="Taipei" />
+			<city name="宜兰县" code="Yilan County" />
+			<city name="桃园县" code="Taoyuan City" />
+			<city name="新竹县" code="Hsinchu County" />
+			<city name="苗栗县" code="Miaoli County" />
+			<city name="台中县" code="Tai Zhong" />
+			<city name="彰化县" code="Changhua County" />
+			<city name="南投县" code="Nantou County" />
+			<city name="云林县" code="Yunlin County" />
+			<city name="嘉义县" code="Chiayi County" />
+			<city name="屏东县" code="Pingtung County" />
+			<city name="台东县" code="Taitung County" />
+			<city name="花莲县" code="Hualien County" />
+			<city name="澎湖县" code="Penghu County" />
+		</state>
+		<state name="香港" code="HK" />
+		<state name="澳门" code="MO" />
+	</country>
+	<country name="英国" time_zone="-8" code="GB" gcode="GB" zone="44">
+		<state name="北爱尔兰" code="IE">
+			<city name="伦敦" code="London" />
+			<city name="牛津" code="Oxford" />
+			<city name="爱丁堡" code="Edinburgh" />
+			<city name="格拉斯哥" code="Glasgow" />
+			<city name="巴斯" code="Bath" />
+			<city name="伯明翰" code="Birmingham" />
+			<city name="剑桥" code="Cambridge" />
+			<city name="达勒姆" code="Durham" />
+			<city name="利物浦" code="Liverpool" />
+			<city name="谢菲尔德" code="Sheffield" />
+			<city name="诺里奇" code="Norwich" />
+			<city name="布莱顿与赫福" code="Brighton" />
+			<city name="考文垂" code="Coventry" />
+			<city name="利奇菲尔德" code="Lichfield" />
+			<city name="约克" code="York" />
+			
+			<city name="德比" code="Derby" />
+			<city name="格洛斯特" code="Gloucester" />
+			<city name="赫尔河畔金斯顿" code="Hull" />
+			<city name="赫里福德" code="Hereford" />
+			<city name="卡莱尔" code="Carlisle" />
+			<city name="坎特伯雷" code="Canterbury" />
+			<city name="兰开斯特" code="Lancaster" />
+			<city name="里彭" code="Ripon" />
+			<city name="阿伯丁" code="Aberdeen" />
+			<city name="温彻斯特" code="Winchester" />
+		</state>
+	</country>
+	<country name="法国" code="FR" gcode="FR" time_zone="-7" zone="33">
+		<state>
+			<city name="巴黎" code="Paris" />
+			<city name="阿尔勒" code="Arles" />
+			<city name="阿雅克肖" code="Ajaccio" />
+			<city name="艾克斯" code="Aix" />
+			<city name="奥尔良" code="Orléans" />
+			<city name="贝桑松" code="Besan?on" />
+			<city name="第戎" code="Dijon" />
+			<city name="弗雷瑞斯" code="Fréjus" />
+			<city name="卡昂" code="Caen" />
+			<city name="雷恩" code="Rennes" />
+			<city name="里昂" code="Lyon" />
+			<city name="里尔" code="Lille" />
+			<city name="利摩日" code="Limoges" />
+			<city name="鲁昂" code="Rouen" />
+			<city name="马赛" code="Marseille" />
+			<city name="梅斯" code="Metz" />
+			<city name="蒙彼利埃" code="Montpellier" />
+			<city name="南特" code="Nantes" />
+			<city name="尼斯" code="Nice" />
+			<city name="沙隆" code="Chalon" />
+			<city name="图卢兹" code="Toulouse" />
+			<city name="瓦朗斯" code="Valence" />
+			<city name="亚眠" code="Amiens" />
+		</state>
+	</country>
+	<country name="荷兰" code="NL" gcode="NL" time_zone="-7" zone="31">
+		<state>
+			<city name="阿姆斯特丹" code="Amsterdam" />
+			<city name="乌得勒支" code="Utrecht" />
+			<city name="阿尔梅勒" code="Almere" />
+			<city name="阿默斯福特" code="Amersfoort" />
+			<city name="阿纳姆" code="Arnhem" />
+			<city name="阿珀尔多伦" code="Apeldoorn" />
+			<city name="阿森" code="Assen" />
+			<city name="埃德" code="Ede" />
+			<city name="埃门" code="Emmen" />
+			<city name="埃因霍芬" code="Eindhoven" />
+			<city name="布雷达" code="Breda" />
+			<city name="蒂尔堡" code="Tilburg" />
+			<city name="多德雷赫特" code="Dordrecht" />
+			<city name="恩斯赫德" code="Enschede" />
+			<city name="格罗宁根" code="Groningen" />
+			<city name="哈勒姆" code="Haarlem" />
+			<city name="海牙" code="The Hague" />
+			<city name="霍夫多普" code="Hoofddorp" />
+			<city name="莱顿" code="Leiden" />
+			<city name="莱利斯塔德" code="Lelystad" />
+			<city name="鹿特丹" code="Rotterdam" />
+			<city name="吕伐登" code="Leeuwarden" />
+			<city name="马斯特里赫特" code="Maastricht" />
+			<city name="米德尔堡" code="Middelburg" />
+			<city name="奈梅亨" code="Nijmegen" />
+			<city name="斯海尔托亨博思" code="'s-Hertogenbosch" />
+			<city name="兹沃勒" code="Zwolle" />
+		</state>
+	</country>
+	<country name="韩国" code="KR" gcode="KR" time_zone="1" zone="82">
+		<state>
+			<city name="首尔" code="Seoul" />
+			<city name="釜山" code="Busan" />
+			<city name="大邱" code="Daegu" />
+			<city name="济州岛" />
+			<city name="大田" code="Daejeon" />
+			<city name="光州" code="Gwangju" />
+		</state>
+	</country>
+	<country name="马来西亚" code="MY" gcode="MY" time_zone="0" zone="60">
+		<state>
+			<city name="吉隆坡" code="Kuala Lumpur" />
+			<city name="马六甲市" code="Malacca" />
+			<city name="槟城" code="George Town" />
+			<city name="怡保" code="Ipoh" />
+			<city name="新山" code="Johor Bahru" />
+			<city name="沙巴" code="Sabah" />
+		</state>
+	</country>
+	<country name="美国" code="US" gcode="US" time_zone="-13" zone="1">
+		<state>
+			<city name="华盛顿" code="Washington" />
+			<city name="纽约" code="New York" />
+			<city name="洛杉矶" code="Los Angeles" />
+			<city name="芝加哥" code="Chicago" />
+			<city name="波士顿" code="Boston" />
+			<city name="亚特兰大" code="Atlanta" />
+			<city name="旧金山" code="SF" />
+			<city name="兰辛" code="Lansing" />
+		</state>
+	</country>
+	<country name="西班牙" code="ES" gcode="ES" time_zone="-7" zone="34">
+		<state>
+			<city name="马德里" code="Madrid" />
+			<city name="巴塞罗那" code="Barcelona" />
+			<city name="塞维利亚" code="Seville" />
+		</state>
+	</country>
+	<country name="新加坡" code="SG" gcode="SG" time_zone="0" zone="65"></country>
+	<country name="新西兰" code="NZ" gcode="NZ" time_zone="-5" zone="64">
+		<state>
+			<city name="奥克兰" code="Auckland" />
+		</state>
+	</country>
+	<country name="匈牙利" code="HU" gcode="HU" time_zone="-7" zone="36">
+		<state>
+			<city name="布达佩斯" code="Budapest" />
+		</state>
+	</country>
+	<country name="意大利" code="IT" gcode="IT" time_zone="-7" zone="39">
+		<state>
+			<city name="罗马" code="Rome" />
+			<city name="米兰" code="Milan" />
+			<city name="威尼斯" code="Venice" />
+			<city name="佛罗伦萨" code="Florence" />
+		</state>
+	</country>
+	<country name="印度尼西亚" code="ID" gcode="ID" time_zone="-1" zone="62">
+		<state>
+			<city name="巴厘" code="Bali Sea"/>
+			<city name="雅加达" code="Jakarta"/>
+		</state>
+	</country>
+	<country name="澳大利亚" code="AU" gcode="AU" time_zone="+3" zone="61">
+		<state>
+			<city name="堪培拉" code="Canberra" />
+			<city name="墨尔本" code="Melbourne"/>
+			<city name="悉尼" code="Sydney"/>
+			<city name="黄金海岸" code="Gold Coast"/>
+			<city name="凯恩斯" code="Cairns" />
+		</state>
+	</country>
+	<country name="奥地利" code="AT" gcode="AT" time_zone="-7" zone="43">
+		<state>
+			<city name="维也纳" code="Vienna" />
+		</state>
+	</country>
+	<country name="比利时" code="BE" gcode="BE" time_zone="-7" zone="32">
+		<state>
+			<city name="布鲁塞尔" code="Brussels" />
+		</state>
+	</country>
+	<country name="波兰" code="PL" gcode="PL" time_zone="-7" zone="48">
+		<state>
+			<city name="华沙" code="Warsaw" />
+		</state>
+	</country>
+	<country name="丹麦" code="DK" gcode="DK" time_zone="-7" zone="45">
+		<state>
+			<city name="哥本哈根" code="Copenhagen" />
+		</state>
+	</country>
+	<country name="德国" code="DE" gcode="DE" time_zone="-7" zone="49">
+		<state>
+			<city name="柏林" code="Berlin" />
+			<city name="波茨坦" code="P" />
+			<city name="汉诺威" code="Hanover" />
+			<city name="法兰克福" code="Frankfurt" />
+			<city name="慕尼黑" code="M" />
+			<city name="不伦瑞克" code="BS" />
+		</state>
+	</country>
+	<country name="瑞士" code="CH" gcode="CH" time_zone="-7" zone="41">
+		<state>
+			<city name="苏黎世" code="Zürich"/>
+		</state>
+	</country>
+	<country name="捷克共和国" code="CZ" gcode="CZ" time_zone="-7" zone="420">
+		<state>
+			<city name="布拉格" code="Prague"/>
+		</state>
+	</country>
+	<country name="瑞典" code="SE" gcode="SE" time_zone="-7" zone="46">
+		<state>
+			<city name="斯德哥尔摩" code="Stockholm"/>
+		</state>
+	</country>
+	<country name="挪威" code="NO" gcode="NO" time_zone="-7" zone="47">
+		<state>
+			<city name="阿克什胡斯" code="Akershus" />
+			<city name="奥普兰" code="Oppland" />
+			<city name="奥斯陆市" code="Oslo" />
+			<city name="北特伦德拉格" code="Nord-Trondelag" />
+			<city name="布斯克吕" code="Buskerud" />
+			<city name="东阿格德尔" code="Aust-Agder" />
+			<city name="东福尔" code="Ostfold" />
+			<city name="芬马克" code="Finnmark" />
+			<city name="海德马克" code="Hedmark" />
+			<city name="霍达兰" code="Hordaland" />
+			<city name="罗加兰" code="Rogaland" />
+			<city name="南特伦德拉格" code="Sor-Trondelag" />
+			<city name="诺尔兰" code="Nordland" />
+			<city name="松恩－菲尤拉讷" code="Sogn og Fjordane" />
+			<city name="泰勒马克" code="Telemark" />
+			<city name="特罗姆斯" code="Troms" />
+			<city name="西阿格德尔" code="Vest-Agder" />
+			<city name="西福尔" code="Vestfold" />
+		</state>
+	</country>
+	<country name="希腊" code="GR" gcode="GR" time_zone="-6" zone="30">
+		<state>
+			<city name="雅典" code="Athens" />
+			<city name="比雷埃夫斯" code="Piraeus" />
+			<city name="多德卡尼斯" code="Lesbos" />
+			<city name="干尼亚" code="Chania" />
+			<city name="拉西锡" code="Lasithi" />
+			<city name="雷西姆农" code="Rethimno" />
+			<city name="萨摩斯" code="Samos" />
+			<city name="伊拉克里翁" code="Heraklion" />
+		</state>
+	</country>
+	<country name="巴西" code="BR" gcode="BR" time_zone="-11" zone="55">
+		<state>
+			<city name="圣保罗" code="São Paulo" />
+			<city name="里约热内卢" code="Rio de Janeiro" />
+		</state>
+	</country>
+	<country name="日本" code="JP" gcode="JP" time_zone="+1" zone="81">
+		<state>
+			<city name="爱媛" code="Ehime Prefecture" />
+			<city name="爱知" code="Aichi Prefecture" />
+			<city name="北海道" code="Hokkaido Prefecture" />
+			<city name="兵库" code="Hyogo Prefecture" />
+			<city name="冲绳" code="Okinawa Prefecture" />
+			<city name="茨城" code="Ibaraki Prefecture" />
+			<city name="大阪" code="Osaka" />
+			<city name="大分" code="Oita" />
+			<city name="岛根" code="Shimane Prefecture" />
+			<city name="东京" code="Tokyo" />
+			<city name="福岛" code="Fukushima Prefecture" />
+			<city name="福冈" code="Fukuoka" />
+			<city name="福井" code="Fukui" />
+			<city name="富山" code="Toyama" />
+			<city name="冈山" code="Okayama" />
+			<city name="高知" code="Kochi" />
+			<city name="宫崎" code="Miyazaki" />
+			<city name="广岛" code="Hiroshima" />
+			<city name="和歌山" code="Wakayama" />
+			<city name="京都" code="Kyoto" />
+			<city name="静冈" code="Shizuoka" />
+			<city name="枥木" code="Tochigi Prefecture" />
+			<city name="鹿儿岛" code="Kagoshima" />
+			<city name="奈良" code="Nara" />
+			<city name="鸟取" code="Tottori" />
+			<city name="岐阜" code="Gifu" />
+			<city name="千叶" code="Chiba" />
+			<city name="青森" code="Aomori" />
+			<city name="秋田" code="Akita" />
+			<city name="神奈川" code="Kanagawa Prefecture" />
+			<city name="石川" code="Ishikawa Prefecture" />
+			<city name="香川" code="Kagawa Prefecture" />
+			<city name="熊本" code="Kumamoto" />
+			<city name="岩手" code="Iwate Prefecture" />
+			<city name="长崎" code="Nagasaki" />
+			<city name="长野" code="Nagano" />
+			<city name="滋贺" code="Shiga Prefecture" />
+			<city name="佐贺" code="Saga" />
+		</state>
+	</country>
+	<country name="葡萄牙" code="PT" gcode="PT" time_zone="-8" zone="351">
+		<state>
+			<city name="里斯本" code="Lisbon" />
+		</state>
+	</country>
+	<country name="泰国" code="TH" gcode="TH" time_zone="+1" zone="66">
+		<state>
+			<city name="北碧" code="จ.กาญจนบุรี" />
+			<city name="大城" code="จ.พระนครศรีอยุธยา" />
+			<city name="曼谷" code="กทม" />
+			<city name="普吉" code="จ.ภูเก็ต" />
+			<city name="清莱" code="จ.เชียงราย" />
+			<city name="清迈" code="Chiang Mai" />
+		</state>
+	</country>
+	<country name="芬兰" code="FI" gcode="FI" time_zone="-6" zone="358">
+		<state>
+			<city name="埃斯波" code="Espoo" />
+			<city name="赫尔辛基" code="HKI" />
+		</state>
+	</country>
+	
+	<country code="CAN" name="加拿大" gcode="CA" zone="1">
+		<state code="" name="" gcode="">
+			<city code="Toronto" name="多伦多"/>
+			<city code="Québec City" name="魁北克"/>
+			<city code="Vancouver" name="温哥华"/>
+			<city code="Winston-Salem" name="温莎"/>
+			<city code="Ottawa" name="渥太华"/>
+			<city code="Iqaluit" name="伊魁特"/>
+		</state>
+	</country>
+</root>

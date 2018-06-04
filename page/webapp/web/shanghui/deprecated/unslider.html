@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<META content="telephone=no" name="format-detection" />
+<title>商会战绩</title>
+<script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+<script src="../../resource/js/3rd/jquery.event.move.js"></script>
+<script src="../../resource/js/3rd/jquery.event.swipe.js"></script>
+<script src="../../resource/js/3rd/unslider-min.js"></script>
+
+<link rel="stylesheet" href="../../resource/style/unslider/unslider.css">
+<link rel="stylesheet" href="../../resource/style/unslider/unslider-dots.css">
+<link rel="stylesheet" href="../../wechat/xiesange.css">
+
+</head>
+<style>
+
+/* li{
+background-size:100% 100%;
+}
+
+.li-1{
+
+background-image:url(http://resource.xiesange.com/image/prod/new/suozixie.jpg);
+
+}
+.li-2{
+background-image:url(http://resource.xiesange.com/image/prod/new/xiaohuangyu.jpg);
+}
+.li-3{
+background-image:url(http://resource.xiesange.com/image/prod/new/changyu.jpg);
+}
+.li-4{
+background-image:url(http://resource.xiesange.com/image/prod/new/daiyu.jpg);
+}
+.li-5{
+background-image:url(http://resource.xiesange.com/image/prod/new/huopixia.jpg);
+} */
+.slider-container{
+	width:300px;
+}
+</style>
+<body>
+<!-- 把要轮播的地方写上来 -->
+<div class='slider-container'>
+</div>
+<!-- <div class="my-slider">
+	<ul>
+		<li><img src="http://resource.xiesange.com/image/prod/new/xiaohuangyu.jpg" width="100%"/></li>
+		<li><img src="http://resource.xiesange.com/image/prod/new/daiyu.jpg" width="100%"/></li>
+		<li><img src="http://resource.xiesange.com/image/prod/new/changyu.jpg" width="100%"/></li>
+	</ul>
+</div> -->
+
+
+</body>
+<script type="text/javascript">
+$(document).ready(function(e) {
+	var imgUrls = ["http://resource.xiesange.com/image/prod/new/xiaohuangyu.jpg",
+	            "http://resource.xiesange.com/image/prod/new/daiyu.jpg",
+	            "http://resource.xiesange.com/image/prod/new/changyu.jpg",
+	            "http://resource.xiesange.com/image/prod/new/suozixie.jpg"];
+	
+	initUnSlider($(".slider-container"),imgUrls);
+});
+
+function initUnSlider($container,imgUrls){
+	var $slideDiv = $("<div><ul></ul></div>").appendTo($container);
+	var $ul = $slideDiv.children("ul").eq(0);
+	for(var i=0;i<imgUrls.length;i++){
+		var $li = $("<li>").appendTo($ul);
+		$("<img width='100%'>").appendTo($li).attr("src",imgUrls[i]);
+	}
+	$slideDiv.unslider({
+		autoplay: true,
+		speed:500,
+		infinite:true,
+		arrows: {
+			prev: '<a class="xsg-fontset xsg-unslider-arrow prev">&#xe61f;</a>',
+			next: '<a class="xsg-fontset xsg-unslider-arrow next">&#xe605;</a>'
+		}
+	});
+	
+	$container.find("div").css("position","relative");
+	var $nav = $container.find(".unslider-nav");
+	$nav.css("left",($container.width()-$nav.width())/2);
+}
+
+</script>
+<style>
+.xsg-unslider-arrow{
+	width:32px;
+	height:32px;
+	position: absolute;
+	top:50%;
+	margin-top:-16px;
+	background: rgba(0,0,0,.2) no-repeat 50% 50%;
+	border-radius:50%;
+	line-height:32px;
+	color:#FFF;
+	text-align:center;
+}
+.xsg-unslider-arrow.next{
+	right:10px;
+}
+.xsg-unslider-arrow.prev{
+	left:10px;
+}
+.unslider-nav{
+	position:absolute;
+	bottom:6px;
+	//background: rgba(0,0,0,.4) no-repeat 50% 50%;
+	border-radius:2px;
+	padding:2px 3px;
+}
+.unslider-nav .unslider-active{
+	background-color:#FD9603 !important;	
+}
+.unslider-nav ol li{
+    width: 10px;
+    height: 10px;
+	border:0px !important;
+	background-color:#FFF !important;	
+}
+</style>
+</html>

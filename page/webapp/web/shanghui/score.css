@@ -1,0 +1,88 @@
+.data-table {
+	width:100%;
+	table-layout: fixed;
+}
+.member-area{
+	position:fixed;
+	background-color:#FFF;
+	top: 0px;
+}
+.data-table td{
+	text-align:center;
+	height: 25px;
+}
+.grade-table{
+	margin-top: 65px;
+    margin-bottom: 10px;
+}
+.grade-table td{
+	text-align:center;
+	height: 30px;
+}
+.member-table .item-input{
+	height:30px;
+}
+.totalbar{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background-color:#FFF;
+}
+.totalbar .sum-td{
+	font-size:0.9rem;
+}
+.bttn{
+	border:1px solid #d8d8d8;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin-top: 10px;
+}
+
+.bttn.save{
+	margin-top: 0px;
+}
+.calc-error{
+	background-color:#FF0000;
+	color:#FFF;
+}
+
+.found-sum{
+	z-index:99999;
+	position:fixed;
+	top:100px;
+	left:10px;
+	display:none;
+	width:100px;
+	padding:20px 50px;
+	padding-bottom:10px;
+	background-color:#FFF;
+}
+.found-sum .ok{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+}
+.goto-index{
+	line-height:35px;
+	height:35px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.remove-fighting{
+	line-height:35px;
+	height:35px;
+	text-align:center;
+	margin-bottom:70px;
+	color:#f92f2f;
+	display:none;
+}
+
+.qrcode-img{
+	height:70px;
+	width:70px;
+	margin:0 auto;
+	margin-bottom:10px;
+}

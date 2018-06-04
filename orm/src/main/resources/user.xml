@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.elsetravel.orm.mybatis.ICommonDao">
+
+	<!-- resultType的值要和Configuration.xml中的实体User的别名相同 -->
+	<select id="query" resultType="hashmap">
+		select ${query_fields} from `${table_name}` where 
+		<foreach collection="conditions" item="cond" separator="AND">  
+   			${cond.getJField().getColName()} = #{cond.value}  
+  		</foreach>
+  		<if test="order_fields != null">
+  			order by ${order_fields}
+  		</if>
+	</select>
+	
+	
+	
+</mapper>

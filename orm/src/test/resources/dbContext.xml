@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	default-autowire="byName" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/tx 
+       http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+       http://www.springframework.org/schema/aop 
+       http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<context:component-scan base-package="com.elsetravel"></context:component-scan>
+	<context:annotation-config></context:annotation-config>
+
+
+	<!--创建jdbc数据源 -->
+	<context:property-placeholder location="classpath:jdbc.properties" />
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${mysql.driverClassName}"></property>
+        <property name="url" value="${mysql.url}"></property>
+        <property name="username" value="${mysql.username}"></property>
+        <property name="password" value="${mysql.password}"></property>
+        <property name="initialSize" value="${mysql.initialSize}"></property>
+        <property name="maxActive" value="${mysql.maxActive}"></property>
+        <property name="maxIdle" value="${mysql.maxIdle}"></property>
+        <property name="testWhileIdle" value="true"></property>
+        <property name="validationQuery" value="SELECT NOW() FROM DUAL"/>
+    </bean>
+	
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"> 
+		<property name="dataSource" ref="dataSource" /> 
+	</bean>
+
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	
+	<tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+	
+	
+	<tx:advice id="transactionManagerAdivice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="*" rollback-for="Throwable"/>
+		</tx:attributes>
+	</tx:advice> 
+	<!-- <aop:config>
+		<aop:pointcut id="allServiceMethod" expression="execution(* com.zwd.service.impl.*.*(..))" />
+		<aop:advisor advice-ref="transactionManagerAdivice" pointcut-ref="allServiceMethod" />
+	</aop:config> -->
+
+	<!-- javax.persistence.validation.mode=none hibernate.show_sql=true-->
+</beans>

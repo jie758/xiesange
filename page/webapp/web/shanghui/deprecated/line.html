@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商会战绩</title>
+<script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+<script src="Chart.bundle.js"></script>
+<script src="shanghui.js"></script>
+
+</head>
+<style>
+</style>
+<body>
+
+<canvas id="myChart" width="600" height="200"></canvas>
+
+
+</body>
+<script type="text/javascript">
+$(document).ready(function(e) {
+	var periods = getUrlParams("periods");
+	var ctx = document.getElementById("myChart");
+	var flightInfo = getFlighting();
+	var labels = [];
+
+	var memFlightMap = {};
+	for(var i=0;i<flightInfo.length;i++){
+		var f = flightInfo[i];
+		
+		var date = f.date;
+		if(!isMatchPeriod(date,periods)){
+			continue;
+		}
+		
+		labels.push(f.date);
+		var flightMembs = f.members;
+		
+		for(var key in membernames){
+			var memInfo = membernames[key];
+			if(key == 'shui'){
+				continue;
+			}
+			var isFlight = flightMembs[key] != null;
+			if(isFlight){
+				memInfo.data.push(flightMembs[key]);
+			}else{
+				memInfo.data.push(0);
+			}
+		}
+	}
+
+	var datasets = [];
+	for(var key in membernames){
+		if(key == 'shui'){
+			continue;
+		}
+		datasets.push({
+			label : membernames[key].name,
+			data:membernames[key].data,
+			fill : false,
+	        borderColor : membernames[key].color,
+	        backgroundColor : membernames[key].color,
+	        lineTension : 0,
+	        borderWidth: 1
+		});
+	}
+
+	Chart.defaults.global.title = "1";
+	var myChart = new Chart(ctx, {
+	    type: 'line',
+	    data: {
+	        labels: labels,
+	        datasets: datasets
+	    },
+	    options: {
+	    	title: {
+	            display: true,
+	            text: '商会战绩实时统计表'
+	        },
+	        scales: {
+	            yAxes: [{
+	                ticks: {
+	                    beginAtZero:true
+	                }
+	            }]
+	        }
+	    }
+	});
+});
+</script>
+<style>
+
+</style>
+</html>

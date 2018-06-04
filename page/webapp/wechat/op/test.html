@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>[蟹三哥]身份验证</title>
+    <link href="../../resource/style/common.min.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/pingpp.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+    
+</head>
+<body class="gray-bg">
+</body>
+<script>
+$(function(){
+	checkAuth(function(){
+		ajax.request({
+			url : _base_url+"/web/order/createPayByPingpp.do",
+			params : {
+				order_id : 10000023,
+				pay_channel : 21
+			},
+			need_progressbar : true,
+			success : function(header,body){
+				var charge = body.charge;
+				
+				pingpp.createPayment(charge, function(result, err){
+				    console.log(result);
+				    console.log(err.msg);
+				    console.log(err.extra);
+				    if (result == "success") {
+				        // 只有微信公众账号 wx_pub 支付成功的结果会在这里返回，其他的支付结果都会跳转到 extra 中对应的 URL。
+				    } else if (result == "fail") {
+				        // charge 不正确或者微信公众账号支付失败时会在此处返回
+				    } else if (result == "cancel") {
+				        // 微信公众账号支付取消支付
+				    }
+				});
+			}
+		});
+	},false);
+	
+});
+</script>
+<style>
+</style>
+</html>

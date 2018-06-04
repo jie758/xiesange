@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>团购参与列表</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="m-groupbuy-join.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+    
+</head>
+<body class="gray-bg" style="overflow-x:hidden">
+<div class='index-page hidden'>
+	<div class="titlebar">团购参与列表</div>
+	<div class="state-filter overflow-hidden white-bg">
+		<div class="all status-bttn common-bg xsg-bttn-white left-part">全部</div>
+		<div class="payed status-bttn xsg-bttn-white left-part">已支付</div>
+		<div class="unpay status-bttn xsg-bttn-white left-part">未支付</div>
+	</div>
+	<div class="stat-area gray-border white-bg overflow-hidden">
+		<div style="padding-left:5px;line-height:25px;">统计:</div>
+		<div class="product-list"></div>
+		<div class="bottomline right-part"></div>
+	</div>
+	<div class='groupbuy-join-list'></div>
+	<div class="next-page gray-border gray-font" style="margin-top:10px;margin-bottom:55px;">点击加载更多...</div>
+</div>
+<div id="_item_temp" class="groupbuy-join-item hidden overflow-hidden gray-border white-bg">
+	<div class="titleline overflow-hidden">
+		<div class="name left-part"></div>
+		<div class="mobile left-part"></div>
+		<div class="right-part">
+			<span class="xsg-fontset gray-font">&#xe605;</span>
+		</div>
+	</div>
+	<div class="separator_h"></div>
+	<div class="address gray-font"></div>
+	<div class="content"></div>
+	<div class="bottomline">
+		<div class="status left-part"></div>
+		<div class="totalsum right-part"></div>
+	</div>
+</div>
+
+<!-- 订单内容条目模板 -->
+<div id="_order_content_item_temp" class="hidden order-content-item overflow-hidden">
+	<div class="order-item-prodname"></div>
+	<div class="order-item-amount"></div>
+	<div class="order-item-symbol">x</div>
+	<div class="order-item-prodprice"></div>
+	<div class="order-item-sum"></div>
+</div>
+
+</body>
+<script src="m-groupbuy-join.js"></script>
+</html>

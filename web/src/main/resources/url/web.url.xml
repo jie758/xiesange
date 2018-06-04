@@ -1,0 +1,154 @@
+<root>
+	<!-- 公用域 -->
+	<url code="portal/common/refreshCache.do" need_auth="false"/>
+	<url code="web/common/getQiniuUptokens.do"/>
+	
+	<!-- 基础域 -->
+	<url code="web/base/queryBaseData.do" need_auth="false"/>
+	<!-- <url code="web/base/queryArticle.do" need_auth="false"/> -->
+	
+	<!-- Rongyun通信域 -->
+	<url code="web/ry/getToken.do"/>
+	
+	<!-- 权限域 -->
+	<url code="web/auth/loginByMobile.do" need_auth="false"/>
+	<url code="web/auth/loginByOAuthCode.do" need_auth="false"/>
+	<url code="web/auth/loginByToken.do"/>
+	
+	<!-- 用户域 -->
+	<url code="web/user/modify.do"/>
+	
+	<!-- 优惠券域 -->
+	<url code="web/coupon/demand.do"/>
+	<url code="web/coupon/queryList.do"/>
+	
+	<!-- 砍价域 -->
+	<url code="web/bargain/queryOrderDetail.do"/>
+	<url code="web/bargain/bargain.do"/>
+	
+	<!-- 消息域 -->
+	<url code="web/msg/sendVCode.do" need_auth="false"/>
+	<url code="web/msg/checkVCode.do" need_auth="false"/>
+	
+	<!-- 产品域 -->
+	<url code="web/product/queryList.do" need_auth="false"/>
+	<url code="web/product/queryIndexList.do" need_auth="false"/>
+	<url code="web/product/queryCommentList.do" need_auth="false"/>
+	<url code="web/product/queryDetail.do" need_auth="false"/>
+	<url code="web/product/queryPicList.do" need_auth="false"/>
+	<url code="web/product/queryConfirmProductList.do" need_auth="false"/>
+	
+	
+	<!-- 订单域 -->
+	<url code="web/order/create.do"/>
+	<url code="web/order/preorder.do"/>
+	<url code="web/order/queryList.do"/>
+	<url code="web/order/queryDetail.do"/>
+	<url code="web/order/queryComment.do"/>
+	<url code="web/order/completePay.do"/>
+	<url code="web/order/cancel.do"/>
+	<url code="web/order/remove.do"/>
+	<url code="web/order/modify.do"/>
+	<url code="web/order/comment.do"/>
+	<url code="web/order/createPayByPingpp.do"/>
+	<url code="external/order/completePayByPingpp.do"/>
+	
+	<!-- 团购域 -->
+	<url code="web/groupbuy/query.do"/>
+	<url code="web/groupbuy/create.do"/>
+	<url code="web/groupbuy/modify.do"/>
+	<url code="web/groupbuy/follow.do"/>
+	<url code="web/groupbuy/close.do"/>
+	
+	<url code="web/groupbuy/queryDetail.do"/>
+	<url code="web/groupbuy/queryGroupbuyRule.do"/>
+	<url code="web/groupbuy/createPayByPingpp.do"/>
+	<url code="web/groupbuy/sendArrivalNotify.do"/>
+	
+	<!-- 管理域 -->
+	<url code="web/manage/queryProductList.do"/>
+	<url code="web/manage/modifyProduct.do"/>
+	
+	<url code="web/manage/queryOrderList.do"/>
+	<url code="web/manage/modifyOrder.do"/>
+	<url code="web/manage/removeOrder.do"/>
+	<url code="web/manage/remindOrderPay.do"/>
+	<url code="web/manage/remindOrderComment.do"/>
+	
+	<url code="web/manage/queryUserList.do"/>
+	<url code="web/manage/modifyUser.do"/>
+	
+	<url code="web/manage/allocateCoupons.do"/>
+	<url code="web/manage/queryUserCouponList.do"/>
+	
+	<url code="web/manage/closeGroupbuy.do"/>
+	<url code="web/manage/publishGroupbuy.do"/>
+	<url code="web/manage/queryGroupbuyList.do"/>
+	<url code="web/manage/queryGroupbuyDetail.do"/>
+	<url code="web/manage/queryGroupbuyJoin.do"/>
+	
+	<!-- 采购域 -->
+	<url code="web/purchase/create.do"/>
+	<url code="web/purchase/remove.do"/>
+	<url code="web/purchase/queryList.do"/>
+	<url code="web/purchase/queryDetail.do"/>
+	<url code="web/purchase/packing.do"/>
+	<url code="web/purchase/delivering.do"/>
+	<url code="web/purchase/complete.do"/>
+	<url code="web/purchase/sendDeliveryContact.do"/>
+	<url code="web/purchase/queryDeliveryContact.do" need_auth="false"/>
+	
+	
+	<url code="web/purchase/queryDeliveryRoute.do"/>
+	<url code="web/purchase/setDeliveryInfo.do"/>
+	<url code="web/purchase/sendDeliveryNotify.do"/>
+	<url code="web/purchase/queryPackingOrderList.do"/>
+	<url code="web/purchase/commitDeliveryData.do"/>
+	<url code="web/purchase/commitPurchasePrice.do" />
+	
+	
+	
+	<!-- 微信域 -->
+	<url code="web/wx/getUserInfo.do" need_auth="false" need_sn="true" need_version="false"/>
+	<url code="web/wx/getSignature.do" need_auth="false" need_sn="false" need_version="false"/>
+	<!-- <url code="web/wx/getSignature2.do" need_auth="false" need_sn="true" need_version="false"/>
+	 -->
+	 <url code="web/wx/getOAuthAccessToken.do" need_auth="false" need_sn="true" need_version="false"/>
+	
+	<!-- 运营域 -->
+	<url code="web/op_g20/queryOp.do" need_auth="false"/>
+	<url code="web/op_g20/signup.do" need_auth="false"/>
+	<url code="web/op_g20/querySignup.do" need_auth="false"/>
+	<url code="web/op_g20/vote.do" need_auth="false"/>
+	<url code="web/op_g20/queryVoteSignup.do" need_auth="false"/>
+	<url code="web/op_g20/share.do" need_auth="false"/>
+	<url code="web/op_g20/queryVoteList.do" need_auth="false"/>
+	
+	<url code="web/op_guess_stock/signup.do"/>
+	<url code="web/op_guess_stock/querySignupList.do" need_auth="false"/>
+	
+	<!-- 文章域 -->
+	<url code="web/article/getNewId.do"/>
+	<url code="web/article/queryList.do" need_auth="false"/>
+	<url code="web/article/queryDetail.do" need_auth="false"/>
+	<url code="web/article/queryDetailByCode.do" need_auth="false"/>
+	<url code="web/article/save.do"/>
+	
+	<!-- 互动运营域 -->
+	<url code="web/activity/view.do"/>
+	
+	<!-- 商会域 -->
+	<url code="web/shanghui/queryList.do" need_auth="false"/>
+	<url code="web/shanghui/create.do" need_auth="false"/>
+	<url code="web/shanghui/finish.do" need_auth="false"/>
+	<url code="web/shanghui/commitRound.do" need_auth="false"/>
+	<url code="web/shanghui/queryRoundList.do" need_auth="false"/>
+	<url code="web/shanghui/removeRound.do" need_auth="false"/>
+	<url code="web/shanghui/remove.do" need_auth="false"/>
+	<url code="web/shanghui/queryAward.do" need_auth="false"/>
+	<url code="web/shanghui/queryFightingStat.do" need_auth="false"/>
+	<url code="web/shanghui/queryFightingList.do" need_auth="false"/>
+	<url code="web/shanghui/commitQingyuan.do" need_auth="false"/>
+	<url code="web/shanghui/queryQingyuanList.do" need_auth="false"/>
+	
+</root>

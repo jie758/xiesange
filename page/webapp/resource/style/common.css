@@ -1,0 +1,610 @@
+input:focus,textarea:focus,a:focus,div:focus,table:focus {
+	outline: none;
+}
+html{
+	font-size:14px;
+}
+body{
+	margin:0px;
+}
+ul{
+	-webkit-padding-start: 0px;
+	margin:0px;
+}
+input:focus{
+	outline: none;
+}
+input,textarea{
+	-webkit-appearance: none;
+	border-radius:0px;
+	padding:0px;
+	border:1px solid #000000;
+}
+
+*{
+	-webkit-text-size-adjust:none;/*如果没有这个，微信中打开后会自动调整字体*/
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent; /* For some Androids */
+	/* -webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none; */
+}
+.transform_scale:active{
+	-webkit-transform:scale3d(0.9, 0.9, 1);
+}
+.opacity_0{
+	opacity:0;
+}
+.opacity_5{
+	opacity:0.5
+}
+.hidden{
+	display:none;
+}
+.separator_h{
+	border-top:1px solid #E5E5E5;
+	height:1px;
+    margin:2px 5px;
+}
+.overflow-hidden{
+	overflow:hidden;
+}
+.touch_item:active{
+	background-color:#e4e4e4;
+}
+
+.message_dialog{
+	top : 50%;
+	left:50%;
+	margin-left:-130px;
+	position:fixed;
+	width:260px;
+	display:none;
+	background-color:#FFF;
+	font-size:0.9rem;
+	border-radius:5px;
+	text-align:center;
+	-webkit-box-shadow: 2px 2px 5px #8A8C8C;
+	-mox-box-shadow: 2px 2px 5px #8A8C8C;
+	-ie-box-shadow: 2px 2px 5px #8A8C8C;
+	-o-box-shadow: 2px 2px 5px #8A8C8C;
+	box-shadow: 2px 2px 5px #8A8C8C;
+	z-index:9999;
+}
+
+.progress_dialog{
+	margin-left:-100px !important;
+	width:200px !important;
+}
+
+.message_dialog_title{
+	padding: 10px 0px;
+  	color: #919191;
+}
+.message_dialog_content{
+	padding: 10px 10px 15px 5px;
+	word-break: break-all;
+	word-wrap: break-word;
+	line-height: 23px;
+}
+.message_dialog_button{
+	border-top: 1px solid #E0E0E0;
+  	padding: 15px 0px 15px 0px;
+  	cursor: pointer;
+}
+.message_mask{
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index:900;
+	background-color:#000;
+	opacity:0.5;
+}
+
+.progress_dialog_title{
+	height: 32px;
+ 	width: 32px;
+  	margin: 10px auto;
+  	background: url(../image/loading.gif) no-repeat;
+  	background-size: 100% 100%;
+}
+.progress_gif{
+	display:none;
+	top:0px;
+	left:0px;
+	position:absolute;
+	height:35px;
+	width:35px;
+	background: url(http://resource.xiesange.com/image/sys/loading.gif) no-repeat center center;
+	background-size:25px 25px;
+}
+
+.highlight_dialog{
+	position:fixed;
+	top:0px;
+	width:100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+  	color: #FFF;
+  	z-index:99999;
+  	opacity: 0.8;
+  	word-break : break-all;
+}
+.error_highlight{
+  	background-color: #DA0505;
+}
+.success_highlight{
+	background-color: #01C8D8;
+}
+
+
+.popupmenu-h{
+	position:fixed;
+	bottom:0px;
+	top:0px;
+	background-color:#FFF;
+	display:none;
+	padding-top:20px;
+	width:150px;
+}
+.popupmenu-v{
+	display:none;
+	background-color:#FFF;
+	border-radius:2px 2px 0px 0px;
+	border:1px solid #EAE7E7;
+	position:absolute;
+	bottom:1px;
+	left:5px;
+	right:5px;
+	z-index:9999;
+}
+
+.popupmenu-v-title{
+	height:40px;
+	line-height: 40px;
+    text-align: center;
+}
+.popupmenu-v-cancel{
+	padding:0px 20px;
+	float:left;
+	line-height:40px;
+}
+.popupmenu-v-ok{
+	padding:0px 20px;
+	float:right;
+	line-height:40px;
+	color:#01ca5a;
+}
+.popupmenu-v-content{
+	//margin-top:10px;
+	padding:0px 6px;
+}
+
+
+.popupmenu-item{
+	padding:10px;
+	text-align:center;
+	font-size:1.0rem;
+	overflow:hidden;
+}
+.popupmenu-item-text{
+	float:left;
+	line-height:22px;
+}
+.popupmenu-item-icon{
+	float:left;
+	height:22px;
+	width:22px;
+	margin-right:5px;
+	line-height: 23px;
+    font-size: 15px !important;
+    color: #7d7d7d;
+}
+.bttn-touched{
+	background-color: #FBCD8A;
+    color: #424040;
+}
+
+.popupmenu_title{
+	height:60px;
+}
+.popupmenu_title_cancel{
+	padding:0px 20px;
+	float:left;
+	line-height:40px;
+}
+.popupmenu_title_ok{
+	padding:0px 20px;
+	float:right;
+	line-height:40px;
+	color:#01ca5a;
+}
+.popupmenu_content{
+	margin-top:10px;
+}
+
+
+.slidepage{
+	display:none;
+	border-radius:2px 2px 0px 0px;
+	border:1px solid #EAE7E7;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	z-index:9999;
+}
+
+.slidepage_title{
+	height:40px;
+}
+
+.imgshow{
+	background-color:#000000;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+}
+
+.slide_page_input{
+	border-right:0px;
+	border-left:0px;
+	height:45px;
+	width:100%;
+	border:1px solid #E4E4E4;
+}
+
+
+/**/
+.title_line{
+	text-align:center;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	font-size:1.1rem;
+	color:#FFF;
+}
+.data_item_first{
+	margin-top: 10px;
+  	border-top: 1px solid #F0F0F0 !important;
+}
+.data_item{
+	height: 45px;
+  	position: relative;
+  	border: 1px solid #F0F0F0;
+  	border-top: 0px;
+}
+.right_arrow{
+	position:absolute;
+	right:0px;
+	top:50%;
+	margin-top:-10px;
+	width:20px;
+	height:20px;
+	background:url(../image/right_arrow.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.mobile_downloadbar{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height:50px;
+	width:100%;
+	background-color:#000;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.mobile_downloadbar .logo{
+	height:35px;
+	width:35px;
+	background:url(../image/logo.png) no-repeat;
+	background-size:100% 100%;
+	margin:0px auto;
+}
+.mobile_downloadbar .slogon_title{
+	color:#F9F9F9;
+}
+.mobile_downloadbar .slogon_content{
+	color:#F9F9F9;
+}
+.mobile_downloadbar .download{
+	width:80px;
+	height:30px;
+	border:2px solid #D0D0D0;
+	margin: 0px auto;
+	text-align:center;
+	color:#F9F9F9;
+	line-height:30px;
+	font-size:0.9rem;
+	border-radius:3px;
+}
+
+
+.topright_indicator{
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:999;
+}
+.topright_indicator.mask{
+	background-color: rgba(0, 0, 0, 0.7);;
+};
+.topright_indicator .arrow{
+	width:130;
+	height:254;
+}
+.topright_indicator .arrow.black{
+	background:url(http://resource.xiesange.com/image/sys/wx_share_arrow_black.png) no-repeat;
+}
+.topright_indicator .arrow.white{
+	background:url(http://resource.xiesange.com/image/sys/wx_share_arrow.png) no-repeat;
+}
+
+.topright_indicator .text{
+	padding:10px 20px;
+	font-size:1.2rem;
+	font-weight:bold;
+	text-align:center;
+}
+.topright_indicator .text.white{
+	color:#FFF;
+}
+.topright_indicator .text.black{
+	color:#000;
+}
+
+.picpreview_wrap{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    z-index:8888;
+}
+.picpreview_wrap .mask{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    z-index:8888;
+    background:rgba(0,0,0,0.5);
+}
+.picpreview{
+    width:100%;
+    height:100%;
+    position:relative;
+    z-index:8889;
+}
+.picpreview_content{
+    overflow:hidden;
+    background-color:#FFF;
+    position:absolute;
+    top:0px;
+    bottom:50px;
+    left:0px;
+    width:100%;
+    z-index: 8887
+}
+.picpreview_mask{
+    position:relative;
+    z-index:999;
+    background-color:#000;
+    opacity:0.7;
+    width: 100%;
+}
+.picpreview_block{
+    position:relative;
+    z-index:999;
+    border:1px solid #FFF;
+}
+.picpreview_button{
+    background-color:#000;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:50px;
+    z-index: 9999
+}
+.picpreview_img{
+    display : block;
+    position : absolute;
+    top : 0px;
+    z-index : 99;
+}
+.picpreview_bttn_text{
+    line-height:50px;
+    color:white!important;
+    cursor:pointer;
+}
+.picpreview_show{
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    width:100%;
+    height:100%;
+    background-color:#000000;
+}
+
+
+.etmap_wrapper{
+	position:relative;
+	width: 100%; 
+  	height: 100%; 
+}
+
+.etmap_complete_container{
+	height:30px;
+	position:absolute;
+	left:150px;
+	top:10px;
+	width:350px;
+	z-index:999;
+	border:1px solid #c7c7c7;
+	border-radius:3px;
+	background-color: #FFF ;
+	padding:0px 3px;
+}
+.etmap_complete_input{
+	background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    height: 29px;
+    margin-left: 17px;
+    margin-top: 10px;
+    outline: none;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+.etmap_canvas { 
+	width:100%;
+	height:100%;
+}
+
+.gray-filter{
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.loading-container{
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#FFF;
+	z-index:9999;
+}
+.loading-table{
+	height:100%;
+	width:100%;
+}
+.loading-logo{
+	background: url(http://resource.xiesange.com/image/sys/logo_min_200.jpg) no-repeat center center;
+	background-size:100px 64px;
+	height:64px;
+	width:100px;
+	margin:auto;
+}
+.loading-gif{
+	background: url(http://resource.xiesange.com/image/sys/loading_bar.gif) no-repeat center center;
+	background-size:100px 20px;
+	height:20px;
+	width:100px;
+	margin:auto;
+}
+
+.xsg-uploadpic-dialog{
+	background-color:#FFFFFF;
+	z-index:9999;
+	position:absolute;
+	width:600px;
+	height:350px;
+	top:50%;
+	margin-top:-175px;
+	left:50%;
+	margin-left:-300px;
+	border:1px solid #c8c8c8;
+	font-size:13px;
+	-webkit-box-shadow: 2px 2px 5px #8A8C8C;
+	-mox-box-shadow: 2px 2px 5px #8A8C8C;
+	-ie-box-shadow: 2px 2px 5px #8A8C8C;
+	-o-box-shadow: 2px 2px 5px #8A8C8C;
+	box-shadow: 2px 2px 5px #8A8C8C;
+}
+.xsg-uploadpic-filelist{
+	height:300px;
+	overflow-y:auto;
+	padding:0px 10px;
+}
+.xsg-uploadpic-bottombar{
+	border-top:1px solid #e2e2e2;
+	height:40px;
+	line-height:40px;
+	padding:0px 5px;
+}
+.xsg-uploadpic-totaltext{
+	float:left;
+}
+.xsg-uploadpic-close{
+	float: right;
+	width: 88px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 5px;
+	text-align: center;
+	border: 1px solid #c8c8c8;
+	cursor:pointer;
+}
+.xsg-uploadpic-item{
+	height:100px;
+	position:relative;
+	width:100%;
+}
+.xsg-uploadpic-td-view{
+	width:80px;
+}
+.xsg-uploadpic-td-name{
+	width:150px;
+}
+.xsg-uploadpic-td-size{
+	width:100px;
+}
+.xsg-uploadpic-viewWrap{
+	position:relative;
+	width:60px;
+	height:60px;
+	border:1px solid #e8c8e8;
+	overflow:hidden;
+}
+.xsg-uploadpic-view{
+	width:100%;
+}
+.xsg-uploadpic-name{
+	position:relative;
+}
+.xsg-uploadpic-size{
+	position:relative;
+}
+.xsg-uploadpic-loadingbar{
+	position:relative;
+	border:1px solid #d8d8d8;
+	font-size:12px;
+	height:30px;
+}
+
+.xsg-uploadpic-uploaded{
+	padding-left:2px;
+}
+
+.xsg-uploadpic-percent{
+	text-align:right;
+	padding-right:2px;
+}
+.xsg-uploadpic-overlay{
+	background: url(http://static.elsetravel.com/image/system/editor/upload-progress.gif);
+	height: 100%;
+	width:0px;
+	background-color:#F9DA6B;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>产品列表</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="../product.css" rel="stylesheet">
+    <link href="product-list.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg" onload="init()">
+<div class="index-page hidden">
+	<div class="titlebar index fixed">产品列表</div>
+	<div class="titleunder-body">
+		<div class="promotion-block global" style="padding-left:5px;">
+		</div>
+		<div class="prod-catalog overflow-hidden"></div>
+		<div class="prod-list"></div>
+		<div class="prod-footbar">
+			<div class="shopping-cart xsg-fontset">&#xe608;</div>
+			<div class="prod-totalsum">￥0.00</div>
+			<div class="prod-order-bttn">选好了</div>
+		</div>
+		<!-- 产品条目模板 -->
+		<div id="_prod_item_temp" style="display:none" class="prod-item overflow-hidden">
+			<table border="0" cellspacing="1" cellpadding="1">
+				<tr>
+					<td class="pic-td"><div class="prod-pic"></div></td>
+					<td class="rightpart detail-td">
+						<div class="prod-firstline">
+							<span class="prod-name"></span>
+							<span class="prod-spec"></span>
+							<span class="prod-premise xsg-font"></span>
+						</div>
+						<div class="prod-summary"></div>
+						<div class="prod-stat overflow-hidden gray-font">
+							<!-- <span class="sale-amount"></span>
+							<span class='comment right-part xsg-font'>
+								<span class="icon xsg-fontset">&#xe612;</span>
+								<span class="comment-amount common-font"></span>
+								<span class="arrow xsg-fontset">&#xe605;</span>
+							</span> -->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="separator_h" style="margin:10px 4px;"></div>
+						<span style="line-height: 22px;">
+							<span class="prod-origprice gray-font"></span>
+							<span class="prod-price money-font"></span><span class="prod-unit money-font"></span>
+							<div class="right-part">
+								<div class="prod-sum money-font">￥0.00</div>
+								<div class="prod-amount-set">
+									<div class="prod-amount-bttn minus xsg-fontset">&#xe602;</div>
+									<input type="tel" class="prod-amount-input common-font"/>
+									<div class="prod-amount-unit"></div>
+									<div class="prod-amount-bttn add xsg-fontset">&#xe603;</div>
+								</div>
+							</div>
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="promotion-block bgitem"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+</div>
+<!-- 订单确认界面 -->
+
+
+
+<!-- <div class="comment-page nest-page hidden">
+	<div class="titlebar fixed ">用户评价</div>
+	<div class="page-body">
+		<div class='prod-comment-list'></div>
+	</div>
+	
+	<div id="_comment_item_temp" class="prod-comment-item hidden overflow-hidden">
+		<div class="header-pic xsg-fontset"></div>
+		<div class="right">
+			<div class="first-line gray-font overflow-hidden">
+				<span class='name'></span>
+				<span class='mobile'></span>
+				<span class='grade-container'></span>
+			</div>
+			<div class="second-line gray-font">
+				<span class='order-time'></span>
+				<span class='order-amount'></span>
+			</div>
+			<div class='content'></div>
+			<div class='tags'></div>
+		</div>
+	</div>
+</div> -->
+</body>
+<script src="product-list.js" charset="UTF-8"></script>
+</html>

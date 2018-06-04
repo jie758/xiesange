@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>支付宝支付</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="pay_alipay_qrcode.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/3rd/pingpp.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="">
+<div class="index-page">
+
+	<table border='0' cellspacing='1' cellpadding='1' class="page-table">
+		<tr>
+			<td>
+				<div class="paycode"></div>
+				<div class="linkman"></div>
+				<div class="paysum money-font"></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img class="qrcode gray-border" src="http://resource.xiesange.com/image/sys/tianwang_alipay_fr.jpg"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="paytip">请扫描上方二维码,进行转账支付</div>
+				<span class="paymemo common-bg">转账时，请务必备注订单收件人姓名</span><BR/>
+				<!-- <div class="copy gray-bg">点击此处复制收件人姓名</div> -->
+			</td>
+		</tr>
+	</table>
+</body>
+<script src="pay_alipay_qrcode.js"></script>
+</html>

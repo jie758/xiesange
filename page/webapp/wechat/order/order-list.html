@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>我的订单</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="order-list.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+    
+</head>
+<body class="gray-bg">
+<div class="titlebar fixed">我的订单</div>
+
+<div class="order-list"></div>
+
+<!-- 订单条目模板 -->
+<div id="_order_item_temp" class="order-item gray-border">
+	<div class="order-titleline gray-font">
+		<div class="order-code"></div>
+		<div class="right-part">
+			<span class="order-createtime"></span>
+			<span class="xsg-fontset arrow">&#xe605;</span>
+		</div>
+	</div>
+	<div class="separator_h"></div>
+	<div class="order-buyer">
+		<div class="order-buyer-info">
+			<div class="order-linkman-name"></div>
+			<div class="order-linkman-mobile"></div>
+		</div>
+		<div class="order-buyer-addr gray-font"></div>
+	</div>
+	<div class="separator_h"></div>
+	<!-- <div class="groupbuy-info">
+		<div class="groupbuy-text common-bg">团</div>
+		<div class="promotion-item">
+			<span class="is-creator highlight-font"></span>
+			<span class="text"></span>
+		</div>
+	</div> -->
+	<div class="order-content"></div>
+	<div class="separator_h"></div>
+	<div class="order-sumbar">
+		<div class="ordersum" style="overflow: hidden;">
+			<span class="order-expressfee gray-font"></span>
+			<span class="right-part">
+				<span class="order-origsum gray-font"></span>
+				<span class="order-sum money-font"></span>
+			</span>
+		</div>
+		<div class="paysum">
+			<div class="order-coupon gray-font"></div>
+			<div style="float:right">
+				<div class="order-paysum-text">实付:</div>
+				<div class="order-paysum money-font"></div>
+			</div>
+		</div>
+	</div>
+	<div class="order-bttn-bar">
+		<div class="list-item-bttn left order-status"></div>
+		<div class="list-item-bttn right hidden"></div>
+	</div>
+	
+	<div class="order-deliverybar">
+		<div class="summary">
+			<div class="deliveryno gray-font"></div>
+			<div class="right-part">
+				<div class="loading loading-icon"></div>
+				<div class="showall gray-font">查询中</div>
+			</div>
+		</div>
+		<div class="routelist">
+		</div>
+		
+	</div>
+</div>
+<!-- 订单内容条目模板 -->
+<div id="_order_content_item_temp" class="order-content-item">
+	<div class="order-item-prodname"></div>
+	<div class="order-item-amount"></div>
+	<div class="order-item-symbol">x</div>
+	<div class="order-item-prodprice"></div>
+	<div class="order-item-sum"></div>
+</div>
+
+<div id="_delivery_route_temp" class="route" style="display:none">
+	<div style="overflow:hidden">
+		<div class='flag'></div>
+		<div class='time'></div>
+		<div class='node'></div>
+		<!-- <div class='showall gray-font'>查看全部</div> -->
+	</div>
+	<div style="overflow:hidden">
+		<div class='state'></div>
+		<span class='sep'>-</span>
+		<div class='name'></div>
+		<a class='dial xsg-fontset xsg-font'>&#xe60d;</a>
+	</div>
+</div>
+</body>
+<script src="order-list.js"></script>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>领取优惠券</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="coupon.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+</head>
+<body class="gray-bg" style="overflow-x:hidden">
+<div class="titlebar">领取优惠券</div>
+<div class='vcodeset-container' style="margin-top:25px;"></div>
+<input class="item-input coupon-redeem-code common-font" placeholder="输入兑换码,可不填"></input>
+<div class="vcode-next coupon"><span class="coupon-bttn common-bg">点击领取</span></div>
+
+<div class="coupon-newlist">
+	<div class="coupon-tip"></div>
+	<div class="coupon-use-tip gray-font">(优惠券在下单支付时,可以直接使用抵扣)</div>
+	<div class="list"></div>
+	<div class="coupon-goto-index">
+		<span class="text"></span>
+		<span class="bttn common-bg">点击前往</span>
+	</div>
+</div>
+<div class="coupon-query-tip">查看我的优惠券</div>
+<div class="coupon-list">
+	<div class="coupon-tip">已领取的优惠券:</div>
+	<div class="list"></div>
+</div>
+
+<div id="coupon_item_temp" style="display:none" class="coupon-item">
+	<div class="coupon-name"></div>
+	<div class="coupon-expire"></div>
+</div>
+<BR/></BR>
+</body>
+<script src="../../resource/js/xsg/common.js"></script>
+<script src="../xiesange.js"></script>
+
+<script src="coupon.js"></script>
+</html>

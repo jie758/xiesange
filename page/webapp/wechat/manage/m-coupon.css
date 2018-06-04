@@ -1,0 +1,58 @@
+.coupon-item{
+	background-color:#FFF;
+	margin-top:15px;
+	padding:5px 15px;
+}
+.coupon-name{
+	float:left;
+	line-height:25px;
+	font-size:1.1rem;
+}
+.coupon-event{
+	float:right;
+	line-height:25px;
+}
+
+.coupon-createtime{
+	line-height:25px;
+}
+.coupon-expiretime{
+	line-height:25px;
+}
+.coupon-consumetime{
+	line-height:25px;
+	font-weight:bold;
+}
+.allocate-page{
+	display:none;
+	absolute:fixed;
+}
+
+.coupon-type{
+	margin:15px 0px;
+	overflow: hidden;
+	border:1px solid #e8e8e8;
+}
+.coupon-type-item.percent{
+	float:left;
+	width:50%;
+	border-right:1px solid #e8e8e8;
+	text-align:center;
+	line-height:40px;
+}
+.coupon-type-item.cash{
+	float:left;
+	width:49%;
+	text-align:center;
+	line-height:40px;
+}
+.coupon-type-item.choosed{
+	float:left;
+	width:49%;
+	text-align:center;
+	line-height:40px;
+}
+
+.item-input.expiredate{
+	margin-top:15px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>采购联系单</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="../order/order-list.css" rel="stylesheet">
+    <link href="purchase.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg">
+<div class="titlebar index">采购联系单</div>
+<div class="purchase-code gray-border gray-font">
+	<span class="code"></span>
+	<a class='right-part dial xsg-fontset xsg-font' href="tel:13588830404">联系电话&#xe60d;</a>
+</div>
+<div class="order-statline gray-border">
+	<div class="titleline">
+		<span class="money-font">产品总计(请在框内填入采购价格)：</span>
+		<span class="right-part totalcount"></span>
+	</div>
+	<div class="prodlist"></div>
+	<div class="bottomline">
+		<span>打包+运费</span>
+		<span class="express-fee"><input type="tel" class="item-input"/></span>元
+		<span class='totalsum money-font right-part'></span>
+	</div>
+</div>
+<div class="order-list"></div>
+<div class="footbar fixed">
+	<div class="footbar-bttn-cancel sum common-font"></div>
+	<div class="footbar-bttn-ok purchase common-font">提交采购价</div>
+</div>
+
+
+<!-- 订单条目模板 -->
+<div id="_order_item_temp" class="order-item gray-border">
+	<div class="order-titleline gray-font">
+		<div class="order-index left-part"></div>
+		<div class="order-code"></div>
+		<div class="right-part">
+			<span class="order-createtime"></span>
+		</div>
+	</div>
+	<div class="separator_h"></div>
+	<div class="order-buyer">
+		<div class="order-buyer-info">
+			<div class="order-linkman-name"></div>
+			<div class="order-linkman-mobile"></div>
+			<div class="order-deliveryday"></div>
+		</div>
+		<div class="order-buyer-addr gray-font"></div>
+	</div>
+	<div class="separator_h"></div>
+	<div class="groupbuy-info">
+		<div class="groupbuy-text common-bg">团</div>
+		<div class="promotion-item">
+			<span class='content'></span>
+		</div>
+	</div>
+	<div class="order-content"></div>
+	<!-- <div class="separator_h"></div>
+	<div class="order-sumbar">
+		<div style="overflow: hidden;" class="ordersum">
+			<span class="order-expressfee gray-font"></span>
+			<span class="right-part">
+				<span class="order-origsum gray-font"></span>
+				<span class="order-sum money-font"></span>
+			</span>
+		</div>
+	</div> -->
+</div>
+<!-- 订单内容条目模板 -->
+<div id="_order_content_item_temp" class="purchase-order-item overflow-hidden">
+	<div class="prod-pic"></div>
+	<div class="order-item-prodname prod-name"></div>
+	<div class="order-item-prodname prod-spec"></div>
+	<div class="left-part">：</div>
+	<div class="order-item-amount prod-amount"></div>
+	<div class="order-item-amount prod-unit"></div>
+</div>
+
+<!-- 订单内容条目模板,团购模板 -->
+<div id="_order_content_groupbuyitem_temp" class="order-content-item hidden">
+	<div class="orderitem-custinfo">
+		<div class="name"></div>
+		<div class="mobile gray-font"></div>
+	</div>
+	<div class="orderitem-orderinfo">
+		<div class="order-item-amount"></div>
+		<div class="order-item-symbol">x</div>
+		<div class="order-item-prodprice"></div>
+		<div class="right-part">
+			<span class="paystatus"></span>
+			<span class="order-item-sum"></span>
+		</div>
+	</div>
+</div>
+
+<!-- 订单内容条目模板 -->
+<div id="_stat_temp" class="prod-stat-item hidden">
+	<table border="0" cellspacing="1" cellpadding="1" class="prod-table">
+		<tr>
+			<td class="pic-td"><div class="prod-pic"></div></td>
+			<td class="rightpart">
+				<div class="prod-firstline overflow-hidden">
+					<span class="prod-name"></span>
+					<span class="prod-spec"></span>
+				</div>
+				<div class="prod-sumline overflow-hidden">
+					<span class="prod-amount"></span>
+					<span class="prod-unit"></span>
+					<span class="payitem-symbol left-part">x</span>
+					<span class='prod-costprice'><input type="tel" class='costprice-input item-input'/></span>
+					<span class="payitem-symbol left-part">/</span>
+					<span class="prod-unit"></span>
+					<span class="prod-totalsum right-part"></span>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+<script src="purchase.js"></script>
+</html>

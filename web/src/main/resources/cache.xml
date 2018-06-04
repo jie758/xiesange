@@ -1,0 +1,7 @@
+<root>
+	<cache table="com.xiesange.gen.dbentity.base.BaseParam"/>
+	<cache table="com.xiesange.gen.dbentity.base.BaseEnum"/>
+	<cache table="com.xiesange.gen.dbentity.sys.SysPartition"/>
+	<cache table="com.xiesange.gen.dbentity.sys.SysPartitionDetail"/>
+	<cache table="com.xiesange.gen.dbentity.product.Product"/>
+</root>

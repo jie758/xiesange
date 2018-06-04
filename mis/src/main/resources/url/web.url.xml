@@ -1,0 +1,182 @@
+<root>
+	<!-- 基础域 -->
+	<url code="web/base/queryBaseData.do" need_sn="false"/>
+	<url code="web/base/queryMenuList.do" need_sn="false"/>
+	<url code="web/base/addMenu.do"/>
+	<url code="web/base/modifyMenu.do"/>
+	<url code="web/base/removeMenu.do"/>
+	<url code="web/base/queryLangList.do" need_sn="false"/>
+	
+	<url code="web/base/queryAbroadCountryList.do" need_sn="false"/>
+	<url code="web/base/queryAbroadCityList.do" need_sn="false"/>
+	<url code="web/base/queryChinaProvinceList.do" need_sn="false"/>
+	<url code="web/base/queryChinaCityList.do" need_sn="false"/>
+	<url code="web/base/queryCityList.do" need_auth="false"/>
+	
+	<url code="web/base/queryTagDefineList.do"/>
+	<url code="web/base/addTagDefine.do"/>
+	<url code="web/base/modifyTagDefine.do"/>
+	<url code="web/base/removeTagDefine.do"/>
+	
+	<url code="web/base/queryConfigList.do"/>
+	<url code="web/base/addConfig.do"/>
+	<url code="web/base/modifyConfig.do"/>
+	
+	
+	<url code="web/base/queryTicketCatalogList.do" need_auth="false" need_sn="false"/>
+	<url code="upload/base/addTicketCatalog.do"/>
+	<url code="upload/base/modifyTicketCatalog.do"/>
+	<url code="web/base/removeTicketCatalog.do"/>
+	
+	<url code="web/base/queryMedalList.do" need_sn="false"/>
+	<url code="upload/base/addMedal.do"/>
+	<url code="upload/base/modifyMedal.do"/>
+	<url code="web/base/removeMedal.do"/>
+	
+	<url code="web/base/queryBannerList.do" need_sn="false"/>
+	<url code="upload/base/addBanner.do"/>
+	<url code="upload/base/modifyBanner.do"/>
+	<url code="web/base/removeBanner.do"/>
+	
+	<url code="web/base/queryRewardRuleList.do" need_sn="false"/>
+	<url code="web/base/addRewardRule.do"/>
+	<url code="web/base/modifyRewardRule.do"/>
+	<url code="web/base/removeRewardRule.do"/>
+	<url code="web/base/queryRewardActionList.do" need_sn="false"/>
+	
+	<url code="web/base/queryEnumTypeList.do" need_sn="false"/>
+	<url code="web/base/queryEnumItemList.do" need_sn="false"/>
+	<url code="web/base/queryEnumItem.do" need_sn="false"/>
+	<url code="web/base/addEnumType.do"/>
+	<url code="web/base/modifyEnumType.do"/>
+	<url code="web/base/removeEnumType.do"/>
+	<url code="web/base/addEnumItem.do"/>
+	<url code="web/base/modifyEnumItem.do"/>
+	<url code="web/base/removeEnumItem.do"/>
+	
+	<url code="web/base/queryHomepagePicList.do" need_sn="false" need_auth="false"/>
+	<url code="upload/base/addHomepagePic.do"/>
+	<url code="upload/base/modifyHomepagePic.do"/>
+	<url code="web/base/removeHomepagePic.do"/>
+	
+	<url code="web/base/queryMainCatalogList.do" need_sn="false"/>
+	<url code="upload/base/saveMainCatalog.do"/>
+	<url code="web/base/removeMainCatalog.do"/>
+	
+	<!-- 文章域 -->
+	<url code="web/article/queryList.do" need_auth="false"/>
+	<url code="web/article/queryContent.do" need_auth="false"/>
+	<url code="web/article/save.do"/>
+	<url code="web/article/saveContent.do"/>
+	<url code="upload/article/uploadPic.do"/>
+	<url code="web/article/remove.do"/>
+	
+	<!-- 公用域 -->
+	<url code="web/common/login.do" need_auth="false" reward="login"/>
+	<url code="web/common/getRefreshableCacheList.do"/>
+	<url code="web/common/quickMatch.do" need_auth="false"/>
+	<url code="web/common/queryTodoTaskList.do" need_sn="false"/>
+	<url code="web/common/getQiniuTokens.do" need_auth="false"/>
+	
+	<!-- 员工域 -->
+	<url code="upload/staff/add.do"/>
+	<url code="upload/staff/modify.do"/>
+	<url code="web/staff/remove.do"/>
+	<url code="web/staff/queryList.do" need_sn="false"/>
+	<!-- 用户域 -->
+	<url code="upload/user/add.do"/>
+	<url code="upload/user/modify.do"/>
+	<url code="web/user/remove.do"/>
+	<url code="web/user/queryList.do" need_sn="false"/>
+	<url code="web/user/trans2Guider.do"/>
+	<!-- 商户域 -->
+	<url code="web/agency/queryList.do"/>
+	<url code="web/agency/queryDetail.do"/>
+	<url code="web/agency/queryTicketList.do"/>
+	<url code="web/agency/approve.do"/>
+	<url code="web/agency/reject.do"/>
+	<url code="web/agency/save.do"/>
+	<url code="web/agency/remove.do"/>
+	
+	<!-- 导游域 -->
+	<url code="web/guider/queryList.do" need_sn="false"/>
+	<url code="web/guider/approveApply.do" need_sn="false"/>
+	<url code="web/guider/rejectApply.do"/>
+	<url code="web/guider/queryWithdrawList.do" need_sn="false"/>
+	<url code="web/guider/approveWithdraw.do" need_sn="false"/>
+	<url code="web/guider/queryList.do" need_sn="false"/>
+	<url code="upload/guider/modify.do"/>
+	
+	<!-- 订单域 -->
+	<url code="web/order/queryList.do" need_sn="false"/>
+	<url code="web/order/queryComment.do" need_sn="false"/>
+	<url code="web/order/queryStatusDefineList.do" need_sn="false"/>
+	<url code="web/order/approve.do"/>
+	<url code="web/order/buildTransferForm.do"/>
+	
+	<!-- 旅票域 -->
+	
+	<url code="web/ticket/queryMainList.do" need_sn="false"/>
+	<url code="web/ticket/queryMainDetail.do"/>
+	<url code="upload/ticket/saveTicketMain.do"/>
+	<url code="web/ticket/publishTicketMain.do"/>
+	<url code="web/ticket/approveTicketMain.do"/>
+	<url code="web/ticket/rejectTicketMain.do"/>
+	
+	
+	<url code="web/ticket/queryList.do" need_sn="false"/>
+	<url code="upload/ticket/saveTicket.do"/>
+	<url code="web/ticket/removeTicket.do"/>
+	<url code="web/ticket/onlineTicket.do"/>
+	<url code="web/ticket/offlineTicket.do"/>
+	
+	<url code="web/ticket/queryIntroList.do" need_sn="false"/>
+	<url code="upload/ticket/uploadIntroPic.do"/>
+	<url code="web/ticket/saveIntroList.do"/>
+	<url code="web/ticket/getNewTicketMainId.do"/>
+	
+	
+	
+	
+	
+	<!-- 专题域 -->
+	<url code="upload/topic/save.do"/>
+	<url code="upload/topic/publish.do"/>
+	<url code="web/topic/cancel.do"/>
+	<url code="web/topic/remove.do"/>
+	<url code="web/topic/queryList.do" need_sn="false"/>
+	<url code="web/topic/queryIntroList.do" need_sn="false"/>
+	<url code="web/topic/queryCommentList.do" need_sn="false"/>
+	<url code="web/topic/stickComment.do"/>
+	<url code="upload/topic/uploadIntroPics.do" need_auth="false"/>
+	<url code="web/topic/saveIntroList.do" need_auth="false"/>
+	
+	<!-- 消息域 -->
+	<url code="web/message/queryFeedbackList.do"/>
+	<url code="web/message/dealFeedback.do"/>
+	<url code="web/message/queryChatHistory.do" need_auth="false" need_sn="false"/>
+	<url code="web/message/getRongToken.do" need_sn="false"/>
+	
+	
+	<!-- 通知域 -->
+	<url code="web/notify/saveTemplate.do"/>
+	<url code="web/notify/saveTemplateContent.do"/>
+	<url code="web/notify/queryTemplateList.do" need_sn="false"/>
+	<url code="web/notify/queryTemplateContent.do" need_sn="false"/>
+	<url code="upload/notify/uploadTemplatePic.do"/>
+	<url code="web/notify/removeTemplate.do"/>
+	
+	<url code="web/notify/testNotify.do"/>
+	<url code="web/notify/sendEmailMessage.do"/>
+	
+	<!-- 运营 -->
+	<url code="web/op_vangogh/queryList.do"/>
+	<!-- 分享会 -->
+	<url code="web/sharing/queryList.do"/>
+	<url code="web/sharing/queryDetail.do"/>
+	<url code="web/sharing/save.do"/>
+	<url code="web/sharing/getNewId.do"/>
+	<url code="web/sharing/publish.do"/>
+	<url code="web/sharing/offline.do"/>
+	<url code="web/sharing/remove.do"/>
+</root>

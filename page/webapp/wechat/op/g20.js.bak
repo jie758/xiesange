@@ -1,0 +1,340 @@
+var sharingImg = "http://resource.xiesange.com/image/op/crab_2.jpg";
+	
+function initPage(){
+	//var signupId = common.getUrlParams("signup_id");
+	var openid = null;
+	var signupInfo = null;
+	
+	var url = xsgwx.buildWxOAuthUrl(common.getHost()+"/wechat/op/g20.html")
+	var timelineDesc = '野生梭子蟹、野生小黄、日本对虾....杭州人民平时吃不到的海鲜大礼包,现G20期间，只要手机号码"20"结尾,就可以打折?对，我们就这么简单粗暴';
+	var appMessageDesc = '野生梭子蟹、野生小黄、日本对虾....杭州人民平时吃不到的海鲜大礼包,现G20期间，只要手机号码"20"结尾,就可以打折?对，我们就这么简单粗暴';
+	xsgwx.initConfig(function(user){
+		openid = user.openid || common.getUrlParams("openid");
+		xsgwx.showOptionMenu();
+		xsgwx.shareTimeline(timelineDesc, url, sharingImg,commonSharing);
+		xsgwx.sendAppMessage("#梭子蟹最美的季节#G20豪华海鲜大礼包最低6.4折", appMessageDesc, url, sharingImg,commonSharing);
+		
+		ajax.request({
+			url : _base_url+"/web/op_g20/querySignup.do",
+			need_progressbar : false,
+			params : {
+				openid : openid
+			},
+			success : function(header,body){
+				signupInfo = body.signup || "no";
+				
+			}
+		});
+		
+		
+	},false);
+	
+	widget.bindTouchClick($(".button.signup"),function(){
+		if(openid == null || signupInfo === null){
+			message.alert("页面数据尚在加载，请稍后再试");
+			return;
+		}
+		if(signupInfo == "no"){
+			common.gotoPage("g20_signup.html?openid="+openid);
+		}else{
+			gotoQRCode(openid,signupInfo.id,signupInfo.nickname,signupInfo.mobile);
+		}
+		
+	});
+}
+
+function initSingupPage(){
+	var openid = common.getUrlParams("openid");
+	if(!openid){
+		message.alert("请以正确的姿势打开噢~");
+		return;
+	}
+	var $vcodeNext = $(".vcode-next");
+	var $titlebar = $("#title");
+	var $vcodeSet = VCodeSet.init($("#vcode-container"),{
+		success : function($mobileInput,$vcodeInput,$vcodeBttn){
+			message.successHide("验证码已发送至"+$mobileInput.val(),$titlebar);
+		},
+		error : function(errorMsg,$mobileInput,$vcodeInput,$vcodeBttn){
+			message.errorHide(errorMsg,$titlebar);
+		},
+		vcode_changed : function($mobileInput,$vcodeInput,$vcodeBttn){
+			if($vcodeInput.val().length != 0){
+				$vcodeNext.removeClass("disable-bttn");
+			}else{
+				$vcodeNext.addClass("disable-bttn");
+			}
+		}
+	});
+	
+	
+	//报名事件
+	widget.bindTouchClick($vcodeNext,function(e){
+		if($vcodeNext.hasClass("disable-bttn"))
+			return;
+		var $mobileInput = $vcodeSet.find(".vcode-mobile");
+		var $vcodeInput = $vcodeSet.find(".vcode-input");
+		var $linkman = $(".linkman");
+		var $addr = $(".address");
+		
+		if(!common.checkMobile($mobileInput.val())){
+			message.errorHide("请输入正确的手机号",$titlebar);
+			return;
+		}
+		
+		if(!$vcodeInput.val()){
+			message.errorHide("请输入验证码",$titlebar);
+			return;
+		}
+		
+		if(!$linkman.val()){
+			message.errorHide("请输入收件人姓名",$titlebar);
+			return;
+		}
+		if(!$addr.val()){
+			message.errorHide("请输入收件人地址",$titlebar);
+			return;
+		}
+		
+		$vcodeNext.addClass('disable-bttn');
+		ajax.request({
+			url : _base_url+"/web/op_g20/signup.do",
+			need_progressbar : $titlebar,
+			params : {
+				mobile : $mobileInput.val(),
+				vcode : $vcodeInput.val(),
+				nickname:$linkman.val(),
+				address:$addr.val(),
+				openid : openid
+			},
+			success : function(header,body){
+				message.successHide("报名成功! 正在为您生成专属二维码...",$(".order .titlebar"));
+				setTimeout(function(){
+					gotoQRCode(openid,body.newid,$linkman.val(),$mobileInput.val());
+				},1200);
+			},
+			complete:function(){
+				$vcodeNext.removeClass('disable-bttn');
+			}
+		});
+	});
+}
+
+
+function initVotePage(){
+	var signupId = common.getUrlParams("signup_id");
+	if(!signupId){
+		message.alert("请以正确的姿势打开噢~");
+		return;
+	}
+	var openid = null;
+	
+	xsgwx.initConfig(function(user){
+		openid = user && user.openid;
+		ajax.request({
+			url : _base_url+"/web/op_g20/queryVoteSignup.do",
+			need_progressbar : false,
+			params : {
+				signup_id : signupId,
+				openid : openid//投票者openid
+			},
+			success : function(header,body){
+				if(!body.signup){
+					message.alert("该用户已退出本次活动");
+					return;
+				}
+				var mobile = body.signup.mobile;
+				var nickname = body.signup.nickname;
+				$("#name").text(nickname);
+				
+				if(!body.voteSignup){
+					//报名组件
+					var $vcodeNext = $(".vcode-next");
+					var $vcodeSet = VCodeSet.init($("#vcode-container"),{
+						success : function($mobileInput,$vcodeInput,$vcodeBttn){
+							message.successHide("验证码已发送至"+$mobileInput.val());
+						},
+						error : function(errorMsg,$mobileInput,$vcodeInput,$vcodeBttn){
+							message.errorHide(errorMsg,$titlebar);
+						},
+						vcode_changed : function($mobileInput,$vcodeInput,$vcodeBttn){
+							if($vcodeInput.val().length != 0){
+								$vcodeNext.removeClass("disable-bttn");
+							}else{
+								$vcodeNext.addClass("disable-bttn");
+							}
+						}
+					});
+					//报名事件
+					widget.bindTouchClick($vcodeNext,function(e){
+						if($vcodeNext.hasClass("disable-bttn"))
+							return;
+						var $mobileInput = $vcodeSet.find(".vcode-mobile");
+						var $vcodeInput = $vcodeSet.find(".vcode-input");
+						var $linkman = $(".linkman");
+						var $addr = $(".address");
+						
+						if(!common.checkMobile($mobileInput.val())){
+							message.errorHide("请输入正确的手机号",$titlebar);
+							return;
+						}
+						
+						if(!$vcodeInput.val()){
+							message.errorHide("请输入验证码",$titlebar);
+							return;
+						}
+						
+						if(!$linkman.val()){
+							message.errorHide("请输入收件人姓名",$titlebar);
+							return;
+						}
+						if(!$addr.val()){
+							message.errorHide("请输入收件人地址",$titlebar);
+							return;
+						}
+						
+						$vcodeNext.addClass('disable-bttn');
+						ajax.request({
+							url : _base_url+"/web/op_g20/vote.do",
+							need_progressbar : false,
+							params : {
+								mobile : $mobileInput.val(),
+								vcode : $vcodeInput.val(),
+								nickname:$linkman.val(),
+								address:$addr.val(),
+								openid : openid,
+								signup_id : signupId
+							},
+							success : function(header,body){
+								message.successHide("报名成功! 正在为您生成专属二维码...",$(".order .titlebar"));
+								setTimeout(function(){
+									gotoQRCode(body.newid,$linkman.val(),$mobileInput.val());
+								},1200);
+							},
+							complete:function(){
+								$vcodeNext.removeClass('disable-bttn');
+							}
+						});
+					});
+					$("#linkinfo").show();
+					$("#signupinfo").remove();
+				}else{
+					$("#linkinfo").remove();
+					$("#voteName").text(body.voteSignup.nickname);
+					$("#signupinfo").show();
+				}
+				initVoteSharing(null,signupId);
+			}
+		});
+		
+		
+	},false);
+	
+	//查看详情
+	widget.bindTouchClick($(".viewdetail"),function(e){
+		if(openid == null){
+			message.alert("页面数据尚在加载，请稍后再试");
+			return;
+		}
+		common.gotoPage("g20.html?openid="+openid);
+	});
+}
+
+function initQRcodePage(){
+	var signupId = common.getUrlParams("signup_id");
+	var signupName = common.getUrlParams("signup_name");
+	signupName = decodeURIComponent(signupName);
+	if(!signupId || !signupName){
+		message.alert("请以正确的姿势打开噢~");
+		return;
+	}
+	
+	var signupMobile = common.getUrlParams("signup_mobile");
+	var openid = common.getUrlParams("openid");
+	
+	xsgwx.initConfig(function(){
+		initVoteSharing(signupName,signupId);
+		
+		$("#name").text(signupName);
+		if(signupMobile.endWith("20")){
+			$(".mobile_20 .mobile").text(signupMobile);
+			$(".mobile_20").show();
+			$(".mobile_no20").remove();
+		}else{
+			$(".mobile_no20 .mobile").text(signupMobile);
+			$(".mobile_no20").show();
+			$(".mobile_20").remove();
+		}
+		
+		var $tempDiv = $("<div>").hide();
+		var voteUrl = xsgwx.buildWxOAuthUrl("http://www.xiesange.com/wechat/op/g20_vote.html?signup_id="+signupId);
+		$tempDiv.qrcode(voteUrl); 
+		var canvas = $tempDiv.children().get(0);
+		var image = new Image(); 
+		image.src = canvas.toDataURL("image/png");
+		$('.qrcode').append(image);
+		
+	},false);
+	
+	widget.bindTouchClick($(".share"),function(){
+		app.creatWxTopRightIndicator("点击右上角菜单，分享到您的朋友圈或者发送给您的好友",true,true);
+	});
+	
+	//查询投票列表
+	ajax.request({
+		url : _base_url+"/web/op_g20/queryVoteList.do",
+		need_progressbar : false,
+		params : {
+			signup_id : signupId,
+			openid : openid
+		},
+		success : function(header,body){
+			var voteList = body.voteList;
+			if(voteList == null || voteList.length == 0){
+				$('.votelistarea').show();
+				return;
+			}
+			var $container = $("#voteList");
+			$container.empty();
+			var length = voteList.length;
+			for(var i=0;i<length;i++){
+				var vote = voteList[i];
+				var $item = $("<div class='voteitem'><span style='margin-right:10px'>"+(length-i)+"</span><span class='votename'>"+vote.nickname+"</span><span class='votedate'>"+vote.createTime+"</span>").appendTo($container);
+				if(i % 2 == 1){
+					$item.css("background-color","#e8e8e8");
+				}
+			}
+			$('.votelistarea').show();
+		}
+	});
+}
+
+function gotoQRCode(openid,signupId,signupName,mobile){
+	signupName = encodeURIComponent(signupName);
+	common.gotoPage("g20_qrcode.html?openid="+openid+"&signup_id="+signupId+"&signup_name="+signupName+"&signup_mobile="+mobile);
+}
+
+function initVoteSharing(nickname,signupId){
+	var voteUrl = xsgwx.buildWxOAuthUrl("http://www.xiesange.com/wechat/op/g20_vote.html?signup_id="+signupId);
+	var timelineDesc = "我要吃野生梭子蟹！快帮我赢取6.4折G20海鲜大礼包！";
+	var appMessageTitle = "原价460元的G20海鲜大礼包大发送！";
+	var appMessageDesc = !nickname ? timelineDesc : nickname+"想吃野生梭子蟹！快帮Ta赢取6.4折海鲜大礼包吧！"
+	
+	xsgwx.showOptionMenu();
+	xsgwx.shareTimeline(timelineDesc, voteUrl, sharingImg,function(){
+		commonSharing(signupId);
+	});
+	xsgwx.sendAppMessage("快来赢取6.4折G20海鲜大礼包", appMessageDesc, voteUrl, sharingImg,function(){
+		commonSharing(signupId);
+	});
+}
+
+function commonSharing(signupId){
+	ajax.request({
+		url : _base_url+"/web/op_g20/share.do",
+		need_progressbar : false,
+		params : {
+			signup_id : signupId
+		}
+	});
+}

@@ -1,0 +1,46 @@
+.groupbuy-intro{
+	padding:0px 5px;
+}
+.groupbuy-intro-input{
+	background-color:#FFF;
+	height:100px;
+	border:1px solid #e8e8e8;
+	width:100%;
+	padding:2px;
+}
+.groupbuy-intro-label{
+	margin:5px;
+}
+.groupbuy-prodchoose-label{
+	margin:5px;
+}
+.prod-item{
+	margin-bottom: 10px;
+    background-color: #FFF;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 5px;
+}
+
+.prod-summary{
+    //color: #989898;
+    height: 48px;
+    margin-top:8px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    line-height: 16px;
+    font-weight:bold;
+    //color:#000000;
+}
+
+.prod-item .rightpart {
+    padding-left: 5px;
+    vertical-align: top;
+}
+.item-input{
+	height:24px;
+	width:50px;
+}
+.prod-choose{
+	margin-left:20px;
+	margin-top:3px;
+}

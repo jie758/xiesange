@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!-- <menu name="买点啥" type="click" key="test1">
+		<menu name="我的主页" type="view" url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0b03d9f8cc96b472&amp;redirect_uri=http://www.elsetravel.com/elsetravel/wechat/guider/main.html&amp;response_type=code&amp;scope=snsapi_userinfo&amp;state=1#wechat_redirect"/>
+		
+		<menu name="一栏" type="view" url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0b03d9f8cc96b472&amp;redirect_uri=http://www.elsetravel.com/elsetravel/wechat/topic/list.html&amp;response_type=code&amp;scope=snsapi_userinfo&amp;state=1#wechat_redirect"/>
+		<menu name="一票" type="view" url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0b03d9f8cc96b472&amp;redirect_uri=http://www.elsetravel.com/elsetravel/wechat/ticket/list.html&amp;response_type=code&amp;scope=snsapi_userinfo&amp;state=1#wechat_redirect"/>
+		<menu name="一人" type="view" url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0b03d9f8cc96b472&amp;redirect_uri=http://www.elsetravel.com/elsetravel/wechat/guider/apply.html&amp;response_type=code&amp;scope=snsapi_userinfo&amp;state=1#wechat_redirect"/>
+	
+	
+	</menu> -->
+	<menu name="买点啥" type="view" oauth_type="snsapi_userinfo" url="http://www.xiesange.com/wechat/product/product-list.html"/>
+	<menu name="联系老板" type="view" url="http://www.xiesange.com/wechat/service/contact.html"/>
+	
+</root>

@@ -1,0 +1,121 @@
+.prod-item{
+	padding:10px 20px;
+	background-color: #FFF;
+}
+.prod-pic{
+	padding: 0px 0px;
+}
+.prod-baseinfo{
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+}
+.prod-premise{
+}
+.prod-firstline{
+    line-height:20px;
+}
+.prod-summary{
+    margin-bottom: 5px;
+    line-height: 16px;
+    font-weight:bold;
+}
+.prod-stat{
+	line-height:30px;
+}
+.sale-amount{
+	float: left;
+}
+.prod-price{
+	font-size:1.2rem;
+}
+.prod-sum{
+    float: left;
+    font-size:1.3rem;
+}
+.prod-pic-list{
+	padding:10px 10px;
+	background-color:#FFF;
+	margin-top: 10px;
+	padding-bottom: 85px;
+}
+.prod-pic-list .pic-item{
+	margin-bottom:20px;
+}
+.footbar-bttn-left{
+	width: 125px;
+	height: 45px;
+    line-height: 45px;
+    float:left;
+}
+.footbar-bttn-right .cancel{
+	width: 80px;
+	height: 45px;
+    line-height: 45px;
+    float:left;
+    text-align:center;
+    background-color:#FFF;
+    color: #4d4d4d;
+    border-left: 1px solid #dcdada;
+}
+.footbar-bttn-right .ok{
+	width: 100px;
+	height: 45px;
+    line-height: 45px;
+    float:left;
+    border-right: 1px solid #f1f1f1;
+    text-align:center;
+}
+
+.prod-amount-bttn{
+	float: left;
+    width: 30px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 17px;
+    color: #eb4f38;
+    text-align: center;
+}
+.prod-amount-set{
+	line-height: 25px;
+	overflow: hidden;
+    margin-top: 9px;
+}
+.prod-amount-input{
+	float: left;
+    width: 40px;
+    height: 25px;
+    border: 1px solid #c8c8c8;
+    padding-right: 3px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+.prod-amount-unit{
+	float:left;
+	padding:0px 2px;
+	font-size: 0.9rem;
+}
+.totalsum{
+	position:fixed;
+	bottom:45px;
+	background-color:#FFF;
+	border: 1px solid #dadada;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	font-size:1.2rem;
+	-webkit-box-shadow: 0px -1px 1px #d0d0d0;;
+    -mox-box-shadow: 0px -1px 1px #d0d0d0;;
+    -ie-box-shadow: 0px -1px 1px #d0d0d0;;
+    -o-box-shadow: 0px -1px 1px #d0d0d0;;
+    box-shadow: 0px -1px 1px #d0d0d0;;
+}
+
+.promotion-block .item{
+	padding: 5px 5px !important;
+	margin-top: 5px !important;
+}
+
+.index-page .footbar{
+	line-height:45px;
+}

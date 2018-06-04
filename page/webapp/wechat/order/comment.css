@@ -1,0 +1,82 @@
+.prod-table{
+	width:100%;
+}
+.prod-table .rightpart{
+	vertical-align:top;
+	padding-left:5px;
+}
+.pay-prodlist .separator_h{
+	margin:10px;
+}
+.prod-firstline{
+    line-height:25px;
+}
+.prod-sumline{
+    line-height:25px;
+}
+.prod-starline{
+    //line-height:30px;
+}
+.prod-starline .star{
+	font-size:1.8rem;
+	padding:0px 5px;
+}
+.pay-content{
+	margin-top: 15px;
+	padding: 0px 10px;
+	background-color: #FFF;
+}
+.pay-prodlist{
+	margin-bottom: 8px;
+	padding-top: 5px;
+}
+.payitem{
+	width:100%;
+	display:none;
+	overflow: hidden;
+	//padding:5px 0px;
+	line-height: 25px;
+}
+
+.payitem-prodname{
+	float:left;
+	color:#757575;
+}
+.payitem-amount{
+	//float:left;
+}
+.payitem-prodprice{
+	float:left;
+}
+.payitem-sum{
+	float:right;
+	text-align:right;
+	font-size:1.1rem;
+}
+.payitem-symbol{
+	margin: 0px 5px;
+}
+.comment-tag-list{
+	margin-top: 5px;
+}
+.comment-tag-list .tag{
+	float:left;
+	padding:5px 6px;
+	border-radius:5px;
+	border:1px solid #c8c8c8;
+	margin-right:5px;
+	margin-bottom: 5px;
+	font-size: 0.9rem;
+}
+.comment-tag-list .tag.common-bg{
+	border:1px solid #f9ab23;
+}
+.comment-content{
+	margin-top:5px;
+	padding: 2px;
+	height:60px;
+	width:100%;
+	border:1px solid #c8c8c8;
+	font-family:PingFangSC-Regular,Helvetica,STHeiti STXihei,Microsoft JhengHei,Microsoft YaHei,Arial,"ºÚÌå","¿¬Ìå","Î¢ÈíÑÅºÚ","Microsoft YaHei";
+	font-size:1.1rem;
+}

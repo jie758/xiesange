@@ -1,0 +1,73 @@
+.item-input.linkman{
+	margin-top:10px;
+}
+.item-input.address{
+	margin-top:10px;
+	height: 80px !important;
+}
+
+
+html{
+	font-size:14px;
+}
+.item{
+	padding:5px;
+	text-align:center;
+}
+.xsg-color{
+	color:#FD9603;
+}
+
+.item-bg{
+	background-color:#FD9603;
+	color:#FFF;
+}
+.title{
+	background-color:#FD9603;
+	color:#FFF;
+	padding:5px 10px;
+	margin-bottom: 5px;
+}
+.prod-text{
+	text-align:center;
+}
+.prod-intro{
+	text-align:center;
+	font-size:0.9rem;
+	color:#c8c8c8;
+}
+.dalibao{
+	font-size:1.4rem;
+	text-align:center;
+}
+.left{
+	text-align:left;
+}
+.button{
+	background-color:#FD9603;
+	color:#FFF;
+	padding:10px 10px;
+	line-height: 40px;
+	border-radius:5px;
+}
+.button.share{
+	padding:10px 15px;
+}
+.qrcode{
+    height: 120px;
+    margin-bottom:5px;
+}
+.qrcode img{
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.voteitem{
+	padding:5px 30px;
+}
+.votedate{
+	float:right;
+	color:#c8c8c8;
+}

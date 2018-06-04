@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>邀请好友砍价</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+ 	<link href="../xiesange.css" rel="stylesheet">
+    <link href="bargain.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+	<script src="../../resource/js/3rd/pingpp.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+   
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg">
+<div class="index-page hidden">
+	<div class="titlebar fixed">邀请好友砍价</div>
+	<div style="margin-top:40px;"></div>
+	<!-- <div class="prod-pic-unslider">
+	</div> -->
+	
+	<div class="bargain-order-content">
+		<div class="bargain-prodlist"></div>
+		<div class="separator_h" style="background-color:#FFF;margin:0px 4px;"></div>
+		<div class="bargain-origsum">
+			<span class="tip money-font">订单总额：</span>
+			<span class="sum money-font"></span>
+		</div>
+	</div>
+	<div class="bargain-sum">
+		<div class="bargain-reducesum">
+			<span class="icon">砍</span>
+			<div class="right-part">
+				<span class="tip"><span class='amount'></span>位好友共帮<span class='ta'></span>砍掉:</span>
+				<span class="sum xsg-font"></span>
+			</div> 
+		</div>
+		<div class="bargain-remainsum">
+			<span class="tip">剩余金额:</span>
+			<span class="sum money-font"></span>
+		</div>
+	</div>
+	<div class="promotion-block bargain-expressfee"></div>
+	<div class="bargain-content">
+		<div class="bargain-member-text">砍价好友列表:</div>
+		<div class="bargain-member-list"></div>
+		<div class="bargain-intro">
+			<div class="title">砍价规则:</div>
+			<div class="content"></div>
+		</div>
+	</div>
+	
+	<div class="footbar fixed">
+		<div class="footbar-bttn-cancel common-font"></div>
+		<div class="footbar-bttn-ok common-font"></div>
+	</div>
+</div>
+
+<!-- 订单内容条目模板 -->
+<div id="_orderitem_temp" class="prod-item">
+	<table border="0" cellspacing="1" cellpadding="1" class="prod-table">
+		<tr>
+			<td class="pic-td"><div class="prod-pic"></div></td>
+			<td class="rightpart">
+				<div class="prod-firstline">
+					<span class="prod-name"></span>
+					<span class="prod-spec"></span>
+				</div>
+				<div class="prod-sumline overflow-hidden">
+					<span class="prod-origprice"></span><span class="prod-price"></span><span class="prod-unit"></span>
+					<span class="payitem-symbol">x</span>
+					<span class="payitem-amount"></span>
+					<span class="payitem-sum money-font"></span>
+				</div>
+				<div class="prod-stat overflow-hidden gray-font">
+					<span class="sale-amount"></span>
+					<span class='comment right-part'>
+						<span class="icon xsg-fontset">&#xe612;</span>
+						<span class="comment-amount common-font"></span>
+						<span class="arrow xsg-fontset">&#xe605;</span>
+					</span>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+<script src="bargain.js"></script>
+</html>

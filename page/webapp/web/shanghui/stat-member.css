@@ -1,0 +1,104 @@
+.period-table{
+	width:100%;
+}
+
+.period-table td{
+	padding:3px 5px;
+}
+.period-item{
+	width:100%;
+	float:left;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	border:1px solid #d8d8d8;
+}
+
+.award-list{
+	margin-top:20px;
+	padding:0px 10px;	
+	margin-bottom:50px;
+	overflow-x:hidden;
+}
+.award{
+	margin-bottom:20px;
+	word-break: break-all;
+}
+.name-line{
+	//line-height:35px;
+	//height:35px;
+	//background-color: #f9cc8b;
+	background-color: #e4e4e4;
+	padding:5px 5px;
+	//color:#ff2500;
+	color:#4c4c4b;
+}
+
+.name-line .name{
+	font-weight:bold;
+}
+.name-line .reward{
+	margin-left:3px;
+	color:#ef735e;
+}
+.desc-line{
+	color:#c8c8c8;
+	line-height:25px;
+	height:25px;
+}
+.condition-line{
+	color:#777777;
+	font-size: 0.9rem;
+}
+.member-list{
+	padding:5px 0px;
+	margin-top:10px;
+}
+.member{
+	margin-bottom:5px;
+}
+.memname-line{
+	//color:#FF0000;
+}
+.member-stat{
+	color:#7b7b7b;
+}
+.stat-chart{
+	width:100%;
+	//height:200px;
+	display:none;
+}
+
+.goto-index{
+	border-top:1px solid #c8c8c8;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background-color:#FFF;
+}
+.goto-index a{
+	text-decoration:none;
+	color:#000000;
+}
+.stat-list{
+	position:relative;
+	padding-bottom: 50px;
+}
+.huifei{
+	float:left;
+	padding-left:5px;
+}
+.order-by{
+	text-align:right;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+.order-by .item{
+	padding:3px 5px;
+	border:1px solid #eeeeee;
+}

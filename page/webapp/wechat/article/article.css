@@ -1,0 +1,11 @@
+.article-content{
+	background-color:#FFF;
+	margin-top:10px;
+	height:400px;
+	padding:10px 5px;
+}
+
+.article-content img{
+	width: 80% !important;
+    border: 1px solid #c8c8c8;
+}

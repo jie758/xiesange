@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<META content="telephone=no" name="format-detection" />
+    <title>订单管理</title>
+    <link href="../../resource/style/common.css" rel="stylesheet">
+    <link href="../xiesange.css" rel="stylesheet">
+    <link href="../order/order-list.css" rel="stylesheet">
+    <link href="m-order-list.css" rel="stylesheet">
+    
+    <script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+    <script src="../../resource/js/3rd/jweixin-1.0.0.min.js"></script>
+    <script src="../../resource/js/xsg/common.js"></script>
+    <script src="../xiesange.js"></script>
+</head>
+<body class="gray-bg">
+<div class="titlebar index fixed">订单管理</div>
+<div class="order-list"></div>
+<div class="next-page gray-border gray-font" style="margin-bottom:55px;">点击加载更多...</div>
+<div class="footbar fixed">
+	<div class="footbar-bttn-cancel sum common-font"></div>
+	<div class="footbar-bttn-ok purchase common-font">生成采购单</div>
+</div>
+
+
+<!-- 订单条目模板 -->
+<div id="_order_item_temp" class="order-item gray-border">
+	<div class="order-titleline gray-font">
+		<div class="order-code"></div>
+		<div class="right-part">
+			<span class="order-createtime"></span>
+			<span class="xsg-fontset arrow">&#xe605;</span>
+		</div>
+	</div>
+	<div class="separator_h"></div>
+	<div class="order-buyer">
+		<div class="order-buyer-info">
+			<div class="order-linkman-name"></div>
+			<div class="order-linkman-mobile"></div>
+			<div class="order-deliveryday"></div>
+		</div>
+		<div class="order-buyer-addr gray-font"></div>
+	</div>
+	<div class="separator_h"></div>
+	<div class="groupbuy-info">
+		<div class="groupbuy-text common-bg">团</div>
+		<div class="promotion-item">
+			<span class='content'></span>
+		</div>
+	</div>
+	<div class="order-content"></div>
+	<div class="separator_h"></div>
+	<div class="order-sumbar">
+		<div style="overflow: hidden;" class="ordersum">
+			<span class="order-expressfee gray-font"></span>
+			<span class="right-part">
+				<span class="order-origsum gray-font"></span>
+				<span class="order-sum money-font"></span>
+			</span>
+		</div>
+		<div>
+			<div class="order-coupon gray-font"></div>
+			<div style="float:right" class="paysum">
+				<div class="order-paysum-text">实付:</div>
+				<div class="order-paysum money-font"></div>
+			</div>
+		</div>
+	</div>
+	<div class="order-bttn-bar">
+		<div class="list-item-bttn left order-status"></div>
+		<div class="list-item-bttn right">操作...</div>
+	</div>
+	<div class="order-deliverybar">
+		<div class="summary">
+			<div class="deliveryno gray-font"></div>
+			<div class="right-part">
+				<div class="loading loading-icon"></div>
+				<div class="showall gray-font">查询中</div>
+			</div>
+		</div>
+		<div class="routelist">
+		</div>
+		
+	</div>
+</div>
+<!-- 订单内容条目模板 -->
+<div id="_order_content_item_temp" class="order-content-item">
+	<div class="order-item-prodname"></div>
+	<div class="order-item-amount"></div>
+	<div class="order-item-symbol">x</div>
+	<div class="order-item-prodprice"></div>
+	<div class="order-item-sum"></div>
+</div>
+
+<!-- 订单内容条目模板,团购模板 -->
+<div id="_order_content_groupbuyitem_temp" class="order-content-item">
+	<div class="orderitem-custinfo">
+		<div class="name"></div>
+		<div class="mobile gray-font"></div>
+	</div>
+	<div class="orderitem-orderinfo">
+		<div class="order-item-amount"></div>
+		<div class="order-item-symbol">x</div>
+		<div class="order-item-prodprice"></div>
+		<div class="right-part">
+			<span class="paystatus"></span>
+			<span class="order-item-sum"></span>
+		</div>
+	</div>
+</div>
+
+
+<div id="_delivery_route_temp" class="route hidden">
+	<div style="overflow:hidden">
+		<div class='flag'></div>
+		<div class='time'></div>
+		<div class='node'></div>
+		<!-- <div class='showall gray-font'>查看全部</div> -->
+	</div>
+	<div style="overflow:hidden">
+		<div class='state'></div>
+		<span class='sep'>-</span>
+		<div class='name'></div>
+		<a class='dial xsg-fontset xsg-font'>&#xe60d;</a>
+	</div>
+</div>
+
+<div class="order-modify-page">
+	<div class="titlebar modifypage">订单修改</div>
+	<div class="order-modify-content" style="margin-top:20px;">
+		<table border='0' cellspacing='1' cellpadding='1' class="items-table" style="width:100%">
+			<tr>
+				<td class="item-input-key">ID:</td>
+				<td entityKey="id" class="item-input-value gray-font"></td>
+			</tr>
+			<tr>
+				<td class="item-input-key">金额(元):</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="sum" class="item-input sum common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">运费(元):</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="expressSum:express_sum" class="item-input expressFee common-font" placeholder=""/>
+				</td>
+			</tr>
+			<!-- <tr>
+				<td class="item-input-key">成本(元):</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="expressSum:express_sum" class="item-input expressFee common-font" placeholder=""/>
+				</td>
+			</tr> -->
+			<tr>
+				<td class="item-input-key">收件人:</td>
+				<td class="item-input-value gray-font">
+					<input entityKey="name" class="item-input name common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">手机号:</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="mobile" class="item-input mobile common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key" style="height:80px">地址:</td>
+				<td class="item-input-value gray-font" style="height:80px">
+					<textarea entityKey="address" class="item-input summary address common-font" placeholder=""></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">快递单号:</td>
+				<td class="item-input-value gray-font">
+					<input type="tel" entityKey="deliveryNo:delivery_no" class="item-input common-font" placeholder=""/>
+				</td>
+			</tr>
+			<tr>
+				<td class="item-input-key">订单状态:</td>
+				<td class="item-input-value status">
+					<span class="status" entityKey="statusText:status" style="padding-right:15px;width:100%">待支付</span>
+					<span style="width:15px;line-height:15px;font-size:0.9rem;" class="right-part gray-font xsg-fontset">&#xe715;</span>
+				</td>
+			</tr>
+			<!-- <tr>
+				<td class="item-input-key">提醒</td>
+				<td class="item-input-value sendNotify">
+				</td>
+			</tr> -->
+		</table>
+	</div>
+	<div class="footbar">
+		<div class="footbar-bttn-cancel common-font">取 消</div>
+		<div class="footbar-bttn-ok common-font">提 交</div>
+	</div>
+</div>
+</body>
+<script src="m-order-list.js"></script>
+</html>

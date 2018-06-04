@@ -1,0 +1,142 @@
+.order-list-page{
+	
+}
+.purchase-code{
+	background-color:#FFF;
+	line-height:30px;
+	margin:15px 0px;
+	padding-left:5px;
+}
+.order-list{
+	margin-top:15px;
+	margin-bottom:85px;
+}
+.order-stat{
+	background-color:#FFF;
+	padding:5px;
+}
+.order-stat-prod{
+	margin-top:5px;
+	line-height: 40px;
+}
+.prod-table{
+	width:100%;
+}
+.prod-pic{
+	float:left;
+}
+.prod-name{
+	float:left;
+	margin-left:5px;
+}
+.prod-spec{
+	float:left;
+	margin-left:5px;
+}
+.prod-amount{
+	float:left;
+	margin-left:5px;
+}
+
+.list-item-bttn.delay{
+	color:#FF0000;
+}
+
+.order-vcode-next{
+	font-size:1.2rem;
+}
+.order-delivery-timeline{
+	overflow:hidden;
+	height:35px;
+	margin-top: 45px;
+	background-color:#FFF;
+	border-top:1px solid #e8e8e8;
+	border-bottom:1px solid #e8e8e8;
+	font-size:0.8rem;
+	margin-bottom: 10px;
+}
+.order-delivery-timeline *{
+	float:left;
+	line-height:35px;
+	height:100%;
+	text-align:center;
+	width:25%;
+}
+.order-delivery-timeline .yestoday{
+	border-right:1px solid #e8e8e8;
+	width:24%;
+}
+.order-delivery-timeline .today{
+	border-right:1px solid #e8e8e8;
+}
+.order-delivery-timeline .tomorrow{
+	border-right:1px solid #e8e8e8;
+}
+
+.order-delivery-timeline .clicked{
+	background-color:#FD9603;
+	color:#FFF;
+}
+
+.footbar-bttn-cancel.sum{
+	right:100px;
+	width:auto !important;
+	font-size:1rem;
+	text-align:left;
+	text-indent:5px;
+}
+.footbar-bttn-ok.purchase{
+	width:130px;
+	right:0px;
+	left:auto;
+	font-size:1rem;
+}
+
+.order-modify-page{
+	display:none;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	z-index:9999;
+	background-color:#FFF;
+}
+
+.morder-status{
+	color:#01C8D8;
+	float: left;
+    text-indent:5px;
+    text-align:left;
+    margin-right:15px;
+    font-size:0.9rem;
+}
+
+.morder-bottom-bar{
+	display:block !important;
+}
+.bargain-bar{
+	padding-left: 5px;
+	border-top: 1px solid #e8e8e8;
+}
+
+.purchase-order-item{
+	margin-bottom:5px;
+}
+
+.prod-sumline{
+	line-height: 22px;
+}
+.prod-firstline{
+	line-height: 22px;
+}
+.prod-sumline{
+	line-height: 22px;
+}
+.prod-symbol{
+	margin:0px 5px;
+}
+.order-index{
+	margin-right:5px;
+}
+

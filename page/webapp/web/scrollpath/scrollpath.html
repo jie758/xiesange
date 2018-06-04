@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>画面移动</title>
+	  <link rel="stylesheet" type="text/css" href="style/style.css" /> 
+		<link rel="stylesheet" type="text/css" href="style/scrollpath.css" /> 
+<style>
+.d1 {
+	top: 800px;
+	left: 0px;
+	width: 400px;
+	z-index:9999;
+}
+
+.d2 {
+	top: 800px;
+	left: 800px;
+	width: 400px;
+}
+
+.d3 {
+	top: 0px;
+	left: 800px;
+	width: 400px;
+}
+
+#d4 {
+	transform: rotate(-90deg) translateY(-9em);
+}
+#d5{
+	transform: rotate(90deg) translateY(4.5em) translateX(4rem);
+	margin-left: -90px;
+}
+#d6{
+	transform: rotate(90deg) 
+}
+.node{
+	z-index:9999;
+	white-space:nowrap;
+}
+</style>
+<script src="../../resource/js/3rd/jquery-1.11.3.min.js" charset="utf-8"></script>
+<script src="../../resource/js/3rd/jquery.mousewheel.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/lib/jquery.easing.js"></script>
+<script type="text/javascript" src="js/jquery.scrollpath.js"></script>
+<script type="text/javascript" src="js/hxw.js"></script>
+</head>
+<body>
+	<div id="container" style="position:absolute;top:0px;left:0px;bottom:0px;right:0px">
+		<div class="wrapper">
+			<div id="d0" class="node">
+				<span class="big">欢迎来到魔法盒子</span>
+			</div>
+			<div id="d1" class="node">
+				<span class="big">我们专注于烘焙行业30年</span>
+			</div>
+
+			<div id="d2" class="node">
+				<span class="big">近200名专业烘焙师加盟</span>
+			</div>
+
+			<div id="d3" class="node">
+				<span class="big">当天及时到达</span>
+			</div>
+
+			<div id="d4" class="node">
+				<span class="big">加盟热线:4000002046</span>
+			</div>
+			<div id="d5" class="node">
+				<span class="big">这里有良好的工作氛围</span>
+			</div>
+			<div id="d6" class="node">
+				<span class="big">吃不尽的美食</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

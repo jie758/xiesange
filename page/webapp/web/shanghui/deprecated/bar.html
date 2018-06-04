@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商会战绩</title>
+<script src="../../resource/js/3rd/jquery-1.11.3.min.js"></script>
+<script src="Chart.bundle.js"></script>
+<script src="shanghui.js"></script>
+</head>
+<body>
+<canvas id="myChart" width="600" height="400"></canvas>
+</body>
+<script type="text/javascript">
+var periods = getUrlParams("periods");
+var ctx = document.getElementById("myChart");
+var flightInfo = getFlighting();
+
+for(var i=0;i<flightInfo.length;i++){
+	var f = flightInfo[i];
+	var date = f.date;
+	if(!isMatchPeriod(date,periods)){
+		continue;
+	}
+	var flightMembs = f.members;
+	for(var key in membernames){
+		var memInfo = membernames[key];
+		var isFlight = flightMembs[key] != null;
+		if(isFlight){
+			if(memInfo.data.length == 0){
+				memInfo.data.push(0);
+			}
+			memInfo.data[0] += flightMembs[key];
+		}
+	}
+}
+var labels = [];
+var datasets = [{
+	//label : membObj.name,
+	data : [],
+	fill : false,
+    borderColor : [],
+    backgroundColor : [],
+    lineTension : 0,
+    borderWidth: 1
+}];
+for(var key in membernames){
+	var membObj = membernames[key];
+	labels.push(membObj.name);
+	datasets[0].data.push(membObj.data[0]*5);
+	datasets[0].backgroundColor.push(membObj.color);
+}
+var myBarChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels: labels,
+        datasets: datasets
+    },
+    options: {
+    	title: {
+            display: true,
+            text: (periods || "【总计】")+'商会成员战绩（单位元）'
+        },
+    	scales: {
+            yAxes: [{
+            	display : true,
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+
+
+</script>
+</html>

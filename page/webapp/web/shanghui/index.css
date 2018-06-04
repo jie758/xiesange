@@ -1,0 +1,135 @@
+.online-checkbox{
+	-webkit-appearance:checkbox;
+}
+.person-list{
+	margin-top:20px;
+}
+.person-list .offline-img{
+	width:16px;
+	height:16px;
+	border-radius:50%;
+	float:left;
+	margin-top: 1px;
+    margin-right: 1px;
+}
+
+.person-list .online-img{
+	width:22px;
+	height:22px;
+	border-radius:50%;
+	float:left;
+}
+.person-list .online-nickname{
+	float:left;
+	line-height: 22px;
+	padding-left:2px;
+}
+
+.person-table{
+	width:100%;
+}
+
+.person-table td{
+	text-align:center;
+	padding:2px 5px;
+}
+
+.person-table .item-input{
+	height:30px;
+}
+
+.person-item{
+	float:left;
+	padding:5px 10px;
+	border:1px solid #e8e8e8;
+	border-radius:3px;
+	margin-left:5px;
+	margin-top:5px;
+}
+.start-area{
+	//position:absolute;
+	//bottom:10px;
+	//left:0px;
+	//right:0px;
+	margin-top:30px;
+	text-align:center;
+}
+.record-list{
+	margin-top:50px;
+	font-size:0.9rem;
+	text-indent:5px;
+}
+.record-item{
+	padding:10px 0px;
+}
+
+.pwd{
+	margin-top:10px;
+}
+.pwd-item{
+	float:left;
+	text-align:center;
+	font-size:1.2rem;
+}
+.pwd-item.clicked{
+	background-color:#d8d8d8;
+}
+.price-wrap{
+	float:right;
+	margin-right:5px;
+}
+.price{
+	width:50px;
+	margin:10px auto;
+	height:35px;
+}
+.bttn{
+	padding:5px;
+	border:1px solid #d8d8d8;
+	width:120px;
+	margin:10px auto;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.tip{
+	margin-top:10px;
+	font-size:0.9rem;
+	text-align:center;
+}
+.record-list .viewall{
+	padding-right:10px;
+	text-decoration:underline;
+}
+
+.more-data{
+	line-height:40px;
+	text-align:center;
+	border:1px solid #c8c8c8;
+}
+
+.stat-area{
+	margin:20px 0px;
+	text-align:center;
+}
+.stat-area span{
+	padding: 10px 20px;
+	text-align:center;
+	text-decoration:underline;
+}
+.mj-type{
+	float:left;
+	height:35px;
+	line-height:35px;
+	margin: 10px 2px;
+	border: 1px solid #e8e8e8;
+	padding:0px 20px;
+	
+}
+.mj-online{
+	float:left;
+	height:35px;
+	line-height:35px;
+	margin: 10px 2px;
+	padding:0px 20px;
+}

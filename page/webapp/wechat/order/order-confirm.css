@@ -1,0 +1,122 @@
+.deliverybar{
+	margin-top:40px;
+}
+.ordercfm-item-list{
+	margin-top:15px;
+}
+.prod-item table {
+    width: 100%;
+}
+.prod-item{
+	margin-bottom:10px;
+	background-color: #FFF;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 5px;
+}
+.prod-item .rightpart {
+    padding-left: 5px;
+    vertical-align: top;
+}
+.prod-pic{
+	width:100%;
+	height:100%;
+}
+.prod-premise{
+    float: right;
+}
+.prod-firstline{
+    line-height:20px;
+}
+.prod-origprice{
+    float:left;
+    text-decoration:line-through;
+}
+.prod-price{
+    //font-weight:bold;
+    //font-size:1.1rem;
+    float:left;
+}
+.prod-unit{
+	float:left;
+}
+
+.prod-price.price-not-sure{
+	font-size:1.1rem;
+}
+.prod-sum{
+    float: left;
+    font-size:1.1rem;
+}
+.prod-amount-bttn{
+	float: left;
+    width: 30px;
+    height: 22px;
+    font-size: 17px;
+    color: #eb4f38;
+    text-align: center;
+}
+.prod-amount-set{
+	float:right;
+	line-height: 22px;
+}
+.prod-amount-input{
+	float: left;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #c8c8c8;
+    padding-right: 3px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+.prod-amount-unit{
+	float:left;
+	padding:0px 2px;
+	font-size: 0.9rem;
+}
+
+.ordercfm-express{
+	margin-top:15px;
+	background-color:#FFF;
+	line-height:30px;
+	padding:0px 5px;
+	overflow:hidden;
+}
+.express-fee{
+	float:right;
+}
+.express-fee-tip{
+	float:left;
+}
+
+.order-info-page .footbar-bttn-cancel {
+    right: 120px;
+    width: auto;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.order-info-page .footbar-bttn-ok {
+    width: 120px;
+    left: auto;
+}
+.expressfee-area{
+	margin-top: 15px;
+    background-color: #FFF;
+    font-size: 0.9rem;
+    padding: 5px 10px 5px 5px;
+}
+.expressfee-area .sum{
+	font-size:1.1rem;
+}
+.expressfee-area .sum.gray-font{
+	font-size:1.0rem;
+	
+}
+.ordercfm-addprod{
+	margin-top:15px;
+	width:100px;
+	line-height:35px;
+	margin:auto;
+	text-align:center;
+	text-decoration:underline;
+}

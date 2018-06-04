@@ -1,0 +1,12 @@
+<root>
+	<cache table="com.elsetravel.gen.dbentity.base.BaseConfig"/>
+	<cache table="com.elsetravel.gen.dbentity.base.BaseEnum"/>
+	
+	<cache table="com.elsetravel.gen.dbentity.base.BaseMedal"/>
+	<cache table="com.elsetravel.gen.dbentity.base.BaseRewardRule"/>
+	
+	<cache table="com.elsetravel.gen.dbentity.base.BaseTag"/>
+	
+	<cache table="com.elsetravel.gen.dbentity.sys.SysPartition"/>
+	<cache table="com.elsetravel.gen.dbentity.sys.SysPartitionDetail"/>
+</root>

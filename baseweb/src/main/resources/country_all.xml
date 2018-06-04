@@ -1,0 +1,4557 @@
+﻿<root>
+	<country code="1" name="中国" is_china="true" time_zone="0" gcode="CN">
+		<state code="010" name="北京" gcode="Beijing" />
+		<state code="022" name="天津" gcode="Tianjin" />
+		<state code="0311" name="河北">
+			<city code="0311" name="石家庄" gcode="Shijiazhuang" />
+			<city code="0315" name="唐山" gcode="Tangshan" />
+			<city code="0335" name="秦皇岛" gcode="Qinhuangdao" />
+			<city code="0311" name="邯郸" gcode="Handan" />
+			<city code="0319" name="邢台" gcode="Xingtai" />
+			<city code="0312" name="保定" gcode="Baoding" />
+			<city code="0313" name="张家口" gcode="Zhangjiakou" />
+			<city code="0314" name="承德" gcode="Chengde" />
+			<city code="0317" name="沧州" gcode="Cangzhou" />
+			<city code="0316" name="廊坊" gcode="Langfang" />
+			<city code="0318" name="衡水" gcode="Hengshui" />
+		</state>
+		<state code="0351" name="山西">
+			<city code="0351" name="太原" gcode="Taiyuan" />
+			<city code="0352" name="大同" gcode="Datong" />
+			<city code="0353" name="阳泉" gcode="Yangquan" />
+			<city code="0355" name="长治" gcode="Zhangzhi" />
+			<city code="0356" name="晋城" gcode="Jincheng" />
+			<city code="0349" name="朔州" gcode="Shuozhou" />
+			<city code="0354" name="晋中" gcode="Jinzhong" />
+			<city code="0359" name="运城" gcode="Yuncheng" />
+			<city code="0350" name="忻州" gcode="Xinzhou" />
+			<city code="0357" name="临汾" gcode="Linfen" />
+			<city code="0358" name="吕梁" gcode="Lu:liang" />
+		</state>
+		<state code="15" name="内蒙古">
+			<city code="1" name="呼和浩特" gcode="Huhehaote" />
+			<city code="2" name="包头" gcode="Baotou" />
+			<city code="3" name="乌海" gcode="Wuhai" />
+			<city code="4" name="赤峰" gcode="Chifeng" />
+			<city code="5" name="通辽" gcode="Tongliao" />
+			<city code="6" name="鄂尔多斯" gcode="Eerduosi" />
+			<city code="7" name="呼伦贝尔" gcode="Hulunbeier" />
+			<city code="8" name="巴彦淖尔" gcode="Bayannaoer" />
+			<city code="9" name="乌兰察布" gcode="Wulanchabu" />
+			<city code="22" name="兴安" gcode="Xingan" />
+			<city code="25" name="锡林郭勒" gcode="Xilinguole" />
+			<city code="29" name="阿拉善" gcode="Alashan" />
+		</state>
+		<state code="024" name="辽宁">
+			<city code="024" name="沈阳" gcode="Shenyang" />
+			<city code="0411" name="大连" gcode="Dalian" />
+			<city code="0412" name="鞍山" gcode="Anshan" />
+			<city code="0413" name="抚顺" gcode="Fushun" />
+			<city code="0414" name="本溪" gcode="Benxi" />
+			<city code="0415" name="丹东" gcode="Dandong" />
+			<city code="0416" name="锦州" gcode="Jinzhou" />
+			<city code="0417" name="营口" gcode="Yingkou" />
+			<city code="0418" name="阜新" gcode="Fuxin" />
+			<city code="0419" name="辽阳" gcode="Liaoyang" />
+			<city code="0427" name="盘锦" gcode="Panjin" />
+			<city code="0410" name="铁岭" gcode="Tieling" />
+			<city code="0421" name="朝阳" gcode="Chaoyang" />
+			<city code="0429" name="葫芦岛" gcode="Huludao" />
+		</state>
+		<state code="0431" name="吉林">
+			<city code="0431" name="长春" gcode="Zhangchun" />
+			<city code="0432" name="吉林" gcode="Jilin" />
+			<city code="0434" name="四平" gcode="Siping" />
+			<city code="0437" name="辽源" gcode="Liaoyuan" />
+			<city code="0435" name="通化" gcode="Tonghua" />
+			<city code="0439" name="白山" gcode="Baishan" />
+			<city code="0438" name="松原" gcode="Songyuan" />
+			<city code="0436" name="白城" gcode="Baicheng" />
+			<city code="0433" name="延边" gcode="Yanbian" />
+		</state>
+		<state code="0451" name="黑龙江">
+			<city code="0451" name="哈尔滨" gcode="Haerbin" />
+			<city code="0452" name="齐齐哈尔" gcode="Qiqihaer" />
+			<city code="0467" name="鸡西" gcode="Jixi" />
+			<city code="0468" name="鹤岗" gcode="Hegang" />
+			<city code="0469" name="双鸭山" gcode="Shuangyashan" />
+			<city code="0459" name="大庆" gcode="Daqing" />
+			<city code="0458" name="伊春" gcode="Yichun" />
+			<city code="0454" name="佳木斯" gcode="Jiamusi" />
+			<city code="0464" name="七台河" gcode="Qitaihe" />
+			<city code="0453" name="牡丹江" gcode="Mudanjiang" />
+			<city code="0456" name="黑河" gcode="Heihe" />
+			<city code="0455" name="绥化" gcode="Suihua" />
+			<city code="0457" name="大兴安岭" gcode="Daxinganling" />
+		</state>
+		<state code="31" name="上海" gcode="Shanghai" />
+		<state code="025" name="江苏">
+			<city code="025" name="南京" gcode="Nanjing" />
+			<city code="0510" name="无锡" gcode="Wuxi" />
+			<city code="0516" name="徐州" gcode="Xuzhou" />
+			<city code="0519" name="常州" gcode="Changzhou" />
+			<city code="0512" name="苏州" gcode="Suzhou" />
+			<city code="0513" name="南通" gcode="Nantong" />
+			<city code="0518" name="连云港" gcode="Lianyungang" />
+			<city code="0517" name="淮安" gcode="Huaian" />
+			<city code="0515" name="盐城" gcode="Yancheng" />
+			<city code="0514" name="扬州" gcode="Yangzhou" />
+			<city code="0511" name="镇江" gcode="Zhenjiang" />
+			<city code="0523" name="泰州" gcode="Taizhou" />
+			<city code="0527" name="宿迁" gcode="Suqian" />
+		</state>
+		<state code="0571" name="浙江">
+			<city code="0571" name="杭州" gcode="Hangzhou" />
+			<city code="0574" name="宁波" gcode="Ningbo" />
+			<city code="0577" name="温州" gcode="Wenzhou" />
+			<city code="0573" name="嘉兴" gcode="Jiaxing" />
+			<city code="0572" name="湖州" gcode="Huzhou" />
+			<city code="0575" name="绍兴" gcode="Shaoxing" />
+			<city code="0579" name="金华" gcode="Jinhua" />
+			<city code="0570" name="衢州" gcode="Quzhou" />
+			<city code="0580" name="舟山" gcode="Zhoushan" />
+			<city code="0576" name="台州" gcode="Taizhou" />
+			<city code="0578" name="丽水" gcode="Lishui" />
+		</state>
+		<state code="0551" name="安徽">
+			<city code="0551" name="合肥" gcode="Hefei" />
+			<city code="0552" name="蚌埠" gcode="Bangbu" />
+			<city code="0553" name="芜湖" gcode="Wuhu" />
+			<city code="0554" name="淮南" gcode="Huainan" />
+			<city code="0555" name="马鞍山" gcode="Maanshan" />
+			<city code="0556" name="安庆" gcode="Anqing" />
+			<city code="0561" name="淮北" gcode="Huaibei" />
+			<city code="0562" name="铜陵" gcode="Tongling" />
+			<city code="0559" name="黄山" gcode="Huangshan" />
+			<city code="0550" name="滁州" gcode="Chuzhou" />
+			<city code="0558" name="阜阳" gcode="Fuyang" />
+			<city code="0557" name="宿州" gcode="Suzhou" />
+			<city code="0564" name="六安" gcode="Liuan" />
+			<city code="0558" name="亳州" gcode="Bozhou" />
+			<city code="0566" name="池州" gcode="Chizhou" />
+			<city code="0563" name="宣城" gcode="Xuancheng" />
+			<city code="0565" name="巢湖" gcode="Chaohu" />
+		</state>
+		<state code="0591" name="福建">
+			<city code="0591" name="福州" gcode="Fuzhou" />
+			<city code="0592" name="厦门" gcode="Xiamen" />
+			<city code="0594" name="莆田" gcode="Putian" />
+			<city code="0598" name="三明" gcode="Sanming" />
+			<city code="0595" name="泉州" gcode="Quanzhou" />
+			<city code="0596" name="漳州" gcode="Zhangzhou" />
+			<city code="0599" name="南平" gcode="Nanping" />
+			<city code="0597" name="龙岩" gcode="Longyan" />
+			<city code="0593" name="宁德" gcode="Ningde" />
+		</state>
+		<state code="0791" name="江西">
+			<city code="0791" name="南昌" gcode="Nanchang" />
+			<city code="0798" name="景德镇" gcode="Jingdezhen" />
+			<city code="0799" name="萍乡" gcode="Pingxiang" />
+			<city code="0792" name="九江" gcode="Jiujiang" />
+			<city code="0790" name="新余" gcode="Xinyu" />
+			<city code="0701" name="鹰潭" gcode="Yingtan" />
+			<city code="0797" name="赣州" gcode="Ganzhou" />
+			<city code="0796" name="吉安" gcode="Jian" />
+			<city code="0795" name="宜春" gcode="Yichun" />
+			<city code="0794" name="抚州" gcode="Fuzhou" />
+			<city code="0793" name="上饶" gcode="Shangrao" />
+		</state>
+		<state code="0531" name="山东">
+			<city code="0531" name="济南" gcode="Jinan" />
+			<city code="0532" name="青岛" gcode="Qingdao" />
+			<city code="0533" name="淄博" gcode="Zibo" />
+			<city code="0632" name="枣庄" gcode="Zaozhuang" />
+			<city code="0546" name="东营" gcode="Dongying" />
+			<city code="0535" name="烟台" gcode="Yantai" />
+			<city code="0536" name="潍坊" gcode="Weifang" />
+			<city code="0537" name="济宁" gcode="Jining" />
+			<city code="0538" name="泰安" gcode="Taian" />
+			<city code="0631" name="威海" gcode="Weihai" />
+			<city code="0633" name="日照" gcode="Rizhao" />
+			<city code="0634" name="莱芜" gcode="Laiwu" />
+			<city code="0539" name="临沂" gcode="Linyi" />
+			<city code="0534" name="德州" gcode="Dezhou" />
+			<city code="0635" name="聊城" gcode="Liaocheng" />
+			<city code="0543" name="滨州" gcode="Binzhou" />
+			<city code="0530" name="菏泽" gcode="Heze" />
+		</state>
+		<state code="0371" name="河南">
+			<city code="0371" name="郑州" gcode="Zhengzhou" />
+			<city code="0378" name="开封" gcode="Kaifeng" />
+			<city code="0379" name="洛阳" gcode="Luoyang" />
+			<city code="0375" name="平顶山" gcode="Pingdingshan" />
+			<city code="0372" name="安阳" gcode="Anyang" />
+			<city code="0392" name="鹤壁" gcode="Hebi" />
+			<city code="0373" name="新乡" gcode="Xinxiang" />
+			<city code="0391" name="焦作" gcode="Jiaozuo" />
+			<city code="0393" name="濮阳" gcode="Puyang" />
+			<city code="0374" name="许昌" gcode="Xuchang" />
+			<city code="0395" name="漯河" gcode="Luohe" />
+			<city code="0398" name="三门峡" gcode="Sanmenxia" />
+			<city code="0377" name="南阳" gcode="Nanyang" />
+			<city code="0370" name="商丘" gcode="Shangqiu" />
+			<city code="0376" name="信阳" gcode="Xinyang" />
+			<city code="0394" name="周口" gcode="Zhoukou" />
+			<city code="0396" name="驻马店" gcode="Zhumadian" />
+			<city code="0391" name="济源" gcode="Jiyuan" />
+		</state>
+		<state code="027" name="湖北">
+			<city code="027" name="武汉" gcode="Wuhan" />
+			<city code="0714" name="黄石" gcode="Huangshi" />
+			<city code="0719" name="十堰" gcode="Shiyan" />
+			<city code="0717" name="宜昌" gcode="Yichang" />
+			<city code="0710" name="襄阳" gcode="Xiangyang" />
+			<city code="0711" name="鄂州" gcode="Ezhou" />
+			<city code="0724" name="荆门" gcode="Jingmen" />
+			<city code="0712" name="孝感" gcode="Xiaogan" />
+			<city code="0716" name="荆州" gcode="Jingzhou" />
+			<city code="0713" name="黄冈" gcode="Huanggang" />
+			<city code="0715" name="咸宁" gcode="Xianning" />
+			<city code="0722" name="随州" gcode="Suizhou" />
+			<city code="0718" name="恩施" gcode="Enshi" />
+			<city code="0728" name="仙桃" gcode="Xiantao" />
+			<city code="0728" name="潜江" gcode="Qianjiang" />
+			<city code="0728" name="天门" gcode="Tianmen" />
+			<city code="0719" name="神农架" gcode="Shennongjia" />
+		</state>
+		<state code="0731" name="湖南">
+			<city code="0731" name="长沙" gcode="Changsha" />
+			<city code="0731" name="株洲" gcode="Zhuzhou" />
+			<city code="0731" name="湘潭" gcode="Xiangtan" />
+			<city code="0734" name="衡阳" gcode="Hengyang" />
+			<city code="0739" name="邵阳" gcode="Shaoyang" />
+			<city code="0730" name="岳阳" gcode="Yueyang" />
+			<city code="0736" name="常德" gcode="Changde" />
+			<city code="0744" name="张家界" gcode="Zhangjiajie" />
+			<city code="0737" name="益阳" gcode="Yiyang" />
+			<city code="0735" name="郴州" gcode="Chenzhou" />
+			<city code="0746" name="永州" gcode="Yongzhou" />
+			<city code="0745" name="怀化" gcode="Huaihua" />
+			<city code="0738" name="娄底" gcode="Loudi" />
+			<city code="0743" name="湘西" gcode="Xiangxi" />
+		</state>
+		<state code="020" name="广东">
+			<city code="020" name="广州" gcode="Guangzhou" />
+			<city code="0751" name="韶关" gcode="Shaoguan" />
+			<city code="0755" name="深圳" gcode="Shenzhen" />
+			<city code="0756" name="珠海" gcode="Zhuhai" />
+			<city code="0754" name="汕头" gcode="Shantou" />
+			<city code="0757" name="佛山" gcode="Foshan" />
+			<city code="0750" name="江门" gcode="Jiangmen" />
+			<city code="0759" name="湛江" gcode="Zhanjiang" />
+			<city code="0668" name="茂名" gcode="Maoming" />
+			<city code="0758" name="肇庆" gcode="Zhaoqing" />
+			<city code="0752" name="惠州" gcode="Huizhou" />
+			<city code="0753" name="梅州" gcode="Meizhou" />
+			<city code="0660" name="汕尾" gcode="Shanwei" />
+			<city code="0762" name="河源" gcode="Heyuan" />
+			<city code="0662" name="阳江" gcode="Yangjiang" />
+			<city code="0763" name="清远" gcode="Qingyuan" />
+			<city code="0769" name="东莞" gcode="Dongguan" />
+			<city code="0760" name="中山" gcode="Zhongshan" />
+			<city code="0768" name="潮州" gcode="Chaozhou" />
+			<city code="0663" name="揭阳" gcode="Jieyang" />
+			<city code="0766" name="云浮" gcode="Yunfu" />
+		</state>
+		<state code="0771" name="广西">
+			<city code="0771" name="南宁" gcode="Nanning" />
+			<city code="0772" name="柳州" gcode="Liuzhou" />
+			<city code="0773" name="桂林" gcode="Guilin" />
+			<city code="0774" name="梧州" gcode="Wuzhou" />
+			<city code="0779" name="北海" gcode="Beihai" />
+			<city code="0770" name="防城港" gcode="Fangchenggang" />
+			<city code="0777" name="钦州" gcode="Qinzhou" />
+			<city code="0775" name="贵港" gcode="Guigang" />
+			<city code="0775" name="玉林" gcode="Yulin" />
+			<city code="0776" name="百色" gcode="Baise" />
+			<city code="0774" name="贺州" gcode="Hezhou" />
+			<city code="0778" name="河池" gcode="Hechi" />
+			<city code="0772" name="来宾" gcode="Laibin" />
+			<city code="0771" name="崇左" gcode="Chongzuo" />
+		</state>
+		<state code="0898" name="海南">
+			<city code="0898" name="海口" gcode="Haikou" />
+			<city code="0898" name="三亚" gcode="Sanya" />
+			<city code="0898" name="三沙" gcode="Sansha" />
+			<city code="0898" name="五指山" gcode="Wuzhishan" />
+			<city code="0898" name="琼海" gcode="Qionghai" />
+			<city code="0898" name="儋州" gcode="Danzhou" />
+			<city code="0898" name="文昌" gcode="Wenchang" />
+			<city code="0898" name="万宁" gcode="Wanning" />
+			<city code="0898" name="东方" gcode="Dongfang" />
+			<city code="0898" name="定安" gcode="Dingan" />
+			<city code="0898" name="屯昌" gcode="Tunchang" />
+			<city code="0898" name="澄迈" gcode="Chengmai" />
+			<city code="0898" name="临高" gcode="Lingao" />
+			<city code="0898" name="白沙" gcode="Baisha" />
+			<city code="0898" name="昌江" gcode="Changjiang" />
+			<city code="0898" name="乐东" gcode="Ledong" />
+			<city code="0898" name="陵水" gcode="Lingshui" />
+			<city code="0898" name="保亭" gcode="Baoting" />
+			<city code="0898" name="琼中" gcode="Qiongzhong" />
+		</state>
+		<state code="023" name="重庆" gcode="Zhongqing" />
+		<state code="028" name="四川">
+			<city code="028" name="成都" gcode="Chengdou" />
+			<city code="0813" name="自贡" gcode="Zigong" />
+			<city code="0812" name="攀枝花" gcode="Panzhihua" />
+			<city code="0830" name="泸州" gcode="Luzhou" />
+			<city code="0838" name="德阳" gcode="Deyang" />
+			<city code="0816" name="绵阳" gcode="Mianyang" />
+			<city code="0839" name="广元" gcode="Guangyuan" />
+			<city code="0825" name="遂宁" gcode="Suining" />
+			<city code="0832" name="内江" gcode="Neijiang" />
+			<city code="0833" name="乐山" gcode="Leshan" />
+			<city code="0817" name="南充" gcode="Nanchong" />
+			<city code="0833" name="眉山" gcode="Meishan" />
+			<city code="0831" name="宜宾" gcode="Yibin" />
+			<city code="0826" name="广安" gcode="Guangan" />
+			<city code="0818" name="达州" gcode="Dazhou" />
+			<city code="0835" name="雅安" gcode="Yaan" />
+			<city code="0827" name="巴中" gcode="Bazhong" />
+			<city code="0832" name="资阳" gcode="Ziyang" />
+			<city code="0837" name="阿坝" gcode="Aba" />
+			<city code="0836" name="甘孜" gcode="Ganzi" />
+			<city code="0834" name="凉山" gcode="Liangshan" />
+		</state>
+		<state code="0861" name="贵州">
+			<city code="0851" name="贵阳" gcode="Guiyang" />
+			<city code="0858" name="六盘水" gcode="Liupanshui" />
+			<city code="0852" name="遵义" gcode="Zunyi" />
+			<city code="0853" name="安顺" gcode="Anshun" />
+			<city code="0856" name="铜仁" gcode="Tongren" />
+			<city code="0859" name="黔西南" gcode="Qianxinan" />
+			<city code="0857" name="毕节" gcode="Bijie" />
+			<city code="0855" name="黔东南" gcode="Qiandongnan" />
+			<city code="0854" name="黔南" gcode="Qiannan" />
+		</state>
+		<state code="0871" name="云南">
+			<city code="0871" name="昆明" gcode="Kunming" />
+			<city code="0874" name="曲靖" gcode="Qujing" />
+			<city code="0877" name="玉溪" gcode="Yuxi" />
+			<city code="0875" name="保山" gcode="Baoshan" />
+			<city code="0870" name="昭通" gcode="Zhaotong" />
+			<city code="0888" name="丽江" gcode="Lijiang" />
+			<city code="0879" name="普洱" gcode="Puer" />
+			<city code="0883" name="临沧" gcode="Lincang" />
+			<city code="0878" name="楚雄" gcode="Chuxiong" />
+			<city code="0873" name="红河" gcode="Honghe" />
+			<city code="0876" name="文山" gcode="Wenshan" />
+			<city code="0691" name="西双版纳" gcode="Xishuangbanna" />
+			<city code="0872" name="大理" gcode="Dali" />
+			<city code="0692" name="德宏" gcode="Dehong" />
+			<city code="0886" name="怒江" gcode="Nujiang" />
+			<city code="0887" name="迪庆" gcode="Diqing" />
+		</state>
+		<state code="0891" name="西藏">
+			<city code="0891" name="拉萨" gcode="Lasa" />
+			<city code="0895" name="昌都" gcode="Changdou" />
+			<city code="0893" name="山南" gcode="Shannan" />
+			<city code="0892" name="日喀则" gcode="Rikaze" />
+			<city code="0896" name="那曲" gcode="Neiqu" />
+			<city code="0897" name="阿里" gcode="Ali" />
+			<city code="0894" name="林芝" gcode="Linzhi" />
+		</state>
+		<state code="029" name="陕西">
+			<city code="029" name="西安" gcode="Xian" />
+			<city code="0919" name="铜川" gcode="Tongchuan" />
+			<city code="0917" name="宝鸡" gcode="Baoji" />
+			<city code="029" name="咸阳" gcode="Xianyang" />
+			<city code="0913" name="渭南" gcode="Weinan" />
+			<city code="0911" name="延安" gcode="Yanan" />
+			<city code="0916" name="汉中" gcode="Hanzhong" />
+			<city code="0912" name="榆林" gcode="Yulin" />
+			<city code="0915" name="安康" gcode="Ankang" />
+			<city code="0914" name="商洛" gcode="Shangluo" />
+		</state>
+		<state code="0931" name="甘肃">
+			<city code="0931" name="兰州" gcode="Lanzhou" />
+			<city code="0937" name="嘉峪关" gcode="Jiayuguan" />
+			<city code="0935" name="金昌" gcode="Jinchang" />
+			<city code="0943" name="白银" gcode="Baiyin" />
+			<city code="0938" name="天水" gcode="Tianshui" />
+			<city code="0935" name="武威" gcode="Wuwei" />
+			<city code="0936" name="张掖" gcode="Zhangye" />
+			<city code="0933" name="平凉" gcode="Pingliang" />
+			<city code="0937" name="酒泉" gcode="Jiuquan" />
+			<city code="0934" name="庆阳" gcode="Qingyang" />
+			<city code="0932" name="定西" gcode="Dingxi" />
+			<city code="0939" name="陇南" gcode="Longnan" />
+			<city code="0930" name="临夏" gcode="Linxia" />
+			<city code="0941" name="甘南" gcode="Gannan" />
+		</state>
+		<state code="0971" name="青海">
+			<city code="0971" name="西宁" gcode="Xining" />
+			<city code="0972" name="海东" gcode="Haidong" />
+			<city code="0970" name="海北" gcode="Haibei" />
+			<city code="0973" name="黄南" gcode="Huangnan" />
+			<city code="0974" name="海南" gcode="Hainan" />
+			<city code="0975" name="果洛" gcode="Guoluo" />
+			<city code="0976" name="玉树" gcode="Yushu" />
+			<city code="0977" name="海西" gcode="Haixi" />
+		</state>
+		<state code="0951" name="宁夏">
+			<city code="0951" name="银川" gcode="Yinchuan" />
+			<city code="0952" name="石嘴山" gcode="Shizuishan" />
+			<city code="0953" name="吴忠" gcode="Wuzhong" />
+			<city code="0954" name="固原" gcode="Guyuan" />
+			<city code="0955" name="中卫" gcode="Zhongwei" />
+		</state>
+		<state code="0991" name="新疆">
+			<city code="0991" name="乌鲁木齐" gcode="Wulumuqi" />
+			<city code="0990" name="克拉玛依" gcode="Kelamayi" />
+			<city code="0995" name="吐鲁番" gcode="Tulufan" />
+			<city code="0902" name="哈密" gcode="Hami" />
+			<city code="0994" name="昌吉" gcode="Changji" />
+			<city code="0909" name="博尔塔拉" gcode="Boertala" />
+			<city code="0996" name="巴音郭楞" gcode="Bayinguoleng" />
+			<city code="0997" name="阿克苏" gcode="Akesu" />
+			<city code="0908" name="克孜勒苏" gcode="Kezilesu" />
+			<city code="0998" name="喀什" gcode="Kashen" />
+			<city code="0903" name="和田" gcode="Hetian" />
+			<city code="0992" name="伊犁" gcode="Yili" />
+			<city code="0901" name="塔城" gcode="Tacheng" />
+			<city code="0906" name="阿勒泰" gcode="Aletai" />
+			<city code="0993" name="石河子" gcode="Shihezi" />
+			<city code="0997" name="阿拉尔" gcode="Alaer" />
+			<city code="0998" name="图木舒克" gcode="Tumushuke" />
+			<city code="0994" name="五家渠" gcode="Wujiaqu" />
+			<city code="0906" name="北屯" gcode="Beitun" />
+		</state>
+		<state code="TW" name="台湾">
+			<city code="00886" name="台北市" gcode="Taipei City" />
+			<city code="00886" name="高雄市" gcode="Kaohsiung City" />
+			<city code="00886" name="基隆市" gcode="Keelung City" />
+			<city code="00886" name="台中市" gcode="Taichung City" />
+			<city code="00886" name="台南市" gcode="Tainan City" />
+			<city code="00886" name="新竹市" gcode="Hsinchu City" />
+			<city code="00886" name="嘉义市" gcode="Chiayi City" />
+			<city code="00886" name="台北县" gcode="Taipei" />
+			<city code="00886" name="宜兰县" gcode="Yilan County" />
+			<city code="00886" name="桃园县" gcode="Taoyuan City" />
+			<city code="00886" name="新竹县" gcode="Hsinchu County" />
+			<city code="00886" name="苗栗县" gcode="Miaoli County" />
+			<city code="00886" name="台中县" gcode="Tai Zhong" />
+			<city code="00886" name="彰化县" gcode="Changhua County" />
+			<city code="00886" name="南投县" gcode="Nantou County" />
+			<city code="00886" name="云林县" gcode="Yunlin County" />
+			<city code="00886" name="嘉义县" gcode="Chiayi County" />
+			<city code="00886" name="屏东县" gcode="Pingtung County" />
+			<city code="00886" name="台东县" gcode="Taitung County" />
+			<city code="00886" name="花莲县" gcode="Hualien County" />
+			<city code="00886" name="澎湖县" gcode="Penghu County" />
+		</state>
+		<state code="00852" name="香港" gcode="HK" />
+		<state code="00853" name="澳门" gcode="MO" />
+	</country>
+
+	<country name="英国" code="GBR" time_zone="-8" gcode="GB">
+		<state name="北爱尔兰" gcode="IE" code="NIR">
+			<city name="贝尔法斯特" code="BFS" gcode="Belfast" />
+			<city name="德里" code="DRY" gcode="Londonderry" />
+			<city name="利斯本" code="LSB" gcode="Lisburn" />
+			<city name="纽里" code="NYM" gcode="Newry" />
+		</state>
+		<state name="苏格兰" code="SCT">
+			<city name="阿伯丁" code="ABD" gcode="Aberdeen" />
+			<city name="爱丁堡" code="EDH" gcode="Edinburgh" />
+			<city name="邓迪" code="DND" gcode="Dundee" />
+			<city name="格拉斯哥" code="GLG" gcode="Glasgow" />
+			<city name="斯特灵" code="STG" gcode="Stirling" />
+			<city name="因弗内斯" code="INV" gcode="Inverness" />
+		</state>
+		<state name="威尔士" code="WLS">
+			<city name="班戈" code="BAN" gcode="Bangor" />
+			<city name="加的夫" code="CDF" gcode="Cardiff" />
+			<city name="纽波特" code="NWP" gcode="Newport" />
+			<city name="斯旺西" code="SWA" gcode="Swansea" />
+		</state>
+		<state name="英格兰" code="ENG">
+			<city name="埃克塞特" code="EXE" gcode="Exeter" />
+			<city name="巴斯" code="BAS" gcode="Bath" />
+			<city name="彼得伯勒" code="PTE" gcode="Peterborough" />
+			<city name="伯明翰" code="BIR" gcode="Birmingham" />
+			<city name="布拉德福德" code="BRD" gcode="Bradford" />
+			<city name="布莱顿与赫福" code="BNH" gcode="Brighton" />
+			<city name="布里斯托尔" code="BST" gcode="Bristol" />
+			<city name="德比" code="DER" gcode="Derby" />
+			<city name="达勒姆" code="DUR" gcode="Durham" />
+			<city name="格洛斯特" code="GLO" gcode="Gloucester" />
+			<city name="赫尔河畔金斯顿" code="KUH" gcode="Hull" />
+			<city name="赫里福德" code="HAF" gcode="Hereford" />
+			<city name="剑桥" code="CAM" gcode="Cambridge" />
+			<city name="卡莱尔" code="CAX" gcode="Carlisle" />
+			<city name="坎特伯雷" code="CNG" gcode="Canterbury" />
+			<city name="考文垂" code="COV" gcode="Coventry" />
+			<city name="兰开斯特" code="LAN" gcode="Lancaster" />
+			<city name="里彭" code="RIP" gcode="Ripon" />
+			<city name="利奇菲尔德" code="LHF" gcode="Lichfield" />
+			<city name="利物浦" code="LIV" gcode="Liverpool" />
+			<city name="列斯特" code="LCE" gcode="Leicester" />
+			<city name="林肯" code="LCN" gcode="Lincoln" />
+			<city name="伦敦" code="LND" gcode="London" />
+			<city name="曼彻斯特" code="MAN" gcode="Manchester" />
+			<city name="南安普敦" code="STH" gcode="Southampton" />
+			<city name="牛津" code="OXF" gcode="Oxford" />
+			<city name="纽卡斯尔" code="NCL" gcode="Newcastle upon Tyne" />
+			<city name="诺丁汉" code="NGM" gcode="Nottingham" />
+			<city name="诺里奇" code="NRW" gcode="Norwich" />
+			<city name="朴茨茅斯" code="POR" gcode="Portsmouth" />
+			<city name="普雷斯顿" code="PRE" gcode="Preston" />
+			<city name="普利茅斯" code="PLY" gcode="Plymouth" />
+			<city name="奇切斯特" code="CST" gcode="Chichester" />
+			<city name="切斯特" code="CEG" gcode="Chester" />
+			<city name="桑德兰" code="SUN" gcode="Sunderland" />
+			<city name="圣阿本斯" code="TBL" gcode="St Albans" />
+			<city name="索尔斯堡" code="SLS" gcode="Salisbury" />
+			<city name="索福特" code="SLF" gcode="Salford" />
+			<city name="特鲁罗" code="TRU" gcode="Truro" />
+			<city name="特伦特河畔斯多克" code="SOT" gcode="Stoke-on-Trent" />
+			<city name="威尔斯" code="WLS" gcode="Bristol" />
+			<city name="韦克菲尔德" code="WKF" gcode="Wakefield" />
+			<city name="温彻斯特" code="WNE" gcode="Winchester" />
+			<city name="伍尔弗汉普顿" code="WOV" gcode="Wolverhampton" />
+			<city name="伍斯特" code="WOR" gcode="Worcester" />
+			<city name="谢菲尔德" code="SHE" gcode="Sheffield" />
+			<city name="伊利" code="ELY" gcode="Ely" />
+			<city name="约克" code="YOR" gcode="York" />
+		</state>
+	</country>
+	<country name="法国" code="FRA" gcode="FR" time_zone="-7">
+		<state>
+			<city name="阿尔勒" code="ARL" gcode="Arles" />
+			<city name="阿雅克肖" code="AJA" gcode="Ajaccio" />
+			<city name="艾克斯" code="QXB" gcode="Aix" />
+			<city name="奥尔良" code="ORR" gcode="Orléans" />
+			<city name="巴黎" code="PAR" gcode="Paris" />
+			<city name="贝桑松" code="BSN" gcode="Besançon" />
+			<city name="第戎" code="DIJ" gcode="Dijon" />
+			<city name="弗雷瑞斯" code="FRJ" gcode="Fréjus" />
+			<city name="卡昂" code="CFR" gcode="Caen" />
+			<city name="雷恩" code="RNS" gcode="Rennes" />
+			<city name="里昂" code="LIO" gcode="Lyon" />
+			<city name="里尔" code="LLE" gcode="Lille" />
+			<city name="利摩日" code="LIG" gcode="Limoges" />
+			<city name="鲁昂" code="URO" gcode="Rouen" />
+			<city name="马赛" code="MRS" gcode="Marseille" />
+			<city name="梅斯" code="MZM" gcode="Metz" />
+			<city name="蒙彼利埃" code="MPL" gcode="Montpellier" />
+			<city name="南特" code="NTE" gcode="Nantes" />
+			<city name="尼斯" code="NCE" gcode="Nice" />
+			<city name="沙隆" code="CSM" gcode="Chalon" />
+			<city name="图卢兹" code="TLS" gcode="Toulouse" />
+			<city name="瓦朗斯" code="VAA" gcode="Valence" />
+			<city name="亚眠" code="AMI" gcode="Amiens" />
+		</state>
+	</country>
+	<country name="荷兰" code="NLD" gcode="NL" time_zone="-7">
+		<state>
+			<city name="阿尔梅勒" code="AER" gcode="Almere" />
+			<city name="阿默斯福特" code="AME" gcode="Amersfoort" />
+			<city name="阿姆斯特丹" code="AMS" gcode="Amsterdam" />
+			<city name="阿纳姆" code="ARN" gcode="Arnhem" />
+			<city name="阿珀尔多伦" code="APE" gcode="Apeldoorn" />
+			<city name="阿森" code="ASS" gcode="Assen" />
+			<city name="埃德" code="EDE" gcode="Ede" />
+			<city name="埃门" code="EMM" gcode="Emmen" />
+			<city name="埃因霍芬" code="EIN" gcode="Eindhoven" />
+			<city name="布雷达" code="BRD" gcode="Breda" />
+			<city name="蒂尔堡" code="TLB" gcode="Tilburg" />
+			<city name="多德雷赫特" code="DOR" gcode="Dordrecht" />
+			<city name="恩斯赫德" code="ENS" gcode="Enschede" />
+			<city name="格罗宁根" code="GRQ" gcode="Groningen" />
+			<city name="哈勒姆" code="HRA" gcode="Haarlem" />
+			<city name="海牙" code="HAG" gcode="The Hague" />
+			<city name="霍夫多普" code="HFD" gcode="Hoofddorp" />
+			<city name="莱顿" code="LID" gcode="Leiden" />
+			<city name="莱利斯塔德" code="LEY" gcode="Lelystad" />
+			<city name="鹿特丹" code="RTM" gcode="Rotterdam" />
+			<city name="吕伐登" code="LWR" gcode="Leeuwarden" />
+			<city name="马斯特里赫特" code="MST" gcode="Maastricht" />
+			<city name="米德尔堡" code="MDL" gcode="Middelburg" />
+			<city name="奈梅亨" code="NIJ" gcode="Nijmegen" />
+			<city name="斯海尔托亨博思" code="HTB" gcode="'s-Hertogenbosch" />
+			<city name="乌得勒支" code="UTC" gcode="Utrecht" />
+			<city name="兹沃勒" code="ZWO" gcode="Zwolle" />
+			<city name="祖特梅尔" code="ZTM" />
+		</state>
+	</country>
+	<country code="TLS" name="东帝汶" gcode="TL">
+		<state code="" name="" gcode="">
+			<city code="AL" name="阿伊莱乌" gcode="Aileu" />
+			<city code="AN" name="阿伊纳罗" gcode="" />
+			<city code="ER" name="埃尔梅拉" gcode="" />
+			<city code="AM" name="安贝诺" gcode="" />
+			<city code="BA" name="包考" gcode="" />
+			<city code="BO" name="博博纳罗" gcode="" />
+			<city code="DI" name="帝力" gcode="" />
+			<city code="KO" name="科瓦利马" gcode="" />
+			<city code="LA" name="劳滕" gcode="" />
+			<city code="LI" name="利基卡" gcode="" />
+			<city code="MT" name="马纳图托" gcode="" />
+			<city code="MF" name="马努法伊" gcode="" />
+			<city code="VI" name="维克克" gcode="Viqueque" />
+		</state>
+	</country>
+	<country code="TGO" name="多哥" gcode="TG">
+		<state code="" name="" gcode="">
+			<city code="M" name="滨海区" gcode="" />
+			<city code="S" name="草原区" gcode="" />
+			<city code="P" name="高原区" gcode="" />
+			<city code="K" name="卡拉区" gcode="" />
+			<city code="C" name="中部区" gcode="" />
+		</state>
+	</country>
+	<country code="DMA" name="多米尼加" gcode="Hiva Oa"></country>
+	<country code="DOM" name="多米尼加共和国" gcode="DO"></country>
+	<country code="RUS" name="俄罗斯" gcode="RU">
+		<state code="" name="" gcode="">
+			<city code="ABA" name="阿巴坎" gcode="" />
+			<city code="ARK" name="阿尔汉格尔斯克" gcode="" />
+			<city code="AGI" name="阿金斯科耶" gcode="" />
+			<city code="DYR" name="阿纳德尔" gcode="" />
+			<city code="AST" name="阿斯特拉罕" gcode="" />
+			<city code="ESL" name="埃利斯塔" gcode="" />
+			<city code="ORL" name="奥廖尔" gcode="" />
+			<city code="ORE" name="奥伦堡" gcode="" />
+			<city code="BAX" name="巴尔瑙尔" gcode="" />
+			<city code="PNZ" name="奔萨" gcode="" />
+			<city code="PKC" name="彼得罗巴甫洛夫斯克" gcode="" />
+			<city code="PES" name="彼得罗扎沃茨克" gcode="" />
+			<city code="PER" name="彼尔姆" gcode="Perm" />
+			<city code="BBZ" name="比罗比詹" gcode="" />
+			<city code="BEL" name="别尔哥罗德" gcode="" />
+			<city code="COK" name="伯力" gcode="" />
+			<city code="BQS" name="布拉戈维申斯克" gcode="" />
+			<city code="BRY" name="布良斯克" gcode="" />
+			<city code="CHE" name="车里雅宾斯克" gcode="" />
+			<city code="CHI" name="赤塔" gcode="" />
+			<city code="ROS" name="顿河畔罗斯托夫" gcode="" />
+			<city code="OMS" name="鄂木斯克" gcode="" />
+			<city code="VOG" name="伏尔加格勒" gcode="" />
+			<city code="VMR" name="弗拉基米尔" gcode="" />
+			<city code="VLA" name="弗拉季高加索" gcode="Vladikavkaz" />
+			<city code="GOA" name="戈尔诺－阿尔泰斯克" gcode="Gorno-Altaysk" />
+			<city code="GRV" name="格罗兹尼" gcode="" />
+			<city code="VVO" name="海参崴" gcode="" />
+			<city code="KHM" name="汉特－曼西斯克" gcode="" />
+			<city code="KIR" name="基洛夫" gcode="" />
+			<city code="KGD" name="加里宁格勒" gcode="" />
+			<city code="KZN" name="喀山" gcode="" />
+			<city code="KLF" name="卡卢加" gcode="" />
+			<city code="KOS" name="科斯特罗马" gcode="" />
+			<city code="KRR" name="克拉斯诺达尔" gcode="" />
+			<city code="KYA" name="克拉斯诺亚尔斯克" gcode="" />
+			<city code="KEM" name="克麦罗沃" gcode="" />
+			<city code="KYZ" name="克孜勒" gcode="" />
+			<city code="KUD" name="库德姆卡尔" gcode="" />
+			<city code="KRO" name="库尔干" gcode="" />
+			<city code="URS" name="库尔斯克" gcode="Kursk" />
+			<city code="LIP" name="利佩茨克" gcode="" />
+			<city code="RYA" name="梁赞" gcode="Ryazan" />
+			<city code="MCX" name="马哈奇卡拉" gcode="" />
+			<city code="MAG" name="马加丹" gcode="" />
+			<city code="IN" name="马加斯" gcode="" />
+			<city code="MAY" name="迈科普" gcode="Maykop" />
+			<city code="MMK" name="摩尔曼斯克" gcode="Murmansk" />
+			<city code="MOW" name="莫斯科" gcode="Moscow" />
+			<city code="NAL" name="纳尔奇克" gcode="Nalchik" />
+			<city code="NNM" name="纳里扬马尔" gcode="Naryan-Mar" />
+			<city code="JSA" name="南萨哈林斯克" gcode="Yuzhno-Sakhalinsk" />
+			<city code="VUS" name="诺夫哥罗德" gcode="" />
+			<city code="PAL" name="帕拉纳" gcode="Palana" />
+			<city code="PSK" name="普斯科夫" gcode="" />
+			<city code="CSY" name="切博克萨雷" gcode="" />
+			<city code="CKS" name="切尔克斯克" gcode="Cherkessk" />
+			<city code="TYU" name="秋明" gcode="" />
+			<city code="SAR" name="萨拉托夫" gcode="" />
+			<city code="SKX" name="萨兰斯克" gcode="" />
+			<city code="SLY" name="萨列哈尔德" gcode="" />
+			<city code="SAM" name="萨马拉" gcode="Samara" />
+			<city code="SCW" name="瑟克特夫卡尔" gcode="" />
+			<city code="SPE" name="圣彼得堡" gcode="" />
+			<city code="LNX" name="斯摩棱斯克" gcode="Smolensk" />
+			<city code="STA" name="斯塔夫罗波尔" gcode="" />
+			<city code="TAM" name="坦波夫" gcode="" />
+			<city code="TVE" name="特维尔" gcode="" />
+			<city code="TUL" name="图拉" gcode="" />
+			<city code="TOM" name="托木斯克" gcode="" />
+			<city code="VOR" name="沃罗涅什" gcode="" />
+			<city code="VLG" name="沃洛格达" gcode="" />
+			<city code="UFA" name="乌法" gcode="" />
+			<city code="UUD" name="乌兰乌德" gcode="" />
+			<city code="ULY" name="乌里扬诺夫斯克" gcode="" />
+			<city code="UOB" name="乌斯季奥尔登斯基" gcode="" />
+			<city code="GOJ" name="下诺夫哥罗德" gcode="" />
+			<city code="NVS" name="新西伯利亚" gcode="" />
+			<city code="JAK" name="雅库茨克" gcode="" />
+			<city code="JAR" name="雅罗斯拉夫尔" gcode="Yaroslavl" />
+			<city code="JEK" name="叶卡捷林堡" gcode="" />
+			<city code="IKT" name="伊尔库茨克" gcode="" />
+			<city code="IJK" name="伊热夫斯克" gcode="" />
+			<city code="IVO" name="伊万诺沃" gcode="Ivanovo" />
+			<city code="YOL" name="约什卡尔奥拉" gcode="" />
+		</state>
+	</country>
+	<country code="ECU" name="厄瓜多尔" gcode="EC">
+		<state code="" name="" gcode="">
+			<city code="A" name="阿苏艾" gcode="" />
+			<city code="O" name="埃尔奥罗" gcode="" />
+			<city code="E" name="埃斯梅拉尔达斯" gcode="" />
+			<city code="B" name="玻利瓦尔" gcode="Bolívar" />
+			<city code="G" name="瓜亚斯" gcode="" />
+			<city code="W" name="加拉帕戈斯" gcode="" />
+			<city code="C" name="卡尔奇" gcode="" />
+			<city code="F" name="卡尼亚尔" gcode="" />
+			<city code="X" name="科托帕希" gcode="" />
+			<city code="L" name="洛哈" gcode="Loja" />
+			<city code="R" name="洛斯里奥斯" gcode="" />
+			<city code="M" name="马纳比" gcode="" />
+			<city code="S" name="莫罗纳－圣地亚哥" gcode="" />
+			<city code="D" name="纳波，奥雷利亚纳" gcode="" />
+			<city code="Y" name="帕斯塔萨" gcode="" />
+			<city code="P" name="皮钦查" gcode="" />
+			<city code="H" name="钦博拉索" gcode="" />
+			<city code="Z" name="萨莫拉－钦奇佩" gcode="" />
+			<city code="U" name="苏昆毕奥斯" gcode="" />
+			<city code="T" name="通古拉瓦" gcode="" />
+			<city code="I" name="因巴布拉" gcode="" />
+		</state>
+	</country>
+	<country code="ERI" name="厄立特里亚" gcode="ER">
+		<state code="" name="" gcode="">
+			<city code="KE" name="安塞巴" gcode="" />
+			<city code="SK" name="北红海" gcode="" />
+			<city code="BR" name="加什?巴尔卡" gcode="" />
+			<city code="DE" name="南部" gcode="" />
+			<city code="DK" name="南红海" gcode="" />
+			<city code="MA" name="中部" gcode="" />
+		</state>
+	</country>
+	<country code="FRO" name="法罗群岛" gcode="FO"></country>
+	<country code="PYF" name="法属波利尼西亚" gcode="PF"></country>
+	<country code="GUF" name="法属圭亚那" gcode="GF"></country>
+	<country code="VAT" name="梵蒂冈" gcode="VA"></country>
+	<country code="PHL" name="菲律宾" gcode="PH">
+		<state code="" name="" gcode="">
+			<city code="DOR" name="达沃" gcode="" />
+			<city code="CAO" name="卡卢坎" gcode="" />
+			<city code="MNL" name="马尼拉" gcode="Manila" />
+			<city code="CEB" name="宿务" gcode="Cebu City" />
+		</state>
+	</country>
+	<country code="FJI" name="斐济" gcode="FJ"></country>
+	<country code="FIN" name="芬兰" gcode="FI">
+		<state code="" name="" gcode="">
+			<city code="ESP" name="埃斯波" gcode="Espoo" />
+			<city code="OLU" name="奥卢" gcode="Oulu" />
+			<city code="POR" name="波里" gcode="Pori" />
+			<city code="PRV" name="博尔沃" gcode="" />
+			<city code="HMY" name="海门林纳" gcode="" />
+			<city code="HEL" name="赫尔辛基" gcode="" />
+			<city code="KAJ" name="卡亚尼" gcode="" />
+			<city code="KOK" name="科科拉" gcode="" />
+			<city code="KTK" name="科特卡" gcode="" />
+			<city code="KUO" name="库奥皮奥" gcode="" />
+			<city code="LHI" name="拉赫蒂" gcode="" />
+			<city code="LPP" name="拉彭兰塔" gcode="" />
+			<city code="RVN" name="罗瓦涅米" gcode="" />
+			<city code="MHQ" name="玛丽港" gcode="" />
+			<city code="MIK" name="米凯利" gcode="" />
+			<city code="TMP" name="坦佩雷" gcode="" />
+			<city code="TKU" name="图尔库" gcode="" />
+			<city code="VAA" name="瓦萨" gcode="Vaasa" />
+			<city code="VAT" name="万塔" gcode="" />
+			<city code="JOE" name="约恩苏" gcode="Joensuu" />
+		</state>
+	</country>
+	<country code="CPV" name="佛得角" gcode="CV">
+		<state code="" name="" gcode="">
+			<city code="PA" name="保尔" gcode="" />
+			<city code="PN" name="波多诺伏" gcode="Porto Novo" />
+			<city code="BV" name="博阿维斯塔岛" gcode="" />
+			<city code="BR" name="布拉瓦岛" gcode="" />
+			<city code="RG" name="大里贝拉" gcode="" />
+			<city code="FO" name="福古岛" gcode="" />
+			<city code="MA" name="马尤岛" gcode="" />
+			<city code="MO" name="莫斯特罗" gcode="" />
+			<city code="PR" name="普拉亚" gcode="Praia" />
+			<city code="SL" name="萨尔岛" gcode="" />
+			<city code="SA" name="圣安唐岛" gcode="" />
+			<city code="IA" name="圣地亚哥岛" gcode="" />
+			<city code="SD" name="圣多明戈" gcode="" />
+			<city code="SF" name="圣菲利普" gcode="Sao Filipe" />
+			<city code="CA" name="圣卡塔琳娜" gcode="" />
+			<city code="CR" name="圣克鲁斯" gcode="Santa Cruz" />
+			<city code="SM" name="圣米戈尔" gcode="" />
+			<city code="SN" name="圣尼古拉岛" gcode="" />
+			<city code="SV" name="圣维森特岛" gcode="" />
+			<city code="TA" name="塔拉法尔" gcode="Tarrafal" />
+		</state>
+	</country>
+	<country code="FLK" name="弗兰克群岛" gcode="Frank"></country>
+	<country code="GMB" name="冈比亚" gcode="GM"></country>
+	<country code="COG" name="刚果" gcode="CG"></country>
+	<country code="COD" name="刚果民主共和国" gcode="CD"></country>
+	<country code="COL" name="哥伦比亚" gcode="CO">
+		<state code="" name="" gcode="">
+			<city code="ARA" name="阿劳卡" gcode="Arauca" />
+			<city code="ANT" name="安提奥基亚" gcode="" />
+			<city code="NDS" name="北桑坦德" gcode="" />
+			<city code="BDC" name="波哥大首都区" gcode="" />
+			<city code="BOL" name="博利瓦尔" gcode="" />
+			<city code="BOY" name="博亚卡" gcode="Boyacá" />
+			<city code="ATL" name="大西洋" gcode="" />
+			<city code="GVR" name="瓜维亚雷" gcode="" />
+			<city code="GJR" name="瓜希拉" gcode="" />
+			<city code="GNA" name="瓜伊尼亚" gcode="" />
+			<city code="QUI" name="金迪奥" gcode="" />
+			<city code="CAL" name="卡尔达斯" gcode="" />
+			<city code="CAQ" name="卡克塔" gcode="" />
+			<city code="CAS" name="卡萨纳雷" gcode="" />
+			<city code="CAU" name="考卡" gcode="" />
+			<city code="VDC" name="考卡山谷" gcode="" />
+			<city code="COR" name="科尔多巴" gcode="" />
+			<city code="CAM" name="昆迪纳马卡" gcode="" />
+			<city code="RIS" name="利萨拉尔达" gcode="" />
+			<city code="MAG" name="马格达雷那" gcode="" />
+			<city code="MET" name="梅塔" gcode="" />
+			<city code="NAR" name="纳里尼奥" gcode="" />
+			<city code="PUT" name="普图马约" gcode="" />
+			<city code="CHO" name="乔科" gcode="" />
+			<city code="CES" name="塞萨尔" gcode="" />
+			<city code="SAN" name="桑坦德" gcode="" />
+			<city code="SAP" name="圣安德烈斯-普罗维登西亚" gcode="" />
+			<city code="SUC" name="苏克雷" gcode="" />
+			<city code="TOL" name="托利马" gcode="" />
+			<city code="VIC" name="维查达" gcode="" />
+			<city code="VAU" name="沃佩斯" gcode="" />
+			<city code="HUI" name="乌伊拉" gcode="" />
+			<city code="AMZ" name="亚马孙" gcode="" />
+		</state>
+	</country>
+	<country code="CRI" name="哥斯达黎加" gcode="CR">
+		<state code="" name="" gcode="">
+			<city code="A" name="阿拉胡埃拉" gcode="" />
+			<city code="H" name="埃雷迪亚" gcode="" />
+			<city code="G" name="瓜纳卡斯特" gcode="" />
+			<city code="C" name="卡塔戈" gcode="" />
+			<city code="L" name="利蒙" gcode="" />
+			<city code="P" name="蓬塔雷纳斯" gcode="" />
+			<city code="SJ" name="圣何塞" gcode="" />
+		</state>
+	</country>
+	<country code="GGY" name="格恩西岛" gcode="GG"></country>
+	<country code="GRD" name="格林纳达" gcode="GD"></country>
+	<country code="GRL" name="格陵兰" gcode="GL"></country>
+	<country code="CUB" name="古巴" gcode="CU">
+		<state code="" name="" gcode="">
+			<city code="11" name="奥尔金" gcode="" />
+			<city code="1" name="比那尔德里奥" gcode="" />
+			<city code="5" name="比亚克拉拉" gcode="" />
+			<city code="12" name="格拉玛" gcode="" />
+			<city code="14" name="关塔那摩" gcode="" />
+			<city code="2" name="哈瓦那" gcode="Havana" />
+			<city code="3" name="哈瓦那城" gcode="" />
+			<city code="9" name="卡马圭" gcode="" />
+			<city code="10" name="拉斯图纳斯" gcode="" />
+			<city code="4" name="马坦萨斯" gcode="" />
+			<city code="MAY" name="马亚里" gcode="" />
+			<city code="MZO" name="曼萨尼罗" gcode="" />
+			<city code="99" name="青年岛特区" gcode="" />
+			<city code="13" name="圣地亚哥" gcode="" />
+			<city code="7" name="圣斯皮里图斯" gcode="" />
+			<city code="6" name="西恩富戈斯" gcode="" />
+			<city code="8" name="谢戈德阿维拉" gcode="Ciego De Avila" />
+		</state>
+	</country>
+	<country code="GLP" name="瓜德罗普" gcode="GP"></country>
+	<country code="GUM" name="关岛" gcode="GU"></country>
+	<country code="GUY" name="圭亚那" gcode="GY">
+		<state code="" name="" gcode="">
+			<city code="EW" name="埃塞奎博群岛-西德梅拉拉" gcode="" />
+			<city code="BW" name="巴里马-瓦伊尼" gcode="" />
+			<city code="PM" name="波默伦-苏佩纳姆" gcode="" />
+			<city code="PI" name="波塔罗-锡帕鲁尼" gcode="" />
+			<city code="DM" name="德梅拉拉-马海卡" gcode="" />
+			<city code="EC" name="东伯比斯-科兰太因" gcode="" />
+			<city code="CM" name="库尤尼-马扎鲁尼" gcode="" />
+			<city code="MB" name="马海卡-伯比斯" gcode="" />
+			<city code="UD" name="上德梅拉拉-伯比斯" gcode="" />
+			<city code="UT" name="上塔库图-上埃塞奎博" gcode="" />
+		</state>
+	</country>
+	<country code="KAZ" name="哈萨克斯坦" gcode="KZ">
+		<state code="" name="" gcode="">
+			<city code="AYK" name="阿尔卡累克" gcode="" />
+			<city code="AKM" name="阿克莫拉" gcode="" />
+			<city code="AKS" name="阿克苏" gcode="" />
+			<city code="AKT" name="阿克托别" gcode="" />
+			<city code="ALA" name="阿拉木图" gcode="" />
+			<city code="ARY" name="阿雷斯" gcode="" />
+			<city code="AST" name="阿斯塔纳市" gcode="Astana" />
+			<city code="ATY" name="阿特劳" gcode="" />
+			<city code="EKB" name="埃基巴斯图兹" gcode="Ekibastuz" />
+			<city code="BXH" name="巴尔喀什" gcode="" />
+			<city code="PAV" name="巴甫洛达尔" gcode="" />
+			<city code="SEV" name="北哈萨克斯坦" gcode="" />
+			<city code="VOS" name="东哈萨克斯坦" gcode="" />
+			<city code="ZYR" name="济良诺夫斯克" gcode="" />
+			<city code="DMB" name="江布尔" gcode="" />
+			<city code="DZH" name="杰兹卡兹甘" gcode="Jezkazgan" />
+			<city code="KAR" name="卡拉干达" gcode="Karagandy" />
+			<city code="KZO" name="卡拉扎尔" gcode="" />
+			<city code="KAP" name="卡普恰盖" gcode="" />
+			<city code="KST" name="科斯塔奈" gcode="" />
+			<city code="KZY" name="克孜勒奥尔达" gcode="" />
+			<city code="KEN" name="肯套" gcode="Kentau" />
+			<city code="KUR" name="库尔恰托夫" gcode="" />
+			<city code="LKK" name="利萨科夫斯克" gcode="Lisakovsk" />
+			<city code="LEN" name="列宁诺戈尔斯克" gcode="" />
+			<city code="RUD" name="鲁德内" gcode="" />
+			<city code="MAN" name="曼格斯套" gcode="" />
+			<city code="KGT" name="南哈萨克斯坦" gcode="" />
+			<city code="SAR" name="萨兰" gcode="" />
+			<city code="SEM" name="塞梅伊" gcode="" />
+			<city code="SAK" name="沙赫京斯克" gcode="" />
+			<city code="STE" name="斯捷普诺戈尔斯克" gcode="" />
+			<city code="TEK" name="铁克利" gcode="Tekeli" />
+			<city code="TEM" name="铁米尔套" gcode="" />
+			<city code="TUR" name="突厥斯坦" gcode="" />
+			<city code="ZAP" name="西哈萨克斯坦" gcode="" />
+			<city code="ZHA" name="扎纳奥津" gcode="" />
+		</state>
+	</country>
+	<country code="HTI" name="海地" gcode="HT"></country>
+	<country code="KOR" name="韩国" gcode="KR">
+		<state code="27" name="大邱" gcode="">
+			<city code="DSG" name="达城郡" gcode="" />
+			<city code="TAE" name="大邱" gcode="" />
+			<city code="SUS" name="寿城区" gcode="" />
+		</state>
+		<state code="30" name="大田" gcode=""></state>
+		<state code="26" name="釜山" gcode=""></state>
+		<state code="29" name="光州" gcode=""></state>
+		<state code="41" name="济州特别自治道" gcode=""></state>
+		<state code="42" name="江原道" gcode="">
+			<city code="CHC" name="春川市" gcode="" />
+			<city code="TGH" name="东海市" gcode="" />
+			<city code="GSG" name="高城郡" gcode="" />
+			<city code="HSG" name="横城郡" gcode="" />
+			<city code="HCN" name="洪川郡" gcode="" />
+			<city code="HCH" name="华川郡" gcode="" />
+			<city code="KAG" name="江陵市" gcode="" />
+			<city code="JSE" name="旌善郡" gcode="" />
+			<city code="IJE" name="麟蹄郡" gcode="" />
+			<city code="YWL" name="宁越郡" gcode="" />
+			<city code="POG" name="平昌郡" gcode="" />
+			<city code="SUK" name="三陟市" gcode="" />
+			<city code="SHO" name="束草市" gcode="" />
+			<city code="TBK" name="太白市" gcode="" />
+			<city code="CWN" name="铁原郡" gcode="Cheorwon-gun" />
+			<city code="YNY" name="襄阳郡" gcode="" />
+			<city code="YGU" name="杨口郡" gcode="" />
+			<city code="WJU" name="原州市" gcode="" />
+		</state>
+		<state code="49" name="京畿道" gcode="">
+			<city code="ASG" name="安城市" gcode="Anseong-si" />
+			<city code="ASN" name="安山市" gcode="" />
+			<city code="ANY" name="安养市" gcode="" />
+			<city code="POC" name="抱川市" gcode="" />
+			<city code="SEO" name="城南市" gcode="" />
+			<city code="DDC" name="东豆川市" gcode="" />
+			<city code="BCN" name="富川市" gcode="" />
+			<city code="GYG" name="高阳市" gcode="" />
+			<city code="GMG" name="光明市" gcode="Gwangmyeong-si" />
+			<city code="KWU" name="广州市" gcode="" />
+			<city code="GCN" name="果川市" gcode="" />
+			<city code="HNM" name="河南市" gcode="" />
+			<city code="HCH" name="华城市" gcode="" />
+			<city code="GPG" name="加平郡" gcode="" />
+			<city code="GMP" name="金浦市" gcode="" />
+			<city code="GRI" name="九里市" gcode="" />
+			<city code="GUN" name="军浦市" gcode="" />
+			<city code="YJU" name="骊州郡" gcode="" />
+			<city code="ICE" name="利川市" gcode="" />
+			<city code="YCN" name="涟川郡" gcode="" />
+			<city code="YNG" name="龙仁市" gcode="" />
+			<city code="NYU" name="南杨州市" gcode="" />
+			<city code="PTK" name="平泽市" gcode="" />
+			<city code="PJU" name="坡州市" gcode="Paju-si" />
+			<city code="SHE" name="始兴市" gcode="" />
+			<city code="SUO" name="水原市" gcode="" />
+			<city code="OSN" name="乌山市" gcode="" />
+			<city code="YPG" name="扬平郡" gcode="" />
+			<city code="YYU" name="杨州市" gcode="" />
+			<city code="UWN" name="仪旺市" gcode="" />
+			<city code="UIJ" name="议政府市" gcode="" />
+		</state>
+		<state code="43" name="庆尚北道" gcode="">
+			<city code="ADG" name="安东市" gcode="" />
+			<city code="BHA" name="奉化郡" gcode="" />
+			<city code="GRG" name="高灵郡" gcode="Goryeong-gun" />
+			<city code="KUM" name="龟尾市" gcode="" />
+			<city code="KMC" name="金泉市" gcode="" />
+			<city code="GWI" name="军威郡" gcode="" />
+			<city code="YEC" name="醴泉郡" gcode="" />
+			<city code="KPO" name="浦项市" gcode="" />
+			<city code="CGK" name="漆谷郡" gcode="" />
+			<city code="CDO" name="?[道郡" gcode="" />
+			<city code="CSG" name="?i松郡" gcode="" />
+			<city code="GYS" name="庆山市" gcode="" />
+			<city code="GJU" name="庆州市" gcode="" />
+			<city code="YEJ" name="荣州市" gcode="" />
+			<city code="SJU" name="??州市" gcode="" />
+			<city code="UJN" name="蔚珍郡" gcode="" />
+			<city code="MGG" name="闻庆市" gcode="" />
+			<city code="SEJ" name="星州郡" gcode="" />
+			<city code="USG" name="义城郡" gcode="" />
+			<city code="YYG" name="英阳郡" gcode="Yeongyang-gun" />
+			<city code="YDK" name="盈德郡" gcode="Yeongdeok-gun" />
+			<city code="YCH" name="永川市" gcode="" />
+			<city code="ULG" name="郁陵郡" gcode="" />
+		</state>
+		<state code="44" name="庆尚南道" gcode="">
+			<city code="CNG" name="昌宁郡" gcode="Changnyeong-gun" />
+			<city code="CHW" name="昌原市" gcode="" />
+			<city code="GSO" name="固城郡" gcode="" />
+			<city code="HDG" name="河东郡" gcode="Hadong-gun" />
+			<city code="KMH" name="金海市" gcode="" />
+			<city code="HIN" name="晋州市" gcode="" />
+			<city code="GCH" name="居昌郡" gcode="" />
+			<city code="KJE" name="巨济市" gcode="" />
+			<city code="YSN" name="梁山市" gcode="" />
+			<city code="MAS" name="马山市" gcode="" />
+			<city code="MIR" name="密阳市" gcode="" />
+			<city code="NHE" name="南海郡" gcode="" />
+			<city code="SCH" name="山?[郡" gcode="" />
+			<city code="SAH" name="泗川市" gcode="" />
+			<city code="TYG" name="统营市" gcode="" />
+			<city code="HCE" name="?川郡" gcode="Hongcheon-gun" />
+			<city code="HAN" name="咸安郡" gcode="" />
+			<city code="HYG" name="咸阳郡" gcode="" />
+			<city code="URG" name="宜宁郡" gcode="Uiryeong-gun" />
+			<city code="CHF" name="?海市" gcode="" />
+		</state>
+		<state code="47" name="全罗北道" gcode="">
+			<city code="SCG" name="淳昌郡" gcode="" />
+			<city code="PUS" name="扶安郡" gcode="" />
+			<city code="GCG" name="高敞郡" gcode="" />
+			<city code="GJE" name="金堤市" gcode="" />
+			<city code="JEO" name="井邑市" gcode="" />
+			<city code="MJU" name="茂朱郡" gcode="" />
+			<city code="NWN" name="南原市" gcode="" />
+			<city code="JNJ" name="全州市" gcode="Jeonju-si" />
+			<city code="KUV" name="群山市" gcode="" />
+			<city code="ISL" name="任实郡" gcode="" />
+			<city code="WAJ" name="完州郡" gcode="Wanju-gun" />
+			<city code="IKS" name="益山市" gcode="Iksan-si" />
+			<city code="JSU" name="长水郡" gcode="Jangsu-gun" />
+			<city code="JAN" name="?安郡" gcode="Muan-gun" />
+		</state>
+		<state code="48" name="全罗南道" gcode="">
+			<city code="BSG" name="宝城郡" gcode="" />
+			<city code="GHG" name="高兴郡" gcode="" />
+			<city code="GSE" name="谷城郡" gcode="" />
+			<city code="WND" name="莞岛郡" gcode="Wando-gun" />
+			<city code="KAN" name="光阳市" gcode="Gwangyang-si" />
+			<city code="HAE" name="海南郡" gcode="Haenam-gun" />
+			<city code="HSN" name="和顺郡" gcode="Hwasun-gun" />
+			<city code="GJN" name="康津郡" gcode="Gangjin-gun" />
+			<city code="YOS" name="丽水市" gcode="" />
+			<city code="YGG" name="灵光郡" gcode="" />
+			<city code="YAM" name="灵岩郡" gcode="" />
+			<city code="NJU" name="罗州市" gcode="Naju-si" />
+			<city code="MOK" name="木浦市" gcode="" />
+			<city code="GRE" name="求礼郡" gcode="" />
+			<city code="SYS" name="顺天市" gcode="" />
+			<city code="DYA" name="潭阳郡" gcode="" />
+			<city code="MAN" name="务安郡" gcode="" />
+			<city code="HPG" name="咸平郡" gcode="" />
+			<city code="SAN" name="新安郡" gcode="" />
+			<city code="JSN" name="长城郡" gcode="" />
+			<city code="JHG" name="长兴郡" gcode="" />
+			<city code="JDO" name="珍岛郡" gcode="" />
+		</state>
+		<state code="28" name="仁川" gcode=""></state>
+		<state code="11" name="首尔" gcode=""></state>
+		<state code="31" name="蔚山" gcode=""></state>
+		<state code="45" name="忠清北道" gcode="">
+			<city code="BEN" name="报恩郡" gcode="" />
+			<city code="JYG" name="曾坪郡" gcode="" />
+			<city code="DYG" name="丹阳郡" gcode="Danyang-gun" />
+			<city code="JCH" name="堤川市" gcode="" />
+			<city code="GSN" name="槐山郡" gcode="" />
+			<city code="CWO" name="?[原郡" gcode="" />
+			<city code="CJJ" name="?[州市" gcode="Jeju-si" />
+			<city code="OCN" name="沃川郡" gcode="" />
+			<city code="ESG" name="阴城郡" gcode="" />
+			<city code="YDG" name="永同郡" gcode="" />
+			<city code="JCN" name="?川郡" gcode="Hongcheon-gun" />
+			<city code="CHU" name="忠州市" gcode="" />
+		</state>
+		<state code="46" name="忠清南道" gcode="">
+			<city code="BOR" name="保宁市" gcode="Boryeong-si" />
+			<city code="BYO" name="扶余郡" gcode="" />
+			<city code="GOJ" name="公州市" gcode="" />
+			<city code="HSE" name="洪城郡" gcode="Hongseong-gun" />
+			<city code="GYE" name="鸡龙市" gcode="" />
+			<city code="GSA" name="锦山郡" gcode="" />
+			<city code="YOS" name="礼山郡" gcode="" />
+			<city code="NSN" name="论山市" gcode="" />
+			<city code="CYG" name="青阳郡" gcode="" />
+			<city code="SSA" name="瑞山市" gcode="" />
+			<city code="SCE" name="舒川郡" gcode="Seocheon-gun" />
+			<city code="TAN" name="泰安郡" gcode="Taean-gun" />
+			<city code="TJI" name="唐津郡" gcode="" />
+			<city code="CHO" name="天安市" gcode="Cheonan-si" />
+			<city code="ASA" name="牙山市" gcode="" />
+			<city code="YGI" name="燕岐郡" gcode="" />
+		</state>
+	</country>
+	<country code="ANT" name="荷属安地列斯" gcode="Liesi"></country>
+	<country code="HND" name="洪都拉斯" gcode="HN">
+		<state code="" name="" gcode="">
+			<city code="AT" name="阿特兰蒂达" gcode="" />
+			<city code="PA" name="埃尔帕拉伊索" gcode="" />
+			<city code="OC" name="奥科特佩克" gcode="" />
+			<city code="OL" name="奥兰乔" gcode="" />
+			<city code="FM" name="弗朗西斯科-莫拉桑" gcode="" />
+			<city code="GD" name="格拉西亚斯-阿迪奥斯" gcode="" />
+			<city code="IB" name="海湾群岛" gcode="" />
+			<city code="CR" name="科尔特斯" gcode="" />
+			<city code="CL" name="科隆" gcode="" />
+			<city code="CM" name="科马亚瓜" gcode="" />
+			<city code="CP" name="科潘" gcode="" />
+			<city code="PZ" name="拉巴斯" gcode="La Paz" />
+			<city code="LE" name="伦皮拉" gcode="" />
+			<city code="CH" name="乔卢特卡" gcode="Choluteca" />
+			<city code="CHO" name="乔罗马" gcode="" />
+			<city code="VA" name="山谷" gcode="" />
+			<city code="SB" name="圣巴巴拉" gcode="Santa Barbara" />
+			<city code="IN" name="因蒂布卡" gcode="" />
+			<city code="YO" name="约罗" gcode="" />
+		</state>
+	</country>
+	<country code="KIR" name="基里巴斯" gcode="KI">
+		<state code="" name="" gcode="">
+			<city code="PHO" name="菲尼克斯群岛" gcode="" />
+			<city code="GIL" name="吉尔伯特群岛" gcode="" />
+			<city code="LIN" name="莱恩群岛" gcode="" />
+		</state>
+	</country>
+	<country code="DJI" name="吉布提" gcode="DJ">
+		<state code="" name="" gcode="">
+			<city code="S" name="阿里萨比赫区" gcode="" />
+			<city code="O" name="奥博克区" gcode="" />
+			<city code="K" name="迪基勒区" gcode="" />
+			<city code="T" name="塔朱拉区" gcode="" />
+		</state>
+	</country>
+	<country code="KGZ" name="吉尔吉斯斯坦" gcode="KG">
+		<state code="" name="" gcode="">
+			<city code="O" name="奥什" gcode="" />
+			<city code="B" name="巴特肯" gcode="Batken" />
+			<city code="GB" name="比什凯克市" gcode="" />
+			<city code="C" name="楚河" gcode="" />
+			<city code="J" name="贾拉拉巴德" gcode="Jalal-Abad" />
+			<city code="KBA" name="卡拉巴尔塔" gcode="" />
+			<city code="KKO" name="卡拉库尔" gcode="" />
+			<city code="KAN" name="坎特" gcode="" />
+			<city code="KJ" name="科克扬加克" gcode="" />
+			<city code="MS" name="迈利赛" gcode="" />
+			<city code="N" name="纳伦" gcode="" />
+			<city code="SU" name="苏卢克图" gcode="" />
+			<city code="T" name="塔拉斯" gcode="" />
+			<city code="TK" name="塔什库梅尔" gcode="" />
+			<city code="UG" name="乌兹根" gcode="" />
+			<city code="Y" name="伊塞克湖" gcode="" />
+		</state>
+	</country>
+	<country code="GIN" name="几内亚" gcode="GN">
+		<state code="" name="" gcode="">
+			<city code="BOK" name="博凯" gcode="" />
+			<city code="NZR" name="恩泽雷科雷" gcode="" />
+			<city code="FRN" name="法拉纳" gcode="" />
+			<city code="KND" name="金迪亚" gcode="Kindia" />
+			<city code="KNK" name="康康" gcode="" />
+			<city code="CNK" name="科纳克里" gcode="Conakry" />
+			<city code="LAB" name="拉贝" gcode="" />
+			<city code="MAM" name="玛木" gcode="" />
+		</state>
+	</country>
+	<country code="GNB" name="几内亚比绍" gcode="GW"></country>
+	<country code="CAN" name="加拿大" gcode="CA">
+		<state code="" name="" gcode="">
+			<city code="ABB" name="阿伯茨福" gcode="" />
+			<city code="EDM" name="埃德蒙顿" gcode="" />
+			<city code="OSH" name="奥沙瓦" gcode="" />
+			<city code="BAR" name="巴里" gcode="" />
+			<city code="CBR" name="布列塔尼角" gcode="" />
+			<city code="TOR" name="多伦多" gcode="" />
+			<city code="FRE" name="弗雷德里顿" gcode="" />
+			<city code="GLP" name="圭尔夫" gcode="" />
+			<city code="HAL" name="哈利法克斯" gcode="" />
+			<city code="HAM" name="哈密尔顿" gcode="" />
+			<city code="YXY" name="怀特霍斯" gcode="" />
+			<city code="KWL" name="基劳纳" gcode="" />
+			<city code="BRP" name="基奇纳" gcode="" />
+			<city code="KGN" name="金斯敦" gcode="" />
+			<city code="CAL" name="卡里加里" gcode="" />
+			<city code="QUE" name="魁北克" gcode="" />
+			<city code="REG" name="里贾纳" gcode="Regina" />
+			<city code="LOD" name="伦敦" gcode="" />
+			<city code="MTR" name="蒙特利尔" gcode="" />
+			<city code="SUD" name="萨德伯里" gcode="Sudbury" />
+			<city code="SAK" name="萨斯卡通" gcode="" />
+			<city code="TRR" name="三河城" gcode="" />
+			<city code="THU" name="桑德贝" gcode="" />
+			<city code="SBE" name="舍布鲁克" gcode="" />
+			<city code="SCA" name="圣卡塔琳娜" gcode="" />
+			<city code="SJB" name="圣约翰斯" gcode="" />
+			<city code="VIC" name="维多利亚" gcode="" />
+			<city code="VAN" name="温哥华" gcode="" />
+			<city code="WNP" name="温尼伯" gcode="" />
+			<city code="WDR" name="温莎" gcode="" />
+			<city code="OTT" name="渥太华" gcode="" />
+			<city code="CHA" name="夏洛特敦" gcode="" />
+			<city code="YZF" name="耶洛奈夫" gcode="" />
+			<city code="IQL" name="伊魁特" gcode="" />
+		</state>
+	</country>
+	<country code="GHA" name="加纳" gcode="GH">
+		<state code="" name="" gcode="">
+			<city code="AS" name="阿散蒂" gcode="" />
+			<city code="OBU" name="奥布阿西" gcode="" />
+			<city code="NO" name="北部" gcode="" />
+			<city code="BA" name="布朗阿哈福" gcode="" />
+			<city code="GA" name="大阿克拉" gcode="" />
+			<city code="EA" name="东部" gcode="" />
+			<city code="UE" name="上东部" gcode="" />
+			<city code="UW" name="上西部" gcode="" />
+			<city code="VO" name="沃尔特" gcode="" />
+			<city code="WE" name="西部" gcode="" />
+			<city code="CE" name="中部" gcode="" />
+		</state>
+	</country>
+	<country code="GAB" name="加蓬" gcode="GA">
+		<state code="" name="" gcode="">
+			<city code="OL" name="奥果韦-洛洛" gcode="" />
+			<city code="OI" name="奥果韦-伊温多" gcode="" />
+			<city code="OM" name="滨海奥果韦" gcode="" />
+			<city code="NG" name="恩古涅" gcode="" />
+			<city code="ES" name="河口" gcode="" />
+			<city code="NY" name="尼扬加" gcode="" />
+			<city code="HO" name="上奥果韦" gcode="" />
+			<city code="WN" name="沃勒-恩特姆" gcode="" />
+			<city code="MO" name="中奥果韦" gcode="" />
+		</state>
+	</country>
+	<country code="KHM" name="柬埔寨" gcode="KH">
+		<state code="" name="" gcode="">
+			<city code="OC" name="奥多棉吉" gcode="" />
+			<city code="KB" name="白马市" gcode="" />
+			<city code="PR" name="柏威夏" gcode="" />
+			<city code="PL" name="拜林市" gcode="" />
+			<city code="BM" name="班迭棉吉" gcode="" />
+			<city code="KZC" name="磅清扬" gcode="" />
+			<city code="KO" name="磅士卑" gcode="" />
+			<city code="KZK" name="磅同" gcode="" />
+			<city code="KM" name="磅湛" gcode="" />
+			<city code="PG" name="波罗勉" gcode="" />
+			<city code="TK" name="茶胶" gcode="" />
+			<city code="SVR" name="柴桢" gcode="" />
+			<city code="KL" name="干丹" gcode="" />
+			<city code="KKZ" name="戈公" gcode="" />
+			<city code="KMT" name="贡布" gcode="" />
+			<city code="PNH" name="金边市" gcode="" />
+			<city code="KH" name="桔井" gcode="" />
+			<city code="RBE" name="腊塔纳基里" gcode="" />
+			<city code="BA" name="马德望" gcode="" />
+			<city code="MWV" name="蒙多基里" gcode="" />
+			<city code="PO" name="菩萨" gcode="" />
+			<city code="TNX" name="上丁" gcode="" />
+			<city code="KA" name="西哈努克市" gcode="" />
+			<city code="REP" name="暹粒" gcode="" />
+		</state>
+	</country>
+	<country code="CZE" name="捷克共和国" gcode="CZ">
+		<state code="" name="" gcode="">
+			<city code="OL" name="奥洛穆茨" gcode="" />
+			<city code="PL" name="比尔森" gcode="" />
+			<city code="PR" name="布拉格直辖市" gcode="" />
+			<city code="KR" name="赫拉德茨-克拉洛韦" gcode="" />
+			<city code="KA" name="卡罗维发利" gcode="" />
+			<city code="LI" name="利贝雷克" gcode="" />
+			<city code="MO" name="摩拉维亚-西里西亚" gcode="" />
+			<city code="JC" name="南摩拉维亚" gcode="" />
+			<city code="PA" name="帕尔杜比采" gcode="" />
+			<city code="VY" name="维索基纳" gcode="" />
+			<city code="US" name="乌斯季" gcode="" />
+			<city code="ST" name="中捷克" gcode="" />
+			<city code="ZL" name="兹林" gcode="Zlin" />
+		</state>
+	</country>
+	<country code="ZWE" name="津巴布韦" gcode="ZW">
+		<state code="" name="" gcode="">
+			<city code="MN" name="北马塔贝莱兰" gcode="" />
+			<city code="BU" name="布拉瓦约" gcode="" />
+			<city code="ME" name="东马绍纳兰" gcode="" />
+			<city code="HA" name="哈拉雷" gcode="Harare" />
+			<city code="ML" name="马尼卡兰" gcode="" />
+			<city code="MV" name="马斯温戈" gcode="Masvingo" />
+			<city code="MS" name="南马塔贝莱兰" gcode="" />
+			<city code="MW" name="西马绍纳兰" gcode="" />
+			<city code="MD" name="中部" gcode="" />
+			<city code="MC" name="中马绍纳兰" gcode="" />
+		</state>
+	</country>
+	<country code="CMR" name="喀麦隆" gcode="CM">
+		<state code="" name="" gcode="">
+			<city code="ADA" name="阿达马瓦" gcode="" />
+			<city code="NOR" name="北部" gcode="" />
+			<city code="EXN" name="北端" gcode="" />
+			<city code="LIT" name="滨海" gcode="" />
+			<city code="EST" name="东部" gcode="" />
+			<city code="SUD" name="南部" gcode="" />
+			<city code="NOT" name="西北" gcode="" />
+			<city code="OUE" name="西部" gcode="" />
+			<city code="SOU" name="西南" gcode="" />
+			<city code="CEN" name="中央" gcode="" />
+		</state>
+	</country>
+	<country code="QAT" name="卡塔尔" gcode="QA">
+		<state code="" name="" gcode="">
+			<city code="MS" name="北部" gcode="" />
+			<city code="DW" name="多哈" gcode="Doha" />
+			<city code="GW" name="古韦里耶" gcode="Al-Ghuwayriyah" />
+			<city code="KR" name="豪尔" gcode="Al Khor" />
+			<city code="JB" name="杰里扬拜特奈" gcode="" />
+			<city code="RN" name="赖扬" gcode="Ar-Rayyan" />
+			<city code="WK" name="沃克拉" gcode="" />
+			<city code="UL" name="乌姆锡拉勒" gcode="" />
+			<city code="JM" name="朱迈利耶" gcode="" />
+		</state>
+	</country>
+	<country code="CYM" name="开曼群岛" gcode="KY"></country>
+	<country code="CCK" name="科科斯群岛" gcode="Costitx"></country>
+	<country code="COM" name="科摩罗" gcode="KM"></country>
+	<country code="CIV" name="科特迪瓦" gcode="CI">
+		<state code="" name="" gcode="">
+			<city code="AG" name="阿涅比" gcode="" />
+			<city code="BF" name="巴芬" gcode="" />
+			<city code="VB" name="邦达马河谷" gcode="" />
+			<city code="DE" name="登盖莱" gcode="" />
+			<city code="NC" name="恩济－科莫埃" gcode="" />
+			<city code="FR" name="弗罗马格尔" gcode="" />
+			<city code="LC" name="湖泊" gcode="" />
+			<city code="MR" name="马拉韦" gcode="" />
+			<city code="SB" name="南邦达马" gcode="" />
+			<city code="SC" name="南科莫埃" gcode="" />
+			<city code="HT" name="萨桑德拉" gcode="" />
+			<city code="SV" name="萨瓦纳" gcode="" />
+			<city code="DH" name="山地" gcode="" />
+			<city code="WR" name="沃罗杜古" gcode="" />
+			<city code="BS" name="下萨桑德拉" gcode="" />
+			<city code="LG" name="泻湖" gcode="" />
+			<city code="ZA" name="赞赞" gcode="" />
+			<city code="MV" name="中卡瓦利" gcode="" />
+			<city code="MC" name="中科莫埃" gcode="" />
+		</state>
+	</country>
+	<country code="KWT" name="科威特" gcode="KW"></country>
+	<country code="HRV" name="克罗地亚" gcode="HR">
+		<state code="" name="" gcode="">
+			<city code="14" name="奥西耶克-巴拉尼亚" gcode="" />
+			<city code="7" name="别洛瓦尔-比洛戈拉" gcode="" />
+			<city code="8" name="滨海和山区" gcode="" />
+			<city code="11" name="波热加-斯拉沃尼亚" gcode="" />
+			<city code="12" name="布罗德-波萨维纳" gcode="" />
+			<city code="19" name="杜布罗夫斯克-内雷特瓦" gcode="" />
+			<city code="4" name="卡尔洛瓦茨" gcode="" />
+			<city code="6" name="科普里夫尼察-克里热夫齐" gcode="" />
+			<city code="2" name="克拉皮纳-扎戈列" gcode="" />
+			<city code="9" name="利卡-塞尼" gcode="" />
+			<city code="20" name="梅吉穆列" gcode="" />
+			<city code="1" name="萨格勒布" gcode="" />
+			<city code="21" name="萨格勒布市" gcode="" />
+			<city code="17" name="斯普利特-达尔马提亚" gcode="" />
+			<city code="5" name="瓦拉日丁" gcode="" />
+			<city code="10" name="维罗维蒂察-波德拉维纳" gcode="" />
+			<city code="16" name="武科瓦尔-斯里耶姆" gcode="" />
+			<city code="15" name="希贝尼克-克宁" gcode="" />
+			<city code="3" name="锡萨克-莫斯拉维纳" gcode="" />
+			<city code="18" name="伊斯特拉" gcode="" />
+			<city code="13" name="扎达尔" gcode="" />
+		</state>
+	</country>
+	<country code="KEN" name="肯尼亚" gcode="KE">
+		<state code="" name="" gcode="">
+			<city code="EMA" name="埃尔格约-马拉奎特" gcode="" />
+			<city code="BAR" name="巴林戈" gcode="" />
+			<city code="BUN" name="邦戈马" gcode="" />
+			<city code="BOM" name="博美特" gcode="" />
+			<city code="BUS" name="布希亚" gcode="" />
+			<city code="EMB" name="恩布" gcode="" />
+			<city code="HOB" name="霍马湾" gcode="" />
+			<city code="KIA" name="基安布" gcode="" />
+			<city code="KIL" name="基里菲" gcode="" />
+			<city code="KIR" name="基里尼亚加" gcode="" />
+			<city code="KIS" name="基苏木" gcode="" />
+			<city code="KIT" name="基图伊" gcode="" />
+			<city code="KII" name="基西" gcode="" />
+			<city code="GAS" name="加里萨" gcode="" />
+			<city code="KAK" name="卡卡梅加" gcode="" />
+			<city code="KAJ" name="卡耶亚多" gcode="" />
+			<city code="KEY" name="凯里乔" gcode="" />
+			<city code="KWA" name="夸勒" gcode="" />
+			<city code="LAU" name="拉木" gcode="" />
+			<city code="LAI" name="莱基皮亚" gcode="" />
+			<city code="MAC" name="马查科斯" gcode="" />
+			<city code="MAK" name="马瓜尼" gcode="" />
+			<city code="RBT" name="马萨布布" gcode="" />
+			<city code="MAN" name="曼德拉" gcode="" />
+			<city code="MER" name="梅鲁" gcode="" />
+			<city code="MOM" name="蒙巴萨" gcode="" />
+			<city code="MIG" name="米戈利" gcode="" />
+			<city code="MUR" name="穆兰卡" gcode="" />
+			<city code="NUU" name="纳库鲁" gcode="" />
+			<city code="NAR" name="纳罗克" gcode="" />
+			<city code="NAN" name="南迪" gcode="" />
+			<city code="NA" name="内罗毕" gcode="" />
+			<city code="NIT" name="尼蒂" gcode="" />
+			<city code="NYM" name="尼亚米拉" gcode="" />
+			<city code="NYN" name="年达鲁阿" gcode="" />
+			<city code="NYE" name="涅里" gcode="Nyeri" />
+			<city code="UAS" name="桑布卢" gcode="" />
+			<city code="TRI" name="塔纳河" gcode="" />
+			<city code="TTA" name="泰塔塔维塔" gcode="" />
+			<city code="TNZ" name="特兰斯-恩佐亚" gcode="" />
+			<city code="TUR" name="图尔卡纳" gcode="" />
+			<city code="WJR" name="瓦吉尔" gcode="" />
+			<city code="UGI" name="瓦辛基苏" gcode="" />
+			<city code="VIH" name="韦希加" gcode="" />
+			<city code="WPO" name="西波克特" gcode="" />
+			<city code="SIA" name="夏亚" gcode="" />
+			<city code="ISI" name="伊希约洛" gcode="" />
+			<city code="CE" name="中央" gcode="" />
+		</state>
+	</country>
+	<country code="COK" name="库克群岛" gcode="CK"></country>
+	<country code="LVA" name="拉脱维亚" gcode="LV">
+		<state code="" name="" gcode="">
+			<city code="ALU" name="阿卢克斯内" gcode="" />
+			<city code="AIZ" name="爱兹克劳克雷" gcode="" />
+			<city code="OGR" name="奥格雷" gcode="" />
+			<city code="BAL" name="巴尔维" gcode="" />
+			<city code="BAU" name="包斯卡" gcode="" />
+			<city code="CES" name="采西斯" gcode="Cēsis" />
+			<city code="DOB" name="多贝莱" gcode="" />
+			<city code="GUL" name="古尔贝内" gcode="" />
+			<city code="JEK" name="杰卡布皮尔斯" gcode="" />
+			<city code="KRA" name="克拉斯拉瓦" gcode="" />
+			<city code="KUL" name="库尔迪加" gcode="Kuldīga" />
+			<city code="RZR" name="雷泽克内" gcode="Rēzekne" />
+			<city code="RGA" name="里加" gcode="" />
+			<city code="LPK" name="利耶帕亚" gcode="Liepāja" />
+			<city code="LIM" name="林巴济" gcode="" />
+			<city code="LUD" name="卢扎" gcode="" />
+			<city code="MAD" name="马多纳" gcode="" />
+			<city code="PRE" name="普雷利" gcode="" />
+			<city code="SAL" name="萨尔杜斯" gcode="" />
+			<city code="TAL" name="塔尔西" gcode="" />
+			<city code="DGR" name="陶格夫皮尔斯" gcode="" />
+			<city code="TUK" name="图库马" gcode="" />
+			<city code="VLK" name="瓦尔加" gcode="" />
+			<city code="VLM" name="瓦尔米耶拉" gcode="" />
+			<city code="VSL" name="文茨皮尔斯" gcode="" />
+			<city code="JGR" name="叶尔加瓦" gcode="" />
+		</state>
+	</country>
+	<country code="LSO" name="莱索托" gcode="LS">
+		<state code="" name="" gcode="">
+			<city code="D" name="伯里亚" gcode="" />
+			<city code="B" name="布塔布泰" gcode="" />
+			<city code="G" name="古廷" gcode="" />
+			<city code="H" name="加查斯内克" gcode="Qachas Nek" />
+			<city code="C" name="莱里贝" gcode="" />
+			<city code="E" name="马费滕" gcode="" />
+			<city code="A" name="马塞卢" gcode="" />
+			<city code="F" name="莫哈莱斯胡克" gcode="" />
+			<city code="J" name="莫霍特隆" gcode="" />
+			<city code="K" name="塔巴采卡" gcode="" />
+		</state>
+	</country>
+	<country code="LAO" name="老挝" gcode="LA">
+		<state code="" name="" gcode="">
+			<city code="AT" name="阿速坡" gcode="" />
+			<city code="BL" name="波里坎赛" gcode="" />
+			<city code="BK" name="博乔" gcode="" />
+			<city code="XI" name="川圹" gcode="" />
+			<city code="PH" name="丰沙里" gcode="" />
+			<city code="KH" name="甘蒙" gcode="" />
+			<city code="HO" name="华潘" gcode="" />
+			<city code="LP" name="琅勃拉邦" gcode="" />
+			<city code="LM" name="琅南塔" gcode="" />
+			<city code="XN" name="赛宋本行政特区" gcode="" />
+			<city code="XE" name="色贡" gcode="" />
+			<city code="SL" name="沙拉湾" gcode="" />
+			<city code="SV" name="沙湾拿吉" gcode="" />
+			<city code="XA" name="沙耶武里" gcode="" />
+			<city code="VI" name="万象" gcode="" />
+			<city code="OU" name="乌多姆赛" gcode="" />
+			<city code="CH" name="占巴塞" gcode="Muang Champassak" />
+		</state>
+	</country>
+	<country code="LBN" name="黎巴嫩" gcode="LB">
+		<state code="" name="" gcode="">
+			<city code="AS" name="北部" gcode="" />
+			<city code="BI" name="贝卡" gcode="" />
+			<city code="BA" name="贝鲁特" gcode="Beirut" />
+			<city code="JL" name="黎巴嫩山" gcode="" />
+			<city code="NA" name="奈拜提耶市" gcode="" />
+			<city code="JA" name="南部" gcode="" />
+		</state>
+	</country>
+	<country code="LBR" name="利比里亚" gcode="LR">
+		<state code="" name="" gcode="">
+			<city code="GBA" name="巴波卢" gcode="" />
+			<city code="BG" name="邦" gcode="" />
+			<city code="BOP" name="博波卢" gcode="" />
+			<city code="BM" name="博米" gcode="" />
+			<city code="GB" name="大巴萨" gcode="" />
+			<city code="GG" name="大吉德" gcode="" />
+			<city code="CM" name="大角山" gcode="" />
+			<city code="GK" name="大克鲁" gcode="" />
+			<city code="FT" name="菲什敦" gcode="" />
+			<city code="RG" name="吉河" gcode="" />
+			<city code="RI" name="里弗塞斯" gcode="" />
+			<city code="LO" name="洛法" gcode="" />
+			<city code="MG" name="马吉比" gcode="" />
+			<city code="MY" name="马里兰" gcode="" />
+			<city code="MO" name="蒙特塞拉多" gcode="" />
+			<city code="NI" name="宁巴" gcode="" />
+			<city code="SI" name="锡诺" gcode="" />
+		</state>
+	</country>
+	<country code="LBY" name="利比亚" gcode="LY"></country>
+	<country code="LTU" name="立陶宛" gcode="LT">
+		<state code="" name="" gcode="">
+			<city code="AL" name="阿利图斯" gcode="" />
+			<city code="KA" name="考纳斯" gcode="" />
+			<city code="KL" name="克莱佩达" gcode="" />
+			<city code="MA" name="马里扬泊列" gcode="" />
+			<city code="PA" name="帕涅韦日斯" gcode="Panevėžys" />
+			<city code="TA" name="陶拉格" gcode="" />
+			<city code="TE" name="特尔希艾" gcode="" />
+			<city code="VI" name="维尔纽斯" gcode="" />
+			<city code="UT" name="乌田纳" gcode="" />
+			<city code="SI" name="希奥利艾" gcode="" />
+			<city code="AKM" name="亚克曼" gcode="" />
+		</state>
+	</country>
+	<country code="LIE" name="列支敦士登" gcode="LI"></country>
+	<country code="REU" name="留尼旺岛" gcode="Reunion"></country>
+	<country code="LUX" name="卢森堡" gcode="LU">
+		<state code="" name="" gcode="">
+			<city code="DD" name="迪基希" gcode="" />
+			<city code="GG" name="格雷文马赫" gcode="" />
+			<city code="LL" name="卢森堡" gcode="" />
+		</state>
+	</country>
+	<country code="RWA" name="卢旺达" gcode="RW">
+		<state code="" name="" gcode="">
+			<city code="BY" name="比温巴" gcode="Byumba" />
+			<city code="BU" name="布塔雷" gcode="" />
+			<city code="NY" name="恩延扎" gcode="Nyanza" />
+			<city code="KG" name="基本古" gcode="" />
+			<city code="KY" name="基布耶" gcode="" />
+			<city code="KR" name="基加利-恩加利" gcode="" />
+			<city code="KV" name="基加利市" gcode="" />
+			<city code="GK" name="吉孔戈罗" gcode="" />
+			<city code="GS" name="吉塞尼" gcode="" />
+			<city code="GT" name="吉塔拉马" gcode="" />
+			<city code="KA" name="卡布加" gcode="" />
+			<city code="RW" name="卢瓦马加纳" gcode="" />
+			<city code="RH" name="鲁汉戈" gcode="" />
+			<city code="RU" name="鲁亨盖里" gcode="" />
+			<city code="CY" name="尚古古" gcode="" />
+			<city code="UM" name="乌姆塔拉" gcode="" />
+		</state>
+	</country>
+	<country code="ROU" name="罗马尼亚" gcode="RO">
+		<state code="" name="" gcode="">
+			<city code="AL" name="阿尔巴尤利亚" gcode="" />
+			<city code="AR" name="阿拉德" gcode="" />
+			<city code="OR" name="奥拉迪亚" gcode="" />
+			<city code="BA" name="巴克乌" gcode="" />
+			<city code="BM" name="巴亚马雷" gcode="" />
+			<city code="BN" name="比斯特里察" gcode="" />
+			<city code="BO" name="博托沙尼" gcode="" />
+			<city code="BC" name="布加勒斯特" gcode="" />
+			<city code="BS" name="布拉索夫" gcode="" />
+			<city code="BL" name="布勒伊拉" gcode="" />
+			<city code="BZ" name="布泽乌" gcode="" />
+			<city code="DT" name="德罗贝塔-塞维林堡" gcode="" />
+			<city code="DE" name="德瓦" gcode="" />
+			<city code="TI" name="蒂米什瓦拉" gcode="" />
+			<city code="FO" name="福克沙尼" gcode="" />
+			<city code="GL" name="加拉茨" gcode="" />
+			<city code="GG" name="久尔久" gcode="Giurgiu" />
+			<city code="CT" name="康斯坦察" gcode="Constanța" />
+			<city code="DO" name="克拉约瓦" gcode="Craiova" />
+			<city code="CR" name="克勒拉希" gcode="Călărași" />
+			<city code="CN" name="克卢日纳波卡" gcode="Cluj-Napoca" />
+			<city code="VI" name="勒姆尼库沃尔恰" gcode="Râmnicu Vâlcea" />
+			<city code="RE" name="雷希察" gcode="Resita" />
+			<city code="MC" name="梅尔库里亚丘克" gcode="" />
+			<city code="PI" name="皮特什蒂" gcode="" />
+			<city code="PN" name="皮亚特拉尼亚姆茨" gcode="" />
+			<city code="PL" name="普洛耶什蒂" gcode="" />
+			<city code="SM" name="萨图?马雷" gcode="" />
+			<city code="SG" name="圣格奥尔基" gcode="" />
+			<city code="ST" name="斯拉蒂纳" gcode="" />
+			<city code="SB" name="斯洛博齐亚" gcode="" />
+			<city code="SU" name="苏恰瓦" gcode="" />
+			<city code="TA" name="特尔戈维什泰" gcode="" />
+			<city code="TM" name="特尔古穆列什" gcode="" />
+			<city code="TJ" name="特尔古日乌" gcode="" />
+			<city code="TU" name="图尔恰" gcode="" />
+			<city code="VA" name="瓦斯卢伊" gcode="" />
+			<city code="SO" name="锡比乌" gcode="" />
+			<city code="IS" name="雅西" gcode="" />
+			<city code="AD" name="亚厉山德里亚" gcode="Alexandria" />
+			<city code="ZA" name="扎勒乌" gcode="Zalău" />
+		</state>
+	</country>
+	<country code="MDG" name="马达加斯加" gcode="MG">
+		<state code="" name="" gcode="">
+			<city code="AS" name="安齐拉纳纳" gcode="Antisiranana" />
+			<city code="FN" name="菲亚纳兰楚阿" gcode="Fianarantsoa" />
+			<city code="MJ" name="马哈赞加" gcode="Mahajanga" />
+			<city code="AN" name="塔那那利佛" gcode="Antananarivo" />
+			<city code="TM" name="图阿马西拉" gcode="" />
+			<city code="TL" name="图利亚拉" gcode="" />
+		</state>
+	</country>
+	<country code="MDV" name="马尔代夫" gcode="MV">
+		<state code="" name="" gcode="">
+			<city code="ADD" name="阿杜" gcode="" />
+			<city code="AAD" name="北阿里" gcode="" />
+			<city code="THD" name="北蒂拉杜马蒂" gcode="" />
+			<city code="MAD" name="北马洛斯马杜卢" gcode="" />
+			<city code="MLD" name="北米拉杜马杜卢" gcode="" />
+			<city code="NAD" name="北尼兰杜" gcode="" />
+			<city code="HAD" name="北苏瓦迪瓦" gcode="" />
+			<city code="FAA" name="法迪福卢" gcode="" />
+			<city code="FEA" name="费利杜" gcode="" />
+			<city code="FMU" name="福阿穆拉库" gcode="" />
+			<city code="HDH" name="哈杜马蒂" gcode="" />
+			<city code="KLH" name="科卢马杜卢" gcode="" />
+			<city code="MAL" name="马累" gcode="" />
+			<city code="MAA" name="马累岛" gcode="" />
+			<city code="MUA" name="穆拉库" gcode="" />
+			<city code="AAU" name="南阿里" gcode="" />
+			<city code="THU" name="南蒂拉杜马蒂" gcode="" />
+			<city code="MAU" name="南马洛斯马杜卢" gcode="" />
+			<city code="MLU" name="南米拉杜马杜卢" gcode="" />
+			<city code="NAU" name="南尼兰杜" gcode="" />
+			<city code="HAU" name="南苏瓦迪瓦" gcode="" />
+		</state>
+	</country>
+	<country code="MLT" name="马耳他" gcode="MT"></country>
+	<country code="MWI" name="马拉维" gcode="MW">
+		<state code="" name="" gcode="">
+			<city code="N" name="北部区" gcode="" />
+			<city code="S" name="南部区" gcode="" />
+			<city code="C" name="中央区" gcode="" />
+		</state>
+	</country>
+	<country code="MYS" name="马来西亚" gcode="MY">
+		<state code="PH" name="槟榔屿" gcode="">
+			<city code="BWH" name="北海" gcode="Butterworth" />
+			<city code="PEN" name="槟城" gcode="" />
+			<city code="BMJ" name="大山脚" gcode="" />
+			<city code="NTE" name="高渊" gcode="" />
+		</state>
+		<state code="PS" name="玻璃市" gcode="">
+			<city code="KGR" name="加央" gcode="" />
+		</state>
+		<state code="TR" name="丁加奴" gcode="">
+			<city code="KEM" name="甘马挽" gcode="" />
+			<city code="TGG" name="瓜拉丁加奴" gcode="" />
+			<city code="DGN" name="龙运" gcode="" />
+			<city code="MAR" name="马江" gcode="" />
+			<city code="SET" name="实兆" gcode="" />
+			<city code="HUL" name="乌鲁" gcode="" />
+			<city code="BES" name="勿述" gcode="" />
+		</state>
+		<state code="KD" name="吉打" gcode="">
+			<city code="PGT" name="巴东得腊" gcode="" />
+			<city code="PEN" name="笨筒" gcode="" />
+			<city code="LGK" name="浮罗交怡" gcode="" />
+			<city code="KOR" name="哥打士打" gcode="" />
+			<city code="KPA" name="古邦巴素" gcode="" />
+			<city code="KMU" name="瓜拉姆达" gcode="" />
+			<city code="BLZ" name="华玲" gcode="" />
+			<city code="KLM" name="居林" gcode="" />
+			<city code="BMA" name="万拉峇鲁" gcode="" />
+		</state>
+		<state code="KN" name="吉兰丹" gcode="">
+			<city code="PPU" name="巴西富地" gcode="" />
+			<city code="PMA" name="巴西马" gcode="" />
+			<city code="TMR" name="丹那美拉" gcode="" />
+			<city code="TUM" name="道北" gcode="" />
+			<city code="BAC" name="登卓" gcode="" />
+			<city code="KBR" name="哥打巴鲁" gcode="" />
+			<city code="KUG" name="瓜拉吉赖" gcode="" />
+			<city code="GMU" name="话望生" gcode="" />
+			<city code="MAC" name="马樟" gcode="" />
+			<city code="JEL" name="日里" gcode="" />
+		</state>
+		<state code="KL" name="吉隆坡" gcode="">
+			<city code="KUL" name="吉隆坡" gcode="" />
+		</state>
+		<state code="ML" name="马六甲" gcode="">
+			<city code="MEL" name="马六甲市" gcode="" />
+			<city code="AOG" name="亚罗牙也" gcode="" />
+			<city code="JAS" name="野新" gcode="" />
+		</state>
+		<state code="LB" name="纳闽" gcode="">
+			<city code="LBU" name="纳闽" gcode="" />
+			<city code="VIC" name="维多利亚" gcode="" />
+		</state>
+		<state code="PG" name="彭亨" gcode="">
+			<city code="BER" name="百乐" gcode="" />
+			<city code="PEK" name="北根" gcode="" />
+			<city code="TEM" name="淡马鲁" gcode="Temerloh" />
+			<city code="JER" name="而连突" gcode="" />
+			<city code="KUA" name="关丹" gcode="" />
+			<city code="CAH" name="金马仑高原" gcode="" />
+			<city code="RAU" name="劳勿" gcode="Raub District" />
+			<city code="KUL" name="立卑" gcode="" />
+			<city code="MAR" name="马兰" gcode="Maran" />
+			<city code="BEN" name="文冬" gcode="Bentong" />
+			<city code="TOM" name="云冰" gcode="Labis" />
+		</state>
+		<state code="PK" name="霹雳" gcode="">
+			<city code="TAS" name="安顺" gcode="" />
+			<city code="TAM" name="丹绒马" gcode="" />
+			<city code="SSP" name="和丰" gcode="Sungai Siput" />
+			<city code="LUM" name="?t土坎" gcode="" />
+			<city code="BGA" name="华都牙也" gcode="" />
+			<city code="KAR" name="江沙" gcode="" />
+			<city code="TPG" name="太平" gcode="" />
+			<city code="IPH" name="怡保" gcode="" />
+		</state>
+		<state code="JH" name="柔佛" gcode="">
+			<city code="POW" name="笨珍" gcode="Pontian District" />
+			<city code="MEP" name="丰盛港" gcode="" />
+			<city code="KTI" name="哥打丁宜" gcode="" />
+			<city code="KLA" name="居銮" gcode="" />
+			<city code="BAT" name="?Q株巴辖" gcode="" />
+			<city code="MUA" name="麻坡" gcode="Muar" />
+			<city code="SGM" name="昔加末" gcode="Segamat District" />
+			<city code="JHB" name="新山" gcode="" />
+		</state>
+		<state code="NS" name="森美兰" gcode="">
+			<city code="PDI" name="波德申" gcode="" />
+			<city code="TAI" name="淡边" gcode="" />
+			<city code="SRB" name="芙蓉" gcode="" />
+			<city code="KPI" name="瓜拉庇劳" gcode="" />
+			<city code="REM" name="林茂" gcode="" />
+			<city code="JEP" name="仁保" gcode="" />
+			<city code="JEL" name="日叻务" gcode="" />
+		</state>
+		<state code="SB" name="沙巴" gcode="">
+			<city code="PAP" name="吧巴" gcode="Papar" />
+			<city code="BEF" name="保佛" gcode="" />
+			<city code="BEL" name="比鲁兰" gcode="" />
+			<city code="PIT" name="必达士" gcode="" />
+			<city code="PMP" name="兵南邦" gcode="" />
+			<city code="TAB" name="担布南" gcode="" />
+			<city code="TEN" name="丹南" gcode="" />
+			<city code="TAW" name="斗湖" gcode="" />
+			<city code="TUR" name="斗亚兰" gcode="" />
+			<city code="BKI" name="哥打基纳巴鲁" gcode="" />
+			<city code="KMU" name="哥打马鲁都" gcode="" />
+			<city code="KEG" name="根地咬" gcode="" />
+			<city code="KUD" name="古达" gcode="" />
+			<city code="KBD" name="古打毛律" gcode="" />
+			<city code="KUN" name="古纳" gcode="" />
+			<city code="KPU" name="瓜拉班尤" gcode="" />
+			<city code="KBT" name="京那巴登岸" gcode="" />
+			<city code="RNU" name="兰脑" gcode="" />
+			<city code="LDU" name="拿笃" gcode="" />
+			<city code="NAB" name="纳巴湾" gcode="" />
+			<city code="SDK" name="山打根" gcode="" />
+			<city code="SPT" name="西比陶" gcode="" />
+			<city code="SMM" name="仙本那" gcode="Semporna" />
+		</state>
+		<state code="SR" name="沙捞越" gcode="">
+			<city code="KCH" name="古晋" gcode="" />
+			<city code="KPI" name="加帛" gcode="" />
+			<city code="LMN" name="林梦" gcode="" />
+			<city code="MYY" name="美里" gcode="Miri" />
+			<city code="BTU" name="民都鲁" gcode="Bintulu" />
+			<city code="MKM" name="木胶" gcode="" />
+			<city code="BTG" name="木中" gcode="" />
+			<city code="SMH" name="三马拉汉" gcode="" />
+			<city code="SAM" name="斯里阿曼" gcode="" />
+			<city code="SAR" name="泗里街" gcode="" />
+			<city code="SBW" name="泗务" gcode="" />
+		</state>
+		<state code="SL" name="雪兰莪" gcode="">
+			<city code="PJA" name="八打灵" gcode="" />
+			<city code="GOM" name="鹅麦" gcode="" />
+			<city code="KLG" name="瓜拉冷岳" gcode="" />
+			<city code="KSL" name="瓜拉雪兰莪" gcode="Kuala Selangor" />
+			<city code="SBM" name="沙白安南" gcode="" />
+			<city code="HUL" name="乌鲁冷岳" gcode="" />
+			<city code="HUS" name="乌鲁雪兰莪" gcode="" />
+			<city code="SEP" name="雪邦" gcode="" />
+		</state>
+	</country>
+	<country code="MLI" name="马里" gcode="ML">
+		<state code="" name="" gcode="">
+			<city code="CD" name="巴马科首都区" gcode="" />
+			<city code="KD" name="基达尔" gcode="" />
+			<city code="GA" name="加奥" gcode="" />
+			<city code="KY" name="卡伊" gcode="" />
+			<city code="KL" name="库利科罗" gcode="" />
+			<city code="MP" name="莫普提" gcode="" />
+			<city code="SG" name="塞古" gcode="" />
+			<city code="TB" name="通布图" gcode="" />
+			<city code="SK" name="锡卡索" gcode="" />
+		</state>
+	</country>
+	<country code="MKD" name="马其顿" gcode="MK"></country>
+	<country code="MHL" name="马绍尔群岛" gcode="MH"></country>
+	<country code="MTQ" name="马提尼克" gcode="MQ"></country>
+	<country code="IMN" name="曼岛" gcode="IM"></country>
+	<country code="MUS" name="毛里求斯" gcode="MU"></country>
+	<country code="MRT" name="毛里塔尼亚" gcode="MR">
+		<state code="" name="" gcode="">
+			<city code="AD" name="阿德拉尔" gcode="" />
+			<city code="AS" name="阿萨巴" gcode="" />
+			<city code="BR" name="卜拉克纳" gcode="" />
+			<city code="HG" name="东胡德" gcode="" />
+			<city code="GO" name="戈尔戈勒" gcode="" />
+			<city code="GM" name="吉迪马卡" gcode="" />
+			<city code="DN" name="努瓦迪布湾" gcode="" />
+			<city code="NO" name="努瓦克肖特特区" gcode="" />
+			<city code="TA" name="塔甘特" gcode="" />
+			<city code="TR" name="特拉扎" gcode="" />
+			<city code="TZ" name="提里斯-宰穆尔" gcode="" />
+			<city code="HC" name="西胡德" gcode="" />
+			<city code="IN" name="因希里" gcode="" />
+		</state>
+	</country>
+	<country code="USA" name="美国" gcode="US">
+		<state code="AR" name="阿肯色" gcode="">
+			<city code="FYV" name="费耶特维尔" gcode="" />
+			<city code="FSM" name="史密斯堡" gcode="" />
+			<city code="LIT" name="小石城" gcode="" />
+		</state>
+		<state code="AL" name="阿拉巴马" gcode="">
+			<city code="BHM" name="伯明罕" gcode="" />
+			<city code="MGM" name="蒙哥马利" gcode="" />
+			<city code="MOB" name="莫比尔" gcode="" />
+		</state>
+		<state code="AK" name="阿拉斯加" gcode="">
+			<city code="ANC" name="安克雷奇" gcode="" />
+			<city code="FAI" name="费尔班克斯" gcode="" />
+			<city code="JNU" name="朱诺" gcode="" />
+		</state>
+		<state code="ID" name="爱达荷" gcode="">
+			<city code="IDA" name="爱达荷福尔斯" gcode="" />
+			<city code="PIH" name="波卡特洛" gcode="" />
+			<city code="BOI" name="博伊西" gcode="" />
+			<city code="BLK" name="布莱克富特" gcode="" />
+			<city code="COE" name="科达伦" gcode="" />
+			<city code="LWS" name="刘易斯顿" gcode="" />
+			<city code="MJL" name="莫斯科" gcode="Moscow" />
+			<city code="ZMU" name="墨菲" gcode="" />
+			<city code="NPA" name="楠帕" gcode="" />
+			<city code="QKM" name="岂彻姆" gcode="" />
+			<city code="SVY" name="森瓦利" gcode="" />
+			<city code="YAF" name="亚美利加瀑布城" gcode="" />
+		</state>
+		<state code="IA" name="爱荷华" gcode="">
+			<city code="DVN" name="达文波特" gcode="" />
+			<city code="DSM" name="得梅因" gcode="" />
+			<city code="CID" name="锡达拉皮兹" gcode="" />
+		</state>
+		<state code="ND" name="北达科他" gcode="">
+			<city code="BIS" name="俾斯麦" gcode="" />
+			<city code="GFK" name="大福克斯" gcode="" />
+			<city code="FAR" name="法戈" gcode="" />
+			<city code="MOT" name="迈诺特" gcode="" />
+		</state>
+		<state code="NC" name="北卡罗来纳" gcode="">
+			<city code="AEV" name="艾许维尔" gcode="" />
+			<city code="DHH" name="杜罕" gcode="" />
+			<city code="GBO" name="格林斯伯勒" gcode="" />
+			<city code="CHE" name="教堂山" gcode="" />
+			<city code="RAG" name="罗利" gcode="" />
+			<city code="RDU" name="洛利杜罕都会区" gcode="" />
+			<city code="CRQ" name="夏洛特" gcode="" />
+		</state>
+		<state code="PA" name="宾夕法尼亚" gcode="">
+			<city code="AEW" name="阿伦敦" gcode="" />
+			<city code="PHL" name="费城" gcode="" />
+			<city code="PIT" name="匹兹堡" gcode="" />
+		</state>
+		<state code="TX" name="德克萨斯" gcode="">
+			<city code="ELP" name="埃尔帕索" gcode="" />
+			<city code="AUS" name="奥斯汀" gcode="" />
+			<city code="DAL" name="达拉斯" gcode="" />
+			<city code="CRP" name="哥帕斯基斯蒂" gcode="" />
+			<city code="GLS" name="交维斯顿" gcode="" />
+			<city code="LRD" name="拉雷多" gcode="" />
+			<city code="TXC" name="麦亚伦" gcode="" />
+			<city code="SAT" name="圣安东尼奥" gcode="" />
+			<city code="HOU" name="休斯敦" gcode="" />
+		</state>
+		<state code="OH" name="俄亥俄" gcode="">
+			<city code="DYT" name="代顿" gcode="" />
+			<city code="CZX" name="哥伦布" gcode="" />
+			<city code="CLE" name="克利夫兰" gcode="" />
+			<city code="TOL" name="托莱多" gcode="" />
+			<city code="CVG" name="辛辛那提" gcode="" />
+		</state>
+		<state code="OK" name="俄克拉荷马" gcode="">
+			<city code="OKC" name="俄克拉荷马城" gcode="" />
+			<city code="OUN" name="诺曼" gcode="" />
+			<city code="TUL" name="塔尔萨" gcode="" />
+		</state>
+		<state code="OR" name="俄勒冈" gcode="">
+			<city code="BZO" name="本德" gcode="" />
+			<city code="PDX" name="波特兰" gcode="" />
+			<city code="DLS" name="达尔斯" gcode="" />
+			<city code="DAC" name="达拉斯" gcode="" />
+			<city code="TLM" name="蒂拉穆克" gcode="" />
+			<city code="XFX" name="格兰茨帕斯" gcode="" />
+			<city code="HDX" name="胡德里弗" gcode="" />
+			<city code="CTR" name="火山口湖" gcode="" />
+			<city code="YCV" name="科瓦利斯" gcode="" />
+			<city code="COB" name="库斯贝" gcode="" />
+			<city code="MFR" name="梅德福" gcode="" />
+			<city code="SLE" name="塞勒姆" gcode="" />
+			<city code="STH" name="圣海伦斯" gcode="" />
+			<city code="SPY" name="斯普林菲尔德" gcode="" />
+			<city code="EUG" name="尤金" gcode="" />
+		</state>
+		<state code="FL" name="佛罗里达" gcode="">
+			<city code="ORL" name="奥兰多" gcode="" />
+			<city code="EYW" name="基韦斯特" gcode="" />
+			<city code="JAX" name="杰克逊维尔" gcode="" />
+			<city code="CPV" name="卡纳维尔角" gcode="" />
+			<city code="FLL" name="罗德岱堡" gcode="" />
+			<city code="MIA" name="迈阿密" gcode="" />
+			<city code="PIE" name="圣彼德斯堡市" gcode="" />
+			<city code="TLH" name="塔拉哈西" gcode="" />
+			<city code="TPA" name="坦帕" gcode="" />
+		</state>
+		<state code="VT" name="佛蒙特" gcode="">
+			<city code="BTV" name="伯灵顿" gcode="" />
+			<city code="RUT" name="拉特兰" gcode="" />
+			<city code="ZBR" name="南伯灵顿" gcode="South Burlington" />
+		</state>
+		<state code="DC" name="哥伦比亚特区" gcode="">
+			<city code="WAS" name="华盛顿哥伦比亚特区" gcode="Washington" />
+		</state>
+		<state code="WA" name="华盛顿" gcode="">
+			<city code="GEG" name="斯波坎" gcode="Spokane" />
+			<city code="TTW" name="塔科马" gcode="Tacoma" />
+			<city code="SEA" name="西雅图" gcode="Seattle" />
+		</state>
+		<state code="WY" name="怀俄明" gcode="">
+			<city code="EVD" name="埃文斯顿" gcode="Evanston" />
+			<city code="CPR" name="卡斯珀" gcode="Casper" />
+			<city code="LAR" name="拉勒米" gcode="Laramie" />
+			<city code="RKS" name="罗克斯普林斯" gcode="Rock Springs" />
+			<city code="CYS" name="夏延" gcode="" />
+			<city code="SHR" name="谢里登" gcode="" />
+		</state>
+		<state code="CA" name="加利福尼亚" gcode="">
+			<city code="SFO" name="旧金山" gcode="" />
+			<city code="LAX" name="洛杉矶" gcode="Los Angeles" />
+			<city code="SAN" name="圣迭戈" gcode="San Diego" />
+			<city code="SJC" name="圣何塞" gcode="" />
+		</state>
+		<state code="KS" name="堪萨斯" gcode="">
+			<city code="ABZ" name="阿比林" gcode="Abilene" />
+			<city code="OVL" name="奥弗兰公园" gcode="" />
+			<city code="HCH" name="哈钦森" gcode="" />
+			<city code="KCK" name="堪萨斯城" gcode="" />
+			<city code="XIA" name="莱文沃思" gcode="" />
+			<city code="LWC" name="劳伦斯" gcode="" />
+			<city code="MHK" name="曼哈顿" gcode="" />
+			<city code="TOP" name="托皮卡" gcode="" />
+			<city code="ICT" name="威奇托" gcode="" />
+		</state>
+		<state code="CT" name="康涅狄格" gcode="">
+			<city code="BDR" name="布里奇波特" gcode="" />
+			<city code="DAQ" name="达里恩" gcode="" />
+			<city code="GRH" name="格林尼治" gcode="" />
+			<city code="HFD" name="哈特福德" gcode="" />
+			<city code="XIN" name="米德尔顿" gcode="" />
+			<city code="HVN" name="纽黑文" gcode="" />
+			<city code="WPT" name="韦斯特波特" gcode="" />
+			<city code="WAT" name="沃特伯里" gcode="" />
+			<city code="NWT" name="新不列颠" gcode="" />
+		</state>
+		<state code="CO" name="科罗拉多" gcode="">
+			<city code="ASE" name="阿斯彭" gcode="" />
+			<city code="AUX" name="奥罗拉" gcode="" />
+			<city code="WBU" name="博尔德" gcode="" />
+			<city code="GJT" name="大章克申" gcode="" />
+			<city code="DEN" name="丹佛" gcode="Denver" />
+			<city code="FNL" name="柯林斯堡" gcode="" />
+			<city code="COS" name="科罗拉多斯普林斯" gcode="" />
+			<city code="VAC" name="韦尔" gcode="Vail" />
+		</state>
+		<state code="KY" name="肯塔基" gcode="">
+			<city code="LEX" name="列克星敦" gcode="" />
+			<city code="LUI" name="路易斯维尔" gcode="" />
+			<city code="OWB" name="欧文斯伯勒" gcode="" />
+		</state>
+		<state code="LA" name="路易斯安那" gcode="">
+			<city code="BTR" name="巴吞鲁日" gcode="Baton Rouge" />
+			<city code="SHV" name="什里夫波特" gcode="Shreveport" />
+			<city code="MSY" name="新奥尔良" gcode="" />
+		</state>
+		<state code="RI" name="罗德岛" gcode="">
+			<city code="PAW" name="波塔基特" gcode="" />
+			<city code="CQH" name="克兰斯顿" gcode="Cranston" />
+			<city code="NPO" name="纽波特" gcode="" />
+			<city code="PVD" name="普罗维登斯" gcode="" />
+			<city code="WST" name="韦斯特利" gcode="" />
+			<city code="SFN" name="文索基特" gcode="" />
+			<city code="UZO" name="沃威克" gcode="" />
+		</state>
+		<state code="MD" name="马里兰" gcode="">
+			<city code="BAL" name="巴尔的摩" gcode="" />
+			<city code="GAI" name="盖瑟斯堡" gcode="" />
+			<city code="RKV" name="罗克维尔" gcode="Rockville" />
+		</state>
+		<state code="MA" name="马萨诸塞" gcode="">
+			<city code="BZD" name="波士顿" gcode="" />
+			<city code="SFY" name="斯普林菲尔德" gcode="" />
+			<city code="ORH" name="伍斯特" gcode="" />
+		</state>
+		<state code="MT" name="蒙大拿" gcode="">
+			<city code="BGS" name="比灵斯" gcode="" />
+			<city code="GTF" name="大瀑布村" gcode="" />
+			<city code="MSO" name="米苏拉" gcode="" />
+		</state>
+		<state code="MO" name="密苏里" gcode="">
+			<city code="COV" name="哥伦比亚" gcode="" />
+			<city code="JEF" name="杰佛逊市" gcode="" />
+			<city code="MKC" name="堪萨斯城" gcode="" />
+			<city code="STL" name="圣路易斯" gcode="" />
+			<city code="SGF" name="斯普林菲尔德" gcode="" />
+		</state>
+		<state code="MS" name="密西西比" gcode="">
+			<city code="BIX" name="比洛克西" gcode="" />
+			<city code="GPT" name="格尔夫波特" gcode="Gulfport" />
+			<city code="GLH" name="格林维尔" gcode="" />
+			<city code="HBG" name="哈蒂斯堡" gcode="" />
+			<city code="JAN" name="杰克逊" gcode="" />
+			<city code="MEI" name="默里迪恩" gcode="Meridian" />
+			<city code="VKS" name="维克斯堡" gcode="" />
+		</state>
+		<state code="MI" name="密歇根" gcode="">
+			<city code="ARB" name="安娜堡" gcode="" />
+			<city code="BTL" name="巴特尔克里克" gcode="" />
+			<city code="BCY" name="贝城" gcode="" />
+			<city code="GRR" name="大急流城" gcode="" />
+			<city code="DEO" name="迪尔伯恩" gcode="" />
+			<city code="DET" name="底特律" gcode="" />
+			<city code="FNT" name="弗林特" gcode="" />
+			<city code="WYD" name="怀恩多特" gcode="" />
+			<city code="AZO" name="卡拉马?" gcode="" />
+			<city code="LAN" name="兰辛" gcode="" />
+			<city code="MKG" name="马斯基根" gcode="" />
+			<city code="PTK" name="庞?F亚克" gcode="" />
+			<city code="SGM" name="萨吉诺" gcode="" />
+			<city code="SSM" name="苏圣玛丽" gcode="" />
+			<city code="WAM" name="沃伦" gcode="" />
+			<city code="PHN" name="休伦港" gcode="Port Huron" />
+		</state>
+		<state code="ME" name="缅因" gcode="">
+			<city code="BNQ" name="班戈" gcode="" />
+			<city code="POL" name="波特兰" gcode="" />
+			<city code="QLW" name="刘易斯顿" gcode="Lewiston" />
+		</state>
+		<state code="MN" name="明尼苏达" gcode="">
+			<city code="RST" name="罗切斯特" gcode="" />
+			<city code="MES" name="明尼阿波利斯" gcode="" />
+			<city code="STP" name="圣保罗" gcode="" />
+		</state>
+		<state code="SD" name="南达科他" gcode="">
+			<city code="ABK" name="阿伯丁" gcode="" />
+			<city code="RAP" name="拉皮德城" gcode="" />
+			<city code="FSD" name="苏福尔斯" gcode="" />
+		</state>
+		<state code="SC" name="南卡罗来纳" gcode="">
+			<city code="NTS" name="北查尔斯顿" gcode="" />
+			<city code="CHS" name="查尔斯顿" gcode="" />
+			<city code="COV" name="哥伦比亚" gcode="" />
+		</state>
+		<state code="NE" name="内布拉斯加" gcode="">
+			<city code="OMA" name="奥马哈" gcode="" />
+			<city code="XDE" name="贝尔维尤" gcode="" />
+			<city code="LNK" name="林肯" gcode="" />
+		</state>
+		<state code="NV" name="内华达" gcode="">
+			<city code="EKO" name="埃尔科" gcode="" />
+			<city code="NVS" name="北拉斯维加斯" gcode="" />
+			<city code="VGI" name="弗吉尼亚城" gcode="" />
+			<city code="HNZ" name="亨德森" gcode="Henderson" />
+			<city code="CSN" name="卡森城" gcode="Carson City" />
+			<city code="LAS" name="拉斯维加斯" gcode="" />
+			<city code="RNO" name="里诺" gcode="Reno" />
+			<city code="SPK" name="斯帕克斯" gcode="Sparks" />
+		</state>
+		<state code="NY" name="纽约" gcode="">
+			<city code="FFO" name="布法罗" gcode="Buffalo" />
+			<city code="ROC" name="罗切斯特" gcode="Rochester" />
+			<city code="QEE" name="纽约市" gcode="New York" />
+		</state>
+		<state code="DE" name="特拉华" gcode="">
+			<city code="DOR" name="多佛" gcode="Dover" />
+			<city code="NWK" name="纽瓦克" gcode="" />
+			<city code="ILG" name="威明顿" gcode="Wilmington" />
+		</state>
+		<state code="TN" name="田纳西" gcode="">
+			<city code="BSJ" name="布利斯托" gcode="Stow" />
+			<city code="CHA" name="查塔努加" gcode="Chattanooga" />
+			<city code="TRI" name="金斯波特" gcode="Kingsport" />
+			<city code="MEM" name="孟菲斯" gcode="Memphis" />
+			<city code="BNA" name="纳什维尔" gcode="" />
+			<city code="TYS" name="诺克斯维尔" gcode="" />
+			<city code="YTC" name="三城区" gcode="" />
+			<city code="MQY" name="士麦那" gcode="Smyrna" />
+			<city code="RGI" name="斯普林希尔" gcode="Springhill" />
+			<city code="JCY" name="约翰逊城" gcode="" />
+		</state>
+		<state code="WI" name="威斯康星" gcode="">
+			<city code="ATW" name="阿普??顿" gcode="" />
+			<city code="OSH" name="奥什科什" gcode="Oshkosh" />
+			<city code="GBK" name="格林贝" gcode="Green Bay" />
+			<city code="ENW" name="基诺沙" gcode="" />
+			<city code="LSE" name="拉克罗斯" gcode="La Crosse" />
+			<city code="RAC" name="拉辛" gcode="" />
+			<city code="MTW" name="马尼托沃克" gcode="" />
+			<city code="QMD" name="迈迪逊" gcode="" />
+			<city code="MKE" name="密尔沃基" gcode="" />
+			<city code="EAU" name="欧克莱??" gcode="" />
+			<city code="AUW" name="沃索" gcode="" />
+			<city code="SBM" name="希博伊根" gcode="" />
+		</state>
+		<state code="VA" name="维吉尼亚" gcode="">
+			<city code="VAB" name="弗吉尼亚比奇" gcode="" />
+			<city code="ORF" name="诺福克" gcode="" />
+			<city code="HTW" name="切萨皮克" gcode="" />
+		</state>
+		<state code="WV" name="西佛吉尼亚" gcode="">
+			<city code="CRW" name="查尔斯顿" gcode="" />
+			<city code="HNU" name="亨廷顿" gcode="" />
+			<city code="PKB" name="帕克斯堡" gcode="" />
+		</state>
+		<state code="HI" name="夏威夷" gcode="">
+			<city code="KHH" name="凯卢阿" gcode="" />
+			<city code="HNL" name="檀香山" gcode="" />
+			<city code="ITO" name="希洛" gcode="" />
+		</state>
+		<state code="NH" name="新罕布什尔" gcode="">
+			<city code="CON" name="康科德" gcode="" />
+			<city code="MHT" name="曼彻斯特" gcode="" />
+			<city code="ASH" name="纳舒厄" gcode="" />
+		</state>
+		<state code="NM" name="新墨西哥" gcode="">
+			<city code="ABQ" name="阿尔伯克基" gcode="" />
+			<city code="LRU" name="拉斯克鲁塞斯" gcode="Las Cruces" />
+			<city code="ROW" name="罗斯韦尔" gcode="Roswell" />
+			<city code="SAF" name="圣菲" gcode="" />
+		</state>
+		<state code="NJ" name="新泽西" gcode="">
+			<city code="NRK" name="纽瓦克" gcode="" />
+			<city code="PAT" name="帕特森" gcode="" />
+			<city code="JEC" name="泽西城" gcode="" />
+		</state>
+		<state code="AZ" name="亚利桑那" gcode="">
+			<city code="PHX" name="凤凰城" gcode="" />
+			<city code="GDA" name="格兰代尔" gcode="" />
+			<city code="MQA" name="梅萨" gcode="Mesa" />
+			<city code="STZ" name="史卡兹代尔" gcode="" />
+			<city code="TPE" name="坦普" gcode="" />
+			<city code="TUC" name="图森" gcode="" />
+			<city code="YUM" name="优玛" gcode="" />
+		</state>
+		<state code="IL" name="伊利诺斯" gcode="">
+			<city code="ALN" name="奥尔顿" gcode="" />
+			<city code="AUZ" name="奥罗拉" gcode="Aurora" />
+			<city code="BLO" name="布卢明顿" gcode="" />
+			<city code="DVI" name="丹维??" gcode="" />
+			<city code="DEK" name="迪卡尔布" gcode="" />
+			<city code="DEC" name="迪凯持" gcode="" />
+			<city code="ESL" name="东圣路易斯" gcode="" />
+			<city code="CMI" name="厄巴纳-香槟" gcode="" />
+			<city code="GSU" name="盖尔斯堡" gcode="" />
+			<city code="MDH" name="卡本代尔" gcode="" />
+			<city code="RKI" name="罗克艾兰" gcode="Rock Island" />
+			<city code="RFD" name="罗克福德" gcode="Rockford" />
+			<city code="NOM" name="诺?a尔" gcode="" />
+			<city code="PLA" name="皮奥里亚" gcode="" />
+			<city code="CRA" name="森特勒利亚" gcode="" />
+			<city code="SPI" name="斯普林菲尔德" gcode="" />
+			<city code="UGN" name="沃其根" gcode="" />
+			<city code="CHI" name="芝加哥" gcode="" />
+		</state>
+		<state code="IN" name="印第安那" gcode="">
+			<city code="EVV" name="埃文斯维尔" gcode="" />
+			<city code="FWA" name="韦恩堡" gcode="" />
+			<city code="IND" name="印第安纳波利斯" gcode="Indianapolis" />
+		</state>
+		<state code="UT" name="犹他" gcode="">
+			<city code="OGD" name="奥格登" gcode="" />
+			<city code="LTJ" name="雷登" gcode="" />
+			<city code="OEU" name="欧仁" gcode="" />
+			<city code="PAC" name="帕克城" gcode="" />
+			<city code="PVU" name="普罗沃" gcode="" />
+			<city code="SGU" name="圣乔治" gcode="St George" />
+			<city code="WVC" name="西瓦利城" gcode="West Valley City" />
+			<city code="SLC" name="盐湖城" gcode="Salt Lake City" />
+		</state>
+		<state code="GA" name="佐治亚" gcode="">
+			<city code="AUT" name="奥古斯塔" gcode="Augusta" />
+			<city code="CZX" name="哥伦布" gcode="" />
+			<city code="MCN" name="梅肯" gcode="Macon" />
+			<city code="SAV" name="沙瓦纳" gcode="" />
+			<city code="TAT" name="亚特兰大" gcode="" />
+		</state>
+	</country>
+	<country code="ASM" name="美属萨摩亚" gcode="AS">
+		<state code="" name="" gcode="">
+			<city code="AAN" name="阿纳" gcode="" />
+			<city code="ATU" name="阿图阿" gcode="" />
+			<city code="AIT" name="艾加伊勒泰" gcode="" />
+			<city code="FAA" name="法塞莱莱阿加" gcode="" />
+			<city code="GFG" name="加盖福毛加" gcode="" />
+			<city code="GMG" name="加加埃毛加" gcode="" />
+			<city code="PAL" name="帕劳利" gcode="" />
+			<city code="SAT" name="萨图帕伊泰阿" gcode="" />
+			<city code="SAV" name="萨瓦伊岛" gcode="" />
+			<city code="TUA" name="图阿马萨加" gcode="" />
+			<city code="VAF" name="瓦奥福诺蒂" gcode="" />
+			<city code="VAI" name="韦西加诺" gcode="" />
+			<city code="UPO" name="乌波卢岛" gcode="" />
+		</state>
+	</country>
+	<country code="MNG" name="蒙古" gcode="MN">
+		<state code="" name="" gcode="">
+			<city code="69" name="巴彦洪格尔" gcode="" />
+			<city code="71" name="巴彦乌勒盖" gcode="" />
+			<city code="67" name="布尔干" gcode="" />
+			<city code="37" name="达尔汗乌勒" gcode="" />
+			<city code="61" name="东方" gcode="" />
+			<city code="63" name="东戈壁" gcode="" />
+			<city code="35" name="鄂尔浑" gcode="" />
+			<city code="65" name="戈壁阿尔泰" gcode="" />
+			<city code="64" name="戈壁苏木贝尔" gcode="" />
+			<city code="73" name="后杭爱" gcode="" />
+			<city code="43" name="科布多" gcode="" />
+			<city code="39" name="肯特" gcode="" />
+			<city code="41" name="库苏古尔" gcode="" />
+			<city code="UMN" name="南戈壁" gcode="" />
+			<city code="UVO" name="前杭爱" gcode="" />
+			<city code="49" name="色楞格" gcode="" />
+			<city code="51" name="苏赫巴托尔" gcode="" />
+			<city code="46" name="乌布苏" gcode="" />
+			<city code="1" name="乌兰巴托市" gcode="" />
+			<city code="57" name="扎布汗" gcode="" />
+			<city code="59" name="中戈壁" gcode="" />
+			<city code="47" name="中央" gcode="" />
+		</state>
+	</country>
+	<country code="MSR" name="蒙特塞拉特" gcode="MS"></country>
+	<country code="BGD" name="孟加拉" gcode="BD">
+		<state code="" name="" gcode="">
+			<city code="DAC" name="达卡" gcode="" />
+			<city code="CGP" name="吉大港" gcode="" />
+			<city code="KHL" name="库尔纳" gcode="" />
+		</state>
+	</country>
+	<country code="FSM" name="密克罗尼西亚" gcode="FM"></country>
+	<country code="PER" name="秘鲁" gcode="PE">
+		<state code="" name="" gcode="">
+			<city code="AR" name="阿雷基帕" gcode="" />
+			<city code="AP" name="阿普里马克" gcode="" />
+			<city code="AY" name="阿亚库乔" gcode="" />
+			<city code="AN" name="安卡什" gcode="" />
+			<city code="JUL" name="胡利亚卡" gcode="" />
+			<city code="JU" name="胡宁" gcode="" />
+			<city code="CJ" name="卡哈马卡" gcode="" />
+			<city code="CL" name="卡亚俄" gcode="" />
+			<city code="CU" name="库斯科" gcode="" />
+			<city code="LD" name="拉利伯塔德" gcode="" />
+			<city code="LY" name="兰巴耶克" gcode="" />
+			<city code="LI" name="利马" gcode="" />
+			<city code="LO" name="洛雷托" gcode="" />
+			<city code="MD" name="马德雷德迪奥斯" gcode="" />
+			<city code="MO" name="莫克瓜" gcode="" />
+			<city code="PA" name="帕斯科" gcode="" />
+			<city code="PI" name="皮乌拉" gcode="" />
+			<city code="PU" name="普诺" gcode="" />
+			<city code="CHM" name="钦博特" gcode="" />
+			<city code="CHI" name="钦查阿尔塔" gcode="" />
+			<city code="SM" name="圣马丁" gcode="" />
+			<city code="SUL" name="苏拉纳" gcode="" />
+			<city code="TA" name="塔克纳" gcode="Tacna" />
+			<city code="TU" name="通贝斯" gcode="" />
+			<city code="HO" name="瓦努科" gcode="" />
+			<city code="HV" name="万卡维利卡" gcode="" />
+			<city code="UC" name="乌卡亚利" gcode="" />
+			<city code="AM" name="亚马孙" gcode="" />
+			<city code="IC" name="伊卡" gcode="" />
+		</state>
+	</country>
+	<country code="MMR" name="缅甸" gcode="MM">
+		<state code="" name="" gcode="">
+			<city code="BG" name="勃固省" gcode="" />
+			<city code="SH" name="掸邦" gcode="" />
+			<city code="TN" name="德林达依省" gcode="" />
+			<city code="KN" name="克伦邦" gcode="" />
+			<city code="KC" name="克钦邦" gcode="" />
+			<city code="KH" name="克耶邦" gcode="" />
+			<city code="MG" name="马圭省" gcode="" />
+			<city code="MD" name="曼德勒省" gcode="" />
+			<city code="MN" name="孟邦" gcode="" />
+			<city code="CH" name="钦邦" gcode="" />
+			<city code="RK" name="若开邦" gcode="" />
+			<city code="SG" name="实皆省" gcode="" />
+			<city code="YG" name="仰光省" gcode="" />
+			<city code="AY" name="伊洛瓦底省" gcode="" />
+		</state>
+	</country>
+	<country code="MDA" name="摩尔多瓦" gcode="MD"></country>
+	<country code="MAR" name="摩洛哥" gcode="MA">
+		<state code="" name="" gcode="">
+			<city code="TGR" name="丹吉尔" gcode="" />
+			<city code="TET" name="得土安" gcode="" />
+			<city code="FES" name="非斯" gcode="" />
+			<city code="CBL" name="卡萨布兰卡" gcode="" />
+			<city code="RSA" name="拉巴特" gcode="" />
+			<city code="MRK" name="马拉喀什" gcode="" />
+			<city code="MKN" name="梅克内斯" gcode="" />
+			<city code="OUJ" name="乌季达" gcode="" />
+			<city code="WSH" name="西撒哈拉" gcode="" />
+		</state>
+	</country>
+	<country code="MCO" name="摩纳哥" gcode="MC"></country>
+	<country code="MOZ" name="莫桑比克" gcode="MZ"></country>
+	<country code="MEX" name="墨西哥" gcode="MX">
+		<state code="" name="" gcode="">
+			<city code="AGU" name="阿瓜斯卡连斯特" gcode="" />
+			<city code="ACA" name="阿卡普尔科" gcode="" />
+			<city code="HMO" name="埃莫西约" gcode="" />
+			<city code="CAM" name="埃佩切" gcode="" />
+			<city code="OBR" name="奥夫雷贡城" gcode="" />
+			<city code="ORI" name="奥里萨巴" gcode="" />
+			<city code="VHM" name="巴利城" gcode="" />
+			<city code="PVR" name="巴亚尔塔港" gcode="" />
+			<city code="VSA" name="比利亚埃尔莫萨" gcode="" />
+			<city code="PRH" name="波萨里卡" gcode="" />
+			<city code="TIJ" name="蒂华纳" gcode="" />
+			<city code="DUR" name="杜兰戈" gcode="" />
+			<city code="ESE" name="恩塞纳达" gcode="" />
+			<city code="GDL" name="瓜达拉哈拉" gcode="" />
+			<city code="GUA" name="瓜纳华托" gcode="" />
+			<city code="JAL" name="哈拉帕" gcode="" />
+			<city code="JUZ" name="华雷斯" gcode="" />
+			<city code="BJU" name="华雷斯港" gcode="" />
+			<city code="CAR" name="卡门" gcode="" />
+			<city code="COL" name="科利马" gcode="" />
+			<city code="QUE" name="克雷塔罗" gcode="" />
+			<city code="CVC" name="库埃纳瓦卡" gcode="" />
+			<city code="CUL" name="库利阿坎" gcode="" />
+			<city code="COA" name="夸察夸拉克斯" gcode="" />
+			<city code="LAP" name="拉巴斯" gcode="" />
+			<city code="LEN" name="莱昂" gcode="" />
+			<city code="REX" name="雷诺萨" gcode="" />
+			<city code="LMM" name="洛斯莫奇斯" gcode="" />
+			<city code="MZT" name="马萨特兰" gcode="" />
+			<city code="MAM" name="马塔莫罗斯" gcode="" />
+			<city code="MID" name="梅里达" gcode="" />
+			<city code="LOV" name="蒙克洛瓦" gcode="" />
+			<city code="MTY" name="蒙特雷" gcode="" />
+			<city code="MLM" name="莫雷利亚" gcode="" />
+			<city code="MEX" name="墨西哥城" gcode="" />
+			<city code="MXL" name="墨西卡利" gcode="" />
+			<city code="NOG" name="诺加莱斯" gcode="" />
+			<city code="PAC" name="帕丘卡" gcode="" />
+			<city code="PUE" name="普埃布拉" gcode="" />
+			<city code="CHI" name="奇尔潘辛戈" gcode="" />
+			<city code="CHH" name="奇瓦瓦" gcode="" />
+			<city code="CTM" name="切图马尔" gcode="" />
+			<city code="SLW" name="萨尔蒂约" gcode="" />
+			<city code="ZAC" name="萨卡特卡斯" gcode="" />
+			<city code="CLY" name="塞拉亚" gcode="" />
+			<city code="SLP" name="圣路易斯波托亚" gcode="" />
+			<city code="TAP" name="塔帕丘拉" gcode="" />
+			<city code="TAM" name="坦皮科" gcode="" />
+			<city code="TLA" name="特拉斯卡拉" gcode="" />
+			<city code="TPQ" name="特皮克" gcode="" />
+			<city code="TCN" name="特瓦坎" gcode="Tehuacán" />
+			<city code="TGZ" name="图斯特拉-古铁雷斯" gcode="" />
+			<city code="TRC" name="托雷翁" gcode="" />
+			<city code="TLC" name="托卢卡" gcode="" />
+			<city code="OAX" name="瓦哈卡" gcode="" />
+			<city code="VIC" name="维多利亚城" gcode="" />
+			<city code="VER" name="韦拉克鲁斯" gcode="Heroica Veracruz" />
+			<city code="UPN" name="乌鲁阿潘" gcode="" />
+			<city code="NLE" name="新拉雷多" gcode="" />
+			<city code="IRP" name="伊拉普阿托" gcode="" />
+		</state>
+	</country>
+	<country code="NAM" name="纳米比亚" gcode="NA">
+		<state code="" name="" gcode="">
+			<city code="ER" name="埃龙戈" gcode="" />
+			<city code="OW" name="奥汉圭纳" gcode="" />
+			<city code="KV" name="奥卡万戈" gcode="" />
+			<city code="OK" name="奥马赫科" gcode="" />
+			<city code="OT" name="奥姆沙蒂" gcode="" />
+			<city code="OJ" name="奥乔宗蒂约巴" gcode="" />
+			<city code="ON" name="奥沙纳" gcode="" />
+			<city code="OO" name="奥希科托" gcode="" />
+			<city code="HA" name="哈达普" gcode="" />
+			<city code="KH" name="霍马斯" gcode="" />
+			<city code="KR" name="卡拉斯" gcode="" />
+			<city code="CA" name="卡普里维" gcode="" />
+			<city code="KU" name="库内内" gcode="" />
+		</state>
+	</country>
+	<country code="ZAF" name="南非" gcode="ZA">
+		<state code="" name="" gcode="">
+			<city code="UTN" name="阿平顿" gcode="Upington" />
+			<city code="MAY" name="艾利弗山" gcode="" />
+			<city code="PZB" name="彼德马里茨堡" gcode="" />
+			<city code="PTG" name="彼德斯堡" gcode="" />
+			<city code="PRY" name="比勒陀利亚" gcode="Pretoria" />
+			<city code="BIY" name="比索" gcode="" />
+			<city code="BDD" name="布雷达斯多普" gcode="Bredasdorp" />
+			<city code="BFN" name="布隆方丹" gcode="" />
+			<city code="BHT" name="布隆克斯特斯普利特" gcode="" />
+			<city code="DAA" name="德阿尔" gcode="De Aar" />
+			<city code="DUR" name="德班" gcode="Durban" />
+			<city code="DUN" name="邓迪" gcode="" />
+			<city code="BAE" name="东巴克利" gcode="" />
+			<city code="ELS" name="东伦敦" gcode="East London" />
+			<city code="VRU" name="弗雷堡" gcode="" />
+			<city code="VGG" name="弗里尼欣" gcode="" />
+			<city code="GBD" name="格罗布莱斯达尔" gcode="" />
+			<city code="GIY" name="基雅尼" gcode="" />
+			<city code="KIM" name="金伯利" gcode="" />
+			<city code="CPT" name="开普敦" gcode="" />
+			<city code="KXE" name="克莱克斯多普" gcode="" />
+			<city code="KMH" name="库鲁曼" gcode="" />
+			<city code="UTW" name="昆士敦" gcode="" />
+			<city code="LAY" name="莱迪史密斯" gcode="" />
+			<city code="RFT" name="兰德方丹" gcode="" />
+			<city code="RCB" name="理查兹湾" gcode="" />
+			<city code="RSB" name="利斯滕堡" gcode="" />
+			<city code="MDB" name="米德尔堡" gcode="Middelburg" />
+			<city code="MZQ" name="姆库泽" gcode="Mkuze" />
+			<city code="MOO" name="穆里斯堡" gcode="" />
+			<city code="NLP" name="内尔斯普雷特" gcode="Nelspruit" />
+			<city code="NYL" name="尼尔斯特隆" gcode="" />
+			<city code="NCS" name="纽卡斯尔" gcode="Newcastle" />
+			<city code="GRJ" name="乔治" gcode="" />
+			<city code="SAS" name="萨索尔堡" gcode="" />
+			<city code="ZEC" name="瑟孔达" gcode="" />
+			<city code="IXO" name="特克索波" gcode="Ixopo" />
+			<city code="TPB" name="特隆普斯堡" gcode="" />
+			<city code="SBU" name="跳羚" gcode="" />
+			<city code="TLH" name="图拉马哈谢" gcode="" />
+			<city code="THY" name="托霍延杜" gcode="" />
+			<city code="WSH" name="韦茨肖克" gcode="" />
+			<city code="WEL" name="韦尔科姆" gcode="Welkom" />
+			<city code="ULD" name="乌伦迪" gcode="Ulundi" />
+			<city code="UTT" name="乌姆塔塔" gcode="Mthatha" />
+			<city code="WOR" name="伍斯特" gcode="Worcester" />
+			<city code="BEW" name="西博福特" gcode="Beaufort West" />
+			<city code="PSS" name="谢普斯通港" gcode="Port Shepstone" />
+			<city code="PLZ" name="伊丽莎白港" gcode="Port Elizabeth" />
+			<city code="JNB" name="约翰内斯堡" gcode="Johannesburg" />
+		</state>
+	</country>
+	<country code="NRU" name="瑙鲁" gcode="NR"></country>
+	<country code="NPL" name="尼泊尔" gcode="NP">
+		<state code="" name="" gcode="">
+			<city code="BA" name="巴格马蒂" gcode="" />
+			<city code="DH" name="道拉吉里" gcode="" />
+			<city code="GA" name="甘达基" gcode="" />
+			<city code="KO" name="戈西" gcode="" />
+			<city code="KA" name="格尔纳利" gcode="" />
+			<city code="JA" name="贾纳克布尔" gcode="" />
+			<city code="RA" name="拉布蒂" gcode="" />
+			<city code="LU" name="蓝毗尼" gcode="" />
+			<city code="MA" name="马哈卡利" gcode="" />
+			<city code="ME" name="梅吉" gcode="" />
+			<city code="NA" name="纳拉亚尼" gcode="" />
+			<city code="BH" name="佩里" gcode="" />
+			<city code="SA" name="萨加玛塔" gcode="" />
+			<city code="SE" name="塞蒂" gcode="" />
+		</state>
+	</country>
+	<country code="NIC" name="尼加拉瓜" gcode="NI">
+		<state code="" name="" gcode="">
+			<city code="ES" name="埃斯特利" gcode="" />
+			<city code="AN" name="北大西洋" gcode="" />
+			<city code="BO" name="博阿科" gcode="" />
+			<city code="GR" name="格拉纳达" gcode="" />
+			<city code="CA" name="卡拉索" gcode="" />
+			<city code="LE" name="莱昂" gcode="" />
+			<city code="RV" name="里瓦斯" gcode="" />
+			<city code="MD" name="马德里斯" gcode="" />
+			<city code="MN" name="马那瓜" gcode="" />
+			<city code="MS" name="马萨亚" gcode="Masaya" />
+			<city code="MT" name="马塔加尔帕" gcode="" />
+			<city code="AS" name="南大西洋" gcode="" />
+			<city code="CD" name="奇南德加" gcode="" />
+			<city code="CT" name="琼塔莱斯" gcode="" />
+			<city code="SJ" name="圣胡安河" gcode="" />
+			<city code="JI" name="希诺特加" gcode="" />
+			<city code="NS" name="新塞哥维亚" gcode="" />
+		</state>
+	</country>
+	<country code="NER" name="尼日尔" gcode="NE">
+		<state code="" name="" gcode="">
+			<city code="AJY" name="阿加德兹" gcode="" />
+			<city code="DIF" name="迪法" gcode="Diffa" />
+			<city code="TIL" name="蒂拉贝里" gcode="" />
+			<city code="DSS" name="多索" gcode="" />
+			<city code="ZND" name="津德尔" gcode="Zinder" />
+			<city code="MFQ" name="马拉迪" gcode="" />
+			<city code="NIM" name="尼亚美市" gcode="" />
+			<city code="THZ" name="塔瓦" gcode="" />
+		</state>
+	</country>
+	<country code="NGA" name="尼日利亚" gcode="NG">
+		<state code="" name="" gcode="">
+			<city code="ABV" name="阿比亚" gcode="" />
+			<city code="OGB" name="奥博莫绍" gcode="" />
+			<city code="KAN" name="卡诺" gcode="Kano" />
+			<city code="LOS" name="拉各斯" gcode="" />
+			<city code="IBA" name="伊巴丹" gcode="Ibadan" />
+		</state>
+	</country>
+	<country code="NIU" name="纽埃" gcode="NU"></country>
+	<country code="NOR" name="挪威" gcode="NO">
+		<state code="" name="" gcode="">
+			<city code="2" name="阿克什胡斯" gcode="" />
+			<city code="5" name="奥普兰" gcode="" />
+			<city code="3" name="奥斯陆市" gcode="" />
+			<city code="17" name="北特伦德拉格" gcode="" />
+			<city code="6" name="布斯克吕" gcode="" />
+			<city code="9" name="东阿格德尔" gcode="" />
+			<city code="1" name="东福尔" gcode="" />
+			<city code="20" name="芬马克" gcode="" />
+			<city code="4" name="海德马克" gcode="" />
+			<city code="12" name="霍达兰" gcode="" />
+			<city code="11" name="罗加兰" gcode="" />
+			<city code="15" name="默勒－鲁姆斯达尔" gcode="" />
+			<city code="16" name="南特伦德拉格" gcode="" />
+			<city code="18" name="诺尔兰" gcode="" />
+			<city code="14" name="松恩－菲尤拉讷" gcode="" />
+			<city code="8" name="泰勒马克" gcode="" />
+			<city code="19" name="特罗姆斯" gcode="" />
+			<city code="10" name="西阿格德尔" gcode="" />
+			<city code="7" name="西福尔" gcode="" />
+		</state>
+	</country>
+	<country code="PRT" name="葡萄牙" gcode="PT">
+		<state code="" name="" gcode="">
+			<city code="ALL" name="滨海阿连特茹" gcode="" />
+			<city code="PLT" name="滨海皮尼亚尔" gcode="" />
+			<city code="VDP" name="波尔图" gcode="" />
+			<city code="MDR" name="杜罗" gcode="" />
+			<city code="EDV" name="恩特拉杜罗伏日" gcode="" />
+			<city code="FAO" name="法鲁" gcode="" />
+			<city code="FUN" name="丰沙尔" gcode="" />
+			<city code="CAV" name="卡瓦多" gcode="" />
+			<city code="CLB" name="科瓦贝拉" gcode="" />
+			<city code="LIS" name="里斯本" gcode="Lisbon" />
+			<city code="LTE" name="利巴特茹" gcode="" />
+			<city code="MTE" name="梅地奥特茹" gcode="" />
+			<city code="MLI" name="米尼奥-利马" gcode="" />
+			<city code="BIN" name="内贝拉北" gcode="" />
+			<city code="BIS" name="内贝拉南" gcode="" />
+			<city code="PIN" name="内皮尼亚尔北" gcode="" />
+			<city code="PIS" name="内皮尼亚尔南" gcode="" />
+			<city code="PDL" name="蓬塔德尔加达" gcode="" />
+			<city code="PSE" name="塞图巴尔半岛" gcode="" />
+			<city code="SES" name="山后" gcode="" />
+			<city code="AAT" name="上阿连特茹" gcode="" />
+			<city code="ATM" name="上特拉斯山" gcode="" />
+			<city code="TAM" name="塔梅加" gcode="" />
+			<city code="AES" name="万福" gcode="" />
+			<city code="OES" name="西部" gcode="" />
+			<city code="BAL" name="下阿连特茹" gcode="" />
+			<city code="BVO" name="下伏日" gcode="" />
+			<city code="BMO" name="下蒙德古" gcode="" />
+			<city code="ALC" name="中阿连特茹" gcode="" />
+		</state>
+	</country>
+	<country code="GEO" name="乔治亚" gcode="GA"></country>
+	<country code="JPN" name="日本" gcode="JP">
+		<state code="" name="" gcode="">
+			<city code="38" name="爱媛" gcode="" />
+			<city code="23" name="爱知" gcode="" />
+			<city code="1" name="北海道" gcode="" />
+			<city code="28" name="兵库" gcode="" />
+			<city code="47" name="冲绳" gcode="" />
+			<city code="8" name="茨城" gcode="" />
+			<city code="27" name="大阪" gcode="" />
+			<city code="44" name="大分" gcode="" />
+			<city code="32" name="岛根" gcode="" />
+			<city code="36" name="?缘?" gcode="" />
+			<city code="13" name="东京" gcode="" />
+			<city code="7" name="福岛" gcode="" />
+			<city code="40" name="福冈" gcode="Fukuoka" />
+			<city code="18" name="福井" gcode="Fukui" />
+			<city code="16" name="富山" gcode="Toyama" />
+			<city code="33" name="冈山" gcode="" />
+			<city code="39" name="高知" gcode="" />
+			<city code="4" name="?m城" gcode="" />
+			<city code="45" name="宫崎" gcode="" />
+			<city code="34" name="广岛" gcode="Hiroshima" />
+			<city code="30" name="和歌山" gcode="Wakayama" />
+			<city code="26" name="京都" gcode="Kyoto" />
+			<city code="22" name="静冈" gcode="Shizuoka" />
+			<city code="9" name="枥木" gcode="" />
+			<city code="46" name="鹿儿岛" gcode="Kagoshima" />
+			<city code="29" name="奈良" gcode="" />
+			<city code="31" name="鸟取" gcode="" />
+			<city code="21" name="岐阜" gcode="" />
+			<city code="11" name="?斡?" gcode="" />
+			<city code="12" name="千叶" gcode="" />
+			<city code="2" name="青森" gcode="" />
+			<city code="5" name="秋田" gcode="" />
+			<city code="10" name="群马" gcode="" />
+			<city code="24" name="三重" gcode="" />
+			<city code="35" name="山口" gcode="" />
+			<city code="19" name="山梨" gcode="" />
+			<city code="6" name="山形" gcode="" />
+			<city code="14" name="神奈川" gcode="" />
+			<city code="17" name="石川" gcode="" />
+			<city code="37" name="香川" gcode="" />
+			<city code="15" name="新??" gcode="" />
+			<city code="43" name="熊本" gcode="" />
+			<city code="3" name="岩手" gcode="" />
+			<city code="42" name="长崎" gcode="" />
+			<city code="20" name="长野" gcode="" />
+			<city code="25" name="滋贺" gcode="" />
+			<city code="41" name="佐贺" gcode="" />
+		</state>
+	</country>
+	<country code="SWE" name="瑞典" gcode="SE">
+		<state code="" name="" gcode="">
+			<city code="AB" name="斯德哥尔摩" gcode="Stockholm" />
+			<city code="BD" name="北博滕" gcode="" />
+			<city code="K" name="布莱金厄" gcode="" />
+			<city code="DLN" name="达拉纳" gcode="" />
+			<city code="UGL" name="东约特兰" gcode="" />
+			<city code="T" name="厄勒布鲁" gcode="" />
+			<city code="I" name="哥得兰" gcode="" />
+			<city code="N" name="哈兰" gcode="" />
+			<city code="H" name="卡尔马" gcode="" />
+			<city code="G" name="克鲁努贝里" gcode="" />
+			<city code="D" name="南曼兰" gcode="" />
+			<city code="M" name="斯科耐" gcode="" />
+			<city code="S" name="韦姆兰" gcode="" />
+			<city code="C" name="乌普萨拉" gcode="" />
+			<city code="AC" name="西博滕" gcode="" />
+			<city code="U" name="西曼兰" gcode="" />
+			<city code="Y" name="西诺尔兰" gcode="" />
+			<city code="O" name="西约特兰" gcode="" />
+			<city code="F" name="延雪平" gcode="Jönköping" />
+			<city code="X" name="耶夫勒堡" gcode="" />
+			<city code="Z" name="耶姆特兰" gcode="" />
+		</state>
+	</country>
+	<country code="CHE" name="瑞士" gcode="CH">
+		<state code="" name="" gcode="">
+			<city code="AG" name="阿尔高" gcode="" />
+			<city code="BS" name="巴塞尔城市" gcode="" />
+			<city code="BL" name="巴塞尔乡村" gcode="" />
+			<city code="BE" name="伯尔尼" gcode="" />
+			<city code="ZG" name="楚格" gcode="" />
+			<city code="FR" name="弗里堡" gcode="" />
+			<city code="GL" name="格拉鲁斯" gcode="" />
+			<city code="GR" name="格劳宾登" gcode="" />
+			<city code="LU" name="卢塞恩" gcode="" />
+			<city code="LA" name="洛桑" gcode="" />
+			<city code="NE" name="纳沙泰尔" gcode="" />
+			<city code="AI" name="内阿彭策尔" gcode="" />
+			<city code="GE" name="日内瓦" gcode="" />
+			<city code="JU" name="汝拉" gcode="" />
+			<city code="SH" name="沙夫豪森" gcode="Schaffhausen" />
+			<city code="OW" name="上瓦尔登" gcode="" />
+			<city code="SG" name="圣加仑" gcode="St Gallen" />
+			<city code="SZ" name="施维茨" gcode="Schwyz" />
+			<city code="ZH" name="苏黎世" gcode="Zürich" />
+			<city code="SO" name="索洛图恩" gcode="Solothurn" />
+			<city code="TI" name="提契诺" gcode="" />
+			<city code="TG" name="图尔高" gcode="" />
+			<city code="VS" name="瓦莱" gcode="" />
+			<city code="AR" name="外阿彭策尔" gcode="" />
+			<city code="VD" name="沃" gcode="" />
+			<city code="UR" name="乌里" gcode="" />
+			<city code="NW" name="下瓦尔登" gcode="" />
+		</state>
+	</country>
+	<country code="SLV" name="萨尔瓦多" gcode="SV">
+		<state code="" name="" gcode="">
+			<city code="APO" name="阿波帕" gcode="" />
+			<city code="AH" name="阿瓦查潘" gcode="" />
+			<city code="LI" name="滨海" gcode="" />
+			<city code="CH" name="查拉特南戈" gcode="" />
+			<city code="DE" name="德尔加多" gcode="" />
+			<city code="KN" name="基埃-恩特姆" gcode="" />
+			<city code="CA" name="卡瓦尼亚斯" gcode="" />
+			<city code="CU" name="库斯卡特兰" gcode="" />
+			<city code="PZ" name="拉巴斯" gcode="" />
+			<city code="LB" name="拉利伯塔德" gcode="" />
+			<city code="UN" name="拉乌尼翁" gcode="" />
+			<city code="MEJ" name="梅基卡诺斯" gcode="" />
+			<city code="MO" name="莫拉桑" gcode="" />
+			<city code="SA" name="圣安娜" gcode="" />
+			<city code="SM" name="圣米格尔" gcode="San Miguel" />
+			<city code="SS" name="圣萨尔瓦多" gcode="" />
+			<city code="SV" name="圣维森特" gcode="" />
+			<city code="SO" name="松索纳特" gcode="" />
+			<city code="SOY" name="索亚潘戈" gcode="" />
+			<city code="WN" name="韦莱-恩萨斯" gcode="" />
+			<city code="US" name="乌苏卢坦" gcode="" />
+			<city code="IL" name="伊洛潘戈" gcode="" />
+			<city code="CS" name="中南" gcode="" />
+		</state>
+	</country>
+	<country code="WSM" name="萨摩亚" gcode="WS"></country>
+	<country code="SLE" name="塞拉利昂" gcode="SL">
+		<state code="" name="" gcode="">
+			<city code="N" name="北部" gcode="" />
+			<city code="E" name="东部" gcode="" />
+			<city code="S" name="南部" gcode="" />
+			<city code="W" name="西部区" gcode="" />
+		</state>
+	</country>
+	<country code="SEN" name="塞内加尔" gcode="SN">
+		<state code="" name="" gcode="">
+			<city code="DA" name="达喀尔" gcode="" />
+			<city code="FA" name="法蒂克" gcode="" />
+			<city code="ZI" name="济金绍尔" gcode="" />
+			<city code="TH" name="捷斯" gcode="" />
+			<city code="DI" name="久尔贝勒" gcode="" />
+			<city code="KA" name="考拉克" gcode="" />
+			<city code="KO" name="科尔达" gcode="" />
+			<city code="LO" name="卢加" gcode="" />
+			<city code="MA" name="马塔姆" gcode="" />
+			<city code="SL" name="圣路易" gcode="" />
+			<city code="TA" name="坦巴昆达" gcode="" />
+		</state>
+	</country>
+	<country code="CYP" name="塞浦路斯" gcode="CY">
+		<state code="" name="" gcode="">
+			<city code="4" name="法马古斯塔" gcode="" />
+			<city code="6" name="凯里尼亚" gcode="" />
+			<city code="3" name="拉纳卡" gcode="" />
+			<city code="2" name="利马索尔" gcode="" />
+			<city code="1" name="尼科西亚" gcode="" />
+			<city code="5" name="帕福斯" gcode="" />
+		</state>
+	</country>
+	<country code="SYC" name="塞舌尔" gcode="SC"></country>
+	<country code="SAU" name="沙特阿拉伯" gcode="SA">
+		<state code="" name="" gcode="">
+			<city code="ARA" name="阿尔阿尔" gcode="Arar" />
+			<city code="AHB" name="艾卜哈" gcode="" />
+			<city code="BH" name="巴哈" gcode="Al Bahah" />
+			<city code="BUR" name="布赖代" gcode="Buraydah" />
+			<city code="DAM" name="达曼" gcode="" />
+			<city code="HBT" name="哈费尔巴廷" gcode="Hafar Al Batin" />
+			<city code="HL" name="哈伊勒" gcode="" />
+			<city code="KMX" name="海米斯穆谢特" gcode="" />
+			<city code="AKH" name="海耶" gcode="" />
+			<city code="HFF" name="胡富夫" gcode="Al Hofuf" />
+			<city code="JED" name="吉达" gcode="Jeddah" />
+			<city code="JZ" name="吉赞" gcode="Jazan" />
+			<city code="RD" name="利雅得" gcode="Riyadh" />
+			<city code="MED" name="麦地那" gcode="Medina" />
+			<city code="ML" name="麦加" gcode="" />
+			<city code="MBR" name="姆巴拉兹" gcode="" />
+			<city code="NR" name="纳季兰" gcode="" />
+			<city code="SAK" name="塞卡卡" gcode="" />
+			<city code="TB" name="塔布克" gcode="" />
+			<city code="TAR" name="塔伊夫" gcode="" />
+			<city code="YNB" name="延布" gcode="" />
+			<city code="JBI" name="朱拜勒" gcode="" />
+		</state>
+	</country>
+	<country code="CXR" name="圣诞岛" gcode="CX"></country>
+	<country code="STP" name="圣多美和普林西比" gcode="ST"></country>
+	<country code="KNA" name="圣基茨和尼维斯" gcode="KN"></country>
+	<country code="LCA" name="圣卢西亚" gcode="LC"></country>
+	<country code="SMR" name="圣马力诺" gcode="SM"></country>
+	<country code="SPM" name="圣皮埃尔和米克隆群岛" gcode="PM"></country>
+	<country code="VCT" name="圣文森特和格林纳丁斯" gcode="VC"></country>
+	<country code="LKA" name="斯里兰卡" gcode="LK">
+		<state code="" name="" gcode="">
+			<city code="ADP" name="阿努拉德普勒" gcode="" />
+			<city code="AMP" name="安帕赖" gcode="" />
+			<city code="BAD" name="巴杜勒" gcode="" />
+			<city code="BTC" name="拜蒂克洛" gcode="" />
+			<city code="POL" name="波隆纳鲁沃" gcode="" />
+			<city code="HBA" name="汉班托特" gcode="" />
+			<city code="KIL" name="基里诺奇" gcode="" />
+			<city code="GAL" name="加勒" gcode="" />
+			<city code="GAM" name="加姆珀哈" gcode="" />
+			<city code="JAF" name="贾夫纳" gcode="" />
+			<city code="KLT" name="卡卢特勒" gcode="" />
+			<city code="KEG" name="凯格勒" gcode="" />
+			<city code="KAN" name="康提" gcode="" />
+			<city code="CMB" name="科伦坡" gcode="" />
+			<city code="KUR" name="库鲁内格勒" gcode="" />
+			<city code="RAT" name="拉特纳普勒" gcode="" />
+			<city code="MAN" name="马纳尔" gcode="" />
+			<city code="MAT" name="马特莱" gcode="" />
+			<city code="MAA" name="马特勒" gcode="" />
+			<city code="MON" name="莫讷勒格勒" gcode="" />
+			<city code="MUL" name="穆莱蒂武" gcode="" />
+			<city code="NUE" name="努沃勒埃利耶" gcode="" />
+			<city code="PUT" name="普塔勒姆" gcode="" />
+			<city code="TRR" name="亭可马里" gcode="" />
+			<city code="VAV" name="瓦武尼亚" gcode="" />
+		</state>
+	</country>
+	<country code="SVK" name="斯洛伐克" gcode="SK">
+		<state code="" name="" gcode="">
+			<city code="BBY" name="班斯卡-比斯特里察" gcode="" />
+			<city code="BTS" name="布拉迪斯拉发" gcode="" />
+			<city code="KOR" name="科希策" gcode="" />
+			<city code="NRA" name="尼特拉" gcode="" />
+			<city code="POV" name="普雷绍夫" gcode="" />
+			<city code="RIL" name="日利纳" gcode="" />
+			<city code="TNA" name="特尔纳瓦" gcode="" />
+			<city code="TRE" name="特伦钦" gcode="" />
+		</state>
+	</country>
+	<country code="SVN" name="斯洛文尼亚" gcode="SI">
+		<state code="" name="" gcode="">
+			<city code="OKR" name="奥巴尔诺-克拉" gcode="" />
+			<city code="OSR" name="奥斯雷德涅斯洛文" gcode="" />
+			<city code="POD" name="波德拉夫" gcode="" />
+			<city code="POM" name="波穆尔" gcode="" />
+			<city code="DLJ" name="多雷尼" gcode="" />
+			<city code="GSZ" name="戈雷尼" gcode="" />
+			<city code="GSK" name="戈里" gcode="Osek" />
+			<city code="KOR" name="科洛" gcode="" />
+			<city code="NKR" name="诺特拉尼" gcode="" />
+			<city code="SAV" name="萨维尼" gcode="" />
+			<city code="SPO" name="斯波德涅波萨夫" gcode="" />
+			<city code="ZAS" name="扎萨夫" gcode="" />
+		</state>
+	</country>
+	<country code="SWZ" name="斯威士兰" gcode="SZ"></country>
+	<country code="SDN" name="苏丹" gcode="SD">
+		<state code="" name="" gcode="">
+			<city code="ASH" name="北部" gcode="" />
+			<city code="SIS" name="赤道" gcode="" />
+			<city code="SDA" name="达尔富尔" gcode="" />
+			<city code="SHA" name="东部" gcode="" />
+			<city code="SBG" name="加扎勒河" gcode="" />
+			<city code="KRT" name="喀土穆" gcode="Khartoum" />
+			<city code="GKU" name="科尔多凡" gcode="" />
+			<city code="ANB" name="上尼罗" gcode="" />
+			<city code="WDH" name="中部" gcode="" />
+		</state>
+	</country>
+	<country code="SUR" name="苏里南" gcode="SR">
+		<state code="" name="" gcode="">
+			<city code="BR" name="布罗科蓬多" gcode="" />
+			<city code="CR" name="科罗尼" gcode="" />
+			<city code="CM" name="科默韦讷" gcode="" />
+			<city code="MA" name="马罗韦讷" gcode="" />
+			<city code="NI" name="尼克里" gcode="" />
+			<city code="PA" name="帕拉" gcode="" />
+			<city code="PM" name="帕拉马里博" gcode="" />
+			<city code="SA" name="萨拉马卡" gcode="" />
+			<city code="WA" name="瓦尼卡" gcode="" />
+			<city code="SI" name="西帕里韦尼" gcode="" />
+		</state>
+	</country>
+	<country code="SLB" name="所罗门群岛" gcode="SB">
+		<state code="" name="" gcode="">
+			<city code="GC" name="瓜达尔卡纳尔" gcode="" />
+			<city code="HO" name="霍尼亚拉" gcode="" />
+			<city code="RB" name="拉纳尔和贝罗纳" gcode="" />
+			<city code="MK" name="马基拉" gcode="" />
+			<city code="ML" name="马莱塔" gcode="" />
+			<city code="CH" name="乔伊索" gcode="" />
+			<city code="TM" name="泰莫图" gcode="" />
+			<city code="WE" name="西部" gcode="" />
+			<city code="IS" name="伊萨贝尔" gcode="" />
+			<city code="CE" name="中部群岛" gcode="" />
+		</state>
+	</country>
+	<country code="SOM" name="索马里" gcode="SO"></country>
+	<country code="TJK" name="塔吉克斯坦" gcode="TJ">
+		<state code="" name="" gcode="">
+			<city code="DYU" name="杜尚别" gcode="" />
+			<city code="KHO" name="霍罗格" gcode="" />
+			<city code="KAN" name="卡尼巴达姆" gcode="" />
+			<city code="KOF" name="科法尔尼洪" gcode="" />
+			<city code="KHU" name="苦盏" gcode="" />
+			<city code="KTJ" name="库尔干-秋别" gcode="" />
+			<city code="KLB" name="库洛布" gcode="" />
+			<city code="RGU" name="洛贡" gcode="" />
+			<city code="NUR" name="努雷克" gcode="" />
+			<city code="PJK" name="彭吉肯特" gcode="" />
+			<city code="SBA" name="萨班特" gcode="" />
+			<city code="TBS" name="塔博沙尔" gcode="" />
+			<city code="TSZ" name="图尔孙扎德" gcode="" />
+			<city code="UTJ" name="乌拉秋别" gcode="" />
+			<city code="ISF" name="伊斯法拉" gcode="" />
+		</state>
+	</country>
+	<country code="THA" name="泰国" gcode="TH">
+		<state code="" name="" gcode="">
+			<city code="37" name="安纳乍能" gcode="" />
+			<city code="77" name="巴蜀" gcode="" />
+			<city code="13" name="巴吞他尼" gcode="" />
+			<city code="25" name="巴真" gcode="" />
+			<city code="71" name="北碧" gcode="" />
+			<city code="19" name="北标" gcode="" />
+			<city code="94" name="北大年" gcode="" />
+			<city code="11" name="北揽" gcode="" />
+			<city code="60" name="北榄坡" gcode="" />
+			<city code="24" name="北柳" gcode="" />
+			<city code="76" name="碧差汶" gcode="" />
+			<city code="93" name="博达伦" gcode="" />
+			<city code="18" name="猜那" gcode="" />
+			<city code="36" name="猜也奔" gcode="" />
+			<city code="53" name="程逸" gcode="" />
+			<city code="86" name="春蓬" gcode="" />
+			<city code="20" name="春武里" gcode="" />
+			<city code="63" name="达" gcode="" />
+			<city code="23" name="达叻" gcode="" />
+			<city code="14" name="大城" gcode="" />
+			<city code="92" name="董里" gcode="" />
+			<city code="78" name="佛丕" gcode="" />
+			<city code="73" name="佛统" gcode="" />
+			<city code="62" name="甘烹碧" gcode="" />
+			<city code="15" name="红统" gcode="" />
+			<city code="16" name="华富里" gcode="" />
+			<city code="46" name="加拉信" gcode="" />
+			<city code="81" name="甲米" gcode="" />
+			<city code="22" name="尖竹汶" gcode="" />
+			<city code="40" name="孔敬" gcode="Khon Kaen" />
+			<city code="21" name="拉农" gcode="" />
+			<city code="43" name="廊开" gcode="" />
+			<city code="39" name="廊莫那浦" gcode="" />
+			<city code="70" name="叻丕" gcode="" />
+			<city code="42" name="黎" gcode="" />
+			<city code="45" name="黎逸" gcode="" />
+			<city code="74" name="龙仔厝" gcode="" />
+			<city code="85" name="罗勇" gcode="" />
+			<city code="80" name="洛坤" gcode="" />
+			<city code="44" name="玛哈沙拉堪" gcode="" />
+			<city code="10" name="曼谷" gcode="" />
+			<city code="49" name="莫达汉" gcode="" />
+			<city code="26" name="那空那育" gcode="" />
+			<city code="48" name="那空帕农" gcode="" />
+			<city code="55" name="难" gcode="" />
+			<city code="51" name="南奔" gcode="" />
+			<city code="12" name="暖武里" gcode="" />
+			<city code="54" name="帕" gcode="" />
+			<city code="56" name="帕尧" gcode="" />
+			<city code="82" name="攀牙" gcode="" />
+			<city code="65" name="彭世洛" gcode="" />
+			<city code="66" name="披集" gcode="" />
+			<city code="83" name="普吉" gcode="" />
+			<city code="57" name="清莱" gcode="" />
+			<city code="50" name="清迈" gcode="" />
+			<city code="47" name="色军" gcode="" />
+			<city code="91" name="沙敦" gcode="" />
+			<city code="27" name="沙缴" gcode="" />
+			<city code="33" name="四色菊" gcode="" />
+			<city code="90" name="宋卡" gcode="Songkhla" />
+			<city code="64" name="素可泰" gcode="" />
+			<city code="84" name="素叻" gcode="" />
+			<city code="32" name="素林" gcode="" />
+			<city code="72" name="素攀武里" gcode="" />
+			<city code="96" name="陶公" gcode="" />
+			<city code="41" name="乌隆" gcode="" />
+			<city code="61" name="乌泰他尼" gcode="" />
+			<city code="34" name="乌汶" gcode="" />
+			<city code="31" name="武里南" gcode="" />
+			<city code="17" name="信武里" gcode="" />
+			<city code="35" name="耶梭通" gcode="" />
+			<city code="95" name="也拉" gcode="Yala" />
+			<city code="58" name="夜丰颂" gcode="" />
+			<city code="75" name="夜功" gcode="" />
+		</state>
+	</country>
+	<country code="TZA" name="坦桑尼亚" gcode="TZ">
+		<state code="" name="" gcode="">
+			<city code="AR" name="阿鲁沙" gcode="" />
+			<city code="PN" name="奔巴北" gcode="" />
+			<city code="PS" name="奔巴南" gcode="" />
+			<city code="PW" name="滨海" gcode="" />
+			<city code="DS" name="达累斯萨拉姆" gcode="" />
+			<city code="DO" name="多多马" gcode="" />
+			<city code="KI" name="基戈马" gcode="" />
+			<city code="KA" name="卡盖拉" gcode="" />
+			<city code="LN" name="林迪" gcode="" />
+			<city code="RK" name="鲁夸" gcode="" />
+			<city code="RV" name="鲁伍马" gcode="" />
+			<city code="MR" name="马腊" gcode="" />
+			<city code="MY" name="曼亚拉" gcode="" />
+			<city code="MO" name="莫洛戈罗" gcode="" />
+			<city code="MB" name="姆贝亚" gcode="" />
+			<city code="MT" name="姆特瓦拉" gcode="" />
+			<city code="MW" name="姆万扎" gcode="" />
+			<city code="KJ" name="乞力马扎罗" gcode="" />
+			<city code="ZN" name="桑给巴尔" gcode="Zanzibar" />
+			<city code="UN" name="桑给巴尔北" gcode="" />
+			<city code="US" name="桑给巴尔南" gcode="" />
+			<city code="MM" name="桑给巴尔市和西" gcode="" />
+			<city code="TB" name="塔波拉" gcode="Tabora" />
+			<city code="TN" name="坦噶" gcode="Tanga" />
+			<city code="SI" name="辛吉达" gcode="Singida" />
+			<city code="SH" name="欣延加" gcode="Shinyanga" />
+			<city code="IR" name="伊林加" gcode="Iringa" />
+		</state>
+	</country>
+	<country code="TON" name="汤加" gcode="TO">
+		<state code="" name="" gcode="">
+			<city code="E" name="埃瓦" gcode="" />
+			<city code="H" name="哈派" gcode="" />
+			<city code="N" name="纽阿斯" gcode="" />
+			<city code="T" name="汤加塔布" gcode="" />
+			<city code="V" name="瓦瓦乌" gcode="" />
+		</state>
+	</country>
+	<country code="TCA" name="特克斯和凯克特斯群岛" gcode="Tekes"></country>
+	<country code="TTO" name="特立尼达和多巴哥" gcode="TT"></country>
+	<country code="TUN" name="突尼斯" gcode="TN">
+		<state code="" name="" gcode="">
+			<city code="AR" name="艾尔亚奈" gcode="" />
+			<city code="BJ" name="巴杰" gcode="" />
+			<city code="BA" name="本阿鲁斯" gcode="" />
+			<city code="BI" name="比塞大" gcode="" />
+			<city code="KB" name="吉比利" gcode="" />
+			<city code="GB" name="加贝斯" gcode="" />
+			<city code="GF" name="加夫萨" gcode="Gafsa" />
+			<city code="JE" name="坚杜拜" gcode="Jendouba" />
+			<city code="LK" name="卡夫" gcode="" />
+			<city code="KS" name="卡塞林" gcode="Kasserine" />
+			<city code="KR" name="凯鲁万" gcode="" />
+			<city code="MH" name="马赫迪耶" gcode="" />
+			<city code="MN" name="马努巴" gcode="" />
+			<city code="ME" name="梅德宁" gcode="" />
+			<city code="MO" name="莫纳斯提尔" gcode="" />
+			<city code="NA" name="纳布勒" gcode="" />
+			<city code="SF" name="斯法克斯" gcode="" />
+			<city code="SO" name="苏塞" gcode="" />
+			<city code="TA" name="泰塔温" gcode="" />
+			<city code="TU" name="突尼斯" gcode="" />
+			<city code="TO" name="托泽尔" gcode="" />
+			<city code="SD" name="西迪布济德" gcode="" />
+			<city code="SL" name="锡勒亚奈" gcode="" />
+			<city code="ZA" name="宰格万" gcode="Zaghouan" />
+		</state>
+	</country>
+	<country code="TUV" name="图瓦卢" gcode="TV"></country>
+	<country code="TUR" name="土耳其" gcode="TR">
+		<state code="" name="" gcode="">
+			<city code="ADA" name="阿达纳" gcode="" />
+			<city code="ADI" name="阿德亚曼" gcode="" />
+			<city code="ARD" name="阿尔达罕" gcode="" />
+			<city code="ART" name="阿尔特温" gcode="Artvin" />
+			<city code="AFY" name="阿菲永" gcode="Afyonkarahisar" />
+			<city code="AKS" name="阿克萨赖" gcode="" />
+			<city code="AGR" name="阿勒" gcode="" />
+			<city code="AMA" name="阿马西亚" gcode="" />
+			<city code="EDI" name="埃迪尔内" gcode="" />
+			<city code="EZC" name="埃尔津詹" gcode="" />
+			<city code="EZR" name="埃尔祖鲁姆" gcode="" />
+			<city code="ELA" name="埃拉泽" gcode="Elâzığ" />
+			<city code="ESK" name="埃斯基谢希尔" gcode="Eskişehir" />
+			<city code="AYI" name="艾登" gcode="Aydın" />
+			<city code="ANK" name="安卡拉" gcode="Ankara" />
+			<city code="ANT" name="安塔利亚" gcode="Antalya" />
+			<city code="ORD" name="奥尔杜" gcode="Ordu" />
+			<city code="BAR" name="巴尔腾" gcode="" />
+			<city code="BAL" name="巴勒克埃西尔" gcode="" />
+			<city code="BAT" name="巴特曼" gcode="" />
+			<city code="BAY" name="巴伊布尔特" gcode="" />
+			<city code="BIL" name="比莱吉克" gcode="" />
+			<city code="BIT" name="比特利斯" gcode="" />
+			<city code="BIN" name="宾格尔" gcode="" />
+			<city code="BOL" name="博卢" gcode="" />
+			<city code="BRD" name="布尔杜尔" gcode="" />
+			<city code="BRS" name="布尔萨" gcode="" />
+			<city code="CKR" name="昌克勒" gcode="" />
+			<city code="DEN" name="代尼兹利" gcode="" />
+			<city code="DIY" name="迪亚巴克尔" gcode="Diyarbakır" />
+			<city code="VAN" name="凡" gcode="" />
+			<city code="HKR" name="哈卡里" gcode="" />
+			<city code="HTY" name="哈塔伊" gcode="" />
+			<city code="KLS" name="基利斯" gcode="" />
+			<city code="GIR" name="吉雷松" gcode="" />
+			<city code="GAZ" name="加济安泰普" gcode="" />
+			<city code="GMS" name="居米什哈内" gcode="" />
+			<city code="KRS" name="卡尔斯" gcode="" />
+			<city code="KAH" name="卡赫拉曼马拉什" gcode="Kahramanmaras" />
+			<city code="KRB" name="卡拉比克" gcode="Karabük" />
+			<city code="KRM" name="卡拉曼" gcode="Karaman" />
+			<city code="KAS" name="卡斯塔莫努" gcode="Kastamonu" />
+			<city code="KAY" name="开塞利" gcode="Kayseri" />
+			<city code="KOC" name="科贾埃利" gcode="" />
+			<city code="KLR" name="柯克拉雷利" gcode="" />
+			<city code="KON" name="科尼亚" gcode="Konya" />
+			<city code="KRH" name="克尔谢希尔" gcode="" />
+			<city code="KRK" name="克勒克卡莱" gcode="Kirikkale" />
+			<city code="URF" name="拉飞" gcode="" />
+			<city code="RIZ" name="里泽" gcode="" />
+			<city code="MAR" name="马尔丁" gcode="" />
+			<city code="MAL" name="马拉蒂亚" gcode="" />
+			<city code="MAN" name="马尼萨" gcode="Manisa" />
+			<city code="MUG" name="穆拉" gcode="" />
+			<city code="MUS" name="穆什" gcode="" />
+			<city code="NEV" name="内夫谢希尔" gcode="Nevşehir" />
+			<city code="NIG" name="尼代" gcode="Nigde" />
+			<city code="CKL" name="恰纳卡莱" gcode="Çanakkale" />
+			<city code="COR" name="乔鲁姆" gcode="Çorum" />
+			<city code="KUT" name="屈塔希亚" gcode="" />
+			<city code="SAK" name="萨卡里亚" gcode="" />
+			<city code="SAM" name="萨姆松" gcode="Samsun" />
+			<city code="TEL" name="泰基尔达" gcode="" />
+			<city code="TRA" name="特拉布宗" gcode="Trabzon" />
+			<city code="TUN" name="通杰利" gcode="" />
+			<city code="TOK" name="托卡特" gcode="" />
+			<city code="USK" name="乌萨克" gcode="" />
+			<city code="SIR" name="锡尔纳克" gcode="" />
+			<city code="SII" name="锡尔特" gcode="" />
+			<city code="SIN" name="锡诺普" gcode="" />
+			<city code="SIV" name="锡瓦斯" gcode="" />
+			<city code="IGD" name="伊迪尔" gcode="" />
+			<city code="ICE" name="伊切尔" gcode="" />
+			<city code="ISP" name="伊斯帕尔塔" gcode="" />
+			<city code="IST" name="伊斯坦布尔" gcode="" />
+			<city code="IZM" name="伊兹密尔" gcode="" />
+			<city code="YOZ" name="约兹加特" gcode="" />
+			<city code="ZON" name="宗古尔达克" gcode="" />
+		</state>
+	</country>
+	<country code="TKM" name="土库曼斯坦" gcode="TM">
+		<state code="" name="" gcode="">
+			<city code="A" name="阿哈尔" gcode="" />
+			<city code="ASB" name="阿什哈巴德市" gcode="" />
+			<city code="B" name="巴尔坎" gcode="" />
+			<city code="D" name="达沙古兹" gcode="" />
+			<city code="L" name="列巴普" gcode="" />
+			<city code="M" name="马雷" gcode="" />
+			<city code="NEB" name="涅比特达格" gcode="" />
+		</state>
+	</country>
+	<country code="TKL" name="托克劳" gcode="TK"></country>
+	<country code="VUT" name="瓦努阿图" gcode="VU">
+		<state code="" name="" gcode="">
+			<city code="MA" name="马朗帕" gcode="" />
+			<city code="PE" name="彭纳马" gcode="" />
+			<city code="SA" name="桑马" gcode="" />
+			<city code="TA" name="塔菲阿" gcode="" />
+			<city code="TO" name="托尔巴" gcode="" />
+			<city code="SH" name="谢法" gcode="" />
+		</state>
+	</country>
+	<country code="GTM" name="危地马拉" gcode="GT">
+		<state code="" name="" gcode="">
+			<city code="PR" name="埃尔普罗格雷索" gcode="" />
+			<city code="ES" name="埃斯昆特拉" gcode="" />
+			<city code="JA" name="哈拉帕" gcode="" />
+			<city code="JU" name="胡蒂亚帕" gcode="" />
+			<city code="QC" name="基切" gcode="" />
+			<city code="QZ" name="克萨尔特南戈" gcode="" />
+			<city code="RE" name="雷塔卢莱乌" gcode="" />
+			<city code="MIX" name="米克斯科" gcode="" />
+			<city code="PE" name="佩滕" gcode="" />
+			<city code="CQ" name="奇基穆拉" gcode="" />
+			<city code="CM" name="奇马尔特南戈" gcode="Chimaltenango" />
+			<city code="ZA" name="萨卡帕" gcode="" />
+			<city code="ST" name="萨卡特佩克斯" gcode="" />
+			<city code="AV" name="上韦拉帕斯" gcode="" />
+			<city code="SR" name="圣罗莎" gcode="" />
+			<city code="SM" name="圣马科斯" gcode="" />
+			<city code="SU" name="苏奇特佩克斯" gcode="" />
+			<city code="SO" name="索洛拉" gcode="" />
+			<city code="TO" name="托托尼卡潘" gcode="Totonicapán" />
+			<city code="GU" name="危地马拉" gcode="" />
+			<city code="HU" name="韦韦特南戈" gcode="" />
+			<city code="BV" name="下韦拉帕斯" gcode="" />
+			<city code="VIN" name="新城" gcode="" />
+			<city code="IZ" name="伊萨瓦尔" gcode="" />
+		</state>
+	</country>
+	<country code="VEN" name="委内瑞拉" gcode="VE">
+		<state code="" name="" gcode="">
+			<city code="D" name="阿拉瓜" gcode="" />
+			<city code="Y" name="阿马库罗三角洲" gcode="" />
+			<city code="C" name="阿普雷" gcode="" />
+			<city code="B" name="安索阿特吉" gcode="" />
+			<city code="E" name="巴里纳斯" gcode="" />
+			<city code="F" name="玻利瓦尔" gcode="" />
+			<city code="P" name="波图格萨" gcode="" />
+			<city code="I" name="法尔孔" gcode="" />
+			<city code="J" name="瓜里科" gcode="" />
+			<city code="A" name="加拉加斯" gcode="" />
+			<city code="G" name="卡拉沃沃" gcode="" />
+			<city code="H" name="科赫德斯" gcode="" />
+			<city code="K" name="拉腊" gcode="" />
+			<city code="W" name="联邦属地" gcode="" />
+			<city code="L" name="梅里达" gcode="" />
+			<city code="M" name="米兰达" gcode="" />
+			<city code="N" name="莫纳加斯" gcode="" />
+			<city code="R" name="苏克雷" gcode="" />
+			<city code="V" name="苏利亚" gcode="" />
+			<city code="S" name="塔奇拉" gcode="" />
+			<city code="T" name="特鲁希略" gcode="" />
+			<city code="O" name="新埃斯帕塔" gcode="" />
+			<city code="U" name="亚拉奎" gcode="" />
+			<city code="Z" name="亚马孙" gcode="" />
+		</state>
+	</country>
+	<country code="BRN" name="文莱" gcode="BN"></country>
+	<country code="UGA" name="乌干达" gcode="UG">
+		<state code="" name="" gcode="">
+			<city code="ARU" name="阿鲁阿" gcode="" />
+			<city code="APC" name="阿帕克" gcode="" />
+			<city code="ADJ" name="阿朱马尼" gcode="" />
+			<city code="BUN" name="本迪布焦" gcode="Bundibugyo" />
+			<city code="BUG" name="布吉里" gcode="" />
+			<city code="BUS" name="布西亚" gcode="Busia" />
+			<city code="BSH" name="布谢尼" gcode="" />
+			<city code="NTU" name="恩通加莫" gcode="" />
+			<city code="GUL" name="古卢" gcode="" />
+			<city code="HOI" name="霍伊马" gcode="" />
+			<city code="KBA" name="基巴莱" gcode="" />
+			<city code="KIB" name="基博加" gcode="" />
+			<city code="KYE" name="基恩乔乔" gcode="" />
+			<city code="KIS" name="基索罗" gcode="" />
+			<city code="KIT" name="基特古姆" gcode="" />
+			<city code="JIN" name="金贾" gcode="" />
+			<city code="KBL" name="卡巴莱" gcode="" />
+			<city code="KAR" name="卡巴罗莱" gcode="" />
+			<city code="KAB" name="卡贝拉马伊多" gcode="" />
+			<city code="KAL" name="卡兰加拉" gcode="" />
+			<city code="KAM" name="卡姆文盖" gcode="" />
+			<city code="KML" name="卡穆利" gcode="" />
+			<city code="KAN" name="卡农古" gcode="" />
+			<city code="KPC" name="卡普乔鲁瓦" gcode="" />
+			<city code="KAS" name="卡塞塞" gcode="" />
+			<city code="KTK" name="卡塔奎" gcode="" />
+			<city code="KAY" name="卡永加" gcode="" />
+			<city code="KMP" name="坎帕拉" gcode="" />
+			<city code="KOT" name="科蒂多" gcode="" />
+			<city code="KUM" name="库米" gcode="" />
+			<city code="RAK" name="拉卡伊" gcode="" />
+			<city code="LIR" name="利拉" gcode="" />
+			<city code="LUW" name="卢韦罗" gcode="" />
+			<city code="RUK" name="鲁昆吉里" gcode="" />
+			<city code="MAS" name="马萨卡" gcode="Masaka" />
+			<city code="MSN" name="马辛迪" gcode="" />
+			<city code="MAY" name="马尤盖" gcode="" />
+			<city code="MRT" name="莫罗托" gcode="" />
+			<city code="MOY" name="莫约" gcode="" />
+			<city code="MBR" name="姆巴拉拉" gcode="" />
+			<city code="MBA" name="姆巴莱" gcode="" />
+			<city code="MPI" name="姆皮吉" gcode="" />
+			<city code="MUB" name="穆本德" gcode="" />
+			<city code="MUK" name="穆科诺" gcode="" />
+			<city code="NAK" name="纳卡皮里皮里特" gcode="" />
+			<city code="NKS" name="纳卡松戈拉" gcode="" />
+			<city code="NEB" name="内比" gcode="Nebbi" />
+			<city code="PAD" name="帕德尔" gcode="" />
+			<city code="PAL" name="帕利萨" gcode="" />
+			<city code="SEM" name="森巴布莱" gcode="" />
+			<city code="SOR" name="索罗提" gcode="" />
+			<city code="TOR" name="托罗罗" gcode="" />
+			<city code="WAK" name="瓦基索" gcode="" />
+			<city code="SIR" name="锡龙科" gcode="" />
+			<city code="IGA" name="伊甘加" gcode="" />
+			<city code="YUM" name="永贝" gcode="" />
+		</state>
+	</country>
+	<country code="UKR" name="乌克兰" gcode="UA">
+		<state code="" name="" gcode="">
+			<city code="51" name="敖德萨" gcode="" />
+			<city code="53" name="波尔塔瓦" gcode="" />
+			<city code="12" name="第聂伯罗波得罗夫斯克" gcode="" />
+			<city code="14" name="顿涅茨克" gcode="" />
+			<city code="63" name="哈尔科夫" gcode="" />
+			<city code="65" name="赫尔松州" gcode="" />
+			<city code="68" name="赫梅利尼茨基" gcode="" />
+			<city code="30" name="基辅" gcode="" />
+			<city code="35" name="基洛夫格勒" gcode="" />
+			<city code="61" name="捷尔诺波尔" gcode="Ternopil" />
+			<city code="43" name="克里米亚自治共和国" gcode="" />
+			<city code="46" name="利沃夫" gcode="" />
+			<city code="9" name="卢甘斯克" gcode="" />
+			<city code="56" name="罗夫诺" gcode="" />
+			<city code="48" name="尼古拉耶夫" gcode="" />
+			<city code="71" name="切尔卡瑟" gcode="" />
+			<city code="74" name="切尔尼戈夫" gcode="" />
+			<city code="77" name="切尔诺夫策" gcode="Chernivtsi" />
+			<city code="18" name="日托米尔" gcode="" />
+			<city code="59" name="苏梅" gcode="" />
+			<city code="21" name="外喀尔巴阡" gcode="" />
+			<city code="5" name="文尼察" gcode="" />
+			<city code="7" name="沃伦" gcode="" />
+			<city code="26" name="伊万－弗兰科夫州" gcode="" />
+			<city code="23" name="扎波罗热" gcode="" />
+		</state>
+	</country>
+	<country code="URY" name="乌拉圭" gcode="UY">
+		<state code="" name="" gcode="">
+			<city code="AR" name="阿蒂加斯" gcode="" />
+			<city code="DU" name="杜拉斯诺" gcode="" />
+			<city code="FA" name="佛罗里达" gcode="" />
+			<city code="FS" name="弗洛雷斯" gcode="" />
+			<city code="CA" name="卡内洛内斯" gcode="" />
+			<city code="CO" name="科洛尼亚" gcode="" />
+			<city code="LA" name="拉瓦耶哈" gcode="" />
+			<city code="RV" name="里韦拉" gcode="" />
+			<city code="RO" name="罗恰" gcode="" />
+			<city code="MA" name="马尔多纳多" gcode="" />
+			<city code="MO" name="蒙得维的亚" gcode="" />
+			<city code="RN" name="内格罗河" gcode="" />
+			<city code="PA" name="派桑杜" gcode="" />
+			<city code="SL" name="萨尔托" gcode="" />
+			<city code="CL" name="塞罗拉尔戈" gcode="" />
+			<city code="TT" name="三十三人" gcode="" />
+			<city code="SJ" name="圣何塞" gcode="" />
+			<city code="SO" name="索里亚诺" gcode="" />
+			<city code="TAW" name="塔夸伦博" gcode="" />
+		</state>
+	</country>
+	<country code="UZB" name="乌兹别克斯坦" gcode="UZ">
+		<state code="" name="" gcode="">
+			<city code="AN" name="安集延" gcode="" />
+			<city code="BU" name="布哈拉" gcode="" />
+			<city code="FA" name="费尔干纳" gcode="" />
+			<city code="XO" name="花拉子模" gcode="" />
+			<city code="JI" name="吉扎克" gcode="" />
+			<city code="QR" name="卡拉卡尔帕克斯坦共和国" gcode="" />
+			<city code="QA" name="卡什卡达里亚" gcode="" />
+			<city code="NG" name="纳曼干" gcode="" />
+			<city code="NW" name="纳沃伊" gcode="" />
+			<city code="SA" name="撒马尔罕" gcode="" />
+			<city code="SU" name="苏尔汉河" gcode="" />
+			<city code="TK" name="塔什干" gcode="" />
+			<city code="TO" name="塔什干市" gcode="" />
+			<city code="SI" name="锡尔河" gcode="" />
+		</state>
+	</country>
+	<country code="ESP" name="西班牙" gcode="ES">
+		<state code="" name="" gcode="">
+			<city code="LEI" name="阿尔梅里亚" gcode="" />
+			<city code="ALB" name="阿尔瓦塞特" gcode="" />
+			<city code="ALA" name="阿拉瓦" gcode="" />
+			<city code="ALC" name="阿利坎特" gcode="" />
+			<city code="AST" name="阿斯图利亚斯" gcode="" />
+			<city code="AVI" name="阿维拉" gcode="" />
+			<city code="ORE" name="奥伦塞" gcode="" />
+			<city code="BJZ" name="巴达霍斯" gcode="" />
+			<city code="BLR" name="巴利阿里" gcode="" />
+			<city code="VLL" name="巴利亚多利德" gcode="" />
+			<city code="VLC" name="巴伦西亚" gcode="" />
+			<city code="BCN" name="巴塞罗那" gcode="" />
+			<city code="VSE" name="比斯开" gcode="" />
+			<city code="BUR" name="布尔戈斯" gcode="" />
+			<city code="GRX" name="格拉纳达" gcode="" />
+			<city code="GUA" name="瓜达拉哈拉" gcode="" />
+			<city code="JAE" name="哈恩" gcode="" />
+			<city code="GRO" name="赫罗纳" gcode="" />
+			<city code="GUI" name="吉普斯夸" gcode="" />
+			<city code="CAD" name="加的斯" gcode="" />
+			<city code="CCS" name="卡塞雷斯" gcode="" />
+			<city code="CIR" name="卡斯蒂利亚" gcode="" />
+			<city code="CAS" name="卡斯特利翁" gcode="" />
+			<city code="ODB" name="科尔多瓦" gcode="" />
+			<city code="CUE" name="昆卡" gcode="" />
+			<city code="LCG" name="拉科鲁尼亚" gcode="" />
+			<city code="ARL" name="拉里奥哈" gcode="" />
+			<city code="LPA" name="拉斯帕尔马斯" gcode="" />
+			<city code="LEN" name="莱昂" gcode="" />
+			<city code="LLE" name="莱里达" gcode="Lleida" />
+			<city code="LGO" name="卢戈" gcode="" />
+			<city code="MAD" name="马德里" gcode="" />
+			<city code="AGP" name="马拉加" gcode="" />
+			<city code="MJV" name="穆尔西亚" gcode="" />
+			<city code="NVV" name="纳瓦拉" gcode="" />
+			<city code="PAC" name="帕伦西亚" gcode="" />
+			<city code="PEV" name="蓬特韦德拉" gcode="" />
+			<city code="ZAZ" name="萨拉戈萨" gcode="" />
+			<city code="SLM" name="萨拉曼卡" gcode="" />
+			<city code="ZMR" name="萨莫拉" gcode="" />
+			<city code="SEG" name="塞哥维亚" gcode="" />
+			<city code="SVQ" name="塞维利亚" gcode="" />
+			<city code="SDR" name="桑坦德" gcode="" />
+			<city code="SCT" name="圣克鲁斯-德特内里费" gcode="" />
+			<city code="SOR" name="索里亚" gcode="" />
+			<city code="TAR" name="塔拉戈纳" gcode="" />
+			<city code="TER" name="特鲁埃尔" gcode="" />
+			<city code="TOL" name="托莱多" gcode="" />
+			<city code="HUV" name="韦尔瓦" gcode="" />
+			<city code="HUC" name="韦斯卡" gcode="" />
+		</state>
+	</country>
+	<country code="GRC" name="希腊" gcode="GR">
+		<state code="" name="" gcode="">
+			<city code="PRI" name="比雷埃夫斯" gcode="" />
+			<city code="DO" name="多德卡尼斯" gcode="" />
+			<city code="CHQ" name="干尼亚" gcode="" />
+			<city code="CY" name="基克拉迪" gcode="" />
+			<city code="LST" name="拉西锡" gcode="" />
+			<city code="LES" name="莱斯博斯" gcode="" />
+			<city code="RET" name="雷西姆农" gcode="" />
+			<city code="SMI" name="萨摩斯" gcode="" />
+			<city code="ATH" name="雅典" gcode="" />
+			<city code="HER" name="伊拉克里翁" gcode="" />
+		</state>
+	</country>
+	<country code="SGP" name="新加坡" gcode="SG"></country>
+	<country code="NCL" name="新喀里多尼亚" gcode="NC"></country>
+	<country code="NZL" name="新西兰" gcode="NZ">
+		<state code="" name="" gcode="">
+			<city code="AUK" name="奥克兰" gcode="" />
+			<city code="NSH" name="北岸" gcode="" />
+			<city code="PMR" name="北帕默斯顿" gcode="" />
+			<city code="FNR" name="北远" gcode="" />
+			<city code="BHE" name="布莱尼姆" gcode="" />
+			<city code="DUD" name="达尼丁" gcode="" />
+			<city code="GMN" name="格雷茅斯" gcode="" />
+			<city code="HLZ" name="哈密尔顿" gcode="" />
+			<city code="HAS" name="黑斯廷斯" gcode="" />
+			<city code="WAE" name="怀塔科拉" gcode="" />
+			<city code="GIS" name="吉斯伯恩" gcode="" />
+			<city code="KAI" name="凯帕拉" gcode="" />
+			<city code="CHC" name="克赖斯特彻奇" gcode="" />
+			<city code="RMD" name="里士满" gcode="" />
+			<city code="MNK" name="马努考" gcode="" />
+			<city code="NSN" name="纳尔逊" gcode="" />
+			<city code="NPE" name="内皮尔" gcode="" />
+			<city code="STR" name="斯特拉特福德" gcode="" />
+			<city code="TAU" name="陶马鲁努伊" gcode="" />
+			<city code="WHK" name="瓦卡塔尼" gcode="" />
+			<city code="WRE" name="旺阿雷" gcode="" />
+			<city code="WAG" name="旺格努伊" gcode="" />
+			<city code="NPL" name="新普利茅斯" gcode="" />
+			<city code="IVC" name="因弗卡吉尔" gcode="" />
+		</state>
+	</country>
+	<country code="HUN" name="匈牙利" gcode="HU">
+		<state code="" name="" gcode="">
+			<city code="BU" name="布达佩斯" gcode="" />
+			<city code="BA" name="巴兰尼亚" gcode="" />
+			<city code="BK" name="巴奇-基什孔" gcode="" />
+			<city code="BZ" name="包尔绍德-奥包乌伊-曾普伦" gcode="" />
+			<city code="BE" name="贝凯什" gcode="" />
+			<city code="FE" name="费耶尔" gcode="" />
+			<city code="HB" name="豪伊杜-比豪尔" gcode="" />
+			<city code="HE" name="赫维什" gcode="" />
+			<city code="JN" name="加兹-纳杰孔-索尔诺克" gcode="" />
+			<city code="GS" name="杰尔-莫松-肖普朗" gcode="" />
+			<city code="KE" name="科马罗姆" gcode="" />
+			<city code="NO" name="诺格拉德" gcode="" />
+			<city code="PE" name="佩斯" gcode="" />
+			<city code="CS" name="琼格拉德" gcode="" />
+			<city code="SO" name="绍莫吉" gcode="" />
+			<city code="SZ" name="索博尔奇-索特马尔-贝拉格" gcode="" />
+			<city code="TO" name="托尔瑙" gcode="" />
+			<city code="VE" name="维斯普雷姆" gcode="" />
+			<city code="VA" name="沃什" gcode="" />
+			<city code="ZA" name="佐洛" gcode="" />
+		</state>
+	</country>
+	<country code="SYR" name="叙利亚" gcode="SY">
+		<state code="" name="" gcode="">
+			<city code="HL" name="阿勒颇" gcode="Aleppo" />
+			<city code="RD" name="大马士革" gcode="Damascus" />
+			<city code="DI" name="大马士革市" gcode="Damascus" />
+			<city code="DZ" name="代尔祖尔" gcode="" />
+			<city code="DA" name="德拉" gcode="" />
+			<city code="HM" name="哈马" gcode="" />
+			<city code="HA" name="哈塞克" gcode="" />
+			<city code="HI" name="霍姆斯" gcode="" />
+			<city code="GH" name="加布" gcode="" />
+			<city code="QA" name="卡米什利" gcode="" />
+			<city code="QU" name="库奈特拉" gcode="" />
+			<city code="RQ" name="拉卡" gcode="" />
+			<city code="LA" name="拉塔基亚" gcode="" />
+			<city code="SU" name="苏韦达" gcode="" />
+			<city code="TA" name="塔尔图斯" gcode="" />
+			<city code="ID" name="伊德利卜" gcode="" />
+		</state>
+	</country>
+	<country code="JAM" name="牙买加" gcode="JM">
+		<state code="" name="" gcode="">
+			<city code="POR" name="波特兰" gcode="" />
+			<city code="HAN" name="汉诺威" gcode="" />
+			<city code="KIN" name="金斯敦" gcode="" />
+			<city code="CLA" name="克拉伦登" gcode="" />
+			<city code="MAN" name="曼彻斯特" gcode="" />
+			<city code="AND" name="圣安德鲁斯" gcode="" />
+			<city code="ANN" name="圣安娜" gcode="" />
+			<city code="CAT" name="圣凯瑟琳" gcode="" />
+			<city code="MAR" name="圣玛丽" gcode="" />
+			<city code="THO" name="圣托马斯" gcode="" />
+			<city code="ELI" name="圣伊丽莎白" gcode="" />
+			<city code="JAM" name="圣詹姆斯" gcode="" />
+			<city code="TRL" name="特里洛尼" gcode="" />
+			<city code="WML" name="西摩兰" gcode="" />
+		</state>
+	</country>
+	<country code="ARM" name="亚美尼亚" gcode="AM">
+		<state code="" name="" gcode="">
+			<city code="ARM" name="阿尔马维尔" gcode="" />
+			<city code="AGT" name="阿拉加措特恩" gcode="" />
+			<city code="ARA" name="阿拉拉特" gcode="" />
+			<city code="EVN" name="埃里温市" gcode="" />
+			<city code="GEG" name="格加尔库尼克" gcode="" />
+			<city code="KOT" name="科泰克" gcode="" />
+			<city code="LOR" name="洛里" gcode="" />
+			<city code="TAV" name="塔武什" gcode="" />
+			<city code="VAY" name="瓦约茨?佐尔" gcode="" />
+			<city code="SHI" name="希拉克" gcode="" />
+			<city code="SYU" name="休尼克" gcode="" />
+		</state>
+	</country>
+	<country code="YEM" name="也门" gcode="YE">
+		<state code="" name="" gcode="">
+			<city code="AB" name="阿比扬" gcode="" />
+			<city code="AM" name="阿姆兰" gcode="'Amran" />
+			<city code="BA" name="贝达" gcode="Al Bayda'" />
+			<city code="DA" name="达利" gcode="" />
+			<city code="HD" name="哈德拉毛" gcode="" />
+			<city code="HJ" name="哈杰" gcode="Hajjah" />
+			<city code="HU" name="荷台达" gcode="" />
+			<city code="JA" name="焦夫" gcode="" />
+			<city code="LA" name="拉赫季" gcode="" />
+			<city code="MA" name="马里卜" gcode="" />
+			<city code="MR" name="迈赫拉" gcode="" />
+			<city code="MW" name="迈赫维特" gcode="" />
+			<city code="SD" name="萨达" gcode="" />
+			<city code="SN" name="萨那" gcode="" />
+			<city code="GXF" name="赛文" gcode="" />
+			<city code="SH" name="舍卜沃" gcode="" />
+			<city code="TA" name="塔伊兹" gcode="" />
+			<city code="ASR" name="希赫尔" gcode="" />
+			<city code="AD" name="亚丁" gcode="" />
+			<city code="IB" name="伊卜" gcode="" />
+			<city code="DH" name="扎玛尔" gcode="Dhamar" />
+		</state>
+	</country>
+	<country code="IRQ" name="伊拉克" gcode="IQ"></country>
+	<country code="IRN" name="伊朗" gcode="IR"></country>
+	<country code="ISR" name="以色列" gcode="IL">
+		<state code="" name="" gcode="">
+			<city code="ASH" name="阿什杜德" gcode="Ashdod" />
+			<city code="BEV" name="贝尔谢巴"/>
+			<city code="BAT" name="贝特雁" gcode="" />
+			<city code="HFA" name="海法" gcode="" />
+			<city code="HOL" name="霍隆" gcode="" />
+			<city code="NAT" name="内坦亚" gcode="" />
+			<city code="TLV" name="特拉维夫" gcode="" />
+			<city code="J" name="耶路撒冷" gcode="" />
+		</state>
+	</country>
+	<country code="ITA" name="意大利" gcode="IT">
+		<state code="" name="" gcode="">
+			<city code="AST" name="阿斯蒂" gcode="" />
+			<city code="ASP" name="阿斯科利皮切诺" gcode="" />
+			<city code="AOI" name="安科纳" gcode="" />
+			<city code="OLB" name="奥尔比亚" gcode="" />
+			<city code="QOS" name="奥里斯塔诺" gcode="" />
+			<city code="AOT" name="奥斯塔" gcode="" />
+			<city code="PMO" name="巴勒莫" gcode="Palermo" />
+			<city code="BRI" name="巴里" gcode="" />
+			<city code="BGO" name="贝加莫" gcode="" />
+			<city code="BEN" name="贝内文托" gcode="" />
+			<city code="PSA" name="比萨" gcode="" />
+			<city code="PRD" name="波代诺内" gcode="Pordenone" />
+			<city code="QPO" name="波坦察" gcode="" />
+			<city code="BLQ" name="博洛尼亚" gcode="" />
+			<city code="BIE" name="布拉" gcode="" />
+			<city code="BRC" name="布雷西亚" gcode="" />
+			<city code="BDS" name="布林迪西" gcode="" />
+			<city code="TRS" name="的里雅斯特" gcode="" />
+			<city code="TRN" name="都灵" gcode="" />
+			<city code="FRR" name="费拉拉" gcode="" />
+			<city code="FLR" name="佛罗伦萨" gcode="" />
+			<city code="FOG" name="福贾" gcode="Foggia" />
+			<city code="CAG" name="卡利亚里" gcode="" />
+			<city code="CST" name="卡塞塔" gcode="" />
+			<city code="CTA" name="卡塔尼亚" gcode="Catania" />
+			<city code="QCZ" name="卡坦扎罗" gcode="Catanzaro" />
+			<city code="COB" name="坎波巴索" gcode="Campobasso" />
+			<city code="CIY" name="科摩" gcode="" />
+			<city code="QCS" name="科森扎" gcode="Cosenza" />
+			<city code="CRV" name="克罗托内" gcode="Crotone" />
+			<city code="CUN" name="库内奥" gcode="Cuneo" />
+			<city code="LAQ" name="拉奎拉" gcode="" />
+			<city code="SPE" name="拉斯佩齐亚" gcode="" />
+			<city code="LCO" name="莱科" gcode="" />
+			<city code="LCC" name="莱切" gcode="" />
+			<city code="RNE" name="雷焦艾米利亚" gcode="Reggio Emilia" />
+			<city code="REG" name="雷焦卡拉布里亚" gcode="Reggio Calabria" />
+			<city code="LIV" name="里窝那" gcode="Livorno" />
+			<city code="ROM" name="罗马" gcode="Rome" />
+			<city code="MCR" name="马萨" gcode="Massa" />
+			<city code="MTR" name="马泰拉" gcode="Matera" />
+			<city code="MZA" name="蒙扎" gcode="" />
+			<city code="MIL" name="米兰" gcode="" />
+			<city code="MOD" name="摩德纳" gcode="" />
+			<city code="MSN" name="墨西拿" gcode="" />
+			<city code="NAP" name="那不勒斯" gcode="" />
+			<city code="QNU" name="努奥罗" gcode="" />
+			<city code="NVR" name="诺瓦拉" gcode="" />
+			<city code="PMF" name="帕尔马" gcode="" />
+			<city code="PAV" name="帕维亚" gcode="" />
+			<city code="PEG" name="佩鲁贾" gcode="" />
+			<city code="CAX" name="热那亚" gcode="" />
+			<city code="SAL" name="萨莱诺" gcode="" />
+			<city code="QSS" name="萨萨里" gcode="" />
+			<city code="SVN" name="萨沃纳" gcode="" />
+			<city code="TAR" name="塔兰托" gcode="Taranto" />
+			<city code="TPS" name="特拉帕尼" gcode="Trapani" />
+			<city code="TRT" name="特伦托" gcode="TN" />
+			<city code="VCE" name="威尼斯" gcode="Venice" />
+			<city code="VRL" name="韦尔切利" gcode="Vercelli" />
+			<city code="VIT" name="维泰博" gcode="Viterbo" />
+			<city code="UDN" name="乌迪内" gcode="" />
+			<city code="SYR" name="锡拉库扎" gcode="" />
+			<city code="SNA" name="锡耶纳" gcode="" />
+			<city code="ALE" name="亚历山德里亚" gcode="" />
+			<city code="ISE" name="伊塞尔尼亚" gcode="" />
+		</state>
+	</country>
+	<country code="IND" name="印度" gcode="IN">
+		<state code="" name="" gcode="">
+			<city code="AJL" name="艾藻尔" gcode="" />
+			<city code="BLR" name="班加罗尔" gcode="" />
+			<city code="PNY" name="本地治里" gcode="" />
+			<city code="BHO" name="博帕尔" gcode="" />
+			<city code="BBI" name="布巴内斯瓦尔" gcode="" />
+			<city code="IXC" name="昌迪加尔" gcode="" />
+			<city code="DAM" name="达曼" gcode="" />
+			<city code="DIU" name="第乌" gcode="" />
+			<city code="GTO" name="甘托克" gcode="" />
+			<city code="CJB" name="哥印拜陀" gcode="" />
+			<city code="CCU" name="加尔各答" gcode="Kolkata" />
+			<city code="KRK" name="加里加尔" gcode="" />
+			<city code="JLR" name="贾巴尔普尔" gcode="" />
+			<city code="JUC" name="贾朗达尔" gcode="" />
+			<city code="JDH" name="焦特布尔" gcode="" />
+			<city code="MAA" name="金奈" gcode="" />
+			<city code="KVA" name="卡瓦拉蒂" gcode="" />
+			<city code="KOM" name="科希马" gcode="" />
+			<city code="MAH" name="马埃" gcode="" />
+			<city code="IXM" name="马杜赖" gcode="" />
+			<city code="SLR" name="森伯尔布尔" gcode="" />
+			<city code="TRV" name="特里凡得琅" gcode="" />
+			<city code="UDR" name="乌代布尔" gcode="" />
+			<city code="SHL" name="西隆" gcode="" />
+			<city code="SIL" name="锡尔萨瓦" gcode="" />
+			<city code="ICD" name="新德里" gcode="" />
+			<city code="SRV" name="亚南" gcode="" />
+			<city code="IMF" name="因帕尔" gcode="" />
+			<city code="IDR" name="印多尔" gcode="" />
+			<city code="JAI" name="斋普尔" gcode="" />
+		</state>
+	</country>
+	<country code="IDN" name="印度尼西亚" gcode="ID">
+		<state code="" name="" gcode="">
+			<city code="BA" name="巴厘" gcode="" />
+			<city code="BB" name="邦加－勿里洞群岛" gcode="" />
+			<city code="SA" name="北苏拉威西" gcode="" />
+			<city code="SU" name="北苏门答腊" gcode="" />
+			<city code="KB" name="大雅加达首都特区" gcode="" />
+			<city code="KI" name="东加里曼丹" gcode="" />
+			<city code="SG" name="东南苏拉威西" gcode="" />
+			<city code="NT" name="东努沙登加拉" gcode="" />
+			<city code="JI" name="东爪哇" gcode="" />
+			<city code="RI" name="廖内" gcode="" />
+			<city code="MA" name="马鲁古" gcode="" />
+			<city code="BE" name="明古鲁" gcode="" />
+			<city code="LA" name="楠榜" gcode="" />
+			<city code="KS" name="南加里曼丹" gcode="" />
+			<city code="SN" name="南苏拉威西" gcode="" />
+			<city code="SS" name="南苏门答腊" gcode="" />
+			<city code="YO" name="日惹特区" gcode="" />
+			<city code="BT" name="万丹" gcode="" />
+			<city code="NB" name="西努沙登加拉" gcode="" />
+			<city code="SR" name="西苏门答腊" gcode="" />
+			<city code="JB" name="西爪哇" gcode="" />
+			<city code="JK" name="雅加达" gcode="" />
+			<city code="AC" name="亚齐" gcode="" />
+			<city code="IJ" name="伊里安查亚" gcode="" />
+			<city code="JA" name="占碑" gcode="" />
+			<city code="KT" name="中加里曼丹" gcode="" />
+			<city code="ST" name="中苏拉威西" gcode="" />
+			<city code="JT" name="中爪哇" gcode="" />
+		</state>
+	</country>
+	<country code="JOR" name="约旦" gcode="JO">
+		<state code="" name="" gcode="">
+			<city code="AJ" name="阿吉隆" gcode="" />
+			<city code="AM" name="安曼" gcode="" />
+			<city code="BA" name="拜勒加" gcode="" />
+			<city code="JA" name="杰拉什" gcode="" />
+			<city code="KA" name="卡拉克" gcode="" />
+			<city code="RU" name="鲁赛法" gcode="" />
+			<city code="MN" name="马安" gcode="" />
+			<city code="MD" name="马德巴" gcode="" />
+			<city code="MF" name="马夫拉克" gcode="" />
+			<city code="TA" name="塔菲拉" gcode="" />
+			<city code="AQ" name="亚喀巴" gcode="" />
+			<city code="IR" name="伊尔比德" gcode="Irbid" />
+			<city code="ZA" name="扎尔卡" gcode="" />
+		</state>
+	</country>
+	<country code="VNM" name="越南" gcode="VN">
+		<state code="" name="" gcode="">
+			<city code="HP" name="海防" gcode="" />
+			<city code="HI" name="河内" gcode="" />
+			<city code="HC" name="胡志明市" gcode="" />
+		</state>
+	</country>
+	<country code="ZMB" name="赞比亚" gcode="ZM">
+		<state code="" name="" gcode="">
+			<city code="NO" name="北方" gcode="" />
+			<city code="EA" name="东方" gcode="" />
+			<city code="LP" name="卢阿普拉" gcode="" />
+			<city code="LK" name="卢萨卡" gcode="" />
+			<city code="SO" name="南方" gcode="" />
+			<city code="CB" name="铜带" gcode="" />
+			<city code="NW" name="西北" gcode="" />
+			<city code="WE" name="西方" gcode="" />
+			<city code="CE" name="中央" gcode="" />
+		</state>
+	</country>
+	<country code="JEY" name="泽西岛" gcode="JE"></country>
+	<country code="TCD" name="乍得" gcode="TD"></country>
+	<country code="GIB" name="直布罗陀" gcode="GI"></country>
+	<country code="CHL" name="智利" gcode="CL">
+		<state code="" name="" gcode="">
+			<city code="AR" name="阿劳卡尼亚大区" gcode="" />
+			<city code="AT" name="阿塔卡马大区" gcode="" />
+			<city code="AN" name="安托法加斯塔大区" gcode="" />
+			<city code="BI" name="比奥比奥大区" gcode="" />
+			<city code="LI" name="复活节岛" gcode="" />
+			<city code="LL" name="湖大区" gcode="" />
+			<city code="CO" name="科金博大区" gcode="" />
+			<city code="ML" name="马乌莱大区" gcode="" />
+			<city code="MA" name="麦哲伦-智利南极大区" gcode="" />
+			<city code="RM" name="圣地亚哥" gcode="" />
+			<city code="TA" name="塔拉帕卡大区" gcode="" />
+			<city code="VS" name="瓦尔帕莱索大区" gcode="" />
+			<city code="AI" name="伊瓦涅斯将军的艾森大区" gcode="" />
+		</state>
+	</country>
+	<country code="CAF" name="中非共和国" gcode="CF">
+		<state code="" name="" gcode="">
+			<city code="BB" name="巴明吉-班戈兰" gcode="" />
+			<city code="BGF" name="班吉直辖市" gcode="" />
+			<city code="BI" name="宾博" gcode="Bimbo" />
+			<city code="KG" name="凯莫" gcode="" />
+			<city code="LB" name="洛巴伊" gcode="" />
+			<city code="HS" name="曼贝雷-卡代" gcode="" />
+			<city code="MB" name="姆博穆" gcode="" />
+			<city code="KB" name="纳纳-格里比齐" gcode="" />
+			<city code="NM" name="纳纳-曼贝雷" gcode="" />
+			<city code="SE" name="桑加-姆巴埃雷" gcode="" />
+			<city code="HK" name="上科托" gcode="" />
+			<city code="HM" name="上姆博穆" gcode="" />
+			<city code="UK" name="瓦卡" gcode="" />
+			<city code="VK" name="瓦卡加" gcode="" />
+			<city code="AC" name="瓦姆" gcode="" />
+			<city code="OP" name="瓦姆-彭代" gcode="" />
+			<city code="MP" name="翁贝拉-姆波科" gcode="" />
+			<city code="BK" name="下科托" gcode="" />
+		</state>
+	</country>
+	<country code="ALB" name="阿尔巴尼亚" gcode="AL">
+		<state code="" name="" gcode="">
+			<city code="EL" name="爱尔巴桑" gcode="Elbasan" />
+			<city code="DI" name="迪勃拉" gcode="" />
+			<city code="TR" name="地拉那" gcode="Tirana" />
+			<city code="DR" name="都拉斯" gcode="Durrës" />
+			<city code="VL" name="发罗拉" gcode="Vlorë" />
+			<city code="FR" name="费里" gcode="Fier" />
+			<city code="GJ" name="吉诺卡斯特" gcode="Gjirokaster" />
+			<city code="KO" name="科尔察" gcode="Korçë" />
+			<city code="KU" name="库克斯" gcode="Kukës" />
+			<city code="LE" name="莱什" gcode="Lezhë District" />
+			<city code="BR" name="培拉特" gcode="Berat" />
+			<city code="SH" name="斯库台" gcode="Shkodër" />
+		</state>
+	</country>
+	<country code="DZA" name="阿尔及利亚" gcode="DZ">
+		<state code="" name="" gcode="">
+			<city code="ADR" name="阿德拉尔" gcode="Adrar" />
+			<city code="ALG" name="阿尔及尔" gcode="Sidi M'Hamed" />
+			<city code="ADE" name="艾因・德夫拉" gcode="" />
+			<city code="ATE" name="艾因・蒂姆尚特" gcode="" />
+			<city code="AAE" name="安纳巴" gcode="AAE" />
+			<city code="ORA" name="奥兰" gcode="Oran" />
+			<city code="BAT" name="巴特纳" gcode="Batna" />
+			<city code="BJA" name="贝贾亚" gcode="Béjaïa" />
+			<city code="BEC" name="贝沙尔" gcode="Béchar" />
+			<city code="EBA" name="贝伊德" gcode="" />
+			<city code="BIS" name="比斯克拉" gcode="Biskra" />
+			<city code="BOR" name="布尔吉・布阿雷里吉" gcode="" />
+			<city code="BLI" name="布利达" gcode="" />
+			<city code="BOU" name="布迈德斯" gcode="" />
+			<city code="BOA" name="布依拉" gcode="" />
+			<city code="TIP" name="蒂巴扎" gcode="" />
+			<city code="TIS" name="蒂斯姆西勒特" gcode="" />
+			<city code="GHA" name="盖尔达耶" gcode="Ghardaia" />
+			<city code="GUE" name="盖尔马" gcode="Guelma" />
+			<city code="KHE" name="罕西拉" gcode="Khenchela" />
+			<city code="REL" name="赫利赞" gcode="Relizane" />
+			<city code="JIJ" name="吉杰尔" gcode="" />
+			<city code="DJE" name="杰勒法" gcode="Djelfa" />
+			<city code="CZL" name="君士坦丁" gcode="CZL" />
+			<city code="LAG" name="拉格瓦特" gcode="Laghouat" />
+			<city code="MUA" name="马斯卡拉" gcode="" />
+			<city code="MED" name="麦迪亚" gcode="Médéa" />
+			<city code="MIL" name="密拉" gcode="" />
+			<city code="MOS" name="莫斯塔加纳姆" gcode="" />
+			<city code="MSI" name="姆西拉" gcode="M'Sila" />
+			<city code="NAA" name="纳阿马" gcode="" />
+			<city code="SET" name="塞蒂夫" gcode="" />
+			<city code="SAI" name="赛伊达" gcode="Saida" />
+			<city code="SKI" name="斯基克达" gcode="Skikda" />
+			<city code="SAH" name="苏克・阿赫拉斯" gcode="" />
+			<city code="ETA" name="塔里夫" gcode="El Tarf" />
+			<city code="TAM" name="塔曼拉塞特" gcode="Tamanrasset" />
+			<city code="TEB" name="特贝萨" gcode="" />
+			<city code="TLE" name="特莱姆森" gcode="Tlemcen" />
+			<city code="IOU" name="提济乌祖" gcode="Tizi Ouzou" />
+			<city code="TIA" name="提亚雷特" gcode="Tiaret" />
+			<city code="TIN" name="廷杜夫" gcode="Tinduf" />
+			<city code="EOU" name="瓦德" gcode="El Oued" />
+			<city code="OUA" name="瓦尔格拉" gcode="Ouargla" />
+			<city code="OEB" name="乌姆布阿基" gcode="" />
+			<city code="SBA" name="西迪贝勒阿贝斯" gcode="Sidi Bel Abbès" />
+			<city code="CHL" name="谢里夫" gcode="Chlef" />
+			<city code="ILL" name="伊利齐" gcode="" />
+		</state>
+	</country>
+	<country code="AFG" name="阿富汗" gcode="AF">
+		<state code="" name="" gcode="">
+			<city code="HEA" name="赫拉特" gcode="Herat" />
+			<city code="KBL" name="喀布尔" gcode="Kabul" />
+			<city code="KDH" name="坎大哈" gcode="Kandahar" />
+			<city code="MZR" name="马扎里沙里夫" gcode="Mazari Sharif" />
+		</state>
+	</country>
+	<country code="ARG" name="阿根廷" gcode="AR">
+		<state code="" name="" gcode="">
+			<city code="PRA" name="巴拉那" gcode="Parana" />
+			<city code="VDM" name="别德马" gcode="Viedma" />
+			<city code="PSS" name="波萨达斯" gcode="Posadas" />
+			<city code="BHI" name="布兰卡港" gcode="Bahía Blanca" />
+			<city code="BUE" name="布宜诺斯艾利斯" gcode="Buenos Aires" />
+			<city code="FMA" name="福莫萨" gcode="Formosa" />
+			<city code="JUJ" name="胡胡伊" gcode="Jujuy" />
+			<city code="CTC" name="卡塔马卡" gcode="" />
+			<city code="COR" name="科尔多瓦" gcode="Córdoba" />
+			<city code="CNQ" name="科连特斯" gcode="Corrientes" />
+			<city code="VLK" name="克劳斯城" gcode="Beijing" />
+			<city code="COC" name="肯考迪娅" gcode="" />
+			<city code="IRJ" name="拉里奥哈" gcode="La Rioja" />
+			<city code="LPG" name="拉普拉塔" gcode="La Plata" />
+			<city code="RES" name="雷西斯滕匹亚" gcode="" />
+			<city code="RGL" name="里奥加耶戈斯" gcode="Rio Gallegos" />
+			<city code="RCU" name="里奥夸尔托" gcode="Río Cuarto" />
+			<city code="CRD" name="里瓦达维亚海军准将城" gcode="Comodoro Rivadavia" />
+			<city code="ROS" name="罗萨里奥" gcode="Rosario" />
+			<city code="RWO" name="罗森" gcode="Rawson" />
+			<city code="MDQ" name="马德普拉塔" gcode="Mar del Plata" />
+			<city code="MDZ" name="门多萨" gcode="Mendoza" />
+			<city code="NQN" name="内乌肯" gcode="Neuquen" />
+			<city code="SLA" name="萨尔塔" gcode="Salta" />
+			<city code="SDE" name="圣地亚哥-德尔埃斯特罗" gcode="Santiago del Estero" />
+			<city code="SFN" name="圣菲" gcode="Santa Fe" />
+			<city code="UAQ" name="圣胡安" gcode="San Juan" />
+			<city code="AFA" name="圣拉斐尔" gcode="San Rafael" />
+			<city code="LUQ" name="圣路易斯" gcode="San Luis" />
+			<city code="RSA" name="圣罗莎" gcode="Santa Rosa" />
+			<city code="SMC" name="圣米格尔-德图库曼" gcode="San Miguel de Tucumán" />
+			<city code="SNS" name="圣尼古拉斯" gcode="San Nicolás de los Arroyos" />
+			<city code="REL" name="特雷利乌" gcode="Trelew" />
+			<city code="USH" name="乌斯怀亚" gcode="Ushuaia" />
+		</state>
+	</country>
+	<country code="ARE" name="阿拉伯联合酋长国" gcode="AE">
+		<state code="" name="" gcode="">
+			<city code="AZ" name="阿布扎比" gcode="Abu Dhabi" />
+			<city code="AL" name="艾因" gcode="Al Ain" />
+			<city code="DU" name="迪拜" gcode="Dubai" />
+			<city code="SH" name="沙迦" gcode="Sharjah" />
+		</state>
+	</country>
+	<country code="ABW" name="阿鲁巴" gcode="AW"></country>
+	<country code="OMN" name="阿曼" gcode="OM">
+		<state code="" name="" gcode="">
+			<city code="BA" name="巴提奈地区" gcode="" />
+			<city code="ZA" name="达希莱地区" gcode="" />
+			<city code="SH" name="东部地区" gcode="" />
+			<city code="MA" name="马斯喀特省" gcode="" />
+			<city code="MU" name="穆桑达姆省" gcode="" />
+			<city code="DA" name="内地地区" gcode="" />
+			<city code="WU" name="中部地区" gcode="" />
+			<city code="ZU" name="佐法尔省" gcode="" />
+		</state>
+	</country>
+	<country code="AZE" name="阿塞拜疆" gcode="AZ">
+		<state code="" name="" gcode="">
+			<city code="ABS" name="阿布歇隆" gcode="" />
+			<city code="XAC" name="哈奇马斯" gcode="Khachmaz" />
+			<city code="KAL" name="卡尔巴卡尔" gcode="" />
+			<city code="QAZ" name="卡扎赫" gcode="" />
+			<city code="LAN" name="连科兰" gcode="Lankaran" />
+			<city code="MQA" name="密尔-卡拉巴赫" gcode="" />
+			<city code="MSA" name="穆甘-萨连" gcode="" />
+			<city code="NQA" name="纳戈尔诺－卡拉巴赫" gcode="" />
+			<city code="NX" name="纳希切万" gcode="Nakhchivan" />
+			<city code="PRI" name="普利亚拉克斯" gcode="" />
+			<city code="SA" name="舍基" gcode="" />
+			<city code="SMC" name="苏姆盖特" gcode="Sumgayit" />
+			<city code="SIR" name="锡尔万" gcode="" />
+			<city code="GA" name="占贾" gcode="Ganja" />
+		</state>
+	</country>
+	<country code="ASC" name="阿森松岛" gcode="Ascension"></country>
+	<country code="EGY" name="埃及" gcode="EG">
+		<state code="" name="" gcode="">
+			<city code="ASW" name="阿斯旺" gcode="Aswan" />
+			<city code="GBY" name="古尔代盖" gcode="Hurghada" />
+			<city code="CAI" name="开罗" gcode="Cairo" />
+			<city code="SKH" name="苏布拉开马" gcode="" />
+			<city code="ALY" name="亚历山大" gcode="Alexandria" />
+		</state>
+	</country>
+	<country code="ETH" name="埃塞俄比亚" gcode="ET">
+		<state code="" name="" gcode="">
+			<city code="AF" name="阿法尔" gcode="" />
+			<city code="AH" name="阿姆哈拉" gcode="" />
+			<city code="OR" name="奥罗米亚" gcode="" />
+			<city code="BG" name="宾香古尔" gcode="" />
+			<city code="DD" name="德雷达瓦" gcode="Dire Dawa" />
+			<city code="GB" name="甘贝拉各族" gcode="" />
+			<city code="HR" name="哈勒里民族" gcode="" />
+			<city code="SN" name="南方各族" gcode="" />
+			<city code="SM" name="索马里" gcode="" />
+			<city code="TG" name="提格雷" gcode="" />
+			<city code="AA" name="亚的斯亚贝巴" gcode="Addis Ababa" />
+		</state>
+	</country>
+	<country code="IRL" name="爱尔兰" gcode="IE">
+		<state code="" name="" gcode="">
+			<city code="OF" name="奥法利" gcode="" />
+			<city code="TP" name="蒂珀雷里" gcode="Tipperary" />
+			<city code="DB" name="都柏林" gcode="Dublin" />
+			<city code="DG" name="多内加尔" gcode="" />
+			<city code="GW" name="戈尔韦" gcode="Galway" />
+			<city code="KD" name="基尔代尔" gcode="Kildare" />
+			<city code="KK" name="基尔肯尼" gcode="Kilkenny" />
+			<city code="CV" name="卡范" gcode="" />
+			<city code="CW" name="卡洛" gcode="Carlow" />
+			<city code="KR" name="凯里" gcode="" />
+			<city code="CK" name="科克" gcode="Cork" />
+			<city code="CL" name="克莱尔" gcode="" />
+			<city code="LF" name="朗福德" gcode="Longford" />
+			<city code="LT" name="劳斯" gcode="Louth" />
+			<city code="LA" name="崂斯" gcode="" />
+			<city code="LM" name="利默里克" gcode="Limerick" />
+			<city code="LR" name="利特里姆" gcode="Leitrim" />
+			<city code="RC" name="罗斯康芒" gcode="Roscommon" />
+			<city code="MY" name="梅奥" gcode="Mayo Abbey" />
+			<city code="MT" name="米斯" gcode="" />
+			<city code="MG" name="莫内根" gcode="" />
+			<city code="SL" name="斯莱戈" gcode="Sligo" />
+			<city code="WK" name="威克洛" gcode="Wicklow" />
+			<city code="WX" name="韦克斯福德" gcode="Wexford" />
+			<city code="WF" name="沃特福德" gcode="Waterford" />
+			<city code="WM" name="西米斯" gcode="" />
+		</state>
+	</country>
+	<country code="EST" name="爱沙尼亚" gcode="EE">
+		<state code="" name="" gcode="">
+			<city code="65" name="贝尔瓦" gcode="" />
+			<city code="37" name="哈留" gcode="" />
+			<city code="70" name="拉普拉" gcode="" />
+			<city code="57" name="里亚内" gcode="" />
+			<city code="67" name="帕尔努" gcode="" />
+			<city code="74" name="萨雷" gcode="" />
+			<city code="78" name="塔尔图" gcode="Tartu" />
+			<city code="82" name="瓦尔加" gcode="" />
+			<city code="84" name="维良地" gcode="" />
+			<city code="59" name="维鲁" gcode="" />
+			<city code="86" name="沃鲁" gcode="" />
+			<city code="39" name="希尤" gcode="" />
+			<city code="51" name="耶尔韦" gcode="" />
+			<city code="49" name="耶盖瓦" gcode="" />
+			<city code="44" name="依达－维鲁" gcode="" />
+		</state>
+	</country>
+	<country code="AND" name="安道尔" gcode="AD">
+		<state code="" name="" gcode="">
+			<city code="7" name="安道尔城" gcode="" />
+			<city code="5" name="奥尔迪诺" gcode="" />
+			<city code="3" name="恩坎普" gcode="" />
+			<city code="2" name="卡尼略" gcode="" />
+			<city code="8" name="莱塞斯卡尔德－恩戈尔达" gcode="" />
+			<city code="4" name="马萨纳" gcode="" />
+			<city code="6" name="圣胡利娅－德洛里亚" gcode="" />
+		</state>
+	</country>
+	<country code="AGO" name="安哥拉" gcode="AO">
+		<state code="" name="" gcode="">
+			<city code="CNO" name="北宽扎" gcode="" />
+			<city code="LNO" name="北隆达" gcode="" />
+			<city code="BGO" name="本戈" gcode="" />
+			<city code="BGU" name="本格拉" gcode="Benguela" />
+			<city code="BIE" name="比耶" gcode="" />
+			<city code="CAB" name="卡宾达" gcode="Cabinda" />
+			<city code="CNN" name="库内内" gcode="" />
+			<city code="CCU" name="宽多库邦戈" gcode="" />
+			<city code="LUA" name="罗安达" gcode="Luanda" />
+			<city code="MAL" name="马兰热" gcode="Malanje" />
+			<city code="MOX" name="莫希科" gcode="" />
+			<city code="NAM" name="纳米贝" gcode="Namibe" />
+			<city code="CUS" name="南宽扎" gcode="" />
+			<city code="LSU" name="南隆达" gcode="" />
+			<city code="HUA" name="万博" gcode="Huambo" />
+			<city code="HUI" name="威拉" gcode="Huíla" />
+			<city code="UIG" name="威热" gcode="Uige" />
+			<city code="ZAI" name="扎伊尔" gcode="" />
+		</state>
+	</country>
+	<country code="AIA" name="安圭拉" gcode="Anguilla"></country>
+	<country code="ATG" name="安提瓜岛和巴布达" gcode="Antigua Guatemala"></country>
+	<country code="AUS" name="澳大利亚" gcode="AU">
+		<state code="NT" name="北部地区" gcode="">
+			<city code="PAL" name="北帕默斯顿" gcode="Palmerston" />
+			<city code="DRW" name="达尔文" gcode="" />
+		</state>
+		<state code="ACT" name="堪培拉" gcode="">
+			<city code="CBR" name="堪培拉" gcode="Canberra" />
+		</state>
+		<state code="QLD" name="昆士兰" gcode="">
+			<city code="BNE" name="布里斯班" gcode="" />
+			<city code="OOL" name="黄金海岸" gcode="" />
+			<city code="CNS" name="凯恩斯" gcode="" />
+			<city code="CUD" name="日光海岸" gcode="" />
+			<city code="TSV" name="汤斯维尔" gcode="Townsville City" />
+			<city code="TWB" name="图文巴" gcode="" />
+		</state>
+		<state code="SA" name="南澳大利亚" gcode="">
+			<city code="ADL" name="阿德莱德" gcode="" />
+			<city code="PUG" name="奥古斯塔港" gcode="Port Augusta" />
+			<city code="MGB" name="甘比亚山" gcode="" />
+			<city code="WAY" name="怀阿拉" gcode="Whyalla" />
+			<city code="PLO" name="林肯港" gcode="Port Lincoln" />
+			<city code="MYB" name="默里布里奇" gcode="Murray Bridge" />
+			<city code="PPI" name="皮里港" gcode="Port Pirie" />
+			<city code="VHA" name="维克托港" gcode="Victor Harbor" />
+		</state>
+		<state code="TAS" name="塔斯马尼亚" gcode="">
+			<city code="BWT" name="伯尼港" gcode="" />
+			<city code="DPO" name="德文波特" gcode="Devonport" />
+			<city code="HBA" name="霍巴特" gcode="Hobart" />
+			<city code="LST" name="朗塞斯顿" gcode="Launceston" />
+		</state>
+		<state code="VIC" name="维多利亚" gcode="">
+			<city code="GEX" name="吉朗" gcode="Geelong" />
+			<city code="MEL" name="墨尔本" gcode="" />
+		</state>
+		<state code="WA" name="西澳大利亚" gcode="">
+			<city code="ALH" name="奥尔巴尼" gcode="Albany" />
+			<city code="BUY" name="班伯里" gcode="Bunbury" />
+			<city code="FRE" name="弗里曼特尔港" gcode="" />
+			<city code="GET" name="杰拉尔顿" gcode="Geraldton" />
+			<city code="KGI" name="卡尔古利" gcode="" />
+			<city code="MDU" name="曼哲拉" gcode="" />
+			<city code="PER" name="珀斯" gcode="" />
+		</state>
+		<state code="NSW" name="新南威尔士" gcode="">
+			<city code="NTL" name="纽卡斯尔" gcode="Newcastle" />
+			<city code="WOL" name="伍伦贡" gcode="" />
+			<city code="HBS" name="悉尼" gcode="" />
+		</state>
+	</country>
+	<country code="AUT" name="奥地利" gcode="AT">
+		<state code="" name="" gcode="">
+			<city code="BUR" name="布尔根兰" gcode="" />
+			<city code="TYR" name="蒂罗尔" gcode="" />
+			<city code="VOR" name="福拉尔贝格" gcode="" />
+			<city code="CAT" name="克恩顿" gcode="" />
+			<city code="SZG" name="萨尔茨堡" gcode="Salzburg" />
+			<city code="UAU" name="上奥地利" gcode="" />
+			<city code="STY" name="施蒂利亚" gcode="" />
+			<city code="VDD" name="维也纳" gcode="Vienna" />
+			<city code="LAU" name="下奥地利" gcode="" />
+		</state>
+	</country>
+	<country code="BRB" name="巴巴多斯岛" gcode="BB"></country>
+	<country code="PNG" name="巴布亚新几内亚" gcode="PG">
+		<state code="" name="" gcode="">
+			<city code="NO" name="北部" gcode="" />
+			<city code="BV" name="布干维尔" gcode="" />
+			<city code="EH" name="东部高地" gcode="" />
+			<city code="ES" name="东塞皮克" gcode="" />
+			<city code="EB" name="东新不列颠" gcode="" />
+			<city code="EN" name="恩加" gcode="" />
+			<city code="GU" name="海湾" gcode="" />
+			<city code="MD" name="马当" gcode="Madang" />
+			<city code="MN" name="马努斯" gcode="" />
+			<city code="MB" name="米尔恩湾" gcode="" />
+			<city code="NC" name="莫尔兹比港" gcode="Port Moresby" />
+			<city code="MR" name="莫罗贝" gcode="Morobe" />
+			<city code="SH" name="南部高地" gcode="" />
+			<city code="SI" name="钦布" gcode="" />
+			<city code="SA" name="桑道恩" gcode="" />
+			<city code="WE" name="西部" gcode="" />
+			<city code="WH" name="西部高地" gcode="" />
+			<city code="WB" name="西新不列颠" gcode="" />
+			<city code="NI" name="新爱尔兰" gcode="" />
+		</state>
+	</country>
+	<country code="BHS" name="巴哈马" gcode="BS"></country>
+	<country code="PAK" name="巴基斯坦" gcode="PK">
+		<state code="" name="" gcode="">
+			<city code="PEW" name="白沙瓦" gcode="Peshawar" />
+			<city code="LYP" name="费萨拉巴德" gcode="Faisalabad" />
+			<city code="GUJ" name="故吉软瓦拉" gcode="Warah" />
+			<city code="HDD" name="海德拉巴" gcode="Hyderabad" />
+			<city code="KCT" name="卡拉奇" gcode="Karachi" />
+			<city code="LHE" name="拉合尔" gcode="Lahore" />
+			<city code="RWP" name="拉瓦尔品第" gcode="RWP" />
+			<city code="MUX" name="木尔坦" gcode="Multan" />
+			<city code="ISB" name="伊斯兰堡" gcode="Islamabad" />
+		</state>
+	</country>
+	<country code="PRY" name="巴拉圭" gcode="PY">
+		<state code="" name="" gcode="">
+			<city code="AM" name="阿曼拜" gcode="" />
+			<city code="PH" name="阿耶斯总统省" gcode="" />
+			<city code="PA" name="巴拉瓜里" gcode="Paraguari" />
+			<city code="BO" name="博克龙" gcode="" />
+			<city code="GU" name="瓜伊拉" gcode="" />
+			<city code="CG" name="卡瓜苏" gcode="" />
+			<city code="CN" name="卡嫩迪尤" gcode="" />
+			<city code="CZ" name="卡萨帕" gcode="Caazapa" />
+			<city code="CC" name="康塞普西翁" gcode="Concepcion" />
+			<city code="CD" name="科迪勒拉" gcode="" />
+			<city code="MI" name="米西奥内斯" gcode="" />
+			<city code="NE" name="涅恩布库" gcode="" />
+			<city code="AG" name="上巴拉圭" gcode="" />
+			<city code="AN" name="上巴拉那" gcode="" />
+			<city code="SP" name="圣佩德罗" gcode="San Pedro del Ycuamandiyú" />
+			<city code="AS" name="亚松森特别区" gcode="" />
+			<city code="IT" name="伊塔普亚" gcode="" />
+			<city code="CE" name="中央" gcode="" />
+		</state>
+	</country>
+	<country code="PSE" name="巴勒斯坦" gcode="PS">
+		<state code="" name="" gcode="">
+			<city code="GZ" name="加沙地带" gcode="" />
+			<city code="WE" name="西岸" gcode="" />
+		</state>
+	</country>
+	<country code="BHR" name="巴林" gcode="BH">
+		<state code="" name="" gcode="">
+			<city code="5" name="北部" gcode="" />
+			<city code="1" name="哈德" gcode="Hidd" />
+			<city code="12" name="哈马德" gcode="Madinat Hamad‎" />
+			<city code="9" name="里法" gcode="Riffa" />
+			<city code="3" name="麦纳麦" gcode="Manama" />
+			<city code="2" name="穆哈拉格" gcode="Muharraq" />
+			<city code="10" name="西部" gcode="" />
+			<city code="8" name="伊萨城" gcode="Isa Town" />
+			<city code="7" name="中部" gcode="" />
+		</state>
+	</country>
+	<country code="PAN" name="巴拿马" gcode="PA"></country>
+	<country code="BRA" name="巴西" gcode="BR">
+		<state code="" name="" gcode="">
+			<city code="AC" name="阿克里" gcode="" />
+			<city code="AL" name="阿拉戈斯" gcode="" />
+			<city code="AP" name="阿马帕" gcode="Amapá" />
+			<city code="PR" name="巴拉那" gcode="" />
+			<city code="BSB" name="巴西利亚" gcode="Brasília" />
+			<city code="BA" name="巴伊亚" gcode="" />
+			<city code="RN" name="北里奥格兰德" gcode="Rio Grande" />
+			<city code="PE" name="伯南布哥" gcode="" />
+			<city code="GO" name="戈亚斯" gcode="Goiás" />
+			<city code="RO" name="朗多尼亚" gcode="" />
+			<city code="RJ" name="里约热内卢" gcode="Rio de Janeiro" />
+			<city code="RR" name="罗赖马" gcode="" />
+			<city code="MA" name="马拉尼昂" gcode="" />
+			<city code="MT" name="马托格罗索" gcode="Mato Grosso" />
+			<city code="MG" name="米纳斯吉拉斯" gcode="" />
+			<city code="RS" name="南里奥格兰德" gcode="" />
+			<city code="MS" name="南马托格罗索" gcode="" />
+			<city code="PA" name="帕拉" gcode="" />
+			<city code="PB" name="帕拉伊巴" gcode="" />
+			<city code="PI" name="皮奥伊" gcode="" />
+			<city code="CE" name="塞阿拉" gcode="" />
+			<city code="SE" name="塞尔希培" gcode="" />
+			<city code="ES" name="圣埃斯皮里图" gcode="" />
+			<city code="SP" name="圣保罗" gcode="São Paulo" />
+			<city code="SC" name="圣卡塔琳娜" gcode="" />
+			<city code="TO" name="托坎廷斯" gcode="" />
+			<city code="AM" name="亚马孙" gcode="" />
+		</state>
+	</country>
+	<country code="BLR" name="白俄罗斯" gcode="BY">
+		<state code="" name="" gcode="">
+			<city code="BR" name="布列斯特" gcode="Brest" />
+			<city code="HO" name="戈梅利" gcode="Gomel" />
+			<city code="HR" name="格罗德诺" gcode="Grodno" />
+			<city code="MI" name="明斯克市" gcode="Minsk" />
+			<city code="MA" name="莫吉廖夫" gcode="Mogilev" />
+			<city code="VI" name="维捷布斯克" gcode="Viciebsk" />
+		</state>
+	</country>
+	<country code="BMU" name="百慕大" gcode="BM"></country>
+	<country code="BGR" name="保加利亚" gcode="BG">
+		<state code="" name="" gcode="">
+			<city code="BOJ" name="布尔加斯" gcode="Burgas" />
+			<city code="KHO" name="卡斯科伏" gcode="" />
+			<city code="ROU" name="鲁塞" gcode="Ruse" />
+			<city code="LVP" name="洛维奇" gcode="Lovech" />
+			<city code="OZA" name="蒙塔纳" gcode="Montana" />
+			<city code="PDV" name="普罗夫迪夫" gcode="Plovdiv" />
+			<city code="SOF" name="索非亚" gcode="Sofia" />
+			<city code="GSO" name="索非亚市" gcode="Sofia" />
+			<city code="VAR" name="瓦尔纳" gcode="Varna" />
+		</state>
+	</country>
+	<country code="MNP" name="北马里亚纳群岛" gcode="MP"></country>
+	<country code="BEN" name="贝宁" gcode="BJ">
+		<state code="" name="" gcode="">
+			<city code="AL" name="阿黎博里" gcode="" />
+			<city code="AK" name="阿塔科拉" gcode="" />
+			<city code="LI" name="滨海" gcode="" />
+			<city code="BOH" name="波希康市" gcode="" />
+			<city code="BO" name="博尔古" gcode="" />
+			<city code="AQ" name="大西洋" gcode="" />
+			<city code="PL" name="高原" gcode="" />
+			<city code="KO" name="库福" gcode="" />
+			<city code="MO" name="莫诺" gcode="" />
+			<city code="CO" name="丘陵" gcode="" />
+			<city code="OU" name="韦梅" gcode="" />
+			<city code="DO" name="峡谷" gcode="" />
+			<city code="ZO" name="祖" gcode="" />
+		</state>
+	</country>
+	<country code="BEL" name="比利时" gcode="BE">
+		<state code="" name="" gcode="">
+			<city code="WHT" name="埃诺" gcode="" />
+			<city code="VAN" name="安特卫普" gcode="Antwerp" />
+			<city code="WBR" name="布拉班特-瓦隆" gcode="" />
+			<city code="BRU" name="布鲁塞尔" gcode="Brussels" />
+			<city code="VOV" name="东佛兰德" gcode="Geraardsbergen" />
+			<city code="VBR" name="佛兰芒-布拉班特" gcode="" />
+			<city code="WLG" name="列日" gcode="Liège" />
+			<city code="VLI" name="林堡" gcode="Limbourg" />
+			<city code="WLX" name="卢森堡" gcode="" />
+			<city code="WNA" name="那慕尔" gcode="Namur" />
+			<city code="VWV" name="西佛兰德" gcode="" />
+		</state>
+	</country>
+	<country code="ISL" name="冰岛" gcode="IS"></country>
+	<country code="PRI" name="波多黎各" gcode="PR"></country>
+	<country code="POL" name="波兰" gcode="PL">
+		<state code="" name="" gcode="">
+			<city code="ELB" name="埃尔布隆格" gcode="Elblag" />
+			<city code="OLS" name="奥尔什丁" gcode="Olsztyn" />
+			<city code="OSS" name="奥斯特罗文卡" gcode="Ostroleka" />
+			<city code="BZG" name="比得哥什" gcode="Bydgoszcz" />
+			<city code="PIO" name="彼得库夫" gcode="Piotrków Trybunalski" />
+			<city code="BYT" name="比托姆" gcode="Bytom" />
+			<city code="BAP" name="比亚瓦波德拉斯卡" gcode="Biala Podlaska" />
+			<city code="BIA" name="比亚维斯托克" gcode="B-stok" />
+			<city code="OPO" name="波莱" gcode="" />
+			<city code="POZ" name="波兹南" gcode="Poznań" />
+			<city code="DAB" name="达布罗瓦戈尼察" gcode="" />
+			<city code="GOW" name="大波兰地区戈茹夫" gcode="Gorzów" />
+			<city code="WRO" name="弗罗茨瓦夫" gcode="Wrocław" />
+			<city code="WLO" name="弗沃茨瓦韦克" gcode="Wloclawek" />
+			<city code="GDN" name="格但斯克" gcode="Gdańsk" />
+			<city code="GDY" name="格丁尼亚" gcode="Gdynia" />
+			<city code="GWC" name="格利维采" gcode="Gliwice" />
+			<city code="GRU" name="格鲁琼兹" gcode="Grudziadz" />
+			<city code="CHO" name="海乌姆" gcode="Chelm" />
+			<city code="WAW" name="华沙" gcode="Warsaw" />
+			<city code="CHZ" name="霍茹夫" gcode="Chorzow" />
+			<city code="KAL" name="卡利什" gcode="Kalisz" />
+			<city code="KTW" name="卡托维兹" gcode="Katowice" />
+			<city code="KLC" name="凯尔采" gcode="Kielce" />
+			<city code="KON" name="科宁" gcode="Konin" />
+			<city code="OSZ" name="科沙林" gcode="Koszalin" />
+			<city code="KRK" name="克拉科夫" gcode="Kraków" />
+			<city code="KRO" name="克罗斯诺" gcode="Krosno" />
+			<city code="RDM" name="拉多姆" gcode="Radom" />
+			<city code="LEG" name="莱格尼察" gcode="Legnica" />
+			<city code="LEZ" name="莱什诺" gcode="Leszno" />
+			<city code="LUL" name="卢布林" gcode="Lublin" />
+			<city code="RDS" name="鲁达" gcode="Ruda" />
+			<city code="LOD" name="罗兹" gcode="Łódź" />
+			<city code="IEG" name="绿山城" gcode="Zielona Gora" />
+			<city code="MYL" name="米什洛维采" gcode="" />
+			<city code="PIL" name="皮瓦" gcode="Pila" />
+			<city code="PRZ" name="普热梅希尔" gcode="Przemyśl" />
+			<city code="PLO" name="普沃茨克" gcode="Plock" />
+			<city code="CIE" name="切哈努夫" gcode="Ciechanow" />
+			<city code="RZE" name="热舒夫" gcode="Rzeszow" />
+			<city code="SZZ" name="什切青" gcode="Szczecin" />
+			<city code="SKI" name="斯凯尔涅维采" gcode="Skierniewice" />
+			<city code="SLP" name="斯武普斯克" gcode="Slupsk" />
+			<city code="SWL" name="苏瓦乌基" gcode="Suwalki" />
+			<city code="SOP" name="索波特" gcode="Sopot" />
+			<city code="SWC" name="索斯诺维茨" gcode="Sosnowiec" />
+			<city code="TAR" name="塔尔努夫" gcode="Tarnow" />
+			<city code="QEP" name="塔尔诺布热格" gcode="Tarnobrzeg" />
+			<city code="TYY" name="特切" gcode="Tczew" />
+			<city code="TOR" name="托伦" gcode="Torun" />
+			<city code="WZH" name="瓦乌布日赫" gcode="Walbrzych" />
+			<city code="QOY" name="沃姆扎" gcode="Lomza" />
+			<city code="SOW" name="希米亚诺维采" gcode="Siemianowice Slaskie" />
+			<city code="SWI" name="希维诺乌伊希切" gcode="Swinoujscie" />
+			<city code="SWT" name="希维托赫洛维采" gcode="Świętochłowice" />
+			<city code="SDC" name="谢德尔采" gcode="Siedlce" />
+			<city code="SIR" name="谢拉兹" gcode="Sieradz" />
+			<city code="NOW" name="新松奇" gcode="Nowy Sacz" />
+			<city code="JAW" name="雅沃兹诺" gcode="" />
+			<city code="JEG" name="耶莱尼亚古拉" gcode="Jelenia Góra" />
+			<city code="ZAB" name="扎布热" gcode="Zabrze" />
+			<city code="ZAM" name="扎莫希奇" gcode="Zamosc" />
+		</state>
+	</country>
+	<country code="BOL" name="玻利维亚" gcode="BO">
+		<state code="" name="" gcode="">
+			<city code="ALT" name="奥尔托" gcode="Potosi" />
+			<city code="ORU" name="奥鲁罗" gcode="Oruro" />
+			<city code="BEN" name="贝尼" gcode="" />
+			<city code="POI" name="波多西" gcode="" />
+			<city code="QUI" name="基拉科洛" gcode="" />
+			<city code="CBB" name="科恰班巴" gcode="Cochabamba" />
+			<city code="LPB" name="拉巴斯" gcode="La Paz" />
+			<city code="PAN" name="潘多" gcode="" />
+			<city code="CHU" name="丘基萨卡" gcode="" />
+			<city code="SAC" name="萨卡巴" gcode="" />
+			<city code="SRZ" name="圣克鲁斯" gcode="Santa Cruz" />
+			<city code="TJA" name="塔里哈" gcode="Tarija" />
+		</state>
+	</country>
+	<country code="BIH" name="波斯尼亚和黑塞哥维那" gcode="BA">
+		<state code="" name="" gcode="">
+			<city code="FPO" name="波萨维纳" gcode="" />
+			<city code="FBP" name="波斯尼亚－波德里涅" gcode="" />
+			<city code="FTO" name="多米斯拉夫格勒" gcode="" />
+			<city code="FHN" name="黑塞哥维那－涅雷特瓦" gcode="" />
+			<city code="FSA" name="萨拉热窝" gcode="Sarajevo" />
+			<city code="FTU" name="图兹拉－波德里涅" gcode="" />
+			<city code="FUS" name="乌纳－萨纳" gcode="" />
+			<city code="FHB" name="西波斯尼亚" gcode="" />
+			<city code="FZH" name="西黑塞哥维那" gcode="" />
+			<city code="FZE" name="泽尼察－多博伊" gcode="Zenica" />
+			<city code="FSB" name="中波斯尼亚" gcode="" />
+		</state>
+	</country>
+	<country code="BWA" name="博茨瓦纳" gcode="BW"></country>
+	<country code="BLZ" name="伯利兹" gcode="BZ">
+		<state code="" name="" gcode="">
+			<city code="BZ" name="伯利兹" gcode="Belize City" />
+			<city code="OW" name="橘园" gcode="Orange Walk" />
+			<city code="CY" name="卡约" gcode="" />
+			<city code="CR" name="科罗萨尔" gcode="Corozal" />
+			<city code="SC" name="斯坦港" gcode="" />
+			<city code="TO" name="托莱多" gcode="" />
+		</state>
+	</country>
+	<country code="BTN" name="不丹" gcode="BT"></country>
+	<country code="BFA" name="布基纳法索" gcode="BF">
+		<state code="" name="" gcode="">
+			<city code="BAL" name="巴雷" gcode="Baré" />
+			<city code="BAM" name="巴姆" gcode="" />
+			<city code="BAN" name="巴瓦" gcode="" />
+			<city code="BAZ" name="巴泽加" gcode="" />
+			<city code="PON" name="波尼" gcode="" />
+			<city code="BLG" name="布尔古" gcode="" />
+			<city code="BOK" name="布尔基恩德" gcode="" />
+			<city code="BOR" name="布古里巴" gcode="" />
+			<city code="GAN" name="冈祖尔古" gcode="" />
+			<city code="GOU" name="古尔马" gcode="Gourma" />
+			<city code="ZIR" name="济罗" gcode="" />
+			<city code="KAD" name="卡焦戈" gcode="" />
+			<city code="KEN" name="凯内杜古" gcode="" />
+			<city code="KOO" name="科蒙加里" gcode="" />
+			<city code="COM" name="科莫埃" gcode="" />
+			<city code="KOP" name="孔皮恩加" gcode="" />
+			<city code="KOS" name="孔西" gcode="" />
+			<city code="KOL" name="库尔佩罗戈" gcode="" />
+			<city code="KOW" name="库尔维奥戈" gcode="" />
+			<city code="KOT" name="库里滕加" gcode="" />
+			<city code="LER" name="雷拉巴" gcode="" />
+			<city code="LOR" name="罗卢姆" gcode="" />
+			<city code="MOU" name="穆翁" gcode="" />
+			<city code="NAM" name="纳门滕加" gcode="" />
+			<city code="NAH" name="纳乌里" gcode="" />
+			<city code="NAY" name="纳亚拉" gcode="" />
+			<city code="GNA" name="尼亚尼亚" gcode="" />
+			<city code="NOU" name="努姆比埃尔" gcode="" />
+			<city code="PAS" name="帕索雷" gcode="" />
+			<city code="SEN" name="塞诺" gcode="" />
+			<city code="SAG" name="桑吉" gcode="" />
+			<city code="SAM" name="桑马滕加" gcode="" />
+			<city code="SOR" name="苏鲁" gcode="Sourou" />
+			<city code="SOM" name="苏姆" gcode="" />
+			<city code="TAP" name="塔波阿" gcode="" />
+			<city code="TUY" name="图伊" gcode="" />
+			<city code="HOU" name="乌埃" gcode="" />
+			<city code="OUB" name="乌布里滕加" gcode="" />
+			<city code="OUD" name="乌达兰" gcode="" />
+			<city code="SIS" name="锡西里" gcode="" />
+			<city code="YAG" name="亚加" gcode="" />
+			<city code="YAT" name="亚滕加" gcode="" />
+			<city code="IOA" name="伊奥巴" gcode="" />
+			<city code="ZOW" name="宗德韦奥戈" gcode="" />
+			<city code="ZOD" name="宗多马" gcode="" />
+		</state>
+	</country>
+	<country code="BDI" name="布隆迪" gcode="BI">
+		<state code="" name="" gcode="">
+			<city code="BB" name="布班扎" gcode="Bubanza" />
+			<city code="BR" name="布鲁里" gcode="Bururi" />
+			<city code="BM" name="布琼布拉城市" gcode="" />
+			<city code="BU" name="布琼布拉乡村" gcode="" />
+			<city code="NG" name="恩戈齐" gcode="Ngozi" />
+			<city code="KI" name="基龙多" gcode="" />
+			<city code="GI" name="基特加" gcode="Gitega" />
+			<city code="KR" name="卡鲁济" gcode="Karuzi" />
+			<city code="KY" name="卡扬扎" gcode="Kayanza" />
+			<city code="CA" name="坎库佐" gcode="" />
+			<city code="RT" name="鲁塔纳" gcode="Rutana" />
+			<city code="RY" name="鲁伊吉" gcode="Ruyigi" />
+			<city code="MA" name="马坎巴" gcode="Makamba" />
+			<city code="MU" name="穆拉姆维亚" gcode="Muramvya" />
+			<city code="MW" name="穆瓦洛" gcode="Mwaro" />
+			<city code="MY" name="穆因加" gcode="Muyinga" />
+			<city code="CI" name="锡比托凯" gcode="" />
+		</state>
+	</country>
+	<country code="BVT" name="布韦岛" gcode="BV"></country>
+	<country code="PRK" name="朝鲜" gcode="KP">
+		<state code="" name="" gcode="">
+			<city code="HAE" name="海州" gcode="Haeju" />
+			<city code="HYE" name="惠山" gcode="Hyesan" />
+			<city code="KAN" name="江界" gcode="Kanggye" />
+			<city code="KSN" name="开城" gcode="Kaesŏng" />
+			<city code="NAS" name="罗先" gcode="" />
+			<city code="NAM" name="南浦" gcode="Nampo" />
+			<city code="FNJ" name="平壤" gcode="Pyongyang" />
+			<city code="CHO" name="清津" gcode="Chongjin" />
+			<city code="SAR" name="沙里院" gcode="Sariwon" />
+			<city code="HAM" name="咸兴" gcode="Hamhung" />
+			<city code="SII" name="新义州" gcode="Sinuiju" />
+			<city code="WON" name="元山" gcode="Wonsan" />
+		</state>
+	</country>
+	<country code="DNK" name="丹麦" gcode="DK">
+		<state code="" name="" gcode="">
+			<city code="AR" name="奥胡斯" gcode="Aarhus" />
+			<city code="VSV" name="北日德兰" gcode="" />
+			<city code="BO" name="博恩霍尔姆" gcode="" />
+			<city code="FRE" name="菲特烈堡" gcode="" />
+			<city code="FY" name="菲茵" gcode="" />
+			<city code="CPH" name="哥本哈根" gcode="Copenhagen" />
+			<city code="RIB" name="里伯" gcode="Ribe" />
+			<city code="RKG" name="灵克宾" gcode="Ringkobing" />
+			<city code="RKE" name="罗斯基勒" gcode="Roskilde" />
+			<city code="VBI" name="南日德兰" gcode="" />
+			<city code="ST" name="斯多斯特姆" gcode="" />
+			<city code="VIB" name="维堡" gcode="Viborg" />
+			<city code="VEJ" name="维厄勒" gcode="Ørre" />
+			<city code="VS" name="西希兰" gcode="" />
+		</state>
+	</country>
+	<country code="DEU" name="德国" gcode="DE">
+		<state code="" name="" gcode="">
+			<city code="ARN" name="阿恩斯贝格" gcode="Arnsberg" />
+			<city code="ERF" name="爱尔福特" gcode="EF" />
+			<city code="ANS" name="安斯巴格" gcode="" />
+			<city code="AGB" name="奥格斯堡" gcode="A" />
+			<city code="BE" name="柏林" gcode="Berlin" />
+			<city code="BYU" name="拜伊罗特" gcode="Neumarkt-Sankt Veit" />
+			<city code="BFE" name="比勒费尔德" gcode="BI" />
+			<city code="POT" name="波茨坦" gcode="P" />
+			<city code="BOM" name="波鸿" gcode="BO" />
+			<city code="HB" name="不来梅" gcode="Bremen" />
+			<city code="BRW" name="不伦瑞克" gcode="BS" />
+			<city code="DAR" name="达姆施塔特" gcode="Darmstadt" />
+			<city code="DET" name="代特莫尔特" gcode="" />
+			<city code="DRS" name="德累斯顿" gcode="Dresden" />
+			<city code="DES" name="德绍" gcode="Dessau-Roßlau" />
+			<city code="DUS" name="杜塞尔多夫" gcode="Düsseldorf" />
+			<city code="FFO" name="法兰克福" gcode="Frankfurt" />
+			<city code="FBG" name="弗赖堡" gcode="Freiburg" />
+			<city code="HAE" name="哈雷" gcode="Halle (Saale)" />
+			<city code="HH" name="汉堡" gcode="Hamburg" />
+			<city code="HAJ" name="汉诺威" gcode="Hanover" />
+			<city code="KEL" name="基尔" gcode="KI" />
+			<city code="GBN" name="吉森" gcode="Giessen" />
+			<city code="KAE" name="卡尔斯鲁厄" gcode="Karlsruhe" />
+			<city code="KAS" name="卡塞尔" gcode="Kassel" />
+			<city code="CHE" name="开姆尼斯" gcode="Chemnitz" />
+			<city code="KOB" name="科布伦次" gcode="KO" />
+			<city code="CGN" name="科隆" gcode="Cologne" />
+			<city code="LEJ" name="莱比锡" gcode="Leipzig" />
+			<city code="LDH" name="兰茨胡特" gcode="LA" />
+			<city code="LBG" name="吕讷堡" gcode="Lüneburg" />
+			<city code="MAG" name="马格德堡" gcode="MD" />
+			<city code="MHG" name="曼海姆" gcode="MA" />
+			<city code="MAI" name="美因兹" gcode="" />
+			<city code="MUN" name="明斯特" gcode="Münster" />
+			<city code="MUC" name="慕尼黑" gcode="M" />
+			<city code="NUE" name="纽伦堡" gcode="Nord" />
+			<city code="SWH" name="什未林" gcode="SN" />
+			<city code="STR" name="斯图加特" gcode="Stuttgart" />
+			<city code="TRI" name="特里尔" gcode="TR" />
+			<city code="WIB" name="威斯巴登" gcode="WI" />
+			<city code="WUG" name="维尔茨堡" gcode="WÜ" />
+		</state>
+	</country>
+</root>
